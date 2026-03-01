@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { useLang, pathWithLang } from '../hooks/useLang'
 import frontierData from '../../../schema/frontier-topics.json'
 import styles from './FrontierTopics.module.css'
 
 export function FrontierTopics() {
   const { t, i18n } = useTranslation()
+  const lang = useLang()
   const topics = frontierData.topics as Array<{
     id: string
     label_ja: string
@@ -26,7 +28,7 @@ export function FrontierTopics() {
         <h3 className={styles.indexTitle}>{t('frontier.indexTitle')}</h3>
         <div className={styles.indexList}>
           {topics.map((topic) => (
-            <Link key={topic.id} to={`/frontier-topics/${topic.id}`} className={styles.indexItem}>
+            <Link key={topic.id} to={pathWithLang(`/frontier-topics/${topic.id}`, lang)} className={styles.indexItem}>
               {topicLabel(topic)}
             </Link>
           ))}
@@ -37,7 +39,7 @@ export function FrontierTopics() {
         {topics.map((topic) => (
           <Link
             key={topic.id}
-            to={`/frontier-topics/${topic.id}`}
+            to={pathWithLang(`/frontier-topics/${topic.id}`, lang)}
             className={styles.card}
           >
             <div className={styles.cardHeader}>

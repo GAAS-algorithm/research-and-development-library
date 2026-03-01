@@ -1,5 +1,6 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { useLang, pathWithLang } from '../hooks/useLang'
 import styles from './Sidebar.module.css'
 
 const menuItems = [
@@ -10,6 +11,7 @@ const menuItems = [
   { path: '/frontier-topics', labelKey: 'nav.frontierTopics', icon: '🔬' },
   { path: '/institutions', labelKey: 'nav.institutions', icon: '🏛️' },
   { path: '/schema', labelKey: 'nav.schema', icon: '📐' },
+  { path: '/sitemap', labelKey: 'nav.sitemap', icon: '🗺️' },
 ]
 
 type SidebarProps = {
@@ -19,11 +21,13 @@ type SidebarProps = {
 
 export function Sidebar({ isOpen = false, onClose }: SidebarProps) {
   const { t } = useTranslation()
+  const lang = useLang()
   return (
     <aside className={`${styles.sidebar} ${isOpen ? styles.open : ''}`}>
       <div className={styles.logo}>
-        <span className={styles.logoIcon}>GAAS</span>
-        <span className={styles.logoText}>R&D Library</span>
+        <Link to={pathWithLang('/dashboard', lang)} className={styles.logoLink} onClick={() => onClose?.()}>
+          <img src="/gaas-logo.png" alt="GAAS R&D Library" className={styles.logoImage} />
+        </Link>
         {onClose && (
           <button
             type="button"
@@ -39,7 +43,7 @@ export function Sidebar({ isOpen = false, onClose }: SidebarProps) {
         {menuItems.map((item) => (
           <NavLink
             key={item.path}
-            to={item.path}
+            to={pathWithLang(item.path, lang)}
             onClick={onClose}
             className={({ isActive }) =>
               `${styles.navItem} ${isActive ? styles.active : ''}`
@@ -51,7 +55,7 @@ export function Sidebar({ isOpen = false, onClose }: SidebarProps) {
         ))}
       </nav>
       <div className={styles.footer}>
-        <p className={styles.copyright}>© TANAAKK</p>
+        <p className={styles.copyright}>© <a href="https://www.tanaakk.com/" target="_blank" rel="noopener noreferrer" className={styles.copyrightLink}>TANAAKK</a></p>
       </div>
     </aside>
   )

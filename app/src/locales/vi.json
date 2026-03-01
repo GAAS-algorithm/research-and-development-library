@@ -7,7 +7,15 @@
     "awards": "Giải thưởng nghiên cứu",
     "frontierTopics": "Chủ đề tiên phong",
     "institutions": "Danh sách tổ chức",
-    "schema": "Lược đồ"
+    "schema": "Lược đồ",
+    "sitemap": "Sơ đồ trang"
+  },
+  "sitemap": {
+    "title": "Sơ đồ trang",
+    "desc": "Tổng quan tất cả các trang trong GAAS R&D Library.",
+    "mainPages": "Trang chính",
+    "frontierTopics": "Chủ đề tiên phong",
+    "languages": "Ngôn ngữ"
   },
   "lang": { "en": "English", "ja": "日本語", "vi": "Tiếng Việt" },
   "dashboard": {

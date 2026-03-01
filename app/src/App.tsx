@@ -8,13 +8,14 @@ import { FrontierTopics } from './pages/FrontierTopics'
 import { FrontierTopicDetail } from './pages/FrontierTopicDetail'
 import { Institutions } from './pages/Institutions'
 import { Schema } from './pages/Schema'
-
+import { Sitemap } from './pages/Sitemap'
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Navigate to="/dashboard" replace />} />
+        <Route path="/" element={<Navigate to="/en/dashboard" replace />} />
+        <Route path="/:lang" element={<Layout />}>
+          <Route index element={<Navigate to="../dashboard" replace />} />
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="nobel" element={<NobelPrizes />} />
           <Route path="tier1-awards" element={<Tier1Awards />} />
@@ -23,8 +24,9 @@ function App() {
           <Route path="frontier-topics/:id" element={<FrontierTopicDetail />} />
           <Route path="institutions" element={<Institutions />} />
           <Route path="schema" element={<Schema />} />
+          <Route path="sitemap" element={<Sitemap />} />
         </Route>
-        <Route path="*" element={<Navigate to="/dashboard" replace />} />
+        <Route path="*" element={<Navigate to="/en/dashboard" replace />} />
       </Routes>
     </BrowserRouter>
   )

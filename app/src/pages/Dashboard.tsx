@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { useLang, pathWithLang } from '../hooks/useLang'
 import styles from './Dashboard.module.css'
 
 const stats = [
@@ -11,6 +12,7 @@ const stats = [
 
 export function Dashboard() {
   const { t } = useTranslation()
+  const lang = useLang()
   return (
     <div className={styles.dashboard}>
       <h2 className={styles.pageTitle}>{t('dashboard.title')}</h2>
@@ -40,10 +42,10 @@ export function Dashboard() {
       <div className={styles.section}>
         <h3 className={styles.sectionTitle}>{t('dashboard.quickLinks')}</h3>
         <div className={styles.linkGrid}>
-          <Link to="/nobel" className={styles.linkCard}>{t('dashboard.linkNobel')}</Link>
-          <Link to="/awards" className={styles.linkCard}>{t('dashboard.linkAwards')}</Link>
-          <Link to="/frontier-topics" className={styles.linkCard}>{t('dashboard.linkFrontier')}</Link>
-          <Link to="/institutions" className={styles.linkCard}>{t('dashboard.linkInstitutions')}</Link>
+          <Link to={pathWithLang('/nobel', lang)} className={styles.linkCard}>{t('dashboard.linkNobel')}</Link>
+          <Link to={pathWithLang('/awards', lang)} className={styles.linkCard}>{t('dashboard.linkAwards')}</Link>
+          <Link to={pathWithLang('/frontier-topics', lang)} className={styles.linkCard}>{t('dashboard.linkFrontier')}</Link>
+          <Link to={pathWithLang('/institutions', lang)} className={styles.linkCard}>{t('dashboard.linkInstitutions')}</Link>
         </div>
       </div>
     </div>

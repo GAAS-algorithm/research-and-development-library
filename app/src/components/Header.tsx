@@ -1,4 +1,6 @@
 import { useTranslation } from 'react-i18next'
+import { useNavigate, useLocation } from 'react-router-dom'
+import { useLang } from '../hooks/useLang'
 import styles from './Header.module.css'
 
 const LANGUAGES = [
@@ -12,7 +14,15 @@ type HeaderProps = {
 }
 
 export function Header({ onMenuClick }: HeaderProps) {
-  const { t, i18n } = useTranslation()
+  const { t } = useTranslation()
+  const navigate = useNavigate()
+  const location = useLocation()
+  const lang = useLang()
+
+  const handleLangChange = (newLang: string) => {
+    const pathWithoutLang = location.pathname.replace(/^\/[a-z]{2}(?=\/|$)/, '') || '/dashboard'
+    navigate(`/${newLang}${pathWithoutLang}`)
+  }
 
   return (
     <header className={styles.header}>
@@ -26,8 +36,8 @@ export function Header({ onMenuClick }: HeaderProps) {
       </button>
       <h1 className={styles.title}>{t('app.title')}</h1>
       <select
-        value={i18n.language}
-        onChange={(e) => i18n.changeLanguage(e.target.value)}
+        value={lang}
+        onChange={(e) => handleLangChange(e.target.value)}
         className={styles.langSelect}
       >
         {LANGUAGES.map(({ code, labelKey }) => (

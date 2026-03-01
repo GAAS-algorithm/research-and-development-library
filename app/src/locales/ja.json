@@ -7,7 +7,15 @@
     "awards": "研究賞",
     "frontierTopics": "Frontier Topics",
     "institutions": "機関一覧",
-    "schema": "スキーマ"
+    "schema": "スキーマ",
+    "sitemap": "サイトマップ"
+  },
+  "sitemap": {
+    "title": "サイトマップ",
+    "desc": "GAAS R&D Library の全ページ一覧。",
+    "mainPages": "メインページ",
+    "frontierTopics": "Frontier Topics",
+    "languages": "言語"
   },
   "lang": { "en": "English", "ja": "日本語", "vi": "Tiếng Việt" },
   "dashboard": {

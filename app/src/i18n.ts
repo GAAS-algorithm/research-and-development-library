@@ -11,12 +11,7 @@ const resources = {
 }
 
 const savedLng = typeof localStorage !== 'undefined' ? localStorage.getItem('gaas-lang') : null
-const browserLng = typeof navigator !== 'undefined' ? navigator.language.split('-')[0] : 'en'
-const initialLng = savedLng && ['en', 'ja', 'vi'].includes(savedLng)
-  ? savedLng
-  : ['ja', 'vi'].includes(browserLng)
-    ? browserLng
-    : 'en'
+const initialLng = savedLng && ['en', 'ja', 'vi'].includes(savedLng) ? savedLng : 'en'
 
 i18n.use(initReactI18next).init({
   resources,

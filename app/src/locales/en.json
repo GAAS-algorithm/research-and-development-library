@@ -7,7 +7,15 @@
     "awards": "Research Awards",
     "frontierTopics": "Frontier Topics",
     "institutions": "Institutions",
-    "schema": "Schema"
+    "schema": "Schema",
+    "sitemap": "Sitemap"
+  },
+  "sitemap": {
+    "title": "Sitemap",
+    "desc": "Overview of all pages in the GAAS R&D Library.",
+    "mainPages": "Main pages",
+    "frontierTopics": "Frontier Topics",
+    "languages": "Languages"
   },
   "lang": { "en": "English", "ja": "日本語", "vi": "Tiếng Việt" },
   "dashboard": {

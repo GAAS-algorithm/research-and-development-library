@@ -1,6 +1,7 @@
 import { useParams, Link } from 'react-router-dom'
 import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
+import { useLang, pathWithLang } from '../hooks/useLang'
 import frontierData from '../../../schema/frontier-topics.json'
 import styles from './FrontierTopicDetail.module.css'
 
@@ -23,6 +24,7 @@ const topics = frontierData.topics as Topic[]
 export function FrontierTopicDetail() {
   const { t, i18n } = useTranslation()
   const { id } = useParams<{ id: string }>()
+  const lang = useLang()
   const topic = topics.find((t) => t.id === id)
   const currentIndex = topics.findIndex((t) => t.id === id)
   const prevTopic = currentIndex > 0 ? topics[currentIndex - 1] : null
@@ -42,7 +44,7 @@ export function FrontierTopicDetail() {
     return (
       <div className={styles.page}>
         <p className={styles.notFound}>{t('frontier.notFound')}</p>
-        <Link to="/frontier-topics" className={styles.backLink}>
+        <Link to={pathWithLang('/frontier-topics', lang)} className={styles.backLink}>
           {t('frontier.back')}
         </Link>
       </div>
@@ -54,7 +56,7 @@ export function FrontierTopicDetail() {
 
   return (
     <div className={styles.page}>
-      <Link to="/frontier-topics" className={styles.backLink}>
+      <Link to={pathWithLang('/frontier-topics', lang)} className={styles.backLink}>
         {t('frontier.back')}
       </Link>
 
@@ -126,17 +128,17 @@ export function FrontierTopicDetail() {
 
       <nav className={styles.nav}>
         {prevTopic ? (
-          <Link to={`/frontier-topics/${prevTopic.id}`} className={styles.navLink}>
+          <Link to={pathWithLang(`/frontier-topics/${prevTopic.id}`, lang)} className={styles.navLink}>
             ← {i18n.language === 'ja' ? prevTopic.label_ja : prevTopic.label_en}
           </Link>
         ) : (
           <span className={styles.navDisabled}>{t('frontier.navFirst')}</span>
         )}
-        <Link to="/frontier-topics" className={styles.navLink}>
+        <Link to={pathWithLang('/frontier-topics', lang)} className={styles.navLink}>
           {t('frontier.navList')}
         </Link>
         {nextTopic ? (
-          <Link to={`/frontier-topics/${nextTopic.id}`} className={styles.navLink}>
+          <Link to={pathWithLang(`/frontier-topics/${nextTopic.id}`, lang)} className={styles.navLink}>
             {i18n.language === 'ja' ? nextTopic.label_ja : nextTopic.label_en} →
           </Link>
         ) : (
