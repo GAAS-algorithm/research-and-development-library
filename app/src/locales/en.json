@@ -1,0 +1,128 @@
+{
+  "app": { "title": "GAAS R&D Library" },
+  "nav": {
+    "dashboard": "Dashboard",
+    "nobel": "Nobel Prize",
+    "tier1": "Tier 1 Awards",
+    "awards": "Research Awards",
+    "frontierTopics": "Frontier Topics",
+    "institutions": "Institutions",
+    "schema": "Schema"
+  },
+  "lang": { "en": "English", "ja": "日本語", "vi": "Tiếng Việt" },
+  "dashboard": {
+    "title": "Dashboard",
+    "desc": "Overview of the R&D Library designed as an incompressible multidimensional complex system.",
+    "statNobel": "Nobel Prize entries",
+    "statFrontier": "Frontier Topics",
+    "statInstitutions": "Major institutions",
+    "statAwards": "Research awards",
+    "unitCount": "entries",
+    "unitAreas": "areas",
+    "unitInstitutions": "institutions",
+    "unitAwards": "awards",
+    "designPrinciples": "Design Principles",
+    "principle1": "Incompressibility Principle — Cannot be compressed into a single hierarchy",
+    "principle2": "Multidimensional structure — Expressed across multiple judgment axes",
+    "principle3": "Bidirectional co-creation — Mutual influence between mathematics ↔ R&D",
+    "quickLinks": "Quick Links",
+    "linkNobel": "Nobel Prize data",
+    "linkAwards": "Breakthrough, Abel, Fields",
+    "linkFrontier": "Breakthrough-predicted areas",
+    "linkInstitutions": "Institutions & coverage check"
+  },
+  "nobel": {
+    "title": "Nobel Prize",
+    "desc": "Est. 1901. Major discoveries and representative equations.",
+    "filterYear": "Filter by year (e.g. 2020)",
+    "year": "Year",
+    "laureates": "Laureates",
+    "discovery": "Major discovery",
+    "theorem": "Theorem / Formula name",
+    "formula": "Formula"
+  },
+  "nobelCategory": {
+    "physics": "Physics",
+    "chemistry": "Chemistry",
+    "physiology_or_medicine": "Physiology or Medicine",
+    "literature": "Literature",
+    "peace": "Peace",
+    "economic_sciences": "Economic Sciences"
+  },
+  "tier1": {
+    "title": "Tier 1 Awards Laureates",
+    "desc": "Laureate history and representative formulas for Tier 1 research awards (excluding Nobel). Breakthrough, Abel, Fields, Turing, Lasker, Copley.",
+    "filterYear": "Filter by year",
+    "year": "Year",
+    "laureates": "Laureates",
+    "discovery": "Major discovery / Contribution",
+    "theorem": "Theorem / Formula name",
+    "formula": "Formula"
+  },
+  "tier1Award": {
+    "breakthrough": "Breakthrough Prize",
+    "abel": "Abel Prize",
+    "fields": "Fields Medal",
+    "turing": "Turing Award",
+    "lasker": "Lasker Award",
+    "copley": "Copley Medal"
+  },
+  "awards": {
+    "title": "Research Awards",
+    "desc": "Breakthrough, Nobel, Abel, Fields, Lasker, etc. By scale and impact.",
+    "byImpact": "By impact",
+    "tier1": "Tier 1 (Peak)",
+    "tier2": "Tier 2",
+    "tier3": "Tier 3",
+    "allList": "All awards list",
+    "award": "Award",
+    "prizeMoney": "Prize money",
+    "cumulative": "Cumulative",
+    "since": "Est.",
+    "frequency": "Frequency",
+    "note": "Note"
+  },
+  "frontier": {
+    "title": "Frontier Topics",
+    "desc": "Areas where breakthroughs are predicted. Tracked separately as distinct topics. Top 20.",
+    "indexTitle": "Top 20 list",
+    "top3": "Top 3:",
+    "also": "Also:",
+    "back": "← Back to Frontier Topics",
+    "overview": "Overview",
+    "premise": "Premise: Current social infrastructure limitations",
+    "breakthroughReason": "Why it could be a breakthrough",
+    "drivers": "Breakthrough drivers",
+    "relatedDomains": "Related domains",
+    "relatedFields": "Related fields",
+    "topInstitutions": "Top institutions",
+    "alsoNotable": "Also Notable",
+    "navFirst": "← First",
+    "navList": "List",
+    "navLast": "Last →",
+    "notFound": "Topic not found."
+  },
+  "institutions": {
+    "title": "Institutions",
+    "desc": "List of major research institutions worldwide by budget scale and prominence. For coverage verification. References: Nature Index, THE, budget data, etc.",
+    "screening": "Screening logic",
+    "criteria": "Selection criteria:",
+    "criteriaDesc": "Major research institutions by budget scale and prominence. Coverage verified.",
+    "sources": "Reference sources:",
+    "classification": "Classification:",
+    "classificationDesc": "Top universities, national research institutions & academies, corporate R&D, pure mathematics"
+  },
+  "institutionsCategory": {
+    "academic_top": "Top universities",
+    "national_academies": "National research institutions & academies",
+    "corporate_rd": "Corporate R&D",
+    "pure_math": "Pure mathematics"
+  },
+  "schema": {
+    "title": "Schema",
+    "desc": "Incompressible multidimensional complex system. Academic main axis, industrial auxiliary axis, multiple judgment axes.",
+    "coreConcept": "Core concept",
+    "fileStructure": "File structure",
+    "principles": "Principles"
+  }
+}

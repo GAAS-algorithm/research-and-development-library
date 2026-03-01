@@ -1,9 +1,11 @@
+import { useTranslation } from 'react-i18next'
 import rdCategories from '../../../schema/rd-categories.json'
 import styles from './Schema.module.css'
 
 type FileDesc = { file: string; description: string }
 
 export function Schema() {
+  const { t } = useTranslation()
   const categories = rdCategories.categories as Record<string, FileDesc>
   const extra = [
     rdCategories.nobel_prizes,
@@ -14,13 +16,11 @@ export function Schema() {
 
   return (
     <div className={styles.page}>
-      <h2 className={styles.title}>スキーマ</h2>
-      <p className={styles.desc}>
-        パッケージ化できない多次元複雑系。学術主軸・産業補助軸・複数判断軸。
-      </p>
+      <h2 className={styles.title}>{t('schema.title')}</h2>
+      <p className={styles.desc}>{t('schema.desc')}</p>
 
       <div className={styles.coreConcept}>
-        <h3>中核概念</h3>
+        <h3>{t('schema.coreConcept')}</h3>
         <p className={styles.conceptLabel}>
           {rdCategories.core_concept?.label_ja || '多次元複雑系'}
         </p>
@@ -46,7 +46,7 @@ export function Schema() {
       </div>
 
       <div className={styles.principles}>
-        <h3>原則</h3>
+        <h3>{t('schema.principles')}</h3>
         <ul>
           {(rdCategories.principles as string[]).map((p) => (
             <li key={p}>{p}</li>

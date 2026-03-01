@@ -1,5 +1,6 @@
 import { useParams, Link } from 'react-router-dom'
 import { useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 import frontierData from '../../../schema/frontier-topics.json'
 import styles from './FrontierTopicDetail.module.css'
 
@@ -20,6 +21,7 @@ type Topic = {
 const topics = frontierData.topics as Topic[]
 
 export function FrontierTopicDetail() {
+  const { t, i18n } = useTranslation()
   const { id } = useParams<{ id: string }>()
   const topic = topics.find((t) => t.id === id)
   const currentIndex = topics.findIndex((t) => t.id === id)
@@ -28,58 +30,62 @@ export function FrontierTopicDetail() {
 
   useEffect(() => {
     if (topic) {
-      document.title = `${topic.label_ja} - Frontier Topics | GAAS R&D Library`
+      const label = i18n.language === 'ja' ? topic.label_ja : topic.label_en
+      document.title = `${label} - Frontier Topics | GAAS R&D Library`
     }
     return () => {
       document.title = 'GAAS R&D Library'
     }
-  }, [topic])
+  }, [topic, i18n.language])
 
   if (!topic) {
     return (
       <div className={styles.page}>
-        <p className={styles.notFound}>トピックが見つかりません。</p>
+        <p className={styles.notFound}>{t('frontier.notFound')}</p>
         <Link to="/frontier-topics" className={styles.backLink}>
-          ← Frontier Topics に戻る
+          {t('frontier.back')}
         </Link>
       </div>
     )
   }
 
+  const label = i18n.language === 'ja' ? topic.label_ja : topic.label_en
+  const sublabel = i18n.language === 'ja' ? topic.label_en : topic.label_ja
+
   return (
     <div className={styles.page}>
       <Link to="/frontier-topics" className={styles.backLink}>
-        ← Frontier Topics に戻る
+        {t('frontier.back')}
       </Link>
 
       <div className={styles.header}>
         <span className={styles.id}>{topic.id}</span>
-        <h1 className={styles.title}>{topic.label_ja}</h1>
-        <p className={styles.subtitle}>{topic.label_en}</p>
+        <h1 className={styles.title}>{label}</h1>
+        <p className={styles.subtitle}>{sublabel}</p>
       </div>
 
       <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>概要</h2>
+        <h2 className={styles.sectionTitle}>{t('frontier.overview')}</h2>
         <p className={styles.description}>{topic.description}</p>
       </section>
 
       {topic.infrastructure_premise && (
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>前提条件：現在の社会インフラの限界</h2>
+          <h2 className={styles.sectionTitle}>{t('frontier.premise')}</h2>
           <p className={styles.description}>{topic.infrastructure_premise}</p>
         </section>
       )}
 
       {topic.breakthrough_reason && (
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>ブレイクスルーになりうる理由</h2>
+          <h2 className={styles.sectionTitle}>{t('frontier.breakthroughReason')}</h2>
           <p className={styles.description}>{topic.breakthrough_reason}</p>
         </section>
       )}
 
       {topic.breakthrough_drivers && topic.breakthrough_drivers.length > 0 && (
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>ブレイクスルー要因</h2>
+          <h2 className={styles.sectionTitle}>{t('frontier.drivers')}</h2>
           <ul className={styles.list}>
             {topic.breakthrough_drivers.map((d) => (
               <li key={d}>{d}</li>
@@ -90,20 +96,20 @@ export function FrontierTopicDetail() {
 
       {topic.related_domains && topic.related_domains.length > 0 && (
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>関連ドメイン</h2>
+          <h2 className={styles.sectionTitle}>{t('frontier.relatedDomains')}</h2>
           <p className={styles.tags}>{topic.related_domains.join(', ')}</p>
         </section>
       )}
 
       {topic.related_fields && topic.related_fields.length > 0 && (
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>関連分野</h2>
+          <h2 className={styles.sectionTitle}>{t('frontier.relatedFields')}</h2>
           <p className={styles.tags}>{topic.related_fields.join(', ')}</p>
         </section>
       )}
 
       <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>Top 機関</h2>
+        <h2 className={styles.sectionTitle}>{t('frontier.topInstitutions')}</h2>
         <ul className={styles.list}>
           {topic.top_institutions.map((inst) => (
             <li key={inst}>{inst}</li>
@@ -113,7 +119,7 @@ export function FrontierTopicDetail() {
 
       {topic.also_notable && topic.also_notable.length > 0 && (
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Also Notable</h2>
+          <h2 className={styles.sectionTitle}>{t('frontier.alsoNotable')}</h2>
           <p className={styles.tags}>{topic.also_notable.join(', ')}</p>
         </section>
       )}
@@ -121,20 +127,20 @@ export function FrontierTopicDetail() {
       <nav className={styles.nav}>
         {prevTopic ? (
           <Link to={`/frontier-topics/${prevTopic.id}`} className={styles.navLink}>
-            ← {prevTopic.label_ja}
+            ← {i18n.language === 'ja' ? prevTopic.label_ja : prevTopic.label_en}
           </Link>
         ) : (
-          <span className={styles.navDisabled}>← 最初</span>
+          <span className={styles.navDisabled}>{t('frontier.navFirst')}</span>
         )}
         <Link to="/frontier-topics" className={styles.navLink}>
-          一覧
+          {t('frontier.navList')}
         </Link>
         {nextTopic ? (
           <Link to={`/frontier-topics/${nextTopic.id}`} className={styles.navLink}>
-            {nextTopic.label_ja} →
+            {i18n.language === 'ja' ? nextTopic.label_ja : nextTopic.label_en} →
           </Link>
         ) : (
-          <span className={styles.navDisabled}>最後 →</span>
+          <span className={styles.navDisabled}>{t('frontier.navLast')}</span>
         )}
       </nav>
     </div>

@@ -1,18 +1,10 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import tier1Data from '../../../data/tier1-awards-laureates.json'
 import { extractFormulaParts, LatexFormula } from '../components/Latex'
 import styles from './Tier1Awards.module.css'
 
 type Tier1AwardId = keyof typeof tier1Data.awards
-
-const awardLabels: Record<string, string> = {
-  breakthrough: 'ブレイクスルー賞',
-  abel: 'アーベル賞',
-  fields: 'フィールズ賞',
-  turing: 'チューリング賞',
-  lasker: 'ラスカー賞',
-  copley: 'コプリ・メダル',
-}
 
 type Entry = {
   year: number
@@ -24,6 +16,7 @@ type Entry = {
 }
 
 export function Tier1Awards() {
+  const { t } = useTranslation()
   const [awardId, setAwardId] = useState<string>('abel')
   const [yearFilter, setYearFilter] = useState('')
 
@@ -40,12 +33,12 @@ export function Tier1Awards() {
     ? entries.filter((e) => e.year.toString().includes(yearFilter))
     : entries.slice().reverse().slice(0, 50)
 
+  const awardIds = Object.keys(tier1Data.awards) as string[]
+
   return (
     <div className={styles.page}>
-      <h2 className={styles.title}>Tier1 賞 受賞者一覧</h2>
-      <p className={styles.desc}>
-        研究賞Tier1（ノーベル賞以外）の受賞者履歴と代表的な公式。ブレイクスルー、アーベル、フィールズ、チューリング、ラスカー、コプリ。
-      </p>
+      <h2 className={styles.title}>{t('tier1.title')}</h2>
+      <p className={styles.desc}>{t('tier1.desc')}</p>
 
       <div className={styles.controls}>
         <select
@@ -53,16 +46,16 @@ export function Tier1Awards() {
           onChange={(e) => setAwardId(e.target.value)}
           className={styles.select}
         >
-          {(Object.keys(awardLabels) as string[]).map((id) => (
+          {awardIds.map((id) => (
             <option key={id} value={id}>
-              {awardLabels[id]}
+              {t(`tier1Award.${id}`)}
             </option>
           ))}
         </select>
 
         <input
           type="text"
-          placeholder="年で絞り込み"
+          placeholder={t('tier1.filterYear')}
           value={yearFilter}
           onChange={(e) => setYearFilter(e.target.value)}
           className={styles.input}
@@ -73,11 +66,11 @@ export function Tier1Awards() {
         <table className={styles.table}>
           <thead>
             <tr>
-              <th>年</th>
-              <th>受賞者</th>
-              <th>主な発見・貢献</th>
-              <th>定理・式名</th>
-              <th>数式</th>
+              <th>{t('tier1.year')}</th>
+              <th>{t('tier1.laureates')}</th>
+              <th>{t('tier1.discovery')}</th>
+              <th>{t('tier1.theorem')}</th>
+              <th>{t('tier1.formula')}</th>
             </tr>
           </thead>
           <tbody>

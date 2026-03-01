@@ -1,48 +1,49 @@
+import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import styles from './Dashboard.module.css'
 
 const stats = [
-  { label: 'ノーベル賞エントリ', value: '633+', unit: '件' },
-  { label: 'Frontier Topics', value: '20', unit: '領域' },
-  { label: '主要機関', value: '50+', unit: '機関' },
-  { label: '研究賞', value: '19', unit: '賞' },
+  { labelKey: 'dashboard.statNobel', value: '633+', unitKey: 'dashboard.unitCount' },
+  { labelKey: 'dashboard.statFrontier', value: '20', unitKey: 'dashboard.unitAreas' },
+  { labelKey: 'dashboard.statInstitutions', value: '50+', unitKey: 'dashboard.unitInstitutions' },
+  { labelKey: 'dashboard.statAwards', value: '19', unitKey: 'dashboard.unitAwards' },
 ]
 
 export function Dashboard() {
+  const { t } = useTranslation()
   return (
     <div className={styles.dashboard}>
-      <h2 className={styles.pageTitle}>ダッシュボード</h2>
-      <p className={styles.pageDesc}>
-        パッケージ化できない多次元複雑系として設計されたR&D Libraryの概要
-      </p>
+      <h2 className={styles.pageTitle}>{t('dashboard.title')}</h2>
+      <p className={styles.pageDesc}>{t('dashboard.desc')}</p>
 
       <div className={styles.statsGrid}>
-        {stats.map((stat) => (
-          <div key={stat.label} className={styles.statCard}>
+        {stats.map((s) => (
+          <div key={s.labelKey} className={styles.statCard}>
             <span className={styles.statValue}>
-              {stat.value}
-              <span className={styles.statUnit}>{stat.unit}</span>
+              {s.value}
+              <span className={styles.statUnit}>{t(s.unitKey)}</span>
             </span>
-            <span className={styles.statLabel}>{stat.label}</span>
+            <span className={styles.statLabel}>{t(s.labelKey)}</span>
           </div>
         ))}
       </div>
 
       <div className={styles.section}>
-        <h3 className={styles.sectionTitle}>設計原則</h3>
+        <h3 className={styles.sectionTitle}>{t('dashboard.designPrinciples')}</h3>
         <ul className={styles.list}>
-          <li><strong>Incompressibility Principle</strong> — 一つの階層にまとめられない</li>
-          <li><strong>多次元構造</strong> — 複数の判断軸で表現</li>
-          <li><strong>双方向共創</strong> — 数学↔R&D の相互影響</li>
+          <li>{t('dashboard.principle1')}</li>
+          <li>{t('dashboard.principle2')}</li>
+          <li>{t('dashboard.principle3')}</li>
         </ul>
       </div>
 
       <div className={styles.section}>
-        <h3 className={styles.sectionTitle}>クイックリンク</h3>
+        <h3 className={styles.sectionTitle}>{t('dashboard.quickLinks')}</h3>
         <div className={styles.linkGrid}>
-          <a href="/nobel" className={styles.linkCard}>ノーベル賞データ</a>
-          <a href="/awards" className={styles.linkCard}>Breakthrough, Abel, Fields</a>
-          <a href="/frontier-topics" className={styles.linkCard}>ブレイクスルー予測領域</a>
-          <a href="/institutions" className={styles.linkCard}>機関・抜け漏れチェック</a>
+          <Link to="/nobel" className={styles.linkCard}>{t('dashboard.linkNobel')}</Link>
+          <Link to="/awards" className={styles.linkCard}>{t('dashboard.linkAwards')}</Link>
+          <Link to="/frontier-topics" className={styles.linkCard}>{t('dashboard.linkFrontier')}</Link>
+          <Link to="/institutions" className={styles.linkCard}>{t('dashboard.linkInstitutions')}</Link>
         </div>
       </div>
     </div>

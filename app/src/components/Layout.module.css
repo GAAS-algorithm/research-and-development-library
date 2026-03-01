@@ -1,6 +1,7 @@
 .layout {
   display: flex;
   min-height: 100vh;
+  position: relative;
 }
 
 .main {
@@ -8,6 +9,7 @@
   display: flex;
   flex-direction: column;
   margin-left: var(--sidebar-width);
+  min-width: 0;
 }
 
 .content {
@@ -16,8 +18,26 @@
   overflow-y: auto;
 }
 
+.overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 90;
+  border: none;
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
   .main {
     margin-left: 0;
+  }
+
+  .content {
+    padding: 16px;
+  }
+
+  .overlay {
+    display: block;
   }
 }

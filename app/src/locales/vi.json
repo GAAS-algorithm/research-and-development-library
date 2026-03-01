@@ -1,0 +1,128 @@
+{
+  "app": { "title": "GAAS R&D Library" },
+  "nav": {
+    "dashboard": "Bảng điều khiển",
+    "nobel": "Giải Nobel",
+    "tier1": "Giải thưởng Tier 1",
+    "awards": "Giải thưởng nghiên cứu",
+    "frontierTopics": "Chủ đề tiên phong",
+    "institutions": "Danh sách tổ chức",
+    "schema": "Lược đồ"
+  },
+  "lang": { "en": "English", "ja": "日本語", "vi": "Tiếng Việt" },
+  "dashboard": {
+    "title": "Bảng điều khiển",
+    "desc": "Tổng quan Thư viện R&D được thiết kế như hệ thống phức hợp đa chiều không thể nén.",
+    "statNobel": "Mục Giải Nobel",
+    "statFrontier": "Chủ đề tiên phong",
+    "statInstitutions": "Tổ chức chính",
+    "statAwards": "Giải thưởng nghiên cứu",
+    "unitCount": "mục",
+    "unitAreas": "lĩnh vực",
+    "unitInstitutions": "tổ chức",
+    "unitAwards": "giải",
+    "designPrinciples": "Nguyên tắc thiết kế",
+    "principle1": "Incompressibility Principle — Không thể nén vào một hệ thống phân cấp duy nhất",
+    "principle2": "Cấu trúc đa chiều — Thể hiện qua nhiều trục đánh giá",
+    "principle3": "Đồng sáng tạo hai chiều — Ảnh hưởng lẫn nhau giữa toán học ↔ R&D",
+    "quickLinks": "Liên kết nhanh",
+    "linkNobel": "Dữ liệu Giải Nobel",
+    "linkAwards": "Breakthrough, Abel, Fields",
+    "linkFrontier": "Lĩnh vực dự đoán đột phá",
+    "linkInstitutions": "Tổ chức & kiểm tra phủ sóng"
+  },
+  "nobel": {
+    "title": "Giải Nobel",
+    "desc": "Thành lập 1901. Các phát hiện chính và phương trình đại diện.",
+    "filterYear": "Lọc theo năm (vd: 2020)",
+    "year": "Năm",
+    "laureates": "Người đoạt giải",
+    "discovery": "Phát hiện chính",
+    "theorem": "Định lý / Tên công thức",
+    "formula": "Công thức"
+  },
+  "nobelCategory": {
+    "physics": "Vật lý",
+    "chemistry": "Hóa học",
+    "physiology_or_medicine": "Sinh lý học hoặc Y học",
+    "literature": "Văn học",
+    "peace": "Hòa bình",
+    "economic_sciences": "Khoa học Kinh tế"
+  },
+  "tier1": {
+    "title": "Danh sách người đoạt giải Tier 1",
+    "desc": "Lịch sử người đoạt giải và công thức đại diện cho giải thưởng nghiên cứu Tier 1 (trừ Nobel). Breakthrough, Abel, Fields, Turing, Lasker, Copley.",
+    "filterYear": "Lọc theo năm",
+    "year": "Năm",
+    "laureates": "Người đoạt giải",
+    "discovery": "Phát hiện / Đóng góp chính",
+    "theorem": "Định lý / Tên công thức",
+    "formula": "Công thức"
+  },
+  "tier1Award": {
+    "breakthrough": "Giải Breakthrough",
+    "abel": "Giải Abel",
+    "fields": "Huy chương Fields",
+    "turing": "Giải Turing",
+    "lasker": "Giải Lasker",
+    "copley": "Huy chương Copley"
+  },
+  "awards": {
+    "title": "Giải thưởng nghiên cứu",
+    "desc": "Breakthrough, Nobel, Abel, Fields, Lasker, v.v. Theo quy mô và tác động.",
+    "byImpact": "Theo tác động",
+    "tier1": "Tier 1 (Đỉnh cao)",
+    "tier2": "Tier 2",
+    "tier3": "Tier 3",
+    "allList": "Danh sách tất cả giải",
+    "award": "Giải",
+    "prizeMoney": "Tiền thưởng",
+    "cumulative": "Tích lũy",
+    "since": "Thành lập",
+    "frequency": "Tần suất",
+    "note": "Ghi chú"
+  },
+  "frontier": {
+    "title": "Chủ đề tiên phong",
+    "desc": "Các lĩnh vực dự đoán có đột phá. Theo dõi riêng như chủ đề riêng biệt. Top 20.",
+    "indexTitle": "Danh sách Top 20",
+    "top3": "Top 3:",
+    "also": "Cũng:",
+    "back": "← Quay lại Chủ đề tiên phong",
+    "overview": "Tổng quan",
+    "premise": "Điều kiện tiên quyết: Giới hạn hạ tầng xã hội hiện tại",
+    "breakthroughReason": "Lý do có thể đột phá",
+    "drivers": "Yếu tố đột phá",
+    "relatedDomains": "Lĩnh vực liên quan",
+    "relatedFields": "Ngành liên quan",
+    "topInstitutions": "Tổ chức hàng đầu",
+    "alsoNotable": "Cũng đáng chú ý",
+    "navFirst": "← Đầu",
+    "navList": "Danh sách",
+    "navLast": "Cuối →",
+    "notFound": "Không tìm thấy chủ đề."
+  },
+  "institutions": {
+    "title": "Tổ chức",
+    "desc": "Danh sách các tổ chức nghiên cứu lớn trên thế giới theo quy mô ngân sách và uy tín. Để xác minh phủ sóng. Tham chiếu: Nature Index, THE, dữ liệu ngân sách, v.v.",
+    "screening": "Logic sàng lọc",
+    "criteria": "Tiêu chí lựa chọn:",
+    "criteriaDesc": "Các tổ chức nghiên cứu lớn theo quy mô ngân sách và uy tín. Đã xác minh phủ sóng.",
+    "sources": "Nguồn tham khảo:",
+    "classification": "Phân loại:",
+    "classificationDesc": "Đại học hàng đầu, tổ chức & viện hàn lâm nghiên cứu quốc gia, R&D doanh nghiệp, toán học thuần túy"
+  },
+  "institutionsCategory": {
+    "academic_top": "Đại học hàng đầu",
+    "national_academies": "Tổ chức & viện hàn lâm nghiên cứu quốc gia",
+    "corporate_rd": "R&D doanh nghiệp",
+    "pure_math": "Toán học thuần túy"
+  },
+  "schema": {
+    "title": "Lược đồ",
+    "desc": "Hệ thống phức hợp đa chiều không thể nén. Trục chính học thuật, trục phụ công nghiệp, nhiều trục đánh giá.",
+    "coreConcept": "Khái niệm cốt lõi",
+    "fileStructure": "Cấu trúc tệp",
+    "principles": "Nguyên tắc"
+  }
+}
