@@ -8,45 +8,55 @@
     "label_en": "Unpackagable Multidimensional Complex System",
     "label_ja": "パッケージ化できない多次元複雑系",
     "description": "単一階層に圧縮できず、複数軸で表現し、双方向リンクを持つ複雑系。",
+    "description_en": "A complex system that cannot be compressed into a single hierarchy, is expressed across multiple axes, and has bidirectional links.",
     "reference": "multidimensional-complex-system.md"
   },
   "categories": {
     "academic": {
       "file": "academic-taxonomy.json",
-      "description": "学術分野（主軸）。生物学階層参考。"
+      "description": "学術分野（主軸）。生物学階層参考。",
+      "description_en": "Academic fields (main axis). Biological hierarchy reference."
     },
     "industry": {
       "file": "industry-taxonomy.json",
-      "description": "産業分類（補助軸）。GICS準拠。"
+      "description": "産業分類（補助軸）。GICS準拠。",
+      "description_en": "Industry classification (auxiliary axis). GICS compliant."
     },
     "dimensions": {
       "file": "dimensions-taxonomy.json",
-      "description": "多次元判断軸。Incompressibility Principle。"
+      "description": "多次元判断軸。Incompressibility Principle。",
+      "description_en": "Multidimensional judgment axes. Incompressibility Principle."
     },
     "frontier_topics": {
       "file": "frontier-topics.json",
-      "description": "ブレイクスルー予測領域。"
+      "description": "ブレイクスルー予測領域。",
+      "description_en": "Breakthrough prediction areas."
     },
     "foundational_math": {
       "file": "foundational-mathematics.json",
-      "description": "純粋数学。R&Dと双方向共創。"
+      "description": "純粋数学。R&Dと双方向共創。",
+      "description_en": "Pure mathematics. Bidirectional co-creation with R&D."
     }
   },
   "nobel_prizes": {
     "file": "data/nobel-prizes.json",
-    "description": "ノーベル賞全部門の受賞者（1901-2025）。主な発見・代表的な方程式を記載。"
+    "description": "ノーベル賞全部門の受賞者（1901-2025）。主な発見・代表的な方程式を記載。",
+    "description_en": "Nobel Prize winners in all categories (1901-2025). Major discoveries and representative equations."
   },
   "research_awards": {
     "file": "research-awards.json",
-    "description": "研究者格付けコンペティション。Nobel, Abel, Fields, Turing等。規模・インパクト順。"
+    "description": "研究者格付けコンペティション。Nobel, Abel, Fields, Turing等。規模・インパクト順。",
+    "description_en": "Researcher ranking competition. Nobel, Abel, Fields, Turing, etc. Ranked by scale and impact."
   },
   "major_awards_detail": {
     "file": "major-awards-detail.md",
-    "description": "Breakthrough, Nobel, Abel, Fields, Lasker の創設経緯・特徴・過去受賞者。"
+    "description": "Breakthrough, Nobel, Abel, Fields, Lasker の創設経緯・特徴・過去受賞者。",
+    "description_en": "Founding history, features, and past recipients of Breakthrough, Nobel, Abel, Fields, Lasker."
   },
   "institutions_index": {
     "file": "institutions-index.json",
-    "description": "世界の予算・著名度の高い機関一覧。抜け漏れチェック用。"
+    "description": "世界の予算・著名度の高い機関一覧。抜け漏れチェック用。",
+    "description_en": "List of world's major institutions by budget and prominence. For coverage verification."
   },
   "principles": [
     "Incompressibility Principle (dimensions.md)",

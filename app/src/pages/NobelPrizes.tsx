@@ -82,9 +82,7 @@ export function NobelPrizes() {
                     <td class={styles.theorem}>{text}</td>
                     <td class={styles.formula}>
                       {latex ? (
-                        <span class={styles.formulaDisplay}>
-                          <LatexFormula latex={latex} />
-                        </span>
+                        <LatexFormula latex={latex} class={styles.formulaDisplay} />
                       ) : (
                         '—'
                       )}

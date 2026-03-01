@@ -134,6 +134,9 @@
     "desc": "Hệ thống phức hợp đa chiều không thể nén. Trục chính học thuật, trục phụ công nghiệp, nhiều trục đánh giá.",
     "coreConcept": "Khái niệm cốt lõi",
     "fileStructure": "Cấu trúc tệp",
-    "principles": "Nguyên tắc"
+    "principles": "Nguyên tắc",
+    "principle1": "Nguyên tắc không nén được (dimensions.md)",
+    "principle2": "Đồng sáng tạo hai chiều (rd-math-relationship.md)",
+    "principle3": "Hệ thống phức hợp đa chiều (multidimensional-complex-system.md)"
   }
 }

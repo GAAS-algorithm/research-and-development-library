@@ -10,13 +10,16 @@ type Entry = {
   year: number
   laureates: string[]
   discovery: string
+  discovery_en?: string
   representative_equation?: string | null
   representative_formula?: string | null
+  representative_formula_en?: string | null
   formula_latex?: string | null
 }
 
 export function Tier1Awards() {
-  const { t } = useI18n()
+  const { t, locale } = useI18n()
+  const isJa = () => locale() === 'ja'
   const [awardId, setAwardId] = createSignal<string>('abel')
   const [yearFilter, setYearFilter] = createSignal('')
 
@@ -80,19 +83,20 @@ export function Tier1Awards() {
           <tbody>
             <For each={filtered()}>
               {(entry) => {
-                const formula = entry.representative_formula || entry.representative_equation
-                const { text, latex } = extractFormulaParts(formula, entry.formula_latex)
+                const formulaRaw = isJa()
+                  ? (entry.representative_formula ?? entry.representative_equation)
+                  : (entry.representative_formula_en ?? entry.representative_formula ?? entry.representative_equation)
+                const { text, latex } = extractFormulaParts(formulaRaw, entry.formula_latex)
+                const discoveryText = isJa() ? entry.discovery : (entry.discovery_en ?? entry.discovery)
                 return (
                   <tr>
                     <td class={styles.year}>{entry.year}</td>
                     <td>{entry.laureates.join(', ')}</td>
-                    <td class={styles.discovery}>{entry.discovery}</td>
+                    <td class={styles.discovery}>{discoveryText}</td>
                     <td class={styles.theorem}>{text}</td>
                     <td class={styles.formula}>
                       {latex ? (
-                        <span class={styles.formulaDisplay}>
-                          <LatexFormula latex={latex} />
-                        </span>
+                        <LatexFormula latex={latex} class={styles.formulaDisplay} />
                       ) : (
                         '—'
                       )}

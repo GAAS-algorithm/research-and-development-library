@@ -134,6 +134,9 @@
     "desc": "Incompressible multidimensional complex system. Academic main axis, industrial auxiliary axis, multiple judgment axes.",
     "coreConcept": "Core concept",
     "fileStructure": "File structure",
-    "principles": "Principles"
+    "principles": "Principles",
+    "principle1": "Incompressibility Principle (dimensions.md)",
+    "principle2": "Bidirectional co-creation (rd-math-relationship.md)",
+    "principle3": "Multidimensional complex system (multidimensional-complex-system.md)"
   }
 }

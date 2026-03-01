@@ -9,16 +9,109 @@
       "label_en": "Breakthrough Prize",
       "since": 2012,
       "entries": [
-        {"year": 2015, "laureates": ["Simon Donaldson", "Maxim Kontsevich", "Terence Tao"], "discovery": "数学における革新的貢献", "representative_formula": null},
-        {"year": 2016, "laureates": ["Ian Agol"], "discovery": "3次元多様体の虚双曲幾何学", "representative_formula": null},
-        {"year": 2017, "laureates": ["Jean Bourgain"], "discovery": "解析学・組み合わせ論・数論への貢献", "representative_formula": null},
-        {"year": 2018, "laureates": ["Christopher Hacon", "James McKernan"], "discovery": "ミニマルモデルプログラムと双有理幾何学", "representative_formula": null},
-        {"year": 2019, "laureates": ["Vincent Lafforgue"], "discovery": "Langlandsプログラムへの貢献", "representative_formula": null},
-        {"year": 2020, "laureates": ["Alex Eskin"], "discovery": "モジュラー空間の動力学", "representative_formula": null},
-        {"year": 2021, "laureates": ["Martin Hairer"], "discovery": "確率偏微分方程式の理論", "representative_formula": "KPZ方程式 $\\partial_t h = \\nu \\nabla^2 h + \\frac{\\lambda}{2}(\\nabla h)^2 + \\eta$"},
-        {"year": 2022, "laureates": ["Takuro Mochizuki"], "discovery": "代数解析学・ホッジ理論", "representative_formula": null},
-        {"year": 2023, "laureates": ["Daniel Spielman"], "discovery": "理論計算機科学・スペクトラルグラフ理論", "representative_formula": null},
-        {"year": 2024, "laureates": ["Simon Brendle"], "discovery": "微分幾何学・偏微分方程式", "representative_formula": null}
+        {
+          "year": 2015,
+          "laureates": [
+            "Simon Donaldson",
+            "Maxim Kontsevich",
+            "Terence Tao"
+          ],
+          "discovery": "数学における革新的貢献",
+          "representative_formula": null,
+          "discovery_en": "Revolutionary contributions to mathematics",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2016,
+          "laureates": [
+            "Ian Agol"
+          ],
+          "discovery": "3次元多様体の虚双曲幾何学",
+          "representative_formula": null,
+          "discovery_en": "Virtual hyperbolic geometry of 3-manifolds",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2017,
+          "laureates": [
+            "Jean Bourgain"
+          ],
+          "discovery": "解析学・組み合わせ論・数論への貢献",
+          "representative_formula": null,
+          "discovery_en": "Contributions to analysis, combinatorics, and number theory",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2018,
+          "laureates": [
+            "Christopher Hacon",
+            "James McKernan"
+          ],
+          "discovery": "ミニマルモデルプログラムと双有理幾何学",
+          "representative_formula": null,
+          "discovery_en": "Minimal model program and birational geometry",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2019,
+          "laureates": [
+            "Vincent Lafforgue"
+          ],
+          "discovery": "Langlandsプログラムへの貢献",
+          "representative_formula": null,
+          "discovery_en": "Contributions to the Langlands program",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2020,
+          "laureates": [
+            "Alex Eskin"
+          ],
+          "discovery": "モジュラー空間の動力学",
+          "representative_formula": null,
+          "discovery_en": "Dynamics of moduli spaces",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2021,
+          "laureates": [
+            "Martin Hairer"
+          ],
+          "discovery": "確率偏微分方程式の理論",
+          "representative_formula": "KPZ方程式 $\\partial_t h = \\nu \\nabla^2 h + \\frac{\\lambda}{2}(\\nabla h)^2 + \\eta$",
+          "discovery_en": "Theory of stochastic partial differential equations",
+          "representative_formula_en": "KPZ equation $\\partial_t h = \\nu \\nabla^2 h + \\frac{\\lambda}{2}(\\nabla h)^2 + \\eta$"
+        },
+        {
+          "year": 2022,
+          "laureates": [
+            "Takuro Mochizuki"
+          ],
+          "discovery": "代数解析学・ホッジ理論",
+          "representative_formula": null,
+          "discovery_en": "Algebraic analysis, Hodge theory",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2023,
+          "laureates": [
+            "Daniel Spielman"
+          ],
+          "discovery": "理論計算機科学・スペクトラルグラフ理論",
+          "representative_formula": null,
+          "discovery_en": "Theoretical computer science, spectral graph theory",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2024,
+          "laureates": [
+            "Simon Brendle"
+          ],
+          "discovery": "微分幾何学・偏微分方程式",
+          "representative_formula": null,
+          "discovery_en": "Differential geometry, partial differential equations",
+          "representative_formula_en": null
+        }
       ]
     },
     "abel": {
@@ -26,28 +119,231 @@
       "label_en": "Abel Prize",
       "since": 2003,
       "entries": [
-        {"year": 2003, "laureates": ["Jean-Pierre Serre"], "discovery": "位相・代数幾何・数論への貢献", "representative_formula": "Serre双対性"},
-        {"year": 2004, "laureates": ["Michael Atiyah", "Isadore Singer"], "discovery": "指数定理の発見と証明", "representative_formula": "Atiyah-Singer指数定理 $\\mathrm{ind}(D) = \\int_M \\hat{A}$"},
-        {"year": 2005, "laureates": ["Peter Lax"], "discovery": "偏微分方程式の理論", "representative_formula": "Lax-Milgramの定理"},
-        {"year": 2006, "laureates": ["Lennart Carleson"], "discovery": "調和解析・力学系", "representative_formula": "Carlesonの定理"},
-        {"year": 2007, "laureates": ["Srinivasa S.R. Varadhan"], "discovery": "大偏差理論", "representative_formula": null},
-        {"year": 2008, "laureates": ["John Thompson", "Jacques Tits"], "discovery": "群論の基礎的貢献", "representative_formula": null},
-        {"year": 2009, "laureates": ["Mikhail Gromov"], "discovery": "幾何学への革命的貢献", "representative_formula": "Gromov-Hausdorff距離"},
-        {"year": 2010, "laureates": ["John Tate"], "discovery": "数論への広範な貢献", "representative_formula": "Tate加群"},
-        {"year": 2011, "laureates": ["John Milnor"], "discovery": "トポロジー・幾何学・代数学", "representative_formula": "Milnorの球面"},
-        {"year": 2012, "laureates": ["Endre Szemerédi"], "discovery": "離散数学・理論計算機科学", "representative_formula": "Szemerédiの定理"},
-        {"year": 2013, "laureates": ["Pierre Deligne"], "discovery": "代数幾何・数論", "representative_formula": "Weil予想の証明"},
-        {"year": 2014, "laureates": ["Yakov Sinai"], "discovery": "力学系・エルゴード理論", "representative_formula": "Sinai-Ruelle-Bowen測度"},
-        {"year": 2015, "laureates": ["John Nash Jr.", "Louis Nirenberg"], "discovery": "偏微分方程式の理論", "representative_formula": "Nashの埋め込み定理 $C^{1,\\alpha}$"},
-        {"year": 2016, "laureates": ["Andrew Wiles"], "discovery": "フェルマーの最終定理の証明", "representative_formula": "modularity theorem"},
-        {"year": 2017, "laureates": ["Yves Meyer"], "discovery": "ウェーブレット理論", "representative_formula": null},
-        {"year": 2018, "laureates": ["Robert Langlands"], "discovery": "Langlandsプログラム", "representative_formula": "Langlands対応"},
-        {"year": 2019, "laureates": ["Karen Uhlenbeck"], "discovery": "幾何解析・ゲージ理論", "representative_formula": null},
-        {"year": 2020, "laureates": ["Hillel Furstenberg", "Gregory Margulis"], "discovery": "エルゴード理論・格子群", "representative_formula": null},
-        {"year": 2021, "laureates": ["László Lovász", "Avi Wigderson"], "discovery": "理論計算機科学・離散数学", "representative_formula": null},
-        {"year": 2022, "laureates": ["Dennis Parnell Sullivan"], "discovery": "トポロジー・力学系", "representative_formula": null},
-        {"year": 2023, "laureates": ["Luis A. Caffarelli"], "discovery": "偏微分方程式の正則性理論", "representative_formula": null},
-        {"year": 2024, "laureates": ["Michel Talagrand"], "discovery": "確率論・関数解析", "representative_formula": "Talagrandの不等式"}
+        {
+          "year": 2003,
+          "laureates": [
+            "Jean-Pierre Serre"
+          ],
+          "discovery": "位相・代数幾何・数論への貢献",
+          "representative_formula": "Serre双対性",
+          "discovery_en": "Contributions to topology, algebraic geometry, and number theory",
+          "representative_formula_en": "Serre duality"
+        },
+        {
+          "year": 2004,
+          "laureates": [
+            "Michael Atiyah",
+            "Isadore Singer"
+          ],
+          "discovery": "指数定理の発見と証明",
+          "representative_formula": "Atiyah-Singer指数定理 $\\mathrm{ind}(D) = \\int_M \\hat{A}$",
+          "discovery_en": "Discovery and proof of the index theorem",
+          "representative_formula_en": "Atiyah-Singer index theorem $\\mathrm{ind}(D) = \\int_M \\hat{A}$"
+        },
+        {
+          "year": 2005,
+          "laureates": [
+            "Peter Lax"
+          ],
+          "discovery": "偏微分方程式の理論",
+          "representative_formula": "Lax-Milgramの定理",
+          "discovery_en": "Theory of partial differential equations",
+          "representative_formula_en": "Lax-Milgram theorem"
+        },
+        {
+          "year": 2006,
+          "laureates": [
+            "Lennart Carleson"
+          ],
+          "discovery": "調和解析・力学系",
+          "representative_formula": "Carlesonの定理",
+          "discovery_en": "Harmonic analysis, dynamical systems",
+          "representative_formula_en": "Carleson's theorem"
+        },
+        {
+          "year": 2007,
+          "laureates": [
+            "Srinivasa S.R. Varadhan"
+          ],
+          "discovery": "大偏差理論",
+          "representative_formula": null,
+          "discovery_en": "Large deviation theory",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2008,
+          "laureates": [
+            "John Thompson",
+            "Jacques Tits"
+          ],
+          "discovery": "群論の基礎的貢献",
+          "representative_formula": null,
+          "discovery_en": "Fundamental contributions to group theory",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2009,
+          "laureates": [
+            "Mikhail Gromov"
+          ],
+          "discovery": "幾何学への革命的貢献",
+          "representative_formula": "Gromov-Hausdorff距離",
+          "discovery_en": "Revolutionary contributions to geometry",
+          "representative_formula_en": "Gromov-Hausdorff distance"
+        },
+        {
+          "year": 2010,
+          "laureates": [
+            "John Tate"
+          ],
+          "discovery": "数論への広範な貢献",
+          "representative_formula": "Tate加群",
+          "discovery_en": "Broad contributions to number theory",
+          "representative_formula_en": "Tate module"
+        },
+        {
+          "year": 2011,
+          "laureates": [
+            "John Milnor"
+          ],
+          "discovery": "トポロジー・幾何学・代数学",
+          "representative_formula": "Milnorの球面",
+          "discovery_en": "Topology, geometry, algebra",
+          "representative_formula_en": "Milnor spheres"
+        },
+        {
+          "year": 2012,
+          "laureates": [
+            "Endre Szemerédi"
+          ],
+          "discovery": "離散数学・理論計算機科学",
+          "representative_formula": "Szemerédiの定理",
+          "discovery_en": "Discrete mathematics, theoretical computer science",
+          "representative_formula_en": "Szemerédi's theorem"
+        },
+        {
+          "year": 2013,
+          "laureates": [
+            "Pierre Deligne"
+          ],
+          "discovery": "代数幾何・数論",
+          "representative_formula": "Weil予想の証明",
+          "discovery_en": "Algebraic geometry, number theory",
+          "representative_formula_en": "Proof of the Weil conjectures"
+        },
+        {
+          "year": 2014,
+          "laureates": [
+            "Yakov Sinai"
+          ],
+          "discovery": "力学系・エルゴード理論",
+          "representative_formula": "Sinai-Ruelle-Bowen測度",
+          "discovery_en": "Dynamical systems, ergodic theory",
+          "representative_formula_en": "Sinai-Ruelle-Bowen measure"
+        },
+        {
+          "year": 2015,
+          "laureates": [
+            "John Nash Jr.",
+            "Louis Nirenberg"
+          ],
+          "discovery": "偏微分方程式の理論",
+          "representative_formula": "Nashの埋め込み定理 $C^{1,\\alpha}$",
+          "discovery_en": "Theory of partial differential equations",
+          "representative_formula_en": "Nash embedding theorem $C^{1,\\alpha}$"
+        },
+        {
+          "year": 2016,
+          "laureates": [
+            "Andrew Wiles"
+          ],
+          "discovery": "フェルマーの最終定理の証明",
+          "representative_formula": "modularity theorem",
+          "discovery_en": "Proof of Fermat's Last Theorem",
+          "representative_formula_en": "modularity theorem"
+        },
+        {
+          "year": 2017,
+          "laureates": [
+            "Yves Meyer"
+          ],
+          "discovery": "ウェーブレット理論",
+          "representative_formula": null,
+          "discovery_en": "Wavelet theory",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2018,
+          "laureates": [
+            "Robert Langlands"
+          ],
+          "discovery": "Langlandsプログラム",
+          "representative_formula": "Langlands対応",
+          "discovery_en": "Langlands program",
+          "representative_formula_en": "Langlands correspondence"
+        },
+        {
+          "year": 2019,
+          "laureates": [
+            "Karen Uhlenbeck"
+          ],
+          "discovery": "幾何解析・ゲージ理論",
+          "representative_formula": null,
+          "discovery_en": "Geometric analysis, gauge theory",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2020,
+          "laureates": [
+            "Hillel Furstenberg",
+            "Gregory Margulis"
+          ],
+          "discovery": "エルゴード理論・格子群",
+          "representative_formula": null,
+          "discovery_en": "Ergodic theory, lattice groups",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2021,
+          "laureates": [
+            "László Lovász",
+            "Avi Wigderson"
+          ],
+          "discovery": "理論計算機科学・離散数学",
+          "representative_formula": null,
+          "discovery_en": "Theoretical computer science, discrete mathematics",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2022,
+          "laureates": [
+            "Dennis Parnell Sullivan"
+          ],
+          "discovery": "トポロジー・力学系",
+          "representative_formula": null,
+          "discovery_en": "Topology, dynamical systems",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2023,
+          "laureates": [
+            "Luis A. Caffarelli"
+          ],
+          "discovery": "偏微分方程式の正則性理論",
+          "representative_formula": null,
+          "discovery_en": "Regularity theory of partial differential equations",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2024,
+          "laureates": [
+            "Michel Talagrand"
+          ],
+          "discovery": "確率論・関数解析",
+          "representative_formula": "Talagrandの不等式",
+          "discovery_en": "Probability theory, functional analysis",
+          "representative_formula_en": "Talagrand's inequality"
+        }
       ]
     },
     "fields": {
@@ -55,26 +351,250 @@
       "label_en": "Fields Medal",
       "since": 1936,
       "entries": [
-        {"year": 1936, "laureates": ["Lars Ahlfors", "Jesse Douglas"], "discovery": "被覆曲面論、プラトー問題", "representative_formula": null},
-        {"year": 1950, "laureates": ["Laurent Schwartz", "Atle Selberg"], "discovery": "超関数論、ゼータ関数", "representative_formula": "超関数"},
-        {"year": 1954, "laureates": ["Kunihiko Kodaira", "Jean-Pierre Serre"], "discovery": "代数幾何、層のコホモロジー", "representative_formula": "Kodaira消滅定理"},
-        {"year": 1958, "laureates": ["Klaus Roth", "René Thom"], "discovery": "数論、特異点論", "representative_formula": null},
-        {"year": 1962, "laureates": ["Lars Hörmander", "John Milnor"], "discovery": "偏微分方程式、微分トポロジー", "representative_formula": null},
-        {"year": 1966, "laureates": ["Michael Atiyah", "Paul Cohen", "Alexander Grothendieck", "Stephen Smale"], "discovery": "K理論、連続体仮説、スキーム論、微分トポロジー", "representative_formula": "Atiyah-Singer指数定理"},
-        {"year": 1970, "laureates": ["Alan Baker", "Heisuke Hironaka", "Sergei Novikov", "John Thompson"], "discovery": "超越数論、特異点解消、トポロジー、有限群", "representative_formula": null},
-        {"year": 1974, "laureates": ["Enrico Bombieri", "David Mumford"], "discovery": "大篩法、代数曲面", "representative_formula": null},
-        {"year": 1978, "laureates": ["Pierre Deligne", "Charles Fefferman", "Grigory Margulis", "Daniel Quillen"], "discovery": "Weil予想、多変数複素解析、格子群、代数K理論", "representative_formula": null},
-        {"year": 1982, "laureates": ["Alain Connes", "William Thurston", "Shing-Tung Yau"], "discovery": "作用素環、3次元多様体、Calabi-Yau", "representative_formula": "非可換幾何"},
-        {"year": 1986, "laureates": ["Simon Donaldson", "Gerd Faltings", "Michael Freedman"], "discovery": "4次元多様体、Mordell予想", "representative_formula": null},
-        {"year": 1990, "laureates": ["Vladimir Drinfeld", "Vaughan Jones", "Shigefumi Mori", "Edward Witten"], "discovery": "量子群、Jones多項式、双有理幾何、数理物理", "representative_formula": "Jones多項式"},
-        {"year": 1994, "laureates": ["Jean Bourgain", "Pierre-Louis Lions", "Jean-Christophe Yoccoz", "Efim Zelmanov"], "discovery": "解析学、粘性解、力学系、有限群", "representative_formula": null},
-        {"year": 1998, "laureates": ["Richard Borcherds", "Timothy Gowers", "Maxim Kontsevich", "Curtis McMullen"], "discovery": "モンスター群、組み合わせ論、ミラー対称性、力学系", "representative_formula": null},
-        {"year": 2002, "laureates": ["Laurent Lafforgue", "Vladimir Voevodsky"], "discovery": "Langlands対応、 motivic cohomology", "representative_formula": null},
-        {"year": 2006, "laureates": ["Andrei Okounkov", "Grigori Perelman", "Terence Tao", "Wendelin Werner"], "discovery": "確率論、Poincaré予想、解析学、SLE", "representative_formula": "SLE"},
-        {"year": 2010, "laureates": ["Elon Lindenstrauss", "Ngô Bảo Châu", "Stanislav Smirnov", "Cédric Villani"], "discovery": "エルゴード理論、Fundamental Lemma、パーコレーション、輸送理論", "representative_formula": null},
-        {"year": 2014, "laureates": ["Artur Ávila", "Manjul Bhargava", "Martin Hairer", "Maryam Mirzakhani"], "discovery": "力学系、数論、SPDE、モジュライ空間", "representative_formula": null},
-        {"year": 2018, "laureates": ["Caucher Birkar", "Alessio Figalli", "Peter Scholze", "Akshay Venkatesh"], "discovery": "双有理幾何、最適輸送、perfectoid空間、数論", "representative_formula": "perfectoid空間"},
-        {"year": 2022, "laureates": ["Hugo Duminil-Copin", "June Huh", "James Maynard", "Maryna Viazovska"], "discovery": "統計力学、組み合わせ論、素数、球充填", "representative_formula": "E8格子"}
+        {
+          "year": 1936,
+          "laureates": [
+            "Lars Ahlfors",
+            "Jesse Douglas"
+          ],
+          "discovery": "被覆曲面論、プラトー問題",
+          "representative_formula": null,
+          "discovery_en": "Covering surface theory, Plateau problem",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1950,
+          "laureates": [
+            "Laurent Schwartz",
+            "Atle Selberg"
+          ],
+          "discovery": "超関数論、ゼータ関数",
+          "representative_formula": "超関数",
+          "discovery_en": "Distribution theory, zeta functions",
+          "representative_formula_en": "Distribution (generalized function)"
+        },
+        {
+          "year": 1954,
+          "laureates": [
+            "Kunihiko Kodaira",
+            "Jean-Pierre Serre"
+          ],
+          "discovery": "代数幾何、層のコホモロジー",
+          "representative_formula": "Kodaira消滅定理",
+          "discovery_en": "Algebraic geometry, sheaf cohomology",
+          "representative_formula_en": "Kodaira vanishing theorem"
+        },
+        {
+          "year": 1958,
+          "laureates": [
+            "Klaus Roth",
+            "René Thom"
+          ],
+          "discovery": "数論、特異点論",
+          "representative_formula": null,
+          "discovery_en": "Number theory, singularity theory",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1962,
+          "laureates": [
+            "Lars Hörmander",
+            "John Milnor"
+          ],
+          "discovery": "偏微分方程式、微分トポロジー",
+          "representative_formula": null,
+          "discovery_en": "Partial differential equations, differential topology",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1966,
+          "laureates": [
+            "Michael Atiyah",
+            "Paul Cohen",
+            "Alexander Grothendieck",
+            "Stephen Smale"
+          ],
+          "discovery": "K理論、連続体仮説、スキーム論、微分トポロジー",
+          "representative_formula": "Atiyah-Singer指数定理",
+          "discovery_en": "K-theory, continuum hypothesis, scheme theory, differential topology",
+          "representative_formula_en": "Atiyah-Singer index theorem"
+        },
+        {
+          "year": 1970,
+          "laureates": [
+            "Alan Baker",
+            "Heisuke Hironaka",
+            "Sergei Novikov",
+            "John Thompson"
+          ],
+          "discovery": "超越数論、特異点解消、トポロジー、有限群",
+          "representative_formula": null,
+          "discovery_en": "Transcendental number theory, resolution of singularities, topology, finite groups",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1974,
+          "laureates": [
+            "Enrico Bombieri",
+            "David Mumford"
+          ],
+          "discovery": "大篩法、代数曲面",
+          "representative_formula": null,
+          "discovery_en": "Large sieve, algebraic surfaces",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1978,
+          "laureates": [
+            "Pierre Deligne",
+            "Charles Fefferman",
+            "Grigory Margulis",
+            "Daniel Quillen"
+          ],
+          "discovery": "Weil予想、多変数複素解析、格子群、代数K理論",
+          "representative_formula": null,
+          "discovery_en": "Weil conjectures, several complex variables, lattice groups, algebraic K-theory",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1982,
+          "laureates": [
+            "Alain Connes",
+            "William Thurston",
+            "Shing-Tung Yau"
+          ],
+          "discovery": "作用素環、3次元多様体、Calabi-Yau",
+          "representative_formula": "非可換幾何",
+          "discovery_en": "Operator algebras, 3-manifolds, Calabi-Yau",
+          "representative_formula_en": "Noncommutative geometry"
+        },
+        {
+          "year": 1986,
+          "laureates": [
+            "Simon Donaldson",
+            "Gerd Faltings",
+            "Michael Freedman"
+          ],
+          "discovery": "4次元多様体、Mordell予想",
+          "representative_formula": null,
+          "discovery_en": "4-manifolds, Mordell conjecture",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1990,
+          "laureates": [
+            "Vladimir Drinfeld",
+            "Vaughan Jones",
+            "Shigefumi Mori",
+            "Edward Witten"
+          ],
+          "discovery": "量子群、Jones多項式、双有理幾何、数理物理",
+          "representative_formula": "Jones多項式",
+          "discovery_en": "Quantum groups, Jones polynomial, birational geometry, mathematical physics",
+          "representative_formula_en": "Jones polynomial"
+        },
+        {
+          "year": 1994,
+          "laureates": [
+            "Jean Bourgain",
+            "Pierre-Louis Lions",
+            "Jean-Christophe Yoccoz",
+            "Efim Zelmanov"
+          ],
+          "discovery": "解析学、粘性解、力学系、有限群",
+          "representative_formula": null,
+          "discovery_en": "Analysis, viscosity solutions, dynamical systems, finite groups",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1998,
+          "laureates": [
+            "Richard Borcherds",
+            "Timothy Gowers",
+            "Maxim Kontsevich",
+            "Curtis McMullen"
+          ],
+          "discovery": "モンスター群、組み合わせ論、ミラー対称性、力学系",
+          "representative_formula": null,
+          "discovery_en": "Monster group, combinatorics, mirror symmetry, dynamical systems",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2002,
+          "laureates": [
+            "Laurent Lafforgue",
+            "Vladimir Voevodsky"
+          ],
+          "discovery": "Langlands対応、 motivic cohomology",
+          "representative_formula": null,
+          "discovery_en": "Langlands correspondence, motivic cohomology",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2006,
+          "laureates": [
+            "Andrei Okounkov",
+            "Grigori Perelman",
+            "Terence Tao",
+            "Wendelin Werner"
+          ],
+          "discovery": "確率論、Poincaré予想、解析学、SLE",
+          "representative_formula": "SLE",
+          "discovery_en": "Probability theory, Poincaré conjecture, analysis, SLE",
+          "representative_formula_en": "SLE"
+        },
+        {
+          "year": 2010,
+          "laureates": [
+            "Elon Lindenstrauss",
+            "Ngô Bảo Châu",
+            "Stanislav Smirnov",
+            "Cédric Villani"
+          ],
+          "discovery": "エルゴード理論、Fundamental Lemma、パーコレーション、輸送理論",
+          "representative_formula": null,
+          "discovery_en": "Ergodic theory, Fundamental Lemma, percolation, transport theory",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2014,
+          "laureates": [
+            "Artur Ávila",
+            "Manjul Bhargava",
+            "Martin Hairer",
+            "Maryam Mirzakhani"
+          ],
+          "discovery": "力学系、数論、SPDE、モジュライ空間",
+          "representative_formula": null,
+          "discovery_en": "Dynamical systems, number theory, SPDE, moduli spaces",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2018,
+          "laureates": [
+            "Caucher Birkar",
+            "Alessio Figalli",
+            "Peter Scholze",
+            "Akshay Venkatesh"
+          ],
+          "discovery": "双有理幾何、最適輸送、perfectoid空間、数論",
+          "representative_formula": "perfectoid空間",
+          "discovery_en": "Birational geometry, optimal transport, perfectoid spaces, number theory",
+          "representative_formula_en": "Perfectoid spaces"
+        },
+        {
+          "year": 2022,
+          "laureates": [
+            "Hugo Duminil-Copin",
+            "June Huh",
+            "James Maynard",
+            "Maryna Viazovska"
+          ],
+          "discovery": "統計力学、組み合わせ論、素数、球充填",
+          "representative_formula": "E8格子",
+          "discovery_en": "Statistical mechanics, combinatorics, prime numbers, sphere packing",
+          "representative_formula_en": "E8 lattice"
+        }
       ]
     },
     "turing": {
@@ -82,65 +602,616 @@
       "label_en": "Turing Award",
       "since": 1966,
       "entries": [
-        {"year": 1966, "laureates": ["Alan Perlis"], "discovery": "プログラミング技法・コンパイラ", "representative_formula": null},
-        {"year": 1967, "laureates": ["Maurice Wilkes"], "discovery": "EDSAC、プログラムライブラリ", "representative_formula": null},
-        {"year": 1968, "laureates": ["Richard Hamming"], "discovery": "誤り検出・訂正符号", "representative_formula": "ハミング符号"},
-        {"year": 1969, "laureates": ["Marvin Minsky"], "discovery": "人工知能の創設", "representative_formula": null},
-        {"year": 1970, "laureates": ["James H. Wilkinson"], "discovery": "数値解析・後方誤差解析", "representative_formula": null},
-        {"year": 1971, "laureates": ["John McCarthy"], "discovery": "人工知能・LISP", "representative_formula": null},
-        {"year": 1972, "laureates": ["Edsger W. Dijkstra"], "discovery": "構造化プログラミング", "representative_formula": "Dijkstra法"},
-        {"year": 1973, "laureates": ["Charles Bachman"], "discovery": "データベース技術", "representative_formula": null},
-        {"year": 1974, "laureates": ["Donald Knuth"], "discovery": "アルゴリズム解析・TeX", "representative_formula": "O記法"},
-        {"year": 1975, "laureates": ["Allen Newell", "Herbert A. Simon"], "discovery": "AI・認知科学・リスト処理", "representative_formula": null},
-        {"year": 1976, "laureates": ["Michael O. Rabin", "Dana Scott"], "discovery": "非決定性有限オートマトン", "representative_formula": null},
-        {"year": 1977, "laureates": ["John Backus"], "discovery": "FORTRAN・BNF", "representative_formula": "BNF"},
-        {"year": 1978, "laureates": ["Robert W. Floyd"], "discovery": "プログラム検証・アルゴリズム", "representative_formula": "Floyd-Warshall法"},
-        {"year": 1979, "laureates": ["Kenneth E. Iverson"], "discovery": "APL言語", "representative_formula": null},
-        {"year": 1980, "laureates": ["Tony Hoare"], "discovery": "プログラミング言語設計", "representative_formula": "クイックソート"},
-        {"year": 1981, "laureates": ["Edgar F. Codd"], "discovery": "リレーショナルデータベース", "representative_formula": "正規形"},
-        {"year": 1982, "laureates": ["Stephen Cook"], "discovery": "NP完全性の理論", "representative_formula": "Cook-Levinの定理 SAT $\\in$ NP-complete"},
-        {"year": 1983, "laureates": ["Dennis Ritchie", "Ken Thompson"], "discovery": "UNIXオペレーティングシステム", "representative_formula": null},
-        {"year": 1984, "laureates": ["Niklaus Wirth"], "discovery": "Pascal・Modula", "representative_formula": null},
-        {"year": 1985, "laureates": ["Richard M. Karp"], "discovery": "NP完全性・アルゴリズム理論", "representative_formula": null},
-        {"year": 1986, "laureates": ["John Hopcroft", "Robert Tarjan"], "discovery": "アルゴリズム・データ構造", "representative_formula": null},
-        {"year": 1987, "laureates": ["John Cocke"], "discovery": "コンパイラ・RISC", "representative_formula": null},
-        {"year": 1988, "laureates": ["Ivan Sutherland"], "discovery": "コンピュータグラフィックス・Sketchpad", "representative_formula": null},
-        {"year": 1989, "laureates": ["William Kahan"], "discovery": "浮動小数点演算", "representative_formula": "IEEE 754"},
-        {"year": 1990, "laureates": ["Fernando J. Corbató"], "discovery": "CTSS・Multics", "representative_formula": null},
-        {"year": 1991, "laureates": ["Robin Milner"], "discovery": "ML・型推論・CCS", "representative_formula": "π計算"},
-        {"year": 1992, "laureates": ["Butler Lampson"], "discovery": "分散PC・ワークステーション", "representative_formula": null},
-        {"year": 1993, "laureates": ["Juris Hartmanis", "Richard E. Stearns"], "discovery": "計算量理論の基礎", "representative_formula": "時間階層定理"},
-        {"year": 1994, "laureates": ["Edward Feigenbaum", "Raj Reddy"], "discovery": "大規模AIシステム", "representative_formula": null},
-        {"year": 1995, "laureates": ["Manuel Blum"], "discovery": "計算量理論・暗号", "representative_formula": null},
-        {"year": 1996, "laureates": ["Amir Pnueli"], "discovery": "時相論理・プログラム検証", "representative_formula": null},
-        {"year": 1997, "laureates": ["Douglas Engelbart"], "discovery": "マウス・ハイパーテキスト", "representative_formula": null},
-        {"year": 1998, "laureates": ["Jim Gray"], "discovery": "データベース・トランザクション", "representative_formula": null},
-        {"year": 1999, "laureates": ["Fred Brooks"], "discovery": "コンピュータアーキテクチャ・OS", "representative_formula": null},
-        {"year": 2000, "laureates": ["Andrew Yao"], "discovery": "計算理論・暗号・通信複雑度", "representative_formula": null},
-        {"year": 2001, "laureates": ["Ole-Johan Dahl", "Kristen Nygaard"], "discovery": "オブジェクト指向・Simula", "representative_formula": null},
-        {"year": 2002, "laureates": ["Leonard Adleman", "Ron Rivest", "Adi Shamir"], "discovery": "公開鍵暗号RSA", "representative_formula": "RSA"},
-        {"year": 2003, "laureates": ["Alan Kay"], "discovery": "オブジェクト指向・Smalltalk", "representative_formula": null},
-        {"year": 2004, "laureates": ["Vint Cerf", "Bob Kahn"], "discovery": "TCP/IP・インターネット", "representative_formula": null},
-        {"year": 2005, "laureates": ["Peter Naur"], "discovery": "ALGOL 60・コンパイラ", "representative_formula": "BNF"},
-        {"year": 2006, "laureates": ["Frances Allen"], "discovery": "最適化コンパイラ", "representative_formula": null},
-        {"year": 2007, "laureates": ["Edmund M. Clarke", "E. Allen Emerson", "Joseph Sifakis"], "discovery": "モデルチェッキング", "representative_formula": null},
-        {"year": 2008, "laureates": ["Barbara Liskov"], "discovery": "データ抽象・分散計算", "representative_formula": "Liskovの置換原則"},
-        {"year": 2009, "laureates": ["Charles P. Thacker"], "discovery": "Alto・イーサネット", "representative_formula": null},
-        {"year": 2010, "laureates": ["Leslie Valiant"], "discovery": "PAC学習・計算理論", "representative_formula": null},
-        {"year": 2011, "laureates": ["Judea Pearl"], "discovery": "確率・因果推論", "representative_formula": "ベイジアンネットワーク"},
-        {"year": 2012, "laureates": ["Shafi Goldwasser", "Silvio Micali"], "discovery": "暗号の計算量理論的基礎", "representative_formula": null},
-        {"year": 2013, "laureates": ["Leslie Lamport"], "discovery": "分散システム・論理クロック", "representative_formula": "Lamportタイムスタンプ"},
-        {"year": 2014, "laureates": ["Michael Stonebraker"], "discovery": "データベースシステム", "representative_formula": null},
-        {"year": 2015, "laureates": ["Whitfield Diffie", "Martin Hellman"], "discovery": "公開鍵暗号・鍵交換", "representative_formula": "Diffie-Hellman $g^{ab} \\bmod p$"},
-        {"year": 2016, "laureates": ["Tim Berners-Lee"], "discovery": "World Wide Web", "representative_formula": "HTTP"},
-        {"year": 2017, "laureates": ["John L. Hennessy", "David Patterson"], "discovery": "コンピュータアーキテクチャ", "representative_formula": "RISC"},
-        {"year": 2018, "laureates": ["Yoshua Bengio", "Geoffrey Hinton", "Yann LeCun"], "discovery": "ディープラーニング", "representative_formula": "バックプロパゲーション"},
-        {"year": 2019, "laureates": ["Edwin Catmull", "Pat Hanrahan"], "discovery": "3D CG・Pixar", "representative_formula": null},
-        {"year": 2020, "laureates": ["Alfred Aho", "Jeffrey Ullman"], "discovery": "コンパイラ・ドラゴンブック", "representative_formula": null},
-        {"year": 2021, "laureates": ["Jack Dongarra"], "discovery": "数値アルゴリズム・LINPACK", "representative_formula": null},
-        {"year": 2022, "laureates": ["Robert Metcalfe"], "discovery": "イーサネット", "representative_formula": null},
-        {"year": 2023, "laureates": ["Avi Wigderson"], "discovery": "計算理論・乱択", "representative_formula": null},
-        {"year": 2024, "laureates": ["Andrew Barto", "Richard S. Sutton"], "discovery": "強化学習の基礎", "representative_formula": "Q学習"}
+        {
+          "year": 1966,
+          "laureates": [
+            "Alan Perlis"
+          ],
+          "discovery": "プログラミング技法・コンパイラ",
+          "representative_formula": null,
+          "discovery_en": "Programming techniques, compilers",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1967,
+          "laureates": [
+            "Maurice Wilkes"
+          ],
+          "discovery": "EDSAC、プログラムライブラリ",
+          "representative_formula": null,
+          "discovery_en": "EDSAC, program libraries",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1968,
+          "laureates": [
+            "Richard Hamming"
+          ],
+          "discovery": "誤り検出・訂正符号",
+          "representative_formula": "ハミング符号",
+          "discovery_en": "Error-correcting codes",
+          "representative_formula_en": "Hamming code"
+        },
+        {
+          "year": 1969,
+          "laureates": [
+            "Marvin Minsky"
+          ],
+          "discovery": "人工知能の創設",
+          "representative_formula": null,
+          "discovery_en": "Founding of artificial intelligence",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1970,
+          "laureates": [
+            "James H. Wilkinson"
+          ],
+          "discovery": "数値解析・後方誤差解析",
+          "representative_formula": null,
+          "discovery_en": "Numerical analysis, backward error analysis",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1971,
+          "laureates": [
+            "John McCarthy"
+          ],
+          "discovery": "人工知能・LISP",
+          "representative_formula": null,
+          "discovery_en": "Artificial intelligence, LISP",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1972,
+          "laureates": [
+            "Edsger W. Dijkstra"
+          ],
+          "discovery": "構造化プログラミング",
+          "representative_formula": "Dijkstra法",
+          "discovery_en": "Structured programming",
+          "representative_formula_en": "Dijkstra's algorithm"
+        },
+        {
+          "year": 1973,
+          "laureates": [
+            "Charles Bachman"
+          ],
+          "discovery": "データベース技術",
+          "representative_formula": null,
+          "discovery_en": "Database technology",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1974,
+          "laureates": [
+            "Donald Knuth"
+          ],
+          "discovery": "アルゴリズム解析・TeX",
+          "representative_formula": "O記法",
+          "discovery_en": "Algorithm analysis, TeX",
+          "representative_formula_en": "Big O notation"
+        },
+        {
+          "year": 1975,
+          "laureates": [
+            "Allen Newell",
+            "Herbert A. Simon"
+          ],
+          "discovery": "AI・認知科学・リスト処理",
+          "representative_formula": null,
+          "discovery_en": "AI, cognitive science, list processing",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1976,
+          "laureates": [
+            "Michael O. Rabin",
+            "Dana Scott"
+          ],
+          "discovery": "非決定性有限オートマトン",
+          "representative_formula": null,
+          "discovery_en": "Nondeterministic finite automata",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1977,
+          "laureates": [
+            "John Backus"
+          ],
+          "discovery": "FORTRAN・BNF",
+          "representative_formula": "BNF",
+          "discovery_en": "FORTRAN, BNF",
+          "representative_formula_en": "BNF"
+        },
+        {
+          "year": 1978,
+          "laureates": [
+            "Robert W. Floyd"
+          ],
+          "discovery": "プログラム検証・アルゴリズム",
+          "representative_formula": "Floyd-Warshall法",
+          "discovery_en": "Program verification, algorithms",
+          "representative_formula_en": "Floyd-Warshall algorithm"
+        },
+        {
+          "year": 1979,
+          "laureates": [
+            "Kenneth E. Iverson"
+          ],
+          "discovery": "APL言語",
+          "representative_formula": null,
+          "discovery_en": "APL language",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1980,
+          "laureates": [
+            "Tony Hoare"
+          ],
+          "discovery": "プログラミング言語設計",
+          "representative_formula": "クイックソート",
+          "discovery_en": "Programming language design",
+          "representative_formula_en": "Quicksort"
+        },
+        {
+          "year": 1981,
+          "laureates": [
+            "Edgar F. Codd"
+          ],
+          "discovery": "リレーショナルデータベース",
+          "representative_formula": "正規形",
+          "discovery_en": "Relational database",
+          "representative_formula_en": "Normal form"
+        },
+        {
+          "year": 1982,
+          "laureates": [
+            "Stephen Cook"
+          ],
+          "discovery": "NP完全性の理論",
+          "representative_formula": "Cook-Levinの定理 SAT $\\in$ NP-complete",
+          "discovery_en": "Theory of NP-completeness",
+          "representative_formula_en": "Cook-Levin theorem SAT $\\in$ NP-complete"
+        },
+        {
+          "year": 1983,
+          "laureates": [
+            "Dennis Ritchie",
+            "Ken Thompson"
+          ],
+          "discovery": "UNIXオペレーティングシステム",
+          "representative_formula": null,
+          "discovery_en": "UNIX operating system",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1984,
+          "laureates": [
+            "Niklaus Wirth"
+          ],
+          "discovery": "Pascal・Modula",
+          "representative_formula": null,
+          "discovery_en": "Pascal, Modula",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1985,
+          "laureates": [
+            "Richard M. Karp"
+          ],
+          "discovery": "NP完全性・アルゴリズム理論",
+          "representative_formula": null,
+          "discovery_en": "NP-completeness, algorithm theory",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1986,
+          "laureates": [
+            "John Hopcroft",
+            "Robert Tarjan"
+          ],
+          "discovery": "アルゴリズム・データ構造",
+          "representative_formula": null,
+          "discovery_en": "Algorithms, data structures",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1987,
+          "laureates": [
+            "John Cocke"
+          ],
+          "discovery": "コンパイラ・RISC",
+          "representative_formula": null,
+          "discovery_en": "Compilers, RISC",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1988,
+          "laureates": [
+            "Ivan Sutherland"
+          ],
+          "discovery": "コンピュータグラフィックス・Sketchpad",
+          "representative_formula": null,
+          "discovery_en": "Computer graphics, Sketchpad",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1989,
+          "laureates": [
+            "William Kahan"
+          ],
+          "discovery": "浮動小数点演算",
+          "representative_formula": "IEEE 754",
+          "discovery_en": "Floating-point arithmetic",
+          "representative_formula_en": "IEEE 754"
+        },
+        {
+          "year": 1990,
+          "laureates": [
+            "Fernando J. Corbató"
+          ],
+          "discovery": "CTSS・Multics",
+          "representative_formula": null,
+          "discovery_en": "CTSS, Multics",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1991,
+          "laureates": [
+            "Robin Milner"
+          ],
+          "discovery": "ML・型推論・CCS",
+          "representative_formula": "π計算",
+          "discovery_en": "ML, type inference, CCS",
+          "representative_formula_en": "π-calculus"
+        },
+        {
+          "year": 1992,
+          "laureates": [
+            "Butler Lampson"
+          ],
+          "discovery": "分散PC・ワークステーション",
+          "representative_formula": null,
+          "discovery_en": "Distributed PCs, workstations",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1993,
+          "laureates": [
+            "Juris Hartmanis",
+            "Richard E. Stearns"
+          ],
+          "discovery": "計算量理論の基礎",
+          "representative_formula": "時間階層定理",
+          "discovery_en": "Foundations of computational complexity theory",
+          "representative_formula_en": "Time hierarchy theorem"
+        },
+        {
+          "year": 1994,
+          "laureates": [
+            "Edward Feigenbaum",
+            "Raj Reddy"
+          ],
+          "discovery": "大規模AIシステム",
+          "representative_formula": null,
+          "discovery_en": "Large-scale AI systems",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1995,
+          "laureates": [
+            "Manuel Blum"
+          ],
+          "discovery": "計算量理論・暗号",
+          "representative_formula": null,
+          "discovery_en": "Computational complexity theory, cryptography",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1996,
+          "laureates": [
+            "Amir Pnueli"
+          ],
+          "discovery": "時相論理・プログラム検証",
+          "representative_formula": null,
+          "discovery_en": "Temporal logic, program verification",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1997,
+          "laureates": [
+            "Douglas Engelbart"
+          ],
+          "discovery": "マウス・ハイパーテキスト",
+          "representative_formula": null,
+          "discovery_en": "Mouse, hypertext",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1998,
+          "laureates": [
+            "Jim Gray"
+          ],
+          "discovery": "データベース・トランザクション",
+          "representative_formula": null,
+          "discovery_en": "Database transactions",
+          "representative_formula_en": null
+        },
+        {
+          "year": 1999,
+          "laureates": [
+            "Fred Brooks"
+          ],
+          "discovery": "コンピュータアーキテクチャ・OS",
+          "representative_formula": null,
+          "discovery_en": "Computer architecture, operating systems",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2000,
+          "laureates": [
+            "Andrew Yao"
+          ],
+          "discovery": "計算理論・暗号・通信複雑度",
+          "representative_formula": null,
+          "discovery_en": "Computational theory, cryptography, communication complexity",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2001,
+          "laureates": [
+            "Ole-Johan Dahl",
+            "Kristen Nygaard"
+          ],
+          "discovery": "オブジェクト指向・Simula",
+          "representative_formula": null,
+          "discovery_en": "Object-oriented programming, Simula",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2002,
+          "laureates": [
+            "Leonard Adleman",
+            "Ron Rivest",
+            "Adi Shamir"
+          ],
+          "discovery": "公開鍵暗号RSA",
+          "representative_formula": "RSA",
+          "discovery_en": "Public-key cryptography RSA",
+          "representative_formula_en": "RSA"
+        },
+        {
+          "year": 2003,
+          "laureates": [
+            "Alan Kay"
+          ],
+          "discovery": "オブジェクト指向・Smalltalk",
+          "representative_formula": null,
+          "discovery_en": "Object-oriented programming, Smalltalk",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2004,
+          "laureates": [
+            "Vint Cerf",
+            "Bob Kahn"
+          ],
+          "discovery": "TCP/IP・インターネット",
+          "representative_formula": null,
+          "discovery_en": "TCP/IP, Internet",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2005,
+          "laureates": [
+            "Peter Naur"
+          ],
+          "discovery": "ALGOL 60・コンパイラ",
+          "representative_formula": "BNF",
+          "discovery_en": "ALGOL 60, compilers",
+          "representative_formula_en": "BNF"
+        },
+        {
+          "year": 2006,
+          "laureates": [
+            "Frances Allen"
+          ],
+          "discovery": "最適化コンパイラ",
+          "representative_formula": null,
+          "discovery_en": "Optimizing compilers",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2007,
+          "laureates": [
+            "Edmund M. Clarke",
+            "E. Allen Emerson",
+            "Joseph Sifakis"
+          ],
+          "discovery": "モデルチェッキング",
+          "representative_formula": null,
+          "discovery_en": "Model checking",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2008,
+          "laureates": [
+            "Barbara Liskov"
+          ],
+          "discovery": "データ抽象・分散計算",
+          "representative_formula": "Liskovの置換原則",
+          "discovery_en": "Data abstraction, distributed computing",
+          "representative_formula_en": "Liskov substitution principle"
+        },
+        {
+          "year": 2009,
+          "laureates": [
+            "Charles P. Thacker"
+          ],
+          "discovery": "Alto・イーサネット",
+          "representative_formula": null,
+          "discovery_en": "Alto, Ethernet",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2010,
+          "laureates": [
+            "Leslie Valiant"
+          ],
+          "discovery": "PAC学習・計算理論",
+          "representative_formula": null,
+          "discovery_en": "PAC learning, computational theory",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2011,
+          "laureates": [
+            "Judea Pearl"
+          ],
+          "discovery": "確率・因果推論",
+          "representative_formula": "ベイジアンネットワーク",
+          "discovery_en": "Probability, causal inference",
+          "representative_formula_en": "Bayesian network"
+        },
+        {
+          "year": 2012,
+          "laureates": [
+            "Shafi Goldwasser",
+            "Silvio Micali"
+          ],
+          "discovery": "暗号の計算量理論的基礎",
+          "representative_formula": null,
+          "discovery_en": "Computational complexity foundations of cryptography",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2013,
+          "laureates": [
+            "Leslie Lamport"
+          ],
+          "discovery": "分散システム・論理クロック",
+          "representative_formula": "Lamportタイムスタンプ",
+          "discovery_en": "Distributed systems, logical clocks",
+          "representative_formula_en": "Lamport timestamp"
+        },
+        {
+          "year": 2014,
+          "laureates": [
+            "Michael Stonebraker"
+          ],
+          "discovery": "データベースシステム",
+          "representative_formula": null,
+          "discovery_en": "Database systems",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2015,
+          "laureates": [
+            "Whitfield Diffie",
+            "Martin Hellman"
+          ],
+          "discovery": "公開鍵暗号・鍵交換",
+          "representative_formula": "Diffie-Hellman $g^{ab} \\bmod p$",
+          "discovery_en": "Public-key cryptography, key exchange",
+          "representative_formula_en": "Diffie-Hellman $g^{ab} \\bmod p$"
+        },
+        {
+          "year": 2016,
+          "laureates": [
+            "Tim Berners-Lee"
+          ],
+          "discovery": "World Wide Web",
+          "representative_formula": "HTTP",
+          "discovery_en": "World Wide Web",
+          "representative_formula_en": "HTTP"
+        },
+        {
+          "year": 2017,
+          "laureates": [
+            "John L. Hennessy",
+            "David Patterson"
+          ],
+          "discovery": "コンピュータアーキテクチャ",
+          "representative_formula": "RISC",
+          "discovery_en": "Computer architecture",
+          "representative_formula_en": "RISC"
+        },
+        {
+          "year": 2018,
+          "laureates": [
+            "Yoshua Bengio",
+            "Geoffrey Hinton",
+            "Yann LeCun"
+          ],
+          "discovery": "ディープラーニング",
+          "representative_formula": "バックプロパゲーション",
+          "discovery_en": "Deep learning",
+          "representative_formula_en": "Backpropagation"
+        },
+        {
+          "year": 2019,
+          "laureates": [
+            "Edwin Catmull",
+            "Pat Hanrahan"
+          ],
+          "discovery": "3D CG・Pixar",
+          "representative_formula": null,
+          "discovery_en": "3D computer graphics, Pixar",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2020,
+          "laureates": [
+            "Alfred Aho",
+            "Jeffrey Ullman"
+          ],
+          "discovery": "コンパイラ・ドラゴンブック",
+          "representative_formula": null,
+          "discovery_en": "Compilers, Dragon Book",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2021,
+          "laureates": [
+            "Jack Dongarra"
+          ],
+          "discovery": "数値アルゴリズム・LINPACK",
+          "representative_formula": null,
+          "discovery_en": "Numerical algorithms, LINPACK",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2022,
+          "laureates": [
+            "Robert Metcalfe"
+          ],
+          "discovery": "イーサネット",
+          "representative_formula": null,
+          "discovery_en": "Ethernet",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2023,
+          "laureates": [
+            "Avi Wigderson"
+          ],
+          "discovery": "計算理論・乱択",
+          "representative_formula": null,
+          "discovery_en": "Computational theory, randomization",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2024,
+          "laureates": [
+            "Andrew Barto",
+            "Richard S. Sutton"
+          ],
+          "discovery": "強化学習の基礎",
+          "representative_formula": "Q学習",
+          "discovery_en": "Foundations of reinforcement learning",
+          "representative_formula_en": "Q-learning"
+        }
       ]
     },
     "lasker": {
@@ -148,12 +1219,77 @@
       "label_en": "Lasker Award",
       "since": 1946,
       "entries": [
-        {"year": 2020, "laureates": ["Harvey Alter", "Michael Houghton", "Charles Rice"], "discovery": "C型肝炎ウイルスの同定", "representative_formula": null},
-        {"year": 2021, "laureates": ["Katalin Karikó", "Drew Weissman"], "discovery": "mRNA修飾・ワクチン基盤", "representative_formula": null},
-        {"year": 2022, "laureates": ["David Baker"], "discovery": "タンパク質構造予測", "representative_formula": null},
-        {"year": 2023, "laureates": ["Demis Hassabis", "John Jumper"], "discovery": "AlphaFold・タンパク質構造予測", "representative_formula": "AlphaFold"},
-        {"year": 2024, "laureates": ["Zhijian James Chen", "Joel Habener", "Lotte Bjerre Knudsen", "Svetlana Mojsov"], "discovery": "先天免疫・GLP-1", "representative_formula": null},
-        {"year": 2025, "laureates": ["Dirk Görlich", "Steven McKnight", "Michael Welsh", "Jesús González", "Paul Negulescu"], "discovery": "核輸送・細胞分化・嚢胞性線維症", "representative_formula": null}
+        {
+          "year": 2020,
+          "laureates": [
+            "Harvey Alter",
+            "Michael Houghton",
+            "Charles Rice"
+          ],
+          "discovery": "C型肝炎ウイルスの同定",
+          "representative_formula": null,
+          "discovery_en": "Identification of hepatitis C virus",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2021,
+          "laureates": [
+            "Katalin Karikó",
+            "Drew Weissman"
+          ],
+          "discovery": "mRNA修飾・ワクチン基盤",
+          "representative_formula": null,
+          "discovery_en": "mRNA modification, vaccine platform",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2022,
+          "laureates": [
+            "David Baker"
+          ],
+          "discovery": "タンパク質構造予測",
+          "representative_formula": null,
+          "discovery_en": "Protein structure prediction",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2023,
+          "laureates": [
+            "Demis Hassabis",
+            "John Jumper"
+          ],
+          "discovery": "AlphaFold・タンパク質構造予測",
+          "representative_formula": "AlphaFold",
+          "discovery_en": "AlphaFold, protein structure prediction",
+          "representative_formula_en": "AlphaFold"
+        },
+        {
+          "year": 2024,
+          "laureates": [
+            "Zhijian James Chen",
+            "Joel Habener",
+            "Lotte Bjerre Knudsen",
+            "Svetlana Mojsov"
+          ],
+          "discovery": "先天免疫・GLP-1",
+          "representative_formula": null,
+          "discovery_en": "Innate immunity, GLP-1",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2025,
+          "laureates": [
+            "Dirk Görlich",
+            "Steven McKnight",
+            "Michael Welsh",
+            "Jesús González",
+            "Paul Negulescu"
+          ],
+          "discovery": "核輸送・細胞分化・嚢胞性線維症",
+          "representative_formula": null,
+          "discovery_en": "Nuclear transport, cell differentiation, cystic fibrosis",
+          "representative_formula_en": null
+        }
       ]
     },
     "copley": {
@@ -161,12 +1297,66 @@
       "label_en": "Copley Medal",
       "since": 1731,
       "entries": [
-        {"year": 2020, "laureates": ["Sir Alan Fersht"], "discovery": "タンパク質折り畳みの原子分解能解析", "representative_formula": null},
-        {"year": 2021, "laureates": ["Dame Jocelyn Bell Burnell"], "discovery": "パルサーの発見", "representative_formula": null},
-        {"year": 2022, "laureates": ["Oxford-AstraZeneca Vaccine Team"], "discovery": "COVID-19ワクチンの迅速開発", "representative_formula": null},
-        {"year": 2023, "laureates": ["Martin Rees"], "discovery": "理論天体物理学", "representative_formula": null},
-        {"year": 2024, "laureates": ["Sir Gregory Paul Winter"], "discovery": "抗体工学・治療用抗体", "representative_formula": null},
-        {"year": 2025, "laureates": ["Sir John Pendry"], "discovery": "メタマテリアル・電磁気学", "representative_formula": null}
+        {
+          "year": 2020,
+          "laureates": [
+            "Sir Alan Fersht"
+          ],
+          "discovery": "タンパク質折り畳みの原子分解能解析",
+          "representative_formula": null,
+          "discovery_en": "Atomic-resolution analysis of protein folding",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2021,
+          "laureates": [
+            "Dame Jocelyn Bell Burnell"
+          ],
+          "discovery": "パルサーの発見",
+          "representative_formula": null,
+          "discovery_en": "Discovery of pulsars",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2022,
+          "laureates": [
+            "Oxford-AstraZeneca Vaccine Team"
+          ],
+          "discovery": "COVID-19ワクチンの迅速開発",
+          "representative_formula": null,
+          "discovery_en": "Rapid development of COVID-19 vaccine",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2023,
+          "laureates": [
+            "Martin Rees"
+          ],
+          "discovery": "理論天体物理学",
+          "representative_formula": null,
+          "discovery_en": "Theoretical astrophysics",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2024,
+          "laureates": [
+            "Sir Gregory Paul Winter"
+          ],
+          "discovery": "抗体工学・治療用抗体",
+          "representative_formula": null,
+          "discovery_en": "Antibody engineering, therapeutic antibodies",
+          "representative_formula_en": null
+        },
+        {
+          "year": 2025,
+          "laureates": [
+            "Sir John Pendry"
+          ],
+          "discovery": "メタマテリアル・電磁気学",
+          "representative_formula": null,
+          "discovery_en": "Metamaterials, electromagnetism",
+          "representative_formula_en": null
+        }
       ]
     }
   }
