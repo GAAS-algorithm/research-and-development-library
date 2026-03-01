@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Foundational Mathematics Taxonomy",
+  "description": "IAS, IHES等が研究する最先端の純粋数学。model, functor, duality等の抽象的枠組みによる分類。",
+  "version": "1.0.0",
+  "principle": "R&D と双方向共創。数学→R&D のブレイクスルーも R&D→数学 のブレイクスルーもあり得る。前工程でも同列の下位でもない。",
+  "institutions": ["IAS", "IHES", "Max Planck (Mathematics)", "Bonn HCM", "MIT Math", "Stanford Math"],
+  "also_notable": ["Oxford", "Cambridge", "Princeton", "ETH Zurich", "Paris (IHES, ENS)", "CAS", "RIKEN"],
+  "classification_axes": {
+    "framework": {
+      "label_en": "Framework",
+      "label_ja": "抽象的枠組み",
+      "description": "研究が依拠する数学的枠組み",
+      "values": [
+        { "id": "category_theory", "label_en": "Category Theory", "label_ja": "圏論" },
+        { "id": "model_theory", "label_en": "Model Theory", "label_ja": "モデル理論" },
+        { "id": "sheaf_theory", "label_en": "Sheaf Theory", "label_ja": "層論" },
+        { "id": "homological_algebra", "label_en": "Homological Algebra", "label_ja": "ホモロジー代数" },
+        { "id": "topos_theory", "label_en": "Topos Theory", "label_ja": "トポス論" },
+        { "id": "higher_category_theory", "label_en": "Higher Category Theory", "label_ja": "高次圏論" }
+      ]
+    },
+    "core_concept": {
+      "label_en": "Core Concept",
+      "label_ja": "中核概念",
+      "description": "研究の中核をなす概念",
+      "values": [
+        { "id": "functor", "label_en": "Functor", "label_ja": "関手" },
+        { "id": "duality", "label_en": "Duality", "label_ja": "双対性" },
+        { "id": "model", "label_en": "Model", "label_ja": "モデル" },
+        { "id": "moduli", "label_en": "Moduli", "label_ja": "モジュライ" },
+        { "id": "representation", "label_en": "Representation", "label_ja": "表現" },
+        { "id": "cohomology", "label_en": "Cohomology", "label_ja": "コホモロジー" }
+      ]
+    },
+    "duality_type": {
+      "label_en": "Duality Type",
+      "label_ja": "双対性の種類",
+      "description": "duality を細分化。nLab, Wikipedia 等に準拠",
+      "values": [
+        { "id": "opposite_category", "label_en": "Opposite Category", "label_ja": "反対圏" },
+        { "id": "stone_duality", "label_en": "Stone / Gelfand Duality", "label_ja": "Stone・Gelfand双対" },
+        { "id": "pontryagin_duality", "label_en": "Pontryagin Duality", "label_ja": "ポントリャーギン双対" },
+        { "id": "serre_duality", "label_en": "Serre Duality", "label_ja": "セール双対" },
+        { "id": "grothendieck_duality", "label_en": "Grothendieck Duality", "label_ja": "グロタンディーク双対" },
+        { "id": "langlands_duality", "label_en": "Langlands Duality", "label_ja": "ラングランズ双対" },
+        { "id": "isbell_duality", "label_en": "Isbell Duality", "label_ja": "Isbell双対" },
+        { "id": "koszul_duality", "label_en": "Koszul Duality", "label_ja": "Koszul双対" },
+        { "id": "poincare_duality", "label_en": "Poincaré Duality", "label_ja": "ポアンカレ双対" }
+      ]
+    },
+    "geometric_area": {
+      "label_en": "Geometric Area",
+      "label_ja": "幾何的領域",
+      "description": "幾何学の下位領域",
+      "values": [
+        { "id": "algebraic_geometry", "label_en": "Algebraic Geometry", "label_ja": "代数幾何" },
+        { "id": "arithmetic_geometry", "label_en": "Arithmetic Geometry", "label_ja": "数論幾何" },
+        { "id": "p_adic_geometry", "label_en": "p-adic Geometry", "label_ja": "p進幾何" },
+        { "id": "differential_geometry", "label_en": "Differential Geometry", "label_ja": "微分幾何" },
+        { "id": "symplectic_geometry", "label_en": "Symplectic Geometry", "label_ja": "シンプレクティック幾何" },
+        { "id": "derived_geometry", "label_en": "Derived Geometry", "label_ja": "導来幾何" }
+      ]
+    },
+    "algebraic_area": {
+      "label_en": "Algebraic Area",
+      "label_ja": "代数的領域",
+      "values": [
+        { "id": "representation_theory", "label_en": "Representation Theory", "label_ja": "表現論" },
+        { "id": "number_theory", "label_en": "Number Theory", "label_ja": "数論" },
+        { "id": "group_theory", "label_en": "Group Theory", "label_ja": "群論" },
+        { "id": "homological_algebra", "label_en": "Homological Algebra", "label_ja": "ホモロジー代数" }
+      ]
+    }
+  },
+  "rd_entry_mapping": {
+    "academic": {
+      "domain": "natural_sciences",
+      "field": "mathematics",
+      "discipline": "geometry | algebra | logic | topology"
+    },
+    "dimensions": {
+      "subject": "conceptual",
+      "intent": "fundamental",
+      "scale": "conceptual (no physical scale)"
+    },
+    "foundational_math": {
+      "description": "academic に加え、本タクソノミーの軸で詳細分類。frontier_topics とは別軸（基盤 vs 応用）。"
+    }
+  },
+  "example_entries": {
+    "geometric_langlands": {
+      "framework": "category_theory",
+      "core_concept": "duality",
+      "duality_type": "langlands_duality",
+      "geometric_area": "algebraic_geometry"
+    },
+    "higher_category": {
+      "framework": "higher_category_theory",
+      "core_concept": "functor"
+    },
+    "model_theory_stable": {
+      "framework": "model_theory",
+      "core_concept": "model"
+    }
+  },
+  "top_institutions": ["IAS (Institute for Advanced Study)", "IHES", "Max Planck Institute for Mathematics"],
+  "references": ["nLab", "Wikipedia: Duality (mathematics)", "IAS School of Mathematics", "IHES"]
+}

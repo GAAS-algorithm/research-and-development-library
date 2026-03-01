@@ -1,0 +1,234 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Frontier Topics",
+  "description": "ブレイクスルーが予測される領域。通常の学術分類に収まらず、別トピックとして重点追跡すべき研究領域。",
+  "version": "1.0.0",
+  "principle": "Breakthrough-predicted areas warrant distinct topicalization. Track separately from standard taxonomy.",
+  "topics": [
+    {
+      "id": "nuclear_fission",
+      "label_en": "Nuclear Fission",
+      "label_ja": "核分裂",
+      "description": "次世代原子炉（SMR, 溶融塩炉, 高速炉）、核廃棄物処理、安全性",
+      "breakthrough_drivers": ["SMR commercialization", "fusion-fission hybrid", "waste transmutation"],
+      "related_domains": ["natural_sciences", "engineering_technology"],
+      "related_fields": ["physics", "nuclear_engineering", "materials_engineering"],
+      "top_institutions": ["TerraPower", "NuScale Power", "Idaho National Laboratory"],
+      "also_notable": ["RIKEN", "CNRS", "Helmholtz"]
+    },
+    {
+      "id": "nuclear_fusion",
+      "label_en": "Nuclear Fusion",
+      "label_ja": "核融合",
+      "description": "磁場閉じ込め（トカマク、ステラレータ）、慣性閉じ込め、レーザー核融合",
+      "breakthrough_drivers": ["ITER", "NIF ignition", "private fusion (Helion, TAE, Commonwealth)"],
+      "related_domains": ["natural_sciences", "engineering_technology"],
+      "related_fields": ["physics", "plasma_physics", "nuclear_engineering"],
+      "top_institutions": ["ITER", "Commonwealth Fusion Systems", "MIT Plasma Science and Fusion Center"],
+      "also_notable": ["CAS", "Lawrence Livermore (NIF)", "Helion", "TAE"]
+    },
+    {
+      "id": "superconductivity",
+      "label_en": "Superconductivity",
+      "label_ja": "超伝導",
+      "description": "高温超伝導、室温超伝導、実用化（送電、MRI、量子計算）",
+      "breakthrough_drivers": ["room-temperature SC claims", "cuprates/iron-based", "hydrides under pressure"],
+      "related_domains": ["natural_sciences", "engineering_technology"],
+      "related_fields": ["physics", "condensed_matter", "materials_science"],
+      "top_institutions": ["University of Rochester (Dias Group)", "MIT", "IBM Research"],
+      "also_notable": ["CAS", "RIKEN", "Fraunhofer"]
+    },
+    {
+      "id": "quantum_computing",
+      "label_en": "Quantum Computing",
+      "label_ja": "量子コンピューティング",
+      "description": "量子ビット、エラー訂正、NISQ、アルゴリズム",
+      "breakthrough_drivers": ["fault tolerance", "quantum advantage", "scalable qubits"],
+      "related_domains": ["natural_sciences", "engineering_technology"],
+      "related_fields": ["physics", "computer_science"],
+      "top_institutions": ["IBM Quantum", "Google Quantum AI", "IonQ"],
+      "also_notable": ["CAS", "USTC", "Oxford", "Cambridge", "ETH Zurich"]
+    },
+    {
+      "id": "artificial_general_intelligence",
+      "label_en": "Artificial General Intelligence",
+      "label_ja": "汎用人工知能",
+      "description": "AGI、基盤モデル、推論、エージェント",
+      "breakthrough_drivers": ["scaling laws", "reasoning", "embodied AI"],
+      "related_domains": ["engineering_technology"],
+      "related_fields": ["computer_science", "artificial_intelligence"],
+      "top_institutions": ["OpenAI", "Google DeepMind", "Anthropic"],
+      "also_notable": ["Amazon", "Meta", "Microsoft", "Huawei"]
+    },
+    {
+      "id": "synthetic_biology",
+      "label_en": "Synthetic Biology",
+      "label_ja": "合成生物学",
+      "description": "遺伝子編集、代謝工学、人工細胞、バイオファウンダリー",
+      "breakthrough_drivers": ["CRISPR evolution", "cell-free systems", "bio-manufacturing"],
+      "related_domains": ["natural_sciences", "medical_health", "engineering_technology"],
+      "related_fields": ["biological_sciences", "biotechnology"],
+      "top_institutions": ["Broad Institute", "MIT", "UC Berkeley"],
+      "also_notable": ["Harvard", "CAS", "RIKEN"]
+    },
+    {
+      "id": "brain_computer_interface",
+      "label_en": "Brain-Computer Interface",
+      "label_ja": "脳コンピュータインターフェース",
+      "description": "神経義肢、Neuralink型、解読・符号化",
+      "breakthrough_drivers": ["invasive vs non-invasive", "clinical trials", "neural decoding"],
+      "related_domains": ["medical_health", "engineering_technology"],
+      "related_fields": ["neuroscience", "biomedical_engineering"],
+      "top_institutions": ["Neuralink", "Synchron", "University of Pittsburgh"],
+      "also_notable": ["Stanford", "NIH", "Caltech"]
+    },
+    {
+      "id": "carbon_capture_utilization",
+      "label_en": "Carbon Capture & Utilization",
+      "label_ja": "二酸化炭素回収・利用",
+      "description": "DAC、CCS、CO2変換、負の排出",
+      "breakthrough_drivers": ["cost reduction", "mineralization", "e-fuels"],
+      "related_domains": ["engineering_technology", "natural_sciences"],
+      "related_fields": ["chemical_engineering", "environmental_science"],
+      "top_institutions": ["Climeworks", "Occidental Petroleum", "Carbon Engineering"],
+      "also_notable": ["CAS", "DOE", "Fraunhofer"]
+    },
+    {
+      "id": "space_propulsion",
+      "label_en": "Space Propulsion",
+      "label_ja": "宇宙推進",
+      "description": "電気推進、核推進、太陽帆、反物質",
+      "breakthrough_drivers": ["nuclear thermal", "ion drives", "deep space missions"],
+      "related_domains": ["engineering_technology"],
+      "related_fields": ["aerospace_engineering", "physics"],
+      "top_institutions": ["NASA", "SpaceX", "BWX Technologies"],
+      "also_notable": ["CAS (CNSA)", "ESA", "JAXA"]
+    },
+    {
+      "id": "longevity_aging",
+      "label_en": "Longevity & Aging",
+      "label_ja": "長寿・老化",
+      "description": "老化メカニズム、セノリティクス、寿命延伸",
+      "breakthrough_drivers": ["senolytics", "epigenetic reprogramming", "biomarkers"],
+      "related_domains": ["medical_health", "natural_sciences"],
+      "related_fields": ["biological_sciences", "medicine"],
+      "top_institutions": ["Altos Labs", "Calico Labs", "Buck Institute"],
+      "also_notable": ["NIH", "Harvard", "Stanford"]
+    },
+    {
+      "id": "solid_state_battery",
+      "label_en": "Solid-State Battery",
+      "label_ja": "全固体電池",
+      "description": "固体電解質、リチウム金属、エネルギー密度",
+      "breakthrough_drivers": ["sulfide/oxide electrolytes", "EV adoption", "manufacturing scale"],
+      "related_domains": ["engineering_technology", "natural_sciences"],
+      "related_fields": ["materials_science", "chemical_engineering"],
+      "top_institutions": ["QuantumScape", "Toyota", "Samsung SDI"],
+      "also_notable": ["CAS", "Huawei", "AIST"]
+    },
+    {
+      "id": "geothermal_deep",
+      "label_en": "Deep Geothermal",
+      "label_ja": "深部地熱",
+      "description": "EGS、超臨界地熱、掘削技術",
+      "breakthrough_drivers": ["drilling cost", "enhanced geothermal", "baseload renewable"],
+      "related_domains": ["engineering_technology", "natural_sciences"],
+      "related_fields": ["earth_sciences", "mechanical_engineering"],
+      "top_institutions": ["Fervo Energy", "Quaise Energy", "DOE Geothermal Technologies Office"],
+      "also_notable": ["Fraunhofer", "CNRS", "AIST"]
+    },
+    {
+      "id": "gravitational_wave",
+      "label_en": "Gravitational Wave",
+      "label_ja": "重力波",
+      "description": "LIGO/Virgo/KAGRA、マルチメッセンジャー天文学、ブラックホール・中性子星合体",
+      "breakthrough_drivers": ["LIGO O4", "Einstein Telescope", "space-based LISA"],
+      "related_domains": ["natural_sciences"],
+      "related_fields": ["physics", "astrophysics", "gravitational_physics"],
+      "top_institutions": ["LIGO (Caltech/MIT)", "Virgo (EGO)", "KAGRA (ICRR)"],
+      "also_notable": ["CNRS", "Max Planck", "Stanford"]
+    },
+    {
+      "id": "particle_physics",
+      "label_en": "Particle Physics",
+      "label_ja": "素粒子物理学",
+      "description": "極限スケール：zepto second (10^-21 s)、subattometer (10^-19 m)、LHC、将来加速器",
+      "breakthrough_drivers": ["HL-LHC", "FCC", "attosecond/zeptosecond spectroscopy"],
+      "related_domains": ["natural_sciences"],
+      "related_fields": ["physics", "particle_physics", "quantum_field_theory"],
+      "top_institutions": ["CERN", "Fermilab", "SLAC National Accelerator Laboratory"],
+      "also_notable": ["CAS", "RIKEN", "KEK"]
+    },
+    {
+      "id": "semiconductors",
+      "label_en": "Semiconductors",
+      "label_ja": "半導体",
+      "description": "AIハードウェア、チップレット、先進プロセス、NorthPole型アクセラレータ",
+      "breakthrough_drivers": ["AI inference chips", "chiplets", "co-packaged optics", "sub-2nm process"],
+      "related_domains": ["engineering_technology", "natural_sciences"],
+      "related_fields": ["electrical_engineering", "materials_science", "computer_science"],
+      "top_institutions": ["IBM Research", "Intel", "NVIDIA"],
+      "also_notable": ["TSMC", "Samsung", "Huawei", "NIST"]
+    },
+    {
+      "id": "post_quantum_cryptography",
+      "label_en": "Post-Quantum Cryptography",
+      "label_ja": "量子耐性暗号",
+      "description": "PQC、量子コンピュータ耐性暗号、FIPS 203/204/205、鍵交換・署名",
+      "breakthrough_drivers": ["NIST PQC standardization", "ML-KEM/ML-DSA/SLH-DSA", "migration to 2035"],
+      "related_domains": ["engineering_technology", "natural_sciences"],
+      "related_fields": ["computer_science", "mathematics", "cryptography"],
+      "top_institutions": ["NIST", "IBM", "Microsoft"],
+      "also_notable": ["Google", "CAS", "Fraunhofer"]
+    },
+    {
+      "id": "climate_weather_ai",
+      "label_en": "Climate & Weather AI",
+      "label_ja": "気候・気象AI",
+      "description": "大気基盤モデル、Aurora/ClimaX、極端気象予測、海洋・汚染予測",
+      "breakthrough_drivers": ["foundation models for atmosphere", "10-day global forecast", "extreme weather prediction"],
+      "related_domains": ["engineering_technology", "natural_sciences"],
+      "related_fields": ["computer_science", "earth_sciences", "environmental_science"],
+      "top_institutions": ["Microsoft Research", "Google", "NOAA"],
+      "also_notable": ["CAS", "ECMWF", "ETH Zurich"]
+    },
+    {
+      "id": "precision_medicine_ai",
+      "label_en": "Precision Medicine AI",
+      "label_ja": "精密医療AI",
+      "description": "がん早期検出、創薬加速、タンパク質設計、マルチモーダル医療AI",
+      "breakthrough_drivers": ["AI cancer detection", "drug discovery", "AlphaProteo", "precision health"],
+      "related_domains": ["medical_health", "engineering_technology"],
+      "related_fields": ["medicine", "biological_sciences", "artificial_intelligence"],
+      "top_institutions": ["NIH", "Microsoft Research", "Google DeepMind"],
+      "also_notable": ["Broad Institute", "Harvard", "Stanford", "CAS"]
+    },
+    {
+      "id": "cybersecurity",
+      "label_en": "Cybersecurity",
+      "label_ja": "サイバーセキュリティ",
+      "description": "暗号、耐災害性、インフラ保護、ゼロトラスト",
+      "breakthrough_drivers": ["quantum-safe migration", "resilience", "critical infrastructure"],
+      "related_domains": ["engineering_technology"],
+      "related_fields": ["computer_science", "cryptography", "systems_engineering"],
+      "top_institutions": ["NIST", "Microsoft", "Google"],
+      "also_notable": ["Huawei", "CAS", "Oxford"]
+    },
+    {
+      "id": "trustworthy_ai",
+      "label_en": "Trustworthy AI",
+      "label_ja": "信頼性の高いAI",
+      "description": "AI安全、ガバナンス、事実性・根拠付け、プライバシー、AIリスク管理",
+      "breakthrough_drivers": ["AI Risk Management Framework", "factuality", "synthetic data governance"],
+      "related_domains": ["engineering_technology", "social_sciences"],
+      "related_fields": ["computer_science", "artificial_intelligence", "ethics"],
+      "top_institutions": ["NIST", "Microsoft", "Anthropic"],
+      "also_notable": ["Oxford", "Cambridge", "EPFL"]
+    }
+  ],
+  "usage": {
+    "rd_entry_field": "frontier_topics",
+    "description": "エントリに frontier_topics の id を配列で付与。複数可。",
+    "also_notable": "抜け漏れチェックで追加した機関。top_institutions と合わせて参照。"
+  }
+}

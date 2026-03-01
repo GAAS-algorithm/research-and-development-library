@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/research-and-development-library/schema/rd-entry.schema.json",
   "title": "R&D Entry",
-  "description": "世界最先端R&Dのエントリスキーマ。学術分野を主軸、産業分類を補助軸とするハイブリッド設計。Incompressibility Principle に基づき、複数の判断軸を持つ多次元構造をサポート。",
+  "description": "世界最先端R&Dのエントリスキーマ。パッケージ化できない多次元複雑系として設計。学術主軸・産業補助軸・複数判断軸・双方向リンク。",
   "type": "object",
   "required": ["id", "title", "origin", "academic", "citation"],
   "properties": {
@@ -138,6 +138,37 @@
       "type": "string",
       "enum": ["theoretical", "prototype", "commercialized", "standardized"],
       "description": "成熟度フェーズ"
+    },
+    "frontier_topics": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "ブレイクスルー予測領域。frontier-topics.json の id を指定。"
+    },
+    "foundational_math": {
+      "type": "object",
+      "description": "IAS, IHES等の純粋数学。foundational-mathematics.json の軸で分類。R&Dと双方向共創。",
+      "properties": {
+        "framework": { "type": "string", "description": "枠組み: category_theory, model_theory, sheaf_theory 等" },
+        "core_concept": { "type": "string", "description": "中核概念: functor, duality, model 等" },
+        "duality_type": { "type": "string", "description": "双対性の種類（duality の場合）" },
+        "geometric_area": { "type": "string", "description": "幾何的領域" },
+        "algebraic_area": { "type": "string", "description": "代数的領域" }
+      }
+    },
+    "informs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "本エントリが影響を与える他エントリのID。数学→R&D、R&D→数学の双方向リンク。"
+    },
+    "informed_by": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "本エントリが影響を受けた他エントリのID。"
+    },
+    "related_awards": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "関連する研究賞。research-awards.json の id を指定。受賞者・候補者の研究を追跡。"
     },
     "dimensions": {
       "type": "array",

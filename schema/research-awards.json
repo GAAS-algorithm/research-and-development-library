@@ -1,0 +1,224 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Research Awards",
+  "description": "研究者を格付けする主要なコンペティション・賞。規模・インパクト順。",
+  "version": "1.0.0",
+  "ranking_criteria": ["規模（賞金額・授与数）", "インパクト（権威・Nobel予測力・認知度）"],
+  "awards": [
+    {
+      "id": "nobel",
+      "label_en": "Nobel Prize",
+      "label_ja": "ノーベル賞",
+      "fields": ["physics", "chemistry", "physiology_medicine", "literature", "peace", "economic_sciences"],
+      "prize_money_usd": 1200000,
+      "frequency": "annual",
+      "since": 1901,
+      "impact": "highest",
+      "note": "科学賞の最高峰。数学は含まない。"
+    },
+    {
+      "id": "breakthrough",
+      "label_en": "Breakthrough Prize",
+      "label_ja": "ブレイクスルー賞",
+      "fields": ["life_sciences", "fundamental_physics", "mathematics"],
+      "prize_money_usd": 3000000,
+      "frequency": "annual",
+      "since": 2012,
+      "impact": "very_high",
+      "note": "賞金額最大。Brin, Zuckerberg, Milner等が設立。累計$308M配分。"
+    },
+    {
+      "id": "abel",
+      "label_en": "Abel Prize",
+      "label_ja": "アーベル賞",
+      "fields": ["mathematics"],
+      "prize_money_usd": 873000,
+      "frequency": "annual",
+      "since": 2003,
+      "impact": "very_high",
+      "note": "数学のNobel相当。ノルウェー政府。年齢制限なし。"
+    },
+    {
+      "id": "fields",
+      "label_en": "Fields Medal",
+      "label_ja": "フィールズ賞",
+      "fields": ["mathematics"],
+      "prize_money_usd": 15000,
+      "frequency": "quadrennial",
+      "since": 1936,
+      "impact": "very_high",
+      "note": "数学最高栄誉。40歳未満。ICMで授与。"
+    },
+    {
+      "id": "turing",
+      "label_en": "Turing Award",
+      "label_ja": "チューリング賞",
+      "fields": ["computer_science"],
+      "prize_money_usd": 1000000,
+      "frequency": "annual",
+      "since": 1966,
+      "impact": "very_high",
+      "note": "計算機科学のNobel。ACM主催。"
+    },
+    {
+      "id": "kyoto",
+      "label_en": "Kyoto Prize",
+      "label_ja": "京都賞",
+      "fields": ["advanced_technology", "basic_sciences", "arts_philosophy"],
+      "prize_money_usd": 700000,
+      "frequency": "annual",
+      "since": 1985,
+      "impact": "high",
+      "note": "日本最高の民間賞。稲盛財団。"
+    },
+    {
+      "id": "crafoord",
+      "label_en": "Crafoord Prize",
+      "label_ja": "クラフォード賞",
+      "fields": ["mathematics", "astronomy", "biosciences", "geosciences", "polyarthritis"],
+      "prize_money_usd": 600000,
+      "frequency": "annual",
+      "since": 1982,
+      "impact": "high",
+      "note": "スウェーデン王立科学アカデミー。Nobelにない分野を補完。"
+    },
+    {
+      "id": "lasker",
+      "label_en": "Lasker Award",
+      "label_ja": "ラスカー賞",
+      "fields": ["medicine"],
+      "prize_money_usd": 250000,
+      "frequency": "annual",
+      "since": 1946,
+      "impact": "very_high",
+      "note": "Nobel医学賞の有力予測指標。米国。"
+    },
+    {
+      "id": "wolf",
+      "label_en": "Wolf Prize",
+      "label_ja": "ウルフ賞",
+      "fields": ["agriculture", "chemistry", "mathematics", "medicine", "physics", "arts"],
+      "prize_money_usd": 100000,
+      "frequency": "annual",
+      "since": 1978,
+      "impact": "high",
+      "note": "物理・化学はNobel次点。14/26の物理受賞者が後にNobel。"
+    },
+    {
+      "id": "shaw",
+      "label_en": "Shaw Prize",
+      "label_ja": "邵逸夫賞",
+      "fields": ["astronomy", "life_sciences", "mathematical_sciences"],
+      "prize_money_usd": 1200000,
+      "frequency": "annual",
+      "since": 2004,
+      "impact": "high",
+      "note": "香港。アジアのNobel。"
+    },
+    {
+      "id": "kavli",
+      "label_en": "Kavli Prize",
+      "label_ja": "カブリ賞",
+      "fields": ["astrophysics", "nanoscience", "neuroscience"],
+      "prize_money_usd": 1000000,
+      "frequency": "biennial",
+      "since": 2008,
+      "impact": "high",
+      "note": "ノルウェー。宇宙・ナノ・脳科学。"
+    },
+    {
+      "id": "copley",
+      "label_en": "Copley Medal",
+      "label_ja": "コプリ・メダル",
+      "fields": ["all_sciences"],
+      "prize_money_usd": 0,
+      "frequency": "annual",
+      "since": 1731,
+      "impact": "very_high",
+      "note": "世界最古の科学賞。英国王立協会。"
+    },
+    {
+      "id": "gairdner",
+      "label_en": "Canada Gairdner Award",
+      "label_ja": "ガードナー国際賞",
+      "fields": ["medicine"],
+      "prize_money_usd": 100000,
+      "frequency": "annual",
+      "since": 1959,
+      "impact": "high",
+      "note": "Nobel医学賞の有力予測。"
+    },
+    {
+      "id": "brain_prize",
+      "label_en": "Brain Prize",
+      "label_ja": "ブレイン賞",
+      "fields": ["neuroscience"],
+      "prize_money_usd": 1300000,
+      "frequency": "annual",
+      "since": 2011,
+      "impact": "high",
+      "note": "神経科学の最高賞。デンマーク。"
+    },
+    {
+      "id": "gauss",
+      "label_en": "Gauss Prize",
+      "label_ja": "ガウス賞",
+      "fields": ["applied_mathematics"],
+      "prize_money_usd": 0,
+      "frequency": "quadrennial",
+      "since": 2006,
+      "impact": "medium_high",
+      "note": "応用数学。ICMで授与。"
+    },
+    {
+      "id": "nevanlinna",
+      "label_en": "IMU Abacus Medal",
+      "label_ja": "ネヴァンリンナ賞（アバカス賞）",
+      "fields": ["theoretical_computer_science"],
+      "prize_money_usd": 0,
+      "frequency": "quadrennial",
+      "since": 1982,
+      "impact": "high",
+      "note": "計算機科学の理論的側面。40歳未満。"
+    },
+    {
+      "id": "millennium_technology",
+      "label_en": "Millennium Technology Prize",
+      "label_ja": "ミレニアム技術賞",
+      "fields": ["technology"],
+      "prize_money_usd": 1000000,
+      "frequency": "biennial",
+      "since": 2004,
+      "impact": "high",
+      "note": "フィンランド。技術革新。"
+    },
+    {
+      "id": "queen_elizabeth_prize",
+      "label_en": "Queen Elizabeth Prize for Engineering",
+      "label_ja": "クイーン・エリザベス工学賞",
+      "fields": ["engineering"],
+      "prize_money_usd": 1200000,
+      "frequency": "annual",
+      "since": 2013,
+      "impact": "high",
+      "note": "英国。工学のNobel。"
+    },
+    {
+      "id": "tang",
+      "label_en": "Tang Prize",
+      "label_ja": "唐奨",
+      "fields": ["sustainable_development", "biomedicine", "sinology", "rule_of_law"],
+      "prize_money_usd": 1700000,
+      "frequency": "biennial",
+      "since": 2014,
+      "impact": "high",
+      "note": "台湾。アジア。"
+    }
+  ],
+  "by_impact_tier": {
+    "tier1": ["nobel", "breakthrough", "abel", "fields", "turing", "lasker", "copley"],
+    "tier2": ["kyoto", "crafoord", "wolf", "shaw", "kavli", "gairdner", "brain_prize", "nevanlinna"],
+    "tier3": ["gauss", "millennium_technology", "queen_elizabeth_prize", "tang"]
+  },
+  "references": ["Wikipedia: List of awards considered the highest in a field", "Nature", "各賞公式サイト"]
+}

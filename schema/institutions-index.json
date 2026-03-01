@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Institutions Index",
+  "description": "世界の予算規模・著名度の高い研究機関の一覧。抜け漏れチェック用。Nature Index, THE, 予算データ等を参照。",
+  "version": "1.0.0",
+  "sources": ["Nature Index 2024", "EU R&D Scoreboard 2024", "NSF NCSES", "THE World Rankings"],
+  "categories": {
+    "academic_top": {
+      "label_ja": "トップ大学",
+      "institutions": [
+        { "id": "harvard", "name": "Harvard University", "country": "US" },
+        { "id": "stanford", "name": "Stanford University", "country": "US" },
+        { "id": "mit", "name": "MIT", "country": "US" },
+        { "id": "oxford", "name": "University of Oxford", "country": "UK" },
+        { "id": "cambridge", "name": "University of Cambridge", "country": "UK" },
+        { "id": "caltech", "name": "Caltech", "country": "US" },
+        { "id": "berkeley", "name": "UC Berkeley", "country": "US" },
+        { "id": "princeton", "name": "Princeton University", "country": "US" },
+        { "id": "yale", "name": "Yale University", "country": "US" },
+        { "id": "eth_zurich", "name": "ETH Zurich", "country": "CH" },
+        { "id": "epfl", "name": "EPFL", "country": "CH" },
+        { "id": "tokyo", "name": "University of Tokyo", "country": "JP" },
+        { "id": "kyoto", "name": "Kyoto University", "country": "JP" },
+        { "id": "tsinghua", "name": "Tsinghua University", "country": "CN" },
+        { "id": "peking", "name": "Peking University", "country": "CN" },
+        { "id": "ustc", "name": "University of Science and Technology of China", "country": "CN" }
+      ]
+    },
+    "national_academies": {
+      "label_ja": "国立研究機関・アカデミー",
+      "institutions": [
+        { "id": "cas", "name": "Chinese Academy of Sciences (CAS)", "country": "CN", "note": "Nature Index #1" },
+        { "id": "cnrs", "name": "CNRS", "country": "FR", "note": "欧州最大級" },
+        { "id": "max_planck", "name": "Max Planck Society", "country": "DE", "note": "Nature Index #4" },
+        { "id": "riken", "name": "RIKEN", "country": "JP", "note": "日本最大" },
+        { "id": "helmholtz", "name": "Helmholtz Association", "country": "DE" },
+        { "id": "fraunhofer", "name": "Fraunhofer-Gesellschaft", "country": "DE", "note": "応用研究" },
+        { "id": "nih", "name": "NIH", "country": "US", "note": "約$47B予算" },
+        { "id": "nasa", "name": "NASA", "country": "US" },
+        { "id": "doe", "name": "DOE (National Labs)", "country": "US" },
+        { "id": "nsf", "name": "NSF", "country": "US" },
+        { "id": "cern", "name": "CERN", "country": "CH" },
+        { "id": "aist", "name": "AIST (産総研)", "country": "JP" },
+        { "id": "jst", "name": "JST", "country": "JP" }
+      ]
+    },
+    "corporate_rd": {
+      "label_ja": "企業R&D",
+      "institutions": [
+        { "id": "alphabet", "name": "Alphabet/Google", "country": "US" },
+        { "id": "microsoft", "name": "Microsoft", "country": "US" },
+        { "id": "amazon", "name": "Amazon", "country": "US" },
+        { "id": "meta", "name": "Meta", "country": "US" },
+        { "id": "apple", "name": "Apple", "country": "US" },
+        { "id": "ibm", "name": "IBM", "country": "US" },
+        { "id": "intel", "name": "Intel", "country": "US" },
+        { "id": "nvidia", "name": "NVIDIA", "country": "US" },
+        { "id": "samsung", "name": "Samsung Electronics", "country": "KR" },
+        { "id": "huawei", "name": "Huawei", "country": "CN" },
+        { "id": "openai", "name": "OpenAI", "country": "US" },
+        { "id": "deepmind", "name": "Google DeepMind", "country": "UK" }
+      ]
+    },
+    "pure_math": {
+      "label_ja": "純粋数学",
+      "institutions": [
+        { "id": "ias", "name": "IAS", "country": "US" },
+        { "id": "ihes", "name": "IHES", "country": "FR" },
+        { "id": "mpi_math", "name": "Max Planck Institute for Mathematics", "country": "DE" },
+        { "id": "bonn_hcm", "name": "Bonn HCM", "country": "DE" }
+      ]
+    }
+  },
+  "also_notable_added": "2025-03: frontier_topics に also_notable を追加済み。CAS, CNRS, RIKEN, Harvard, Oxford, Cambridge, ETH, Fraunhofer 等を各トピックに割り当て。",
+  "gap_analysis": {
+    "in_schema": [
+      "MIT", "IBM", "Google", "Microsoft", "NIST", "NASA", "CERN", "Fermilab", "SLAC",
+      "IAS", "IHES", "Max Planck", "Broad Institute", "Stanford", "Caltech"
+    ],
+    "missing_or_underrepresented": [
+      "Chinese Academy of Sciences (CAS)",
+      "Harvard University",
+      "University of Science and Technology of China (USTC)",
+      "CNRS",
+      "RIKEN",
+      "Fraunhofer",
+      "Helmholtz",
+      "NIH",
+      "Oxford",
+      "Cambridge",
+      "ETH Zurich",
+      "EPFL",
+      "University of Tokyo",
+      "Tsinghua",
+      "Peking University",
+      "NVIDIA",
+      "Amazon",
+      "Meta"
+    ]
+  }
+}
