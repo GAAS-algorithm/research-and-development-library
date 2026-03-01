@@ -1,0 +1,163 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/research-and-development-library/schema/rd-entry.schema.json",
+  "title": "R&D Entry",
+  "description": "世界最先端R&Dのエントリスキーマ。学術分野を主軸、産業分類を補助軸とするハイブリッド設計。Incompressibility Principle に基づき、複数の判断軸を持つ多次元構造をサポート。",
+  "type": "object",
+  "required": ["id", "title", "origin", "academic", "citation"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "一意のエントリID（UUID推奨）"
+    },
+    "title": {
+      "type": "string",
+      "description": "origin言語でのタイトル"
+    },
+    "title_ja": {
+      "type": "string",
+      "description": "日本語訳（任意）"
+    },
+    "origin": {
+      "type": "object",
+      "description": "出典・発信元",
+      "required": ["organization", "country", "language"],
+      "properties": {
+        "organization": { "type": "string" },
+        "country": { "type": "string" },
+        "language": {
+          "type": "string",
+          "description": "引用に使用する言語（originが日本でない場合はorigin言語）"
+        },
+        "person": {
+          "type": "string",
+          "description": "主要著者・研究者（任意）"
+        }
+      }
+    },
+    "citation": {
+      "type": "string",
+      "description": "origin言語での正式な引用表記"
+    },
+    "academic": {
+      "type": "object",
+      "description": "学術軸（主軸）- 生物学分類階層を参考",
+      "required": ["domain", "field"],
+      "properties": {
+        "domain": {
+          "type": "string",
+          "description": "界: 最上位の学術領域（natural_sciences, engineering_technology, etc.）",
+          "enum": [
+            "natural_sciences",
+            "engineering_technology",
+            "medical_health",
+            "agricultural_sciences",
+            "social_sciences",
+            "humanities"
+          ]
+        },
+        "field": {
+          "type": "string",
+          "description": "門: 学問分野（Mathematics, Physics, Computer Science, etc.）"
+        },
+        "discipline": {
+          "type": "string",
+          "description": "綱: 専門領域（Algebra, Mechanics, AI, etc.）"
+        },
+        "subdiscipline": {
+          "type": "string",
+          "description": "目: 下位専門（Group Theory, Quantum Mechanics, etc.）"
+        },
+        "specialty": {
+          "type": "string",
+          "description": "科: 特化領域"
+        },
+        "topic": {
+          "type": "string",
+          "description": "属: 研究トピック"
+        },
+        "focus": {
+          "type": "string",
+          "description": "種: 個別の研究焦点"
+        },
+        "fos_code": {
+          "type": "string",
+          "description": "OECD FOSコード（任意、国際互換用）"
+        },
+        "research_type": {
+          "type": "string",
+          "enum": ["basic", "applied", "experimental_development"],
+          "description": "OECD Frascati: 基礎研究/応用研究/実験的開発"
+        }
+      }
+    },
+    "industry": {
+      "type": "object",
+      "description": "産業軸（補助軸）- GICS等を参考",
+      "properties": {
+        "sector": {
+          "type": "string",
+          "description": "セクター（Energy, IT, Health Care, etc.）"
+        },
+        "industry_group": {
+          "type": "string",
+          "description": "産業グループ"
+        },
+        "industry": {
+          "type": "string",
+          "description": "産業"
+        },
+        "sub_industry": {
+          "type": "string",
+          "description": "サブ産業"
+        },
+        "application": {
+          "type": "string",
+          "description": "想定・実在する応用分野"
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["paper", "patent", "report", "standard", "software", "conference", "preprint"],
+          "description": "ソースタイプ"
+        },
+        "year": { "type": "integer" },
+        "url": { "type": "string", "format": "uri" },
+        "doi": { "type": "string" },
+        "venue": {
+          "type": "string",
+          "description": "学会・ジャーナル名"
+        }
+      }
+    },
+    "maturity": {
+      "type": "string",
+      "enum": ["theoretical", "prototype", "commercialized", "standardized"],
+      "description": "成熟度フェーズ"
+    },
+    "dimensions": {
+      "type": "array",
+      "description": "多次元判断軸。Incompressibility Principle: 一つの階層にまとめられない領域を複数軸で表現。",
+      "items": {
+        "type": "object",
+        "required": ["axis", "value"],
+        "properties": {
+          "axis": { "type": "string", "description": "判断軸（subject, scale, intent, domain, temporality, industry 等）" },
+          "value": { "type": "string", "description": "その軸上の値" },
+          "weight": { "type": "number", "minimum": 0, "maximum": 1, "description": "重要度（0-1、任意）" }
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "自由タグ"
+    },
+    "created_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" }
+  }
+}

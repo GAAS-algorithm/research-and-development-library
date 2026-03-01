@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Industry Taxonomy",
+  "description": "産業分類体系（補助軸）。GICS (Global Industry Classification Standard) をベースに、R&D応用の観点で拡張。",
+  "version": "1.0.0",
+  "source": "GICS (MSCI & S&P Dow Jones Indices)",
+  "hierarchy": {
+    "sector": {
+      "description": "セクター: 最上位の産業区分。GICS 11セクター。",
+      "levels": [
+        {
+          "id": "energy",
+          "label_en": "Energy",
+          "label_ja": "エネルギー",
+          "industry_groups": ["energy_equipment", "oil_gas", "coal", "consumable_fuels"]
+        },
+        {
+          "id": "materials",
+          "label_en": "Materials",
+          "label_ja": "素材",
+          "industry_groups": ["chemicals", "construction_materials", "metals_mining", "containers_packaging", "paper_forest"]
+        },
+        {
+          "id": "industrials",
+          "label_en": "Industrials",
+          "label_ja": "資本財",
+          "industry_groups": ["aerospace_defense", "building_products", "construction_engineering", "electrical_equipment", "industrial_machinery", "trading_companies", "commercial_services", "transportation"]
+        },
+        {
+          "id": "consumer_discretionary",
+          "label_en": "Consumer Discretionary",
+          "label_ja": "一般消費財",
+          "industry_groups": ["automobiles", "household_durables", "leisure_products", "textiles_apparel", "hotels_restaurants", "distributors", "broadline_retail", "specialty_retail"]
+        },
+        {
+          "id": "consumer_staples",
+          "label_en": "Consumer Staples",
+          "label_ja": "生活必需品",
+          "industry_groups": ["food_products", "beverages", "tobacco", "household_products", "personal_care", "food_staples_retail"]
+        },
+        {
+          "id": "health_care",
+          "label_en": "Health Care",
+          "label_ja": "ヘルスケア",
+          "industry_groups": ["health_care_equipment", "health_care_supplies", "health_care_services", "biotechnology", "pharmaceuticals", "life_sciences_tools"]
+        },
+        {
+          "id": "financials",
+          "label_en": "Financials",
+          "label_ja": "金融",
+          "industry_groups": ["banks", "thrifts_mortgage", "diversified_financials", "insurance"]
+        },
+        {
+          "id": "information_technology",
+          "label_en": "Information Technology",
+          "label_ja": "情報技術",
+          "industry_groups": ["software", "technology_hardware", "semiconductors", "communications_equipment", "it_services"]
+        },
+        {
+          "id": "communication_services",
+          "label_en": "Communication Services",
+          "label_ja": "通信サービス",
+          "industry_groups": ["telecom", "media_entertainment", "interactive_media"]
+        },
+        {
+          "id": "utilities",
+          "label_en": "Utilities",
+          "label_ja": "公益事業",
+          "industry_groups": ["electric_utilities", "gas_utilities", "water_utilities", "renewable_electricity"]
+        },
+        {
+          "id": "real_estate",
+          "label_en": "Real Estate",
+          "label_ja": "不動産",
+          "industry_groups": ["equity_reits", "real_estate_management"]
+        }
+      ]
+    },
+    "industry_group": {
+      "description": "産業グループ: セクターの下位。GICS 25グループ。"
+    },
+    "industry": {
+      "description": "産業: 産業グループの下位。GICS 74産業。"
+    },
+    "sub_industry": {
+      "description": "サブ産業: 最下位。GICS 163サブ産業。"
+    }
+  },
+  "rd_specific": {
+    "application": {
+      "description": "R&D応用分野: 学術研究の産業応用先。複数指定可。",
+      "examples": [
+        "autonomous_vehicles",
+        "drug_discovery",
+        "renewable_energy",
+        "semiconductor_manufacturing",
+        "fintech",
+        "agritech",
+        "edtech",
+        "climate_modeling",
+        "cybersecurity"
+      ]
+    }
+  },
+  "references": [
+    "GICS - Global Industry Classification Standard (MSCI, S&P Dow Jones)",
+    "日本標準産業分類（総務省）",
+    "NAICS - North American Industry Classification System"
+  ]
+}

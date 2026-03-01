@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Academic Taxonomy",
+  "description": "学術分野の分類体系。生物学の分類階層（界・門・綱・目・科・属・種）を参考にした階層構造。OECD FOS, UNESCO, arXiv等を統合。",
+  "version": "1.0.0",
+  "hierarchy": {
+    "domain": {
+      "description": "界 (Kingdom): 最上位の学術領域。OECD FOS 6大分野に準拠。",
+      "levels": [
+        {
+          "id": "natural_sciences",
+          "label_en": "Natural Sciences",
+          "label_ja": "自然科学",
+          "fields": ["mathematics", "physics", "chemistry", "earth_sciences", "biological_sciences"]
+        },
+        {
+          "id": "engineering_technology",
+          "label_en": "Engineering and Technology",
+          "label_ja": "工学・技術",
+          "fields": ["civil_engineering", "electrical_engineering", "mechanical_engineering", "chemical_engineering", "computer_science", "materials_engineering", "nanotechnology"]
+        },
+        {
+          "id": "medical_health",
+          "label_en": "Medical and Health Sciences",
+          "label_ja": "医学・保健科学",
+          "fields": ["basic_medicine", "clinical_medicine", "health_sciences", "pharmacy"]
+        },
+        {
+          "id": "agricultural_sciences",
+          "label_en": "Agricultural Sciences",
+          "label_ja": "農学",
+          "fields": ["agriculture", "horticulture", "veterinary_science", "food_science"]
+        },
+        {
+          "id": "social_sciences",
+          "label_en": "Social Sciences",
+          "label_ja": "社会科学",
+          "fields": ["economics", "political_science", "sociology", "law", "psychology", "education"]
+        },
+        {
+          "id": "humanities",
+          "label_en": "Humanities",
+          "label_ja": "人文科学",
+          "fields": ["philosophy", "history", "linguistics", "literature", "arts"]
+        }
+      ]
+    },
+    "field": {
+      "description": "門 (Phylum): 学問分野。各domainに属する。",
+      "examples": {
+        "mathematics": {
+          "label_en": "Mathematics",
+          "label_ja": "数学",
+          "domain": "natural_sciences",
+          "disciplines": ["algebra", "analysis", "geometry", "topology", "number_theory", "logic", "combinatorics", "probability", "statistics"]
+        },
+        "physics": {
+          "label_en": "Physics",
+          "label_ja": "物理学",
+          "domain": "natural_sciences",
+          "disciplines": ["mechanics", "electromagnetism", "thermodynamics", "quantum_mechanics", "particle_physics", "condensed_matter", "astrophysics", "optics"]
+        },
+        "computer_science": {
+          "label_en": "Computer Science",
+          "label_ja": "計算機科学",
+          "domain": "engineering_technology",
+          "disciplines": ["algorithms", "artificial_intelligence", "machine_learning", "computer_vision", "nlp", "systems", "networks", "security", "theory", "hci"]
+        },
+        "philosophy": {
+          "label_en": "Philosophy",
+          "label_ja": "哲学",
+          "domain": "humanities",
+          "disciplines": ["logic", "metaphysics", "epistemology", "ethics", "philosophy_of_science", "philosophy_of_mind"]
+        }
+      }
+    },
+    "discipline": {
+      "description": "綱 (Class): 専門領域。各fieldに属する。",
+      "examples": {
+        "artificial_intelligence": {
+          "label_en": "Artificial Intelligence",
+          "label_ja": "人工知能",
+          "field": "computer_science",
+          "subdisciplines": ["deep_learning", "reinforcement_learning", "symbolic_ai", "robotics", "multi_agent_systems"]
+        },
+        "algebra": {
+          "label_en": "Algebra",
+          "label_ja": "代数学",
+          "field": "mathematics",
+          "subdisciplines": ["group_theory", "ring_theory", "linear_algebra", "abstract_algebra"]
+        }
+      }
+    },
+    "subdiscipline": {
+      "description": "目 (Order): 下位専門。各disciplineに属する。",
+      "examples": ["deep_learning", "group_theory", "quantum_computing", "causal_inference"]
+    },
+    "specialty": {
+      "description": "科 (Family): 特化領域"
+    },
+    "topic": {
+      "description": "属 (Genus): 研究トピック"
+    },
+    "focus": {
+      "description": "種 (Species): 個別の研究焦点・具体的テーマ"
+    }
+  },
+  "biology_analogy": {
+    "domain": "界 (Kingdom)",
+    "field": "門 (Phylum)",
+    "discipline": "綱 (Class)",
+    "subdiscipline": "目 (Order)",
+    "specialty": "科 (Family)",
+    "topic": "属 (Genus)",
+    "focus": "種 (Species)"
+  },
+  "references": [
+    "OECD Frascati Manual 2015 - Fields of Science and Technology (FOS)",
+    "UNESCO nomenclature for fields of science and technology",
+    "arXiv category taxonomy",
+    "ACM Computing Classification System"
+  ]
+}

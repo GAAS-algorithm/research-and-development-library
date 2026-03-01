@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Dimensions Taxonomy",
+  "description": "多次元判断軸の定義。Incompressibility Principle に基づく。gemology, material science, pathology 等の異質な領域を統一的に扱う。",
+  "version": "1.0.0",
+  "principle": "Incompressibility Principle - 一つの階層にまとめられない。複数の直交する軸で表現する。",
+  "axes": {
+    "subject": {
+      "label_en": "Subject",
+      "label_ja": "対象の性質",
+      "description": "研究対象の物質・概念の性質",
+      "values": [
+        { "id": "inorganic_material", "label_en": "Inorganic Material", "label_ja": "無機物・鉱物" },
+        { "id": "organic_material", "label_en": "Organic Material", "label_ja": "有機物・高分子" },
+        { "id": "biological", "label_en": "Biological", "label_ja": "生物・生体" },
+        { "id": "conceptual", "label_en": "Conceptual", "label_ja": "概念・記号" },
+        { "id": "hybrid", "label_en": "Hybrid", "label_ja": "複合" }
+      ]
+    },
+    "scale": {
+      "label_en": "Scale",
+      "label_ja": "スケール",
+      "description": "対象の空間スケール",
+      "values": [
+        { "id": "subatomic", "label_en": "Subatomic", "label_ja": "素粒子・量子" },
+        { "id": "atomic_molecular", "label_en": "Atomic/Molecular", "label_ja": "原子・分子" },
+        { "id": "nanoscale", "label_en": "Nanoscale", "label_ja": "ナノ" },
+        { "id": "microscale", "label_en": "Microscale", "label_ja": "マイクロ" },
+        { "id": "macroscale", "label_en": "Macroscale", "label_ja": "マクロ" },
+        { "id": "organism", "label_en": "Organism", "label_ja": "個体" },
+        { "id": "population", "label_en": "Population", "label_ja": "集団" }
+      ]
+    },
+    "intent": {
+      "label_en": "Intent",
+      "label_ja": "目的・意図",
+      "description": "研究の目的・応用意図",
+      "values": [
+        { "id": "aesthetic", "label_en": "Aesthetic", "label_ja": "美的・文化的" },
+        { "id": "industrial", "label_en": "Industrial", "label_ja": "産業・製造" },
+        { "id": "diagnostic", "label_en": "Diagnostic", "label_ja": "診断・判定" },
+        { "id": "therapeutic", "label_en": "Therapeutic", "label_ja": "治療・介入" },
+        { "id": "fundamental", "label_en": "Fundamental", "label_ja": "基礎理解" }
+      ]
+    },
+    "domain": {
+      "label_en": "Domain",
+      "label_ja": "学術領域",
+      "description": "OECD FOS 準拠。academic.domain と対応",
+      "values": [
+        { "id": "natural_sciences", "label_en": "Natural Sciences", "label_ja": "自然科学" },
+        { "id": "engineering_technology", "label_en": "Engineering & Technology", "label_ja": "工学・技術" },
+        { "id": "medical_health", "label_en": "Medical & Health", "label_ja": "医学・保健" },
+        { "id": "agricultural_sciences", "label_en": "Agricultural Sciences", "label_ja": "農学" },
+        { "id": "social_sciences", "label_en": "Social Sciences", "label_ja": "社会科学" },
+        { "id": "humanities", "label_en": "Humanities", "label_ja": "人文科学" }
+      ]
+    },
+    "temporality": {
+      "label_en": "Temporality",
+      "label_ja": "時間軸の扱い",
+      "description": "研究が扱う時間的側面",
+      "values": [
+        { "id": "formation", "label_en": "Formation", "label_ja": "生成・形成" },
+        { "id": "steady_state", "label_en": "Steady State", "label_ja": "平衡・現状" },
+        { "id": "degradation", "label_en": "Degradation", "label_ja": "劣化・病変" },
+        { "id": "evolution", "label_en": "Evolution", "label_ja": "進化・変化" }
+      ]
+    },
+    "industry": {
+      "label_en": "Industry",
+      "label_ja": "産業",
+      "description": "産業軸。industry オブジェクトと対応。GICS 等",
+      "extensible": true
+    }
+  },
+  "example_mappings": {
+    "gemology": {
+      "subject": ["inorganic_material", "hybrid"],
+      "scale": ["macroscale", "atomic_molecular"],
+      "intent": ["aesthetic", "industrial"],
+      "domain": ["natural_sciences", "humanities"]
+    },
+    "material_science": {
+      "subject": ["inorganic_material", "organic_material"],
+      "scale": ["atomic_molecular", "nanoscale", "microscale", "macroscale"],
+      "intent": ["industrial", "fundamental"],
+      "domain": ["engineering_technology", "natural_sciences"]
+    },
+    "pathology": {
+      "subject": ["biological"],
+      "scale": ["microscale", "organism"],
+      "intent": ["diagnostic", "therapeutic"],
+      "domain": ["medical_health"],
+      "temporality": ["degradation", "steady_state"]
+    }
+  }
+}
