@@ -1,3 +1,4 @@
+import { useState, useMemo } from 'react'
 import awardsData from '../../../schema/research-awards.json'
 import styles from './Awards.module.css'
 
@@ -7,12 +8,19 @@ const tierLabels: Record<string, string> = {
   tier3: 'Tier 3',
 }
 
+type SortKey = 'label_en' | 'prize_money_usd' | 'cumulative_total_usd' | 'since' | null
+type SortDir = 'asc' | 'desc'
+
 export function Awards() {
+  const [sortKey, setSortKey] = useState<SortKey>(null)
+  const [sortDir, setSortDir] = useState<SortDir>('desc')
+
   const awards = awardsData.awards as Array<{
     id: string
     label_en: string
     label_ja: string
     prize_money_usd: number
+    cumulative_total_usd?: number
     frequency: string
     since: number
     impact: string
@@ -20,6 +28,29 @@ export function Awards() {
   }>
 
   const byTier = awardsData.by_impact_tier as Record<string, string[]>
+
+  const sortedAwards = useMemo(() => {
+    if (!sortKey) return [...awards]
+    return [...awards].sort((a, b) => {
+      if (sortKey === 'label_en') {
+        const cmp = a.label_en.localeCompare(b.label_en, 'en')
+        return sortDir === 'asc' ? cmp : -cmp
+      }
+      const aVal = sortKey === 'since' ? a.since : (a[sortKey] ?? (sortKey === 'cumulative_total_usd' ? -1 : 0))
+      const bVal = sortKey === 'since' ? b.since : (b[sortKey] ?? (sortKey === 'cumulative_total_usd' ? -1 : 0))
+      const diff = (aVal as number) - (bVal as number)
+      return sortDir === 'asc' ? diff : -diff
+    })
+  }, [awards, sortKey, sortDir])
+
+  const handleSort = (key: SortKey) => {
+    if (sortKey === key) {
+      setSortDir((d) => (d === 'asc' ? 'desc' : 'asc'))
+    } else {
+      setSortKey(key)
+      setSortDir(key === 'since' || key === 'label_en' ? 'asc' : 'desc')
+    }
+  }
 
   return (
     <div className={styles.page}>
@@ -44,6 +75,11 @@ export function Awards() {
                       <span className={styles.cardMoney}>
                         ${(award.prize_money_usd / 1000).toFixed(0)}K
                         {award.prize_money_usd >= 1000000 && '〜'}
+                        {award.cumulative_total_usd != null && (
+                          <span className={styles.cumulative}>
+                            {' '}累計 ${(award.cumulative_total_usd / 1000000).toFixed(0)}M
+                          </span>
+                        )}
                       </span>
                     </div>
                     <p className={styles.cardNote}>{award.note}</p>
@@ -59,29 +95,43 @@ export function Awards() {
         <h3 className={styles.sectionTitle}>全賞一覧</h3>
         <div className={styles.tableWrap}>
           <table className={styles.table}>
-            <thead>
-              <tr>
-                <th>賞</th>
-                <th>賞金額</th>
-                <th>頻度</th>
-                <th>創設</th>
-                <th>備考</th>
-              </tr>
-            </thead>
+<thead>
+            <tr>
+              <th className={styles.sortable} onClick={() => handleSort('label_en')}>
+                賞 {sortKey === 'label_en' && (sortDir === 'asc' ? '↑' : '↓')}
+              </th>
+              <th className={styles.sortable} onClick={() => handleSort('prize_money_usd')}>
+                賞金額 {sortKey === 'prize_money_usd' && (sortDir === 'asc' ? '↑' : '↓')}
+              </th>
+              <th className={styles.sortable} onClick={() => handleSort('cumulative_total_usd')}>
+                累計配分 {sortKey === 'cumulative_total_usd' && (sortDir === 'asc' ? '↑' : '↓')}
+              </th>
+              <th className={styles.sortable} onClick={() => handleSort('since')}>
+                創設 {sortKey === 'since' && (sortDir === 'asc' ? '↑' : '↓')}
+              </th>
+              <th>頻度</th>
+              <th>備考</th>
+            </tr>
+          </thead>
             <tbody>
-              {awards.map((a) => (
+              {sortedAwards.map((a) => (
                 <tr key={a.id}>
                   <td>
-                    <strong>{a.label_ja}</strong>
-                    <span className={styles.en}> ({a.label_en})</span>
+                    <strong>{a.label_en}</strong>
+                    <span className={styles.ja}> ({a.label_ja})</span>
                   </td>
                   <td>
                     {a.prize_money_usd > 0
                       ? `$${(a.prize_money_usd / 1000).toFixed(0)}K`
                       : '—'}
                   </td>
-                  <td>{a.frequency}</td>
+                  <td>
+                    {a.cumulative_total_usd != null
+                      ? `$${(a.cumulative_total_usd / 1000000).toFixed(0)}M`
+                      : '—'}
+                  </td>
                   <td>{a.since}</td>
+                  <td>{a.frequency}</td>
                   <td className={styles.note}>{a.note}</td>
                 </tr>
               ))}

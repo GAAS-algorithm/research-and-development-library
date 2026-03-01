@@ -92,8 +92,22 @@
   color: var(--text-secondary);
 }
 
+.theorem {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  max-width: 200px;
+}
+
 .formula {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   color: var(--text-primary);
+  min-width: 120px;
+}
+
+.formulaDisplay {
+  overflow-x: auto;
+}
+
+.formulaDisplay .katex {
+  font-size: 1em;
 }

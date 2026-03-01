@@ -76,8 +76,22 @@
   color: var(--text-secondary);
 }
 
-.equation {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 0.8125rem;
+.theorem {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  max-width: 200px;
+}
+
+.formula {
+  font-size: 0.875rem;
   color: var(--text-primary);
+  min-width: 120px;
+}
+
+.formulaDisplay {
+  overflow-x: auto;
+}
+
+.formulaDisplay .katex {
+  font-size: 1em;
 }

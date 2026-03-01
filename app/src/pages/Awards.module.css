@@ -67,6 +67,12 @@
   color: var(--accent);
 }
 
+.cumulative {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
 .cardNote {
   font-size: 0.8125rem;
   color: var(--text-muted);
@@ -103,7 +109,17 @@
   text-transform: uppercase;
 }
 
-.en {
+.sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.sortable:hover {
+  color: var(--accent);
+}
+
+.en,
+.ja {
   font-size: 0.8125rem;
   color: var(--text-muted);
   font-weight: 400;

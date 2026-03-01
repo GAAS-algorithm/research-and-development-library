@@ -11,7 +11,36 @@
 .desc {
   font-size: 0.9375rem;
   color: var(--text-secondary);
+  margin-bottom: 24px;
+}
+
+.index {
   margin-bottom: 32px;
+}
+
+.indexTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.indexList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.indexItem {
+  font-size: 0.875rem;
+  color: var(--accent);
+  text-decoration: none;
+  padding: 6px 12px;
+  background: var(--bg-tertiary);
+  border-radius: var(--radius-sm);
+}
+
+.indexItem:hover {
+  background: var(--accent-muted);
 }
 
 .grid {
@@ -21,11 +50,21 @@
 }
 
 .card {
+  display: block;
   background: var(--bg-secondary);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 20px;
   box-shadow: var(--shadow);
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+  border-color: var(--accent);
+  box-shadow: 0 2px 8px rgba(14, 165, 233, 0.15);
 }
 
 .cardHeader {

@@ -83,7 +83,7 @@
           "Johannes Diderik van der Waals"
         ],
         "discovery": "for his work on the equation of state for gases and liquids",
-        "representative_equation": "(P + a/V²)(V - b) = RT"
+        "representative_equation": "van der Waals $(P + a/V^2)(V - b) = RT$"
       },
       {
         "year": 1911,
@@ -91,7 +91,7 @@
           "Wilhelm Wien"
         ],
         "discovery": "for his discoveries regarding the laws governing the radiation of heat",
-        "representative_equation": "λ_max T = b"
+        "representative_equation": "Wien $\\lambda_{\\max} T = b$"
       },
       {
         "year": 1912,
@@ -140,7 +140,7 @@
           "Max Planck"
         ],
         "discovery": "in recognition of the services he rendered to the advancement of Physics by his discovery of energy quanta",
-        "representative_equation": "E=hν"
+        "representative_equation": "Planck $E = h\\nu$"
       },
       {
         "year": 1919,
@@ -164,7 +164,7 @@
           "Albert Einstein"
         ],
         "discovery": "for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect",
-        "representative_equation": "E=mc²"
+        "representative_equation": "Einstein $E = mc^2$"
       },
       {
         "year": 1922,
@@ -172,7 +172,7 @@
           "Niels Bohr"
         ],
         "discovery": "for his services in the investigation of the structure of atoms and of the radiation emanating from them",
-        "representative_equation": "E_n = -13.6eV/n²"
+        "representative_equation": "Bohr $E_n = -13.6\\,\\mathrm{eV}/n^2$"
       },
       {
         "year": 1923,
@@ -222,7 +222,7 @@
           "Owen Willans Richardson"
         ],
         "discovery": "for his work on the thermionic phenomenon and especially for the discovery of the law named after him",
-        "representative_equation": "J = AT²e^(-W/kT)"
+        "representative_equation": "Richardson $J = AT^2 e^{-W/(kT)}$"
       },
       {
         "year": 1929,
@@ -246,7 +246,7 @@
           "Werner Heisenberg"
         ],
         "discovery": "for the creation of quantum mechanics, the application of which has, inter alia, led to the discovery of the allotropic forms of hydrogen",
-        "representative_equation": "[x,p] = iℏ"
+        "representative_equation": "Heisenberg $[\\hat{x}, \\hat{p}] = i\\hbar$"
       },
       {
         "year": 1933,
@@ -255,7 +255,7 @@
           "Paul A.M. Dirac"
         ],
         "discovery": "for the discovery of new productive forms of atomic theory",
-        "representative_equation": "iℏ∂ψ/∂t = Ĥψ; (iγ^μ∂_μ - m)ψ = 0 (Dirac)"
+        "representative_equation": "Schrödinger $i\\hbar \\partial\\psi/\\partial t = \\hat{H}\\psi$"
       },
       {
         "year": 1935,
@@ -1088,7 +1088,7 @@
           "Svante Arrhenius"
         ],
         "discovery": "in recognition of the extraordinary services he has rendered to the advancement of chemistry by his electrolytic theory of dissociation",
-        "representative_equation": "k = Ae^(-Ea/RT)"
+        "representative_equation": "Arrhenius $k = A e^{-E_a/(RT)}$"
       },
       {
         "year": 1904,
@@ -1144,7 +1144,7 @@
           "Otto Wallach"
         ],
         "discovery": "in recognition of his services to organic chemistry and the chemical industry by his pioneer work in the field of alicyclic compounds",
-        "representative_equation": "(P + a/V²)(V - b) = RT"
+        "representative_equation": "van der Waals $(P + a/V^2)(V - b) = RT$"
       },
       {
         "year": 1911,
@@ -1201,7 +1201,7 @@
           "Walther Nernst"
         ],
         "discovery": "in recognition of his work in thermochemistry",
-        "representative_equation": "E = E° - (RT/nF)lnQ"
+        "representative_equation": "Nernst $E = E^\\circ - (RT/(nF))\\ln Q$"
       },
       {
         "year": 1921,
@@ -1376,7 +1376,7 @@
           "Wendell M. Stanley"
         ],
         "discovery": "for his discovery that enzymes can be crystallized",
-        "representative_equation": "v = V_max[S]/(K_m + [S])"
+        "representative_equation": "Michaelis-Menten $v = V_{\\max}[S]/(K_m + [S])$"
       },
       {
         "year": 1947,
@@ -5126,7 +5126,7 @@
           "Robert M. Solow"
         ],
         "discovery": "for his contributions to the theory of economic growth",
-        "representative_equation": "Solow growth model: Y = A K^α L^(1-α)"
+        "representative_equation": "Solow $Y = A K^\\alpha L^{1-\\alpha}$"
       },
       {
         "year": 1988,
@@ -5213,7 +5213,7 @@
           "Myron Scholes"
         ],
         "discovery": "for a new method to determine the value of derivatives",
-        "representative_equation": "Black-Scholes: ∂V/∂t + ½σ²S²∂²V/∂S² + rS∂V/∂S - rV = 0"
+        "representative_equation": "Black-Scholes $\\frac{\\partial V}{\\partial t} + \\frac{1}{2}\\sigma^2 S^2 \\frac{\\partial^2 V}{\\partial S^2} + rS\\frac{\\partial V}{\\partial S} - rV = 0$"
       },
       {
         "year": 1998,

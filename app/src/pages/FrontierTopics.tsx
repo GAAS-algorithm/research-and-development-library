@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import frontierData from '../../../schema/frontier-topics.json'
 import styles from './FrontierTopics.module.css'
 
@@ -15,12 +16,27 @@ export function FrontierTopics() {
     <div className={styles.page}>
       <h2 className={styles.title}>Frontier Topics</h2>
       <p className={styles.desc}>
-        ブレイクスルーが予測される領域。別トピックとして重点追跡。
+        ブレイクスルーが予測される領域。別トピックとして重点追跡。Top 20。
       </p>
+
+      <div className={styles.index}>
+        <h3 className={styles.indexTitle}>Top 20 一覧</h3>
+        <div className={styles.indexList}>
+          {topics.map((t) => (
+            <Link key={t.id} to={`/frontier-topics/${t.id}`} className={styles.indexItem}>
+              {t.label_ja}
+            </Link>
+          ))}
+        </div>
+      </div>
 
       <div className={styles.grid}>
         {topics.map((topic) => (
-          <div key={topic.id} className={styles.card}>
+          <Link
+            key={topic.id}
+            to={`/frontier-topics/${topic.id}`}
+            className={styles.card}
+          >
             <div className={styles.cardHeader}>
               <h3 className={styles.cardTitle}>{topic.label_ja}</h3>
               <span className={styles.cardId}>{topic.id}</span>
@@ -36,7 +52,7 @@ export function FrontierTopics() {
                 {topic.also_notable.join(', ')}
               </div>
             )}
-          </div>
+          </Link>
         ))}
       </div>
     </div>

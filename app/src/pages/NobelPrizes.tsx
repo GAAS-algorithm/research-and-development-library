@@ -1,8 +1,17 @@
 import { useState } from 'react'
 import nobelData from '../../../data/nobel-prizes.json'
+import { extractFormulaParts, LatexFormula } from '../components/Latex'
 import styles from './NobelPrizes.module.css'
 
 type Category = keyof typeof nobelData.categories
+
+type NobelEntry = {
+  year: number
+  laureates: string[]
+  discovery: string
+  representative_equation: string | null
+  formula_latex?: string | null
+}
 
 const categoryLabels: Record<Category, string> = {
   physics: '物理学',
@@ -17,16 +26,11 @@ export function NobelPrizes() {
   const [category, setCategory] = useState<Category>('physics')
   const [yearFilter, setYearFilter] = useState('')
 
-  const entries = nobelData.categories[category] as Array<{
-    year: number
-    laureates: string[]
-    discovery: string
-    representative_equation: string | null
-  }>
+  const entries = nobelData.categories[category] as NobelEntry[]
 
   const filtered = yearFilter
     ? entries.filter((e) => e.year.toString().includes(yearFilter))
-    : entries.slice(0, 30)
+    : entries
 
   return (
     <div className={styles.page}>
@@ -61,20 +65,32 @@ export function NobelPrizes() {
               <th>年</th>
               <th>受賞者</th>
               <th>主な発見</th>
-              <th>代表的な式</th>
+              <th>定理・式名</th>
+              <th>数式</th>
             </tr>
           </thead>
           <tbody>
-            {filtered.map((entry) => (
-              <tr key={`${category}-${entry.year}`}>
-                <td className={styles.year}>{entry.year}</td>
-                <td>{entry.laureates.join(', ')}</td>
-                <td className={styles.discovery}>{entry.discovery}</td>
-                <td className={styles.equation}>
-                  {entry.representative_equation || '—'}
-                </td>
-              </tr>
-            ))}
+            {filtered.map((entry) => {
+              const { text, latex } = extractFormulaParts(
+                entry.representative_equation,
+                entry.formula_latex
+              )
+              return (
+                <tr key={`${category}-${entry.year}`}>
+                  <td className={styles.year}>{entry.year}</td>
+                  <td>{entry.laureates.join(', ')}</td>
+                  <td className={styles.discovery}>{entry.discovery}</td>
+                  <td className={styles.theorem}>{text}</td>
+                  <td className={styles.formula}>
+                    {latex ? (
+                      <LatexFormula latex={latex} className={styles.formulaDisplay} />
+                    ) : (
+                      '—'
+                    )}
+                  </td>
+                </tr>
+              )
+            })}
           </tbody>
         </table>
       </div>

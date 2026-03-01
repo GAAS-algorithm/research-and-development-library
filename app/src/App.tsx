@@ -5,6 +5,7 @@ import { NobelPrizes } from './pages/NobelPrizes'
 import { Tier1Awards } from './pages/Tier1Awards'
 import { Awards } from './pages/Awards'
 import { FrontierTopics } from './pages/FrontierTopics'
+import { FrontierTopicDetail } from './pages/FrontierTopicDetail'
 import { Institutions } from './pages/Institutions'
 import { Schema } from './pages/Schema'
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="tier1-awards" element={<Tier1Awards />} />
           <Route path="awards" element={<Awards />} />
           <Route path="frontier-topics" element={<FrontierTopics />} />
+          <Route path="frontier-topics/:id" element={<FrontierTopicDetail />} />
           <Route path="institutions" element={<Institutions />} />
           <Route path="schema" element={<Schema />} />
         </Route>
