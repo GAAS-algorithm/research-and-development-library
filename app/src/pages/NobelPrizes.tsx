@@ -1,10 +1,18 @@
-import { createSignal, For } from 'solid-js'
+import { createSignal, For, createEffect } from 'solid-js'
+import { useParams, useNavigate } from '@solidjs/router'
 import { useI18n } from '../contexts/I18nContext'
 import nobelData from '../../../data/nobel-prizes.json'
 import { extractFormulaParts, LatexFormula } from '../components/Latex'
 import styles from './NobelPrizes.module.css'
+import { useLang, pathWithLang } from '../hooks/useLang'
 
 type Category = keyof typeof nobelData.categories
+
+const VALID_CATEGORIES = Object.keys(nobelData.categories) as Category[]
+
+function isValidCategory(cat: string | undefined): cat is Category {
+  return !!cat && VALID_CATEGORIES.includes(cat as Category)
+}
 
 type NobelEntry = {
   year: number
@@ -16,8 +24,25 @@ type NobelEntry = {
 
 export function NobelPrizes() {
   const { t } = useI18n()
-  const [category, setCategory] = createSignal<Category>('physics')
+  const params = useParams<{ lang: string; category?: string }>()
+  const navigate = useNavigate()
+  const lang = useLang()
+
+  const category = () => {
+    const cat = params.category
+    return isValidCategory(cat) ? cat : 'physics'
+  }
+
   const [yearFilter, setYearFilter] = createSignal('')
+
+  createEffect(() => {
+    const cat = params.category
+    if (!cat) {
+      navigate(pathWithLang('/nobel/physics', lang()), { replace: true })
+    } else if (!isValidCategory(cat)) {
+      navigate(pathWithLang('/nobel/physics', lang()), { replace: true })
+    }
+  })
 
   const entries = () => nobelData.categories[category()] as NobelEntry[]
 
@@ -28,7 +53,12 @@ export function NobelPrizes() {
       : entries()
   }
 
-  const categories = () => Object.keys(nobelData.categories) as Category[]
+  const categories = () => VALID_CATEGORIES
+
+  const handleCategoryChange = (e: Event) => {
+    const cat = (e.currentTarget as HTMLSelectElement).value as Category
+    navigate(pathWithLang(`/nobel/${cat}`, lang()))
+  }
 
   return (
     <div class={styles.page}>
@@ -38,7 +68,7 @@ export function NobelPrizes() {
       <div class={styles.controls}>
         <select
           value={category()}
-          onChange={(e) => setCategory(e.currentTarget.value as Category)}
+          onChange={handleCategoryChange}
           class={styles.select}
         >
           <For each={categories()}>

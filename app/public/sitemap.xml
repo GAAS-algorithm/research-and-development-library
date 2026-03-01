@@ -32,31 +32,181 @@
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://library.tanaakk.com/en/nobel</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/nobel"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/nobel"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/nobel"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/nobel"/>
+    <loc>https://library.tanaakk.com/en/nobel/physics</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/nobel/physics"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/nobel/physics"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/nobel/physics"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/nobel/physics"/>
     <lastmod>2026-03-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://library.tanaakk.com/ja/nobel</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/nobel"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/nobel"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/nobel"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/nobel"/>
+    <loc>https://library.tanaakk.com/ja/nobel/physics</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/nobel/physics"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/nobel/physics"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/nobel/physics"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/nobel/physics"/>
     <lastmod>2026-03-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://library.tanaakk.com/vi/nobel</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/nobel"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/nobel"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/nobel"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/nobel"/>
+    <loc>https://library.tanaakk.com/vi/nobel/physics</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/nobel/physics"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/nobel/physics"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/nobel/physics"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/nobel/physics"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/nobel/chemistry</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/nobel/chemistry"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/nobel/chemistry"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/nobel/chemistry"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/nobel/chemistry"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/nobel/chemistry</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/nobel/chemistry"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/nobel/chemistry"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/nobel/chemistry"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/nobel/chemistry"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/nobel/chemistry</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/nobel/chemistry"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/nobel/chemistry"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/nobel/chemistry"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/nobel/chemistry"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/nobel/physiology_or_medicine</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/nobel/physiology_or_medicine"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/nobel/physiology_or_medicine"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/nobel/physiology_or_medicine"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/nobel/physiology_or_medicine"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/nobel/physiology_or_medicine</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/nobel/physiology_or_medicine"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/nobel/physiology_or_medicine"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/nobel/physiology_or_medicine"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/nobel/physiology_or_medicine"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/nobel/physiology_or_medicine</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/nobel/physiology_or_medicine"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/nobel/physiology_or_medicine"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/nobel/physiology_or_medicine"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/nobel/physiology_or_medicine"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/nobel/literature</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/nobel/literature"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/nobel/literature"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/nobel/literature"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/nobel/literature"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/nobel/literature</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/nobel/literature"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/nobel/literature"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/nobel/literature"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/nobel/literature"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/nobel/literature</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/nobel/literature"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/nobel/literature"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/nobel/literature"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/nobel/literature"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/nobel/peace</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/nobel/peace"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/nobel/peace"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/nobel/peace"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/nobel/peace"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/nobel/peace</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/nobel/peace"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/nobel/peace"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/nobel/peace"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/nobel/peace"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/nobel/peace</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/nobel/peace"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/nobel/peace"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/nobel/peace"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/nobel/peace"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/nobel/economic_sciences</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/nobel/economic_sciences"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/nobel/economic_sciences"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/nobel/economic_sciences"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/nobel/economic_sciences"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/nobel/economic_sciences</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/nobel/economic_sciences"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/nobel/economic_sciences"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/nobel/economic_sciences"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/nobel/economic_sciences"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/nobel/economic_sciences</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/nobel/economic_sciences"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/nobel/economic_sciences"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/nobel/economic_sciences"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/nobel/economic_sciences"/>
     <lastmod>2026-03-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

@@ -18,6 +18,7 @@ export default function App() {
         <Route path="/" component={() => <Navigate href="dashboard" />} />
         <Route path="dashboard" component={Dashboard} />
         <Route path="nobel" component={NobelPrizes} />
+        <Route path="nobel/:category" component={NobelPrizes} />
         <Route path="tier1-awards" component={Tier1Awards} />
         <Route path="awards" component={Awards} />
         <Route path="frontier-topics" component={FrontierTopics} />

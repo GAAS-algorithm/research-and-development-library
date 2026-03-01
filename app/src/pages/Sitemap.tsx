@@ -3,17 +3,20 @@ import { A } from '@solidjs/router'
 import { useI18n } from '../contexts/I18nContext'
 import { useLang, pathWithLang } from '../hooks/useLang'
 import frontierData from '../../../schema/frontier-topics.json'
+import nobelData from '../../../data/nobel-prizes.json'
 import styles from './Sitemap.module.css'
 
 const mainPages = [
   { path: '/dashboard', labelKey: 'nav.dashboard' },
-  { path: '/nobel', labelKey: 'nav.nobel' },
+  { path: '/nobel/physics', labelKey: 'nav.nobel' },
   { path: '/tier1-awards', labelKey: 'nav.tier1' },
   { path: '/awards', labelKey: 'nav.awards' },
   { path: '/frontier-topics', labelKey: 'nav.frontierTopics' },
   { path: '/institutions', labelKey: 'nav.institutions' },
   { path: '/schema', labelKey: 'nav.schema' },
 ] as const
+
+const nobelCategories = Object.keys(nobelData.categories) as Array<keyof typeof nobelData.categories>
 
 const topics = frontierData.topics as Array<{
   id: string
@@ -46,6 +49,21 @@ export function Sitemap() {
               <li>
                 <A href={pathWithLang(item.path, lang())} class={styles.link}>
                   {t(item.labelKey)}
+                </A>
+              </li>
+            )}
+          </For>
+        </ul>
+      </section>
+
+      <section class={styles.section}>
+        <h3 class={styles.sectionTitle}>{t('sitemap.nobelCategories')}</h3>
+        <ul class={styles.list}>
+          <For each={nobelCategories}>
+            {(cat) => (
+              <li>
+                <A href={pathWithLang(`/nobel/${cat}`, lang())} class={styles.link}>
+                  {t(`nobelCategory.${cat}`)}
                 </A>
               </li>
             )}
