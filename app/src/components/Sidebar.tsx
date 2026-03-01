@@ -4,6 +4,7 @@ import styles from './Sidebar.module.css'
 const menuItems = [
   { path: '/dashboard', label: 'ダッシュボード', icon: '📊' },
   { path: '/nobel', label: 'ノーベル賞', icon: '🏆' },
+  { path: '/tier1-awards', label: 'Tier1賞', icon: '🥇' },
   { path: '/awards', label: '研究賞', icon: '🎖️' },
   { path: '/frontier-topics', label: 'Frontier Topics', icon: '🔬' },
   { path: '/institutions', label: '機関一覧', icon: '🏛️' },
@@ -14,8 +15,8 @@ export function Sidebar() {
   return (
     <aside className={styles.sidebar}>
       <div className={styles.logo}>
-        <span className={styles.logoIcon}>R&D</span>
-        <span className={styles.logoText}>Library</span>
+        <span className={styles.logoIcon}>GAAS</span>
+        <span className={styles.logoText}>R&D Library</span>
       </div>
       <nav className={styles.nav}>
         {menuItems.map((item) => (
@@ -32,8 +33,7 @@ export function Sidebar() {
         ))}
       </nav>
       <div className={styles.footer}>
-        <p className={styles.footerText}>パッケージ化できない</p>
-        <p className={styles.footerText}>多次元複雑系</p>
+        <p className={styles.copyright}>© TANAAKK</p>
       </div>
     </aside>
   )

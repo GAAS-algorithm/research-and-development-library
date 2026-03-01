@@ -70,8 +70,8 @@
   border-top: 1px solid var(--border-light);
 }
 
-.footerText {
-  font-size: 0.75rem;
+.copyright {
+  font-size: 0.6875rem;
   color: var(--text-muted);
-  line-height: 1.4;
+  margin: 0;
 }

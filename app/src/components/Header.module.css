@@ -13,8 +13,3 @@
   font-weight: 600;
   color: var(--text-primary);
 }
-
-.subtitle {
-  font-size: 0.875rem;
-  color: var(--text-muted);
-}
