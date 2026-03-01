@@ -1,23 +1,33 @@
-# デプロイ設定
+# オートデプロイ設定
 
-## 自動デプロイ（GitHub Actions）
+## 概要
 
-`main` ブランチへの push で Firebase Hosting に自動デプロイされます。
+`main` ブランチへの push で [https://gaas-r-and-d-library.web.app](https://gaas-r-and-d-library.web.app) に自動デプロイされます。
 
-### 初回セットアップ：FIREBASE_TOKEN の登録
+## 必要な設定
 
-1. ローカルで Firebase CLI にログインし、CI用トークンを取得：
-   ```bash
-   npx firebase login:ci
-   ```
-2. 表示されたトークンをコピー
-3. GitHub リポジトリ → **Settings** → **Secrets and variables** → **Actions**
-4. **New repository secret** をクリック
-5. Name: `FIREBASE_TOKEN`、Value: コピーしたトークンを貼り付けて保存
+### 1. Firebase CLI トークンの取得
 
-これで `main` への push ごとに自動デプロイされます。
+```bash
+npx firebase login:ci
+```
 
-### 手動デプロイ
+表示されたトークンをコピーします。
+
+### 2. GitHub Secrets に追加
+
+1. リポジトリ → **Settings** → **Secrets and variables** → **Actions**
+2. **New repository secret** をクリック
+3. Name: `FIREBASE_TOKEN`
+4. Value: 上記で取得したトークン
+
+## デプロイフロー
+
+- **トリガー**: `main` への push
+- **ビルド**: `npm run build`（app をビルド）
+- **デプロイ先**: Firebase Hosting（`app/dist`）
+
+## 手動デプロイ
 
 ```bash
 npm run deploy
