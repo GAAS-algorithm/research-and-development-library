@@ -1,10 +1,18 @@
-import { createSignal, For } from 'solid-js'
+import { createSignal, For, createEffect } from 'solid-js'
+import { useParams, useNavigate } from '@solidjs/router'
 import { useI18n } from '../contexts/I18nContext'
+import { useLang, pathWithLang } from '../hooks/useLang'
 import tier1Data from '../../../data/tier1-awards-laureates.json'
 import { extractFormulaParts, LatexFormula } from '../components/Latex'
 import styles from './Tier1Awards.module.css'
 
 type Tier1AwardId = keyof typeof tier1Data.awards
+
+const VALID_AWARD_IDS = Object.keys(tier1Data.awards) as Tier1AwardId[]
+
+function isValidAwardId(id: string | undefined): id is Tier1AwardId {
+  return !!id && VALID_AWARD_IDS.includes(id as Tier1AwardId)
+}
 
 type Entry = {
   year: number
@@ -19,9 +27,26 @@ type Entry = {
 
 export function Tier1Awards() {
   const { t, locale } = useI18n()
+  const params = useParams<{ lang: string; awardId?: string }>()
+  const navigate = useNavigate()
+  const lang = useLang()
   const isJa = () => locale() === 'ja'
-  const [awardId, setAwardId] = createSignal<string>('abel')
+
+  const awardId = () => {
+    const id = params.awardId
+    return isValidAwardId(id) ? id : 'abel'
+  }
+
   const [yearFilter, setYearFilter] = createSignal('')
+
+  createEffect(() => {
+    const id = params.awardId
+    if (!id) {
+      navigate(pathWithLang('/tier1-awards/abel', lang()), { replace: true })
+    } else if (!isValidAwardId(id)) {
+      navigate(pathWithLang('/tier1-awards/abel', lang()), { replace: true })
+    }
+  })
 
   const award = () => tier1Data.awards[awardId() as Tier1AwardId]
   const entries = (): Entry[] => {
@@ -41,7 +66,12 @@ export function Tier1Awards() {
       : entries().slice().reverse().slice(0, 50)
   }
 
-  const awardIds = () => Object.keys(tier1Data.awards) as string[]
+  const awardIds = () => [...VALID_AWARD_IDS].sort()
+
+  const handleAwardChange = (e: Event) => {
+    const id = (e.currentTarget as HTMLSelectElement).value as Tier1AwardId
+    navigate(pathWithLang(`/tier1-awards/${id}`, lang()))
+  }
 
   return (
     <div class={styles.page}>
@@ -51,7 +81,7 @@ export function Tier1Awards() {
       <div class={styles.controls}>
         <select
           value={awardId()}
-          onChange={(e) => setAwardId(e.currentTarget.value)}
+          onChange={handleAwardChange}
           class={styles.select}
         >
           <For each={awardIds()}>

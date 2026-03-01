@@ -4,12 +4,13 @@ import { useI18n } from '../contexts/I18nContext'
 import { useLang, pathWithLang } from '../hooks/useLang'
 import frontierData from '../../../schema/frontier-topics.json'
 import nobelData from '../../../data/nobel-prizes.json'
+import tier1Data from '../../../data/tier1-awards-laureates.json'
 import styles from './Sitemap.module.css'
 
 const mainPages = [
   { path: '/dashboard', labelKey: 'nav.dashboard' },
   { path: '/nobel/physics', labelKey: 'nav.nobel' },
-  { path: '/tier1-awards', labelKey: 'nav.tier1' },
+  { path: '/tier1-awards/abel', labelKey: 'nav.tier1' },
   { path: '/awards', labelKey: 'nav.awards' },
   { path: '/frontier-topics', labelKey: 'nav.frontierTopics' },
   { path: '/institutions', labelKey: 'nav.institutions' },
@@ -17,6 +18,7 @@ const mainPages = [
 ] as const
 
 const nobelCategories = Object.keys(nobelData.categories) as Array<keyof typeof nobelData.categories>
+const tier1AwardIds = Object.keys(tier1Data.awards) as Array<keyof typeof tier1Data.awards>
 
 const topics = frontierData.topics as Array<{
   id: string
@@ -64,6 +66,21 @@ export function Sitemap() {
               <li>
                 <A href={pathWithLang(`/nobel/${cat}`, lang())} class={styles.link}>
                   {t(`nobelCategory.${cat}`)}
+                </A>
+              </li>
+            )}
+          </For>
+        </ul>
+      </section>
+
+      <section class={styles.section}>
+        <h3 class={styles.sectionTitle}>{t('sitemap.tier1Awards')}</h3>
+        <ul class={styles.list}>
+          <For each={tier1AwardIds}>
+            {(id) => (
+              <li>
+                <A href={pathWithLang(`/tier1-awards/${id}`, lang())} class={styles.link}>
+                  {t(`tier1Award.${id}`)}
                 </A>
               </li>
             )}

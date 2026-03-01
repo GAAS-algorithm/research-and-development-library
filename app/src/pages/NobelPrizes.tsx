@@ -53,7 +53,7 @@ export function NobelPrizes() {
       : entries()
   }
 
-  const categories = () => VALID_CATEGORIES
+  const categories = () => [...VALID_CATEGORIES].sort()
 
   const handleCategoryChange = (e: Event) => {
     const cat = (e.currentTarget as HTMLSelectElement).value as Category
