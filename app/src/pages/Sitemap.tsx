@@ -3,6 +3,7 @@ import { A } from '@solidjs/router'
 import { useI18n } from '../contexts/I18nContext'
 import { useLang, pathWithLang } from '../hooks/useLang'
 import frontierData from '../../../schema/frontier-topics.json'
+import styles from './Sitemap.module.css'
 
 const mainPages = [
   { path: '/dashboard', labelKey: 'nav.dashboard' },
@@ -33,17 +34,17 @@ export function Sitemap() {
   }
 
   return (
-    <div class="max-w-[800px]">
-      <h2 class="text-2xl font-semibold text-[var(--text-primary)] mb-2">{t('sitemap.title')}</h2>
-      <p class="text-[0.9375rem] text-[var(--text-secondary)] mb-8">{t('sitemap.desc')}</p>
+    <div class={styles.page}>
+      <h2 class={styles.title}>{t('sitemap.title')}</h2>
+      <p class={styles.desc}>{t('sitemap.desc')}</p>
 
-      <section class="mb-8">
-        <h3 class="text-lg font-semibold text-[var(--text-primary)] mb-3 pb-2 border-b border-[var(--border-light)]">{t('sitemap.mainPages')}</h3>
-        <ul class="list-none m-0 p-0 grid gap-2">
+      <section class={styles.section}>
+        <h3 class={styles.sectionTitle}>{t('sitemap.mainPages')}</h3>
+        <ul class={styles.list}>
           <For each={mainPages}>
             {(item) => (
               <li>
-                <A href={pathWithLang(item.path, lang())} class="block py-2 px-3 text-[var(--text-secondary)] no-underline -mx-3 rounded-[6px] transition-colors duration-150 hover:bg-[var(--bg-tertiary)] hover:text-[var(--accent)]">
+                <A href={pathWithLang(item.path, lang())} class={styles.link}>
                   {t(item.labelKey)}
                 </A>
               </li>
@@ -52,16 +53,13 @@ export function Sitemap() {
         </ul>
       </section>
 
-      <section class="mb-8">
-        <h3 class="text-lg font-semibold text-[var(--text-primary)] mb-3 pb-2 border-b border-[var(--border-light)]">{t('sitemap.frontierTopics')}</h3>
-        <ul class="list-none m-0 p-0 grid gap-2">
+      <section class={styles.section}>
+        <h3 class={styles.sectionTitle}>{t('sitemap.frontierTopics')}</h3>
+        <ul class={styles.list}>
           <For each={topics}>
             {(topic) => (
               <li>
-                <A
-                  href={pathWithLang(`/frontier-topics/${topic.id}`, lang())}
-                  class="block py-2 px-3 text-[var(--text-secondary)] no-underline -mx-3 rounded-[6px] transition-colors duration-150 hover:bg-[var(--bg-tertiary)] hover:text-[var(--accent)]"
-                >
+                <A href={pathWithLang(`/frontier-topics/${topic.id}`, lang())} class={styles.link}>
                   {topicLabel(topic)}
                 </A>
               </li>
@@ -70,23 +68,17 @@ export function Sitemap() {
         </ul>
       </section>
 
-      <section class="mb-8">
-        <h3 class="text-lg font-semibold text-[var(--text-primary)] mb-3 pb-2 border-b border-[var(--border-light)]">{t('sitemap.languages')}</h3>
-        <ul class="list-none m-0 p-0 grid gap-2">
+      <section class={styles.section}>
+        <h3 class={styles.sectionTitle}>{t('sitemap.languages')}</h3>
+        <ul class={styles.list}>
           <li>
-            <A href={pathWithLang('/sitemap', 'en')} class="block py-2 px-3 text-[var(--text-secondary)] no-underline -mx-3 rounded-[6px] transition-colors duration-150 hover:bg-[var(--bg-tertiary)] hover:text-[var(--accent)]">
-              English
-            </A>
+            <A href={pathWithLang('/sitemap', 'en')} class={styles.link}>English</A>
           </li>
           <li>
-            <A href={pathWithLang('/sitemap', 'ja')} class="block py-2 px-3 text-[var(--text-secondary)] no-underline -mx-3 rounded-[6px] transition-colors duration-150 hover:bg-[var(--bg-tertiary)] hover:text-[var(--accent)]">
-              日本語
-            </A>
+            <A href={pathWithLang('/sitemap', 'ja')} class={styles.link}>日本語</A>
           </li>
           <li>
-            <A href={pathWithLang('/sitemap', 'vi')} class="block py-2 px-3 text-[var(--text-secondary)] no-underline -mx-3 rounded-[6px] transition-colors duration-150 hover:bg-[var(--bg-tertiary)] hover:text-[var(--accent)]">
-              Tiếng Việt
-            </A>
+            <A href={pathWithLang('/sitemap', 'vi')} class={styles.link}>Tiếng Việt</A>
           </li>
         </ul>
       </section>

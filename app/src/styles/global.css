@@ -1,6 +1,4 @@
-@import "tailwindcss";
-
-/* R&D Library - ライトカラーパターン（Tailwind 拡張） */
+/* R&D Library - ライトカラーパターン（CSS Modules 復元） */
 :root {
   --bg-primary: #fafbfc;
   --bg-secondary: #ffffff;
@@ -30,12 +28,13 @@
 }
 
 body {
-  /* System-Native: 読み込み容量ゼロ（HST準拠） */
+  /* System-Native: 読み込み容量ゼロ（HST準拠） / Axiom 準拠 */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", "Yu Gothic", sans-serif;
   background: var(--bg-primary);
   color: var(--text-primary);
-  line-height: 1.6;
+  line-height: 1.625;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 code, .mono {

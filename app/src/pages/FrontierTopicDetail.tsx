@@ -3,6 +3,7 @@ import { useParams, A } from '@solidjs/router'
 import { useI18n } from '../contexts/I18nContext'
 import { useLang, pathWithLang } from '../hooks/useLang'
 import frontierData from '../../../schema/frontier-topics.json'
+import styles from './FrontierTopicDetail.module.css'
 
 type Topic = {
   id: string
@@ -88,9 +89,9 @@ export function FrontierTopicDetail() {
     <Show
       when={topic()}
       fallback={
-        <div class="max-w-[720px]">
-          <p class="text-base text-[var(--text-secondary)] mb-4">{t('frontier.notFound')}</p>
-          <A href={pathWithLang('/frontier-topics', lang())} class="inline-block text-sm text-[var(--accent)] no-underline mb-6 hover:underline">
+        <div class={styles.page}>
+          <p class={styles.notFound}>{t('frontier.notFound')}</p>
+          <A href={pathWithLang('/frontier-topics', lang())} class={styles.backLink}>
             {t('frontier.back')}
           </A>
         </div>
@@ -100,102 +101,102 @@ export function FrontierTopicDetail() {
         const topic = typeof tpc === 'function' ? tpc() : tpc
 
         return (
-          <div class="max-w-[720px]">
-            <A href={pathWithLang('/frontier-topics', lang())} class="inline-block text-sm text-[var(--accent)] no-underline mb-6 hover:underline">
+          <div class={styles.page}>
+            <A href={pathWithLang('/frontier-topics', lang())} class={styles.backLink}>
               {t('frontier.back')}
             </A>
 
-            <div class="mb-8">
-              <span class="inline-block text-xs font-mono text-[var(--text-muted)] bg-[var(--bg-tertiary)] py-1 px-2.5 rounded-[6px] mb-3">{topic.id}</span>
-              <h1 class="text-[1.75rem] font-semibold text-[var(--text-primary)] mb-1">{topicLabel(topic)}</h1>
-              <p class="text-base text-[var(--text-muted)]">{topicSublabel(topic)}</p>
+            <div class={styles.header}>
+              <span class={styles.id}>{topic.id}</span>
+              <h1 class={styles.title}>{topicLabel(topic)}</h1>
+              <p class={styles.subtitle}>{topicSublabel(topic)}</p>
             </div>
 
-            <section class="mb-7">
-              <h2 class="text-base font-semibold text-[var(--text-secondary)] mb-3">{t('frontier.overview')}</h2>
-              <p class="text-base leading-relaxed text-[var(--text-primary)]">{topicDesc(topic)}</p>
+            <section class={styles.section}>
+              <h2 class={styles.sectionTitle}>{t('frontier.overview')}</h2>
+              <p class={styles.description}>{topicDesc(topic)}</p>
             </section>
 
             <Show when={topicPremise(topic)}>
-              <section class="mb-7">
-                <h2 class="text-base font-semibold text-[var(--text-secondary)] mb-3">{t('frontier.premise')}</h2>
-                <p class="text-base leading-relaxed text-[var(--text-primary)]">{topicPremise(topic)}</p>
+              <section class={styles.section}>
+                <h2 class={styles.sectionTitle}>{t('frontier.premise')}</h2>
+                <p class={styles.description}>{topicPremise(topic)}</p>
               </section>
             </Show>
 
             <Show when={topicReason(topic)}>
-              <section class="mb-7">
-                <h2 class="text-base font-semibold text-[var(--text-secondary)] mb-3">{t('frontier.breakthroughReason')}</h2>
-                <p class="text-base leading-relaxed text-[var(--text-primary)]">{topicReason(topic)}</p>
+              <section class={styles.section}>
+                <h2 class={styles.sectionTitle}>{t('frontier.breakthroughReason')}</h2>
+                <p class={styles.description}>{topicReason(topic)}</p>
               </section>
             </Show>
 
             <Show when={topic.breakthrough_drivers && topic.breakthrough_drivers.length > 0}>
-              <section class="mb-7">
-                <h2 class="text-base font-semibold text-[var(--text-secondary)] mb-3">{t('frontier.drivers')}</h2>
-                <ul class="list-none m-0 p-0">
+              <section class={styles.section}>
+                <h2 class={styles.sectionTitle}>{t('frontier.drivers')}</h2>
+                <ul class={styles.list}>
                   <For each={topic.breakthrough_drivers!}>
-                    {(d) => <li class="text-[0.9375rem] text-[var(--text-primary)] py-1.5 border-b border-[var(--border-light)] last:border-b-0">{d}</li>}
+                    {(d) => <li>{d}</li>}
                   </For>
                 </ul>
               </section>
             </Show>
 
             <Show when={topic.related_domains && topic.related_domains.length > 0}>
-              <section class="mb-7">
-                <h2 class="text-base font-semibold text-[var(--text-secondary)] mb-3">{t('frontier.relatedDomains')}</h2>
-                <p class="text-[0.9375rem] text-[var(--text-secondary)] leading-normal">{topic.related_domains!.join(', ')}</p>
+              <section class={styles.section}>
+                <h2 class={styles.sectionTitle}>{t('frontier.relatedDomains')}</h2>
+                <p class={styles.tags}>{topic.related_domains!.join(', ')}</p>
               </section>
             </Show>
 
             <Show when={topic.related_fields && topic.related_fields.length > 0}>
-              <section class="mb-7">
-                <h2 class="text-base font-semibold text-[var(--text-secondary)] mb-3">{t('frontier.relatedFields')}</h2>
-                <p class="text-[0.9375rem] text-[var(--text-secondary)] leading-normal">{topic.related_fields!.join(', ')}</p>
+              <section class={styles.section}>
+                <h2 class={styles.sectionTitle}>{t('frontier.relatedFields')}</h2>
+                <p class={styles.tags}>{topic.related_fields!.join(', ')}</p>
               </section>
             </Show>
 
-            <section class="mb-7">
-              <h2 class="text-base font-semibold text-[var(--text-secondary)] mb-3">{t('frontier.topInstitutions')}</h2>
-              <ul class="list-none m-0 p-0">
+            <section class={styles.section}>
+              <h2 class={styles.sectionTitle}>{t('frontier.topInstitutions')}</h2>
+              <ul class={styles.list}>
                 <For each={topic.top_institutions}>
-                  {(inst) => <li class="text-[0.9375rem] text-[var(--text-primary)] py-1.5 border-b border-[var(--border-light)] last:border-b-0">{inst}</li>}
+                  {(inst) => <li>{inst}</li>}
                 </For>
               </ul>
             </section>
 
             <Show when={topic.also_notable && topic.also_notable.length > 0}>
-              <section class="mb-7">
-                <h2 class="text-base font-semibold text-[var(--text-secondary)] mb-3">{t('frontier.alsoNotable')}</h2>
-                <p class="text-[0.9375rem] text-[var(--text-secondary)] leading-normal">{topic.also_notable!.join(', ')}</p>
+              <section class={styles.section}>
+                <h2 class={styles.sectionTitle}>{t('frontier.alsoNotable')}</h2>
+                <p class={styles.tags}>{topic.also_notable!.join(', ')}</p>
               </section>
             </Show>
 
-            <nav class="flex justify-between items-center gap-4 mt-10 pt-6 border-t border-[var(--border)]">
+            <nav class={styles.nav}>
               <Show
                 when={prevTopic()}
-                fallback={<span class="text-sm text-[var(--text-muted)]">{t('frontier.navFirst')}</span>}
+                fallback={<span class={styles.navDisabled}>{t('frontier.navFirst')}</span>}
               >
                 {(prev) => {
                   const p = typeof prev === 'function' ? prev() : prev
                   return (
-                    <A href={pathWithLang(`/frontier-topics/${p.id}`, lang())} class="text-sm text-[var(--accent)] no-underline hover:underline">
+                    <A href={pathWithLang(`/frontier-topics/${p.id}`, lang())} class={styles.navLink}>
                       ← {topicLabel(p)}
                     </A>
                   )
                 }}
               </Show>
-              <A href={pathWithLang('/frontier-topics', lang())} class="text-sm text-[var(--accent)] no-underline hover:underline">
+              <A href={pathWithLang('/frontier-topics', lang())} class={styles.navLink}>
                 {t('frontier.navList')}
               </A>
               <Show
                 when={nextTopic()}
-                fallback={<span class="text-sm text-[var(--text-muted)]">{t('frontier.navLast')}</span>}
+                fallback={<span class={styles.navDisabled}>{t('frontier.navLast')}</span>}
               >
                 {(next) => {
                   const n = typeof next === 'function' ? next() : next
                   return (
-                    <A href={pathWithLang(`/frontier-topics/${n.id}`, lang())} class="text-sm text-[var(--accent)] no-underline hover:underline">
+                    <A href={pathWithLang(`/frontier-topics/${n.id}`, lang())} class={styles.navLink}>
                       {topicLabel(n)} →
                     </A>
                   )

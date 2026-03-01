@@ -7,6 +7,7 @@ import { Hreflang } from './Hreflang'
 import { StructuredData } from './StructuredData'
 import { SUPPORTED_LANGS, persistLang } from '../i18n'
 import type { Lang } from '../i18n'
+import styles from './Layout.module.css'
 
 export function Layout(props: { children?: import('solid-js').JSX.Element }) {
   const params = useParams<{ lang: string }>()
@@ -28,20 +29,20 @@ export function Layout(props: { children?: import('solid-js').JSX.Element }) {
   return (
     <Show when={validLang()} fallback={<Navigate href="/en/dashboard" />}>
       <I18nProvider locale={() => params.lang as Lang}>
-        <div class="flex min-h-screen relative">
+        <div class={styles.layout}>
           <Hreflang />
           <StructuredData />
           <Sidebar isOpen={sidebarOpen()} onClose={() => setSidebarOpen(false)} />
-          <div class="flex-1 flex flex-col ml-[260px] min-w-0 md:ml-0">
+          <div class={styles.main}>
             <Header onMenuClick={() => setSidebarOpen(true)} />
-            <main class="flex-1 p-6 md:p-4 overflow-y-auto">
+            <main class={styles.content}>
               {props.children}
             </main>
           </div>
           <Show when={sidebarOpen()}>
             <button
               type="button"
-              class="fixed inset-0 bg-black/40 z-[90] border-none cursor-pointer block md:hidden"
+              class={styles.overlay}
               onClick={() => setSidebarOpen(false)}
               aria-label="Close menu"
             />

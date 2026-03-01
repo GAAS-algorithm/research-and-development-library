@@ -3,6 +3,7 @@ import { A } from '@solidjs/router'
 import { useI18n } from '../contexts/I18nContext'
 import { useLang, pathWithLang } from '../hooks/useLang'
 import frontierData from '../../../schema/frontier-topics.json'
+import styles from './FrontierTopics.module.css'
 
 export function FrontierTopics() {
   const { t, locale } = useI18n()
@@ -34,16 +35,16 @@ export function FrontierTopics() {
   }
 
   return (
-    <div class="max-w-[1200px]">
-      <h2 class="text-2xl font-semibold mb-2">{t('frontier.title')}</h2>
-      <p class="text-[0.9375rem] text-[var(--text-secondary)] mb-6">{t('frontier.desc')}</p>
+    <div class={styles.page}>
+      <h2 class={styles.title}>{t('frontier.title')}</h2>
+      <p class={styles.desc}>{t('frontier.desc')}</p>
 
-      <div class="mb-8">
-        <h3 class="text-base font-semibold mb-3">{t('frontier.indexTitle')}</h3>
-        <div class="flex flex-wrap gap-2">
+      <div class={styles.index}>
+        <h3 class={styles.indexTitle}>{t('frontier.indexTitle')}</h3>
+        <div class={styles.indexList}>
           <For each={topics()}>
             {(topic) => (
-              <A href={pathWithLang(`/frontier-topics/${topic.id}`, lang())} class="text-sm text-[var(--accent)] no-underline py-1.5 px-3 bg-[var(--bg-tertiary)] rounded-[6px] hover:bg-[var(--accent-muted)]">
+              <A href={pathWithLang(`/frontier-topics/${topic.id}`, lang())} class={styles.indexItem}>
                 {topicLabel(topic)}
               </A>
             )}
@@ -51,25 +52,22 @@ export function FrontierTopics() {
         </div>
       </div>
 
-      <div class="grid grid-cols-[repeat(auto-fill,minmax(320px,1fr))] gap-5">
+      <div class={styles.grid}>
         <For each={topics()}>
           {(topic) => (
-            <A
-              href={pathWithLang(`/frontier-topics/${topic.id}`, lang())}
-              class="block bg-[var(--bg-secondary)] border border-[var(--border)] rounded-lg p-5 shadow-[var(--shadow)] no-underline text-inherit cursor-pointer transition-[border-color,box-shadow] duration-150 ease-[ease] hover:border-[var(--accent)] hover:shadow-[0_2px_8px_rgba(14,165,233,0.15)]"
-            >
-              <div class="flex justify-between items-start mb-3">
-                <h3 class="text-[1.0625rem] font-semibold text-[var(--text-primary)]">{topicLabel(topic)}</h3>
-                <span class="text-xs font-mono text-[var(--text-muted)] bg-[var(--bg-tertiary)] py-0.5 px-2 rounded-[6px]">{topic.id}</span>
+            <A href={pathWithLang(`/frontier-topics/${topic.id}`, lang())} class={styles.card}>
+              <div class={styles.cardHeader}>
+                <h3 class={styles.cardTitle}>{topicLabel(topic)}</h3>
+                <span class={styles.cardId}>{topic.id}</span>
               </div>
-              <p class="text-sm text-[var(--text-secondary)] leading-normal mb-3">{topicDesc(topic)}</p>
-              <div class="text-[0.8125rem] text-[var(--text-muted)]">
-                <span class="font-semibold text-[var(--text-secondary)] mr-1">{t('frontier.top3')}</span>
+              <p class={styles.descText}>{topicDesc(topic)}</p>
+              <div class={styles.institutions}>
+                <span class={styles.label}>{t('frontier.top3')}</span>
                 {topic.top_institutions.join(', ')}
               </div>
               <Show when={topic.also_notable && topic.also_notable.length > 0}>
-                <div class="text-[0.8125rem] text-[var(--text-muted)] mt-2 pt-2 border-t border-[var(--border-light)]">
-                  <span class="font-semibold text-[var(--text-secondary)] mr-1">{t('frontier.also')}</span>
+                <div class={styles.alsoNotable}>
+                  <span class={styles.label}>{t('frontier.also')}</span>
                   {topic.also_notable!.join(', ')}
                 </div>
               </Show>

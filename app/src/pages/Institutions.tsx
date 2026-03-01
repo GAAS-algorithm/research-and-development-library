@@ -1,6 +1,7 @@
 import { For } from 'solid-js'
 import { useI18n } from '../contexts/I18nContext'
 import institutionsData from '../../../schema/institutions-index.json'
+import styles from './Institutions.module.css'
 
 type InstitutionsData = {
   description?: string
@@ -24,29 +25,29 @@ export function Institutions() {
   }
 
   return (
-    <div class="max-w-[1200px]">
-      <h2 class="text-2xl font-semibold mb-2">{t('institutions.title')}</h2>
-      <p class="text-[0.9375rem] text-[var(--text-secondary)] mb-6">{desc()}</p>
+    <div class={styles.page}>
+      <h2 class={styles.title}>{t('institutions.title')}</h2>
+      <p class={styles.desc}>{desc()}</p>
 
-      <div class="bg-[var(--bg-secondary)] border border-[var(--border)] rounded-lg py-5 px-6 mb-8">
-        <h3 class="text-base font-semibold mb-3">{t('institutions.screening')}</h3>
-        <ul class="list-none m-0 p-0">
-          <li class="text-sm text-[var(--text-secondary)] leading-relaxed mb-2 last:mb-0"><strong>{t('institutions.criteria')}</strong>{t('institutions.criteriaDesc')}</li>
-          <li class="text-sm text-[var(--text-secondary)] leading-relaxed mb-2 last:mb-0"><strong>{t('institutions.sources')}</strong>{sources().join(', ')}</li>
-          <li class="text-sm text-[var(--text-secondary)] leading-relaxed mb-2 last:mb-0"><strong>{t('institutions.classification')}</strong>{t('institutions.classificationDesc')}</li>
+      <div class={styles.screening}>
+        <h3 class={styles.screeningTitle}>{t('institutions.screening')}</h3>
+        <ul class={styles.screeningList}>
+          <li><strong>{t('institutions.criteria')}</strong>{t('institutions.criteriaDesc')}</li>
+          <li><strong>{t('institutions.sources')}</strong>{sources().join(', ')}</li>
+          <li><strong>{t('institutions.classification')}</strong>{t('institutions.classificationDesc')}</li>
         </ul>
       </div>
 
       <For each={Object.entries(categories())}>
         {([key, cat]) => (
-          <div class="mb-8">
-            <h3 class="text-lg font-semibold mb-4">{t(`institutionsCategory.${key}`) || cat.label_ja}</h3>
-            <div class="grid grid-cols-[repeat(auto-fill,minmax(240px,1fr))] gap-3">
+          <div class={styles.section}>
+            <h3 class={styles.sectionTitle}>{t(`institutionsCategory.${key}`) || cat.label_ja}</h3>
+            <div class={styles.grid}>
               <For each={cat.institutions}>
                 {(inst) => (
-                  <div class="bg-[var(--bg-secondary)] border border-[var(--border)] rounded-[6px] py-3 px-4 flex justify-between items-center">
-                    <span class="text-[0.9375rem] font-medium">{inst.name}</span>
-                    <span class="text-xs text-[var(--text-muted)]">{inst.country}</span>
+                  <div class={styles.card}>
+                    <span class={styles.name}>{inst.name}</span>
+                    <span class={styles.country}>{inst.country}</span>
                   </div>
                 )}
               </For>

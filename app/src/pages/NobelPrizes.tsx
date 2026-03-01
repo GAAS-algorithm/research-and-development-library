@@ -2,6 +2,7 @@ import { createSignal, For } from 'solid-js'
 import { useI18n } from '../contexts/I18nContext'
 import nobelData from '../../../data/nobel-prizes.json'
 import { extractFormulaParts, LatexFormula } from '../components/Latex'
+import styles from './NobelPrizes.module.css'
 
 type Category = keyof typeof nobelData.categories
 
@@ -30,15 +31,15 @@ export function NobelPrizes() {
   const categories = () => Object.keys(nobelData.categories) as Category[]
 
   return (
-    <div class="max-w-[1200px]">
-      <h2 class="text-2xl font-semibold mb-2">{t('nobel.title')}</h2>
-      <p class="text-[0.9375rem] text-[var(--text-secondary)] mb-6">{t('nobel.desc')}</p>
+    <div class={styles.page}>
+      <h2 class={styles.title}>{t('nobel.title')}</h2>
+      <p class={styles.desc}>{t('nobel.desc')}</p>
 
-      <div class="flex gap-4 mb-6">
+      <div class={styles.controls}>
         <select
           value={category()}
           onChange={(e) => setCategory(e.currentTarget.value as Category)}
-          class="py-2.5 px-3.5 border border-[var(--border)] rounded-[6px] text-[0.9375rem] bg-[var(--bg-secondary)]"
+          class={styles.select}
         >
           <For each={categories()}>
             {(cat) => (
@@ -51,19 +52,19 @@ export function NobelPrizes() {
           placeholder={t('nobel.filterYear')}
           value={yearFilter()}
           onInput={(e) => setYearFilter(e.currentTarget.value)}
-          class="py-2.5 px-3.5 border border-[var(--border)] rounded-[6px] text-[0.9375rem] bg-[var(--bg-secondary)] w-[200px]"
+          class={styles.input}
         />
       </div>
 
-      <div class="overflow-x-auto bg-[var(--bg-secondary)] border border-[var(--border)] rounded-lg shadow-[var(--shadow)]">
-        <table class="w-full border-collapse">
+      <div class={styles.tableWrap}>
+        <table class={styles.table}>
           <thead>
             <tr>
-              <th class="py-3 px-4 text-left text-xs font-semibold text-[var(--text-muted)] uppercase tracking-wider">{t('nobel.year')}</th>
-              <th class="py-3 px-4 text-left text-xs font-semibold text-[var(--text-muted)] uppercase tracking-wider">{t('nobel.laureates')}</th>
-              <th class="py-3 px-4 text-left text-xs font-semibold text-[var(--text-muted)] uppercase tracking-wider">{t('nobel.discovery')}</th>
-              <th class="py-3 px-4 text-left text-xs font-semibold text-[var(--text-muted)] uppercase tracking-wider">{t('nobel.theorem')}</th>
-              <th class="py-3 px-4 text-left text-xs font-semibold text-[var(--text-muted)] uppercase tracking-wider">{t('nobel.formula')}</th>
+              <th>{t('nobel.year')}</th>
+              <th>{t('nobel.laureates')}</th>
+              <th>{t('nobel.discovery')}</th>
+              <th>{t('nobel.theorem')}</th>
+              <th>{t('nobel.formula')}</th>
             </tr>
           </thead>
           <tbody>
@@ -75,13 +76,15 @@ export function NobelPrizes() {
                 )
                 return (
                   <tr>
-                    <td class="py-3 px-4 text-left border-b border-[var(--border-light)] text-sm font-semibold text-[var(--accent)] w-[60px]">{entry.year}</td>
-                    <td class="py-3 px-4 text-left border-b border-[var(--border-light)] text-sm">{entry.laureates.join(', ')}</td>
-                    <td class="py-3 px-4 text-left border-b border-[var(--border-light)] text-sm text-[var(--text-secondary)] max-w-[400px]">{entry.discovery}</td>
-                    <td class="py-3 px-4 text-left border-b border-[var(--border-light)] text-sm text-[var(--text-secondary)] max-w-[200px]">{text}</td>
-                    <td class="py-3 px-4 text-left border-b border-[var(--border-light)] text-sm text-[var(--text-primary)] min-w-[120px] overflow-x-auto">
+                    <td class={styles.year}>{entry.year}</td>
+                    <td>{entry.laureates.join(', ')}</td>
+                    <td class={styles.discovery}>{entry.discovery}</td>
+                    <td class={styles.theorem}>{text}</td>
+                    <td class={styles.formula}>
                       {latex ? (
-                        <LatexFormula latex={latex} class="overflow-x-auto [&_.katex]:text-[1em]" />
+                        <span class={styles.formulaDisplay}>
+                          <LatexFormula latex={latex} />
+                        </span>
                       ) : (
                         '—'
                       )}

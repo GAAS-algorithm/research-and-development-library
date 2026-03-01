@@ -3,6 +3,7 @@ import { useNavigate, useLocation } from '@solidjs/router'
 import { Menu } from 'lucide-solid'
 import { useI18n } from '../contexts/I18nContext'
 import { useLang } from '../hooks/useLang'
+import styles from './Header.module.css'
 
 const LANGUAGES = [
   { code: 'en', labelKey: 'lang.en' },
@@ -26,20 +27,20 @@ export function Header(props: HeaderProps) {
   }
 
   return (
-    <header class="h-14 px-6 flex items-center justify-between gap-3 bg-[var(--bg-secondary)] border-b border-[var(--border)] md:px-4">
+    <header class={styles.header}>
       <button
         type="button"
-        class="hidden md:flex md:items-center md:justify-center p-2 -m-2 -ml-2 border-none bg-transparent text-[var(--text-primary)] cursor-pointer rounded-[6px] hover:bg-[var(--bg-tertiary)]"
+        class={styles.menuBtn}
         onClick={props.onMenuClick}
         aria-label="Open menu"
       >
-        <Menu size={20} class="text-xl leading-none" aria-hidden />
+        <Menu size={20} strokeWidth={2} class={styles.menuIcon} aria-hidden />
       </button>
-      <h1 class="text-xl font-semibold text-[var(--text-primary)] md:text-base md:flex-1 md:min-w-0 md:overflow-hidden md:text-ellipsis md:whitespace-nowrap">{t('app.title')}</h1>
+      <h1 class={styles.title}>{t('app.title')}</h1>
       <select
         value={lang()}
         onChange={(e) => handleLangChange(e.currentTarget.value)}
-        class="py-1.5 px-3 text-[0.8125rem] border border-[var(--border)] rounded-[6px] bg-[var(--bg-primary)] text-[var(--text-primary)] cursor-pointer hover:border-[var(--accent)] focus:outline-none focus:border-[var(--accent)] focus:ring-2 focus:ring-[var(--accent-muted)] md:py-1.5 md:px-2.5 md:text-xs md:shrink-0"
+        class={styles.langSelect}
       >
         <For each={LANGUAGES}>
           {({ code, labelKey }) => (
