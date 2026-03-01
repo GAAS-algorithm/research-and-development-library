@@ -1,3 +1,5 @@
 node_modules
 .firebase
 app/dist
+*.tsbuildinfo
+app/tailwind.config.js
