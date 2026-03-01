@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://library.tanaakk.com/en/dashboard</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/dashboard"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/dashboard"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/dashboard"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/dashboard"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/dashboard</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/dashboard"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/dashboard"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/dashboard"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/dashboard"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/dashboard</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/dashboard"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/dashboard"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/dashboard"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/dashboard"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/nobel</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/nobel"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/nobel"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/nobel"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/nobel"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/nobel</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/nobel"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/nobel"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/nobel"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/nobel"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/nobel</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/nobel"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/nobel"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/nobel"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/nobel"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/tier1-awards</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/tier1-awards"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/tier1-awards"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/tier1-awards"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/tier1-awards"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/tier1-awards</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/tier1-awards"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/tier1-awards"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/tier1-awards"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/tier1-awards"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/tier1-awards</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/tier1-awards"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/tier1-awards"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/tier1-awards"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/tier1-awards"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/awards</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/awards"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/awards"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/awards"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/awards"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/awards</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/awards"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/awards"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/awards"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/awards"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/awards</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/awards"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/awards"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/awards"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/awards"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/frontier-topics</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/frontier-topics</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/frontier-topics</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/institutions</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/institutions"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/institutions"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/institutions"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/institutions"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/institutions</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/institutions"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/institutions"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/institutions"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/institutions"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/institutions</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/institutions"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/institutions"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/institutions"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/institutions"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/schema</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/schema"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/schema"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/schema"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/schema"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/schema</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/schema"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/schema"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/schema"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/schema"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/schema</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/schema"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/schema"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/schema"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/schema"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/sitemap</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/sitemap"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/sitemap"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/sitemap"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/sitemap"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/sitemap</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/sitemap"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/sitemap"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/sitemap"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/sitemap"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/sitemap</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/sitemap"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/sitemap"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/sitemap"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/sitemap"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/frontier-topics/nuclear_fission</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/nuclear_fission"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/nuclear_fission"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/nuclear_fission"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/nuclear_fission"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/frontier-topics/nuclear_fission</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/nuclear_fission"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/nuclear_fission"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/nuclear_fission"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/nuclear_fission"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/frontier-topics/nuclear_fission</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/nuclear_fission"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/nuclear_fission"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/nuclear_fission"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/nuclear_fission"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/frontier-topics/nuclear_fusion</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/nuclear_fusion"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/nuclear_fusion"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/nuclear_fusion"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/nuclear_fusion"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/frontier-topics/nuclear_fusion</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/nuclear_fusion"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/nuclear_fusion"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/nuclear_fusion"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/nuclear_fusion"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/frontier-topics/nuclear_fusion</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/nuclear_fusion"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/nuclear_fusion"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/nuclear_fusion"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/nuclear_fusion"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/frontier-topics/superconductivity</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/superconductivity"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/superconductivity"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/superconductivity"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/superconductivity"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/frontier-topics/superconductivity</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/superconductivity"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/superconductivity"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/superconductivity"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/superconductivity"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/frontier-topics/superconductivity</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/superconductivity"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/superconductivity"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/superconductivity"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/superconductivity"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/frontier-topics/quantum_computing</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/quantum_computing"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/quantum_computing"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/quantum_computing"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/quantum_computing"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/frontier-topics/quantum_computing</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/quantum_computing"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/quantum_computing"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/quantum_computing"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/quantum_computing"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/frontier-topics/quantum_computing</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/quantum_computing"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/quantum_computing"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/quantum_computing"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/quantum_computing"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/frontier-topics/artificial_general_intelligence</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/artificial_general_intelligence"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/artificial_general_intelligence"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/artificial_general_intelligence"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/artificial_general_intelligence"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/frontier-topics/artificial_general_intelligence</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/artificial_general_intelligence"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/artificial_general_intelligence"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/artificial_general_intelligence"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/artificial_general_intelligence"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/frontier-topics/artificial_general_intelligence</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/artificial_general_intelligence"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/artificial_general_intelligence"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/artificial_general_intelligence"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/artificial_general_intelligence"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/frontier-topics/synthetic_biology</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/synthetic_biology"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/synthetic_biology"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/synthetic_biology"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/synthetic_biology"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/frontier-topics/synthetic_biology</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/synthetic_biology"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/synthetic_biology"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/synthetic_biology"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/synthetic_biology"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/frontier-topics/synthetic_biology</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/synthetic_biology"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/synthetic_biology"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/synthetic_biology"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/synthetic_biology"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/frontier-topics/brain_computer_interface</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/brain_computer_interface"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/brain_computer_interface"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/brain_computer_interface"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/brain_computer_interface"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/frontier-topics/brain_computer_interface</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/brain_computer_interface"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/brain_computer_interface"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/brain_computer_interface"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/brain_computer_interface"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/frontier-topics/brain_computer_interface</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/brain_computer_interface"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/brain_computer_interface"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/brain_computer_interface"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/brain_computer_interface"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/frontier-topics/carbon_capture_utilization</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/carbon_capture_utilization"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/carbon_capture_utilization"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/carbon_capture_utilization"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/carbon_capture_utilization"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/frontier-topics/carbon_capture_utilization</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/carbon_capture_utilization"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/carbon_capture_utilization"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/carbon_capture_utilization"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/carbon_capture_utilization"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/frontier-topics/carbon_capture_utilization</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/carbon_capture_utilization"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/carbon_capture_utilization"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/carbon_capture_utilization"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/carbon_capture_utilization"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/frontier-topics/space_propulsion</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/space_propulsion"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/space_propulsion"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/space_propulsion"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/space_propulsion"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/frontier-topics/space_propulsion</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/space_propulsion"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/space_propulsion"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/space_propulsion"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/space_propulsion"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/frontier-topics/space_propulsion</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/space_propulsion"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/space_propulsion"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/space_propulsion"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/space_propulsion"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/frontier-topics/longevity_aging</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/longevity_aging"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/longevity_aging"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/longevity_aging"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/longevity_aging"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/frontier-topics/longevity_aging</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/longevity_aging"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/longevity_aging"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/longevity_aging"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/longevity_aging"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/frontier-topics/longevity_aging</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/longevity_aging"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/longevity_aging"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/longevity_aging"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/longevity_aging"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/frontier-topics/solid_state_battery</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/solid_state_battery"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/solid_state_battery"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/solid_state_battery"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/solid_state_battery"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/frontier-topics/solid_state_battery</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/solid_state_battery"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/solid_state_battery"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/solid_state_battery"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/solid_state_battery"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/frontier-topics/solid_state_battery</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/solid_state_battery"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/solid_state_battery"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/solid_state_battery"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/solid_state_battery"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/frontier-topics/geothermal_deep</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/geothermal_deep"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/geothermal_deep"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/geothermal_deep"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/geothermal_deep"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/frontier-topics/geothermal_deep</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/geothermal_deep"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/geothermal_deep"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/geothermal_deep"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/geothermal_deep"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/frontier-topics/geothermal_deep</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/geothermal_deep"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/geothermal_deep"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/geothermal_deep"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/geothermal_deep"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/frontier-topics/gravitational_wave</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/gravitational_wave"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/gravitational_wave"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/gravitational_wave"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/gravitational_wave"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/frontier-topics/gravitational_wave</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/gravitational_wave"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/gravitational_wave"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/gravitational_wave"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/gravitational_wave"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/frontier-topics/gravitational_wave</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/gravitational_wave"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/gravitational_wave"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/gravitational_wave"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/gravitational_wave"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/frontier-topics/particle_physics</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/particle_physics"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/particle_physics"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/particle_physics"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/particle_physics"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/frontier-topics/particle_physics</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/particle_physics"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/particle_physics"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/particle_physics"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/particle_physics"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/frontier-topics/particle_physics</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/particle_physics"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/particle_physics"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/particle_physics"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/particle_physics"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/frontier-topics/semiconductors</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/semiconductors"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/semiconductors"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/semiconductors"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/semiconductors"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/frontier-topics/semiconductors</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/semiconductors"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/semiconductors"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/semiconductors"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/semiconductors"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/frontier-topics/semiconductors</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/semiconductors"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/semiconductors"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/semiconductors"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/semiconductors"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/frontier-topics/post_quantum_cryptography</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/post_quantum_cryptography"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/post_quantum_cryptography"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/post_quantum_cryptography"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/post_quantum_cryptography"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/frontier-topics/post_quantum_cryptography</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/post_quantum_cryptography"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/post_quantum_cryptography"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/post_quantum_cryptography"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/post_quantum_cryptography"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/frontier-topics/post_quantum_cryptography</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/post_quantum_cryptography"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/post_quantum_cryptography"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/post_quantum_cryptography"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/post_quantum_cryptography"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/frontier-topics/climate_weather_ai</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/climate_weather_ai"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/climate_weather_ai"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/climate_weather_ai"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/climate_weather_ai"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/frontier-topics/climate_weather_ai</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/climate_weather_ai"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/climate_weather_ai"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/climate_weather_ai"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/climate_weather_ai"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/frontier-topics/climate_weather_ai</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/climate_weather_ai"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/climate_weather_ai"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/climate_weather_ai"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/climate_weather_ai"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/frontier-topics/precision_medicine_ai</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/precision_medicine_ai"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/precision_medicine_ai"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/precision_medicine_ai"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/precision_medicine_ai"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/frontier-topics/precision_medicine_ai</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/precision_medicine_ai"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/precision_medicine_ai"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/precision_medicine_ai"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/precision_medicine_ai"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/frontier-topics/precision_medicine_ai</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/precision_medicine_ai"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/precision_medicine_ai"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/precision_medicine_ai"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/precision_medicine_ai"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/frontier-topics/cybersecurity</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/cybersecurity"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/cybersecurity"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/cybersecurity"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/cybersecurity"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/frontier-topics/cybersecurity</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/cybersecurity"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/cybersecurity"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/cybersecurity"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/cybersecurity"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/frontier-topics/cybersecurity</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/cybersecurity"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/cybersecurity"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/cybersecurity"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/cybersecurity"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/frontier-topics/trustworthy_ai</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/trustworthy_ai"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/trustworthy_ai"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/trustworthy_ai"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/trustworthy_ai"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/frontier-topics/trustworthy_ai</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/trustworthy_ai"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/trustworthy_ai"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/trustworthy_ai"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/trustworthy_ai"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/frontier-topics/trustworthy_ai</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/frontier-topics/trustworthy_ai"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/frontier-topics/trustworthy_ai"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/frontier-topics/trustworthy_ai"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/frontier-topics/trustworthy_ai"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

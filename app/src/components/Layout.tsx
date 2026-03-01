@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { Sidebar } from './Sidebar'
 import { Header } from './Header'
 import { Hreflang } from './Hreflang'
+import { StructuredData } from './StructuredData'
 import { SUPPORTED_LANGS } from '../hooks/useLang'
 import styles from './Layout.module.css'
 
@@ -31,6 +32,7 @@ export function Layout() {
   return (
     <div className={styles.layout}>
       <Hreflang />
+      <StructuredData />
       <Sidebar isOpen={sidebarOpen} onClose={closeSidebar} />
       <div className={styles.main}>
         <Header onMenuClick={openSidebar} />

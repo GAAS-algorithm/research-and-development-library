@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://library.tanaakk.com/sitemap.xml
