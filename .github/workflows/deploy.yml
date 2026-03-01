@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 concurrency:
   group: deploy
@@ -30,5 +31,15 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Verify Firebase token
+        run: |
+          if [ -z "${{ secrets.FIREBASE_TOKEN }}" ]; then
+            echo "::error::FIREBASE_TOKEN が設定されていません。GitHub Settings > Secrets > Actions で FIREBASE_TOKEN を追加してください。"
+            echo "取得方法: npx firebase login:ci"
+            exit 1
+          fi
+
       - name: Deploy to Firebase Hosting
-        run: npx firebase deploy --only hosting --non-interactive --token "${{ secrets.FIREBASE_TOKEN }}"
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        run: npx firebase deploy --only hosting --non-interactive --token "$FIREBASE_TOKEN"
