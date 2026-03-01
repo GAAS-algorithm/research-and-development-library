@@ -16,7 +16,7 @@
           "Pieter Zeeman"
         ],
         "discovery": "in recognition of the extraordinary service they rendered by their researches into the influence of magnetism upon radiation phenomena",
-        "representative_equation": null
+        "representative_equation": "Lorentz $\\vec{F} = q(\\vec{E} + \\vec{v} \\times \\vec{B})$"
       },
       {
         "year": 1903,
@@ -26,7 +26,7 @@
           "Marie Curie"
         ],
         "discovery": "in recognition of the extraordinary services he has rendered by his discovery of spontaneous radioactivity",
-        "representative_equation": null
+        "representative_equation": "Radioactivity $N = N_0 e^{-\\lambda t}$"
       },
       {
         "year": 1904,
@@ -50,7 +50,7 @@
           "J.J. Thomson"
         ],
         "discovery": "in recognition of the great merits of his theoretical and experimental investigations on the conduction of electricity by gases",
-        "representative_equation": null
+        "representative_equation": "Thomson $e/m$ ratio"
       },
       {
         "year": 1907,
@@ -107,7 +107,7 @@
           "Heike Kamerlingh Onnes"
         ],
         "discovery": "for his investigations on the properties of matter at low temperatures which led, inter alia, to the production of liquid helium",
-        "representative_equation": null
+        "representative_equation": "Onnes superconductivity $R = 0$"
       },
       {
         "year": 1914,
@@ -115,7 +115,7 @@
           "Max von Laue"
         ],
         "discovery": "for his discovery of the diffraction of X-rays by crystals",
-        "representative_equation": null
+        "representative_equation": "Bragg $2d\\sin\\theta = n\\lambda$"
       },
       {
         "year": 1915,
@@ -124,7 +124,7 @@
           "Lawrence Bragg"
         ],
         "discovery": "for their services in the analysis of crystal structure by means of X-rays",
-        "representative_equation": null
+        "representative_equation": "Bragg $2d\\sin\\theta = n\\lambda$"
       },
       {
         "year": 1917,
@@ -180,7 +180,7 @@
           "Robert A. Millikan"
         ],
         "discovery": "for his work on the elementary charge of electricity and on the photoelectric effect",
-        "representative_equation": null
+        "representative_equation": "Millikan $E = h\\nu - W$ (photoelectric)"
       },
       {
         "year": 1924,
@@ -197,7 +197,7 @@
           "Gustav Hertz"
         ],
         "discovery": "for their discovery of the laws governing the impact of an electron upon an atom",
-        "representative_equation": null
+        "representative_equation": "Franck-Hertz $E_n - E_m = h\\nu$"
       },
       {
         "year": 1926,
@@ -214,7 +214,7 @@
           "C.T.R. Wilson"
         ],
         "discovery": "for his discovery of the effect named after him",
-        "representative_equation": null
+        "representative_equation": "Compton $\\Delta\\lambda = \\frac{h}{m_e c}(1 - \\cos\\theta)$"
       },
       {
         "year": 1928,
@@ -230,7 +230,7 @@
           "Louis de Broglie"
         ],
         "discovery": "for his discovery of the wave nature of electrons",
-        "representative_equation": null
+        "representative_equation": "de Broglie $\\lambda = h/p$"
       },
       {
         "year": 1930,
@@ -238,7 +238,7 @@
           "Sir Chandrasekhara Venkata Raman"
         ],
         "discovery": "for his work on the scattering of light and for the discovery of the effect named after him",
-        "representative_equation": null
+        "representative_equation": "Raman $\\Delta\\nu$ shift"
       },
       {
         "year": 1932,
@@ -263,7 +263,7 @@
           "James Chadwick"
         ],
         "discovery": "for the discovery of the neutron",
-        "representative_equation": null
+        "representative_equation": "Chadwick neutron $m_n \\approx m_p$"
       },
       {
         "year": 1936,
@@ -289,7 +289,7 @@
           "Enrico Fermi"
         ],
         "discovery": "for his demonstrations of the existence of new radioactive elements produced by neutron irradiation, and for his related discovery of nuclear reactions brought about by slow neutrons",
-        "representative_equation": null
+        "representative_equation": "Fermi $E_F = \\frac{\\hbar^2}{2m}(3\\pi^2 n)^{2/3}$"
       },
       {
         "year": 1939,
@@ -321,7 +321,7 @@
           "Wolfgang Pauli"
         ],
         "discovery": "for the discovery of the Exclusion Principle, also called the Pauli Principle",
-        "representative_equation": null
+        "representative_equation": "Pauli exclusion $n_i \\le 1$"
       },
       {
         "year": 1946,
@@ -353,7 +353,7 @@
           "Hideki Yukawa"
         ],
         "discovery": "for his prediction of the existence of mesons on the basis of theoretical work on nuclear forces",
-        "representative_equation": null
+        "representative_equation": "Yukawa $V(r) \\propto e^{-r/r_0}/r$"
       },
       {
         "year": 1950,
@@ -396,7 +396,7 @@
           "Walther Bothe"
         ],
         "discovery": "for his fundamental research in quantum mechanics, especially for his statistical interpretation of the wavefunction",
-        "representative_equation": null
+        "representative_equation": "Born $|\\psi|^2$ probability"
       },
       {
         "year": 1955,
@@ -434,7 +434,7 @@
           "Igor Y. Tamm"
         ],
         "discovery": "for the discovery and the interpretation of the Cherenkov effect",
-        "representative_equation": null
+        "representative_equation": "Cherenkov $v > c/n$, $\\cos\\theta = c/(nv)$"
       },
       {
         "year": 1959,
@@ -468,7 +468,7 @@
           "Lev Landau"
         ],
         "discovery": "for his pioneering theories for condensed matter, especially liquid helium",
-        "representative_equation": null
+        "representative_equation": "Landau $E_n = \\hbar\\omega_c(n + 1/2)$"
       },
       {
         "year": 1963,
@@ -488,7 +488,7 @@
           "Aleksandr M. Prokhorov"
         ],
         "discovery": "for fundamental work in the field of quantum electronics, which has led to the construction of oscillators and amplifiers based on the maser-laser principle",
-        "representative_equation": null
+        "representative_equation": "LASER $E = h\\nu$ stimulated emission"
       },
       {
         "year": 1965,
@@ -498,7 +498,7 @@
           "Richard P. Feynman"
         ],
         "discovery": "for their fundamental work in quantum electrodynamics, with deep-ploughing consequences for the physics of elementary particles",
-        "representative_equation": null
+        "representative_equation": "QED $S = \\int \\mathcal{L}\\,d^4x$"
       },
       {
         "year": 1966,
@@ -514,7 +514,7 @@
           "Hans Bethe"
         ],
         "discovery": "for his contributions to the theory of nuclear reactions, especially his discoveries concerning the energy production in stars",
-        "representative_equation": "nuclear reaction rates (Bethe formula)"
+        "representative_equation": "Bethe nuclear reaction rates (Bethe formula)"
       },
       {
         "year": 1968,
@@ -530,7 +530,7 @@
           "Murray Gell-Mann"
         ],
         "discovery": "for his contributions and discoveries concerning the classification of elementary particles and their interactions",
-        "representative_equation": null
+        "representative_equation": "Quarks $SU(3)$, $q = \\pm e/3, \\pm 2e/3$"
       },
       {
         "year": 1970,
@@ -557,7 +557,7 @@
           "Robert Schrieffer"
         ],
         "discovery": "for their jointly developed theory of superconductivity, usually called the BCS-theory",
-        "representative_equation": "BCS theory: Δ(T) gap equation"
+        "representative_equation": "BCS $\\Delta(T)$ gap equation"
       },
       {
         "year": 1973,
@@ -567,7 +567,7 @@
           "Brian D. Josephson"
         ],
         "discovery": "for their experimental discoveries regarding tunneling phenomena in semiconductors and superconductors, respectively",
-        "representative_equation": null
+        "representative_equation": "Josephson $I = I_c \\sin\\phi$"
       },
       {
         "year": 1974,
@@ -595,7 +595,7 @@
           "Samuel C.C. Ting"
         ],
         "discovery": "for their pioneering work in the discovery of a heavy elementary particle of a new kind",
-        "representative_equation": null
+        "representative_equation": "J/ψ $m \\approx 3.1\\,\\mathrm{GeV}$"
       },
       {
         "year": 1977,
@@ -625,7 +625,7 @@
           "Steven Weinberg"
         ],
         "discovery": "for their contributions to the theory of the unified weak and electromagnetic interaction between elementary particles, including, inter alia, the prediction of the weak neutral current",
-        "representative_equation": null
+        "representative_equation": "Weinberg $\\sin^2\\theta_W \\approx 0.23$"
       },
       {
         "year": 1980,
@@ -661,7 +661,7 @@
           "William A. Fowler"
         ],
         "discovery": "for his theoretical studies of the physical processes of importance to the structure and evolution of the stars",
-        "representative_equation": null
+        "representative_equation": "Chandrasekhar $M_{\\mathrm{Ch}} \\approx 1.4 M_\\odot$"
       },
       {
         "year": 1984,
@@ -670,7 +670,7 @@
           "Simon van der Meer"
         ],
         "discovery": "for their decisive contributions to the large project, which led to the discovery of the field particles W and Z, communicators of weak interaction",
-        "representative_equation": null
+        "representative_equation": "W, Z bosons $m_W, m_Z$"
       },
       {
         "year": 1985,
@@ -707,7 +707,7 @@
           "Jack Steinberger"
         ],
         "discovery": "for the neutrino beam method and the demonstration of the doublet structure of the leptons through the discovery of the muon neutrino",
-        "representative_equation": null
+        "representative_equation": "Muon neutrino $\\nu_\\mu$"
       },
       {
         "year": 1989,
@@ -727,7 +727,7 @@
           "Richard E. Taylor"
         ],
         "discovery": "for their pioneering investigations concerning deep inelastic scattering of electrons on protons and bound neutrons, which have been of essential importance for the development of the quark model in particle physics",
-        "representative_equation": null
+        "representative_equation": "Quark structure $Q^2$ scaling"
       },
       {
         "year": 1991,
@@ -770,7 +770,7 @@
           "Frederick Reines"
         ],
         "discovery": "for the discovery of the tau lepton",
-        "representative_equation": null
+        "representative_equation": "Tau $\\tau^-$ lepton"
       },
       {
         "year": 1996,
@@ -809,7 +809,7 @@
           "Martinus J.G. Veltman"
         ],
         "discovery": "for elucidating the quantum structure of electroweak interactions in physics",
-        "representative_equation": null
+        "representative_equation": "Renormalization gauge theories"
       },
       {
         "year": 2000,
@@ -859,7 +859,7 @@
           "Frank Wilczek"
         ],
         "discovery": "for the discovery of asymptotic freedom in the theory of the strong interaction",
-        "representative_equation": null
+        "representative_equation": "QCD $\\beta$-function asymptotic freedom"
       },
       {
         "year": 2005,
@@ -944,7 +944,7 @@
           "Peter Higgs"
         ],
         "discovery": "for the theoretical discovery of a mechanism that contributes to our understanding of the origin of mass of subatomic particles, and which recently was confirmed through the discovery of the predicted fundamental particle, by the ATLAS and CMS experiments at CERN's Large Hadron Collider",
-        "representative_equation": null
+        "representative_equation": "Higgs $m_H^2 v^2 = -\\mu^2$"
       },
       {
         "year": 2014,
@@ -1088,7 +1088,7 @@
           "Svante Arrhenius"
         ],
         "discovery": "in recognition of the extraordinary services he has rendered to the advancement of chemistry by his electrolytic theory of dissociation",
-        "representative_equation": "Arrhenius $k = A e^{-E_a/(RT)}$"
+        "representative_equation": "k = Ae^(-Ea/RT)"
       },
       {
         "year": 1904,
@@ -1144,7 +1144,7 @@
           "Otto Wallach"
         ],
         "discovery": "in recognition of his services to organic chemistry and the chemical industry by his pioneer work in the field of alicyclic compounds",
-        "representative_equation": "van der Waals $(P + a/V^2)(V - b) = RT$"
+        "representative_equation": "(P + a/V²)(V - b) = RT"
       },
       {
         "year": 1911,
@@ -1201,7 +1201,7 @@
           "Walther Nernst"
         ],
         "discovery": "in recognition of his work in thermochemistry",
-        "representative_equation": "Nernst $E = E^\\circ - (RT/(nF))\\ln Q$"
+        "representative_equation": "E = E° - (RT/nF)lnQ"
       },
       {
         "year": 1921,
@@ -1376,7 +1376,7 @@
           "Wendell M. Stanley"
         ],
         "discovery": "for his discovery that enzymes can be crystallized",
-        "representative_equation": "Michaelis-Menten $v = V_{\\max}[S]/(K_m + [S])$"
+        "representative_equation": "v = V_max[S]/(K_m + [S])"
       },
       {
         "year": 1947,
@@ -4977,7 +4977,7 @@
           "Jan Tinbergen"
         ],
         "discovery": "for having developed and applied dynamic models for the analysis of economic processes",
-        "representative_equation": null
+        "representative_equation": "Frisch $Y_t = f(K_t, L_t, A_t)$ dynamic models"
       },
       {
         "year": 1970,
@@ -4985,7 +4985,7 @@
           "Paul A. Samuelson"
         ],
         "discovery": "for the scientific work through which he has developed static and dynamic economic theory and actively contributed to raising the level of analysis in economic science",
-        "representative_equation": null
+        "representative_equation": "Samuelson revealed preference, $\\partial x_i/\\partial p_j$"
       },
       {
         "year": 1971,
@@ -4993,7 +4993,7 @@
           "Simon Kuznets"
         ],
         "discovery": "for his empirically founded interpretation of economic growth which has led to new and deepened insight into the economic and social structure and process of development",
-        "representative_equation": "Kuznets curve"
+        "representative_equation": "Kuznets curve $G(y) \\to \\Delta$ inequality"
       },
       {
         "year": 1972,
@@ -5002,7 +5002,7 @@
           "Kenneth J. Arrow"
         ],
         "discovery": "for their pioneering contributions to general economic equilibrium theory and welfare theory",
-        "representative_equation": null
+        "representative_equation": "Hicks IS-LM $Y = C(Y) + I(r) + G$"
       },
       {
         "year": 1973,
@@ -5010,7 +5010,7 @@
           "Wassily Leontief"
         ],
         "discovery": "for the development of the input-output method and for its application to important economic problems",
-        "representative_equation": null
+        "representative_equation": "Leontief $X = (I - A)^{-1}Y$ input-output"
       },
       {
         "year": 1974,
@@ -5028,7 +5028,7 @@
           "Tjalling C. Koopmans"
         ],
         "discovery": "for their contributions to the theory of optimum allocation of resources",
-        "representative_equation": null
+        "representative_equation": "Kantorovich $\\min c^T x$ s.t. $Ax = b$"
       },
       {
         "year": 1976,
@@ -5036,7 +5036,7 @@
           "Milton Friedman"
         ],
         "discovery": "for his achievements in the fields of consumption analysis, monetary history and theory and for his demonstration of the complexity of stabilization policy",
-        "representative_equation": null
+        "representative_equation": "Friedman $MV = PY$ quantity theory"
       },
       {
         "year": 1977,
@@ -5045,7 +5045,7 @@
           "James E. Meade"
         ],
         "discovery": "for their pathbreaking contribution to the theory of international trade and international capital movements",
-        "representative_equation": null
+        "representative_equation": "Heckscher-Ohlin $F(K,L)$ factor proportions"
       },
       {
         "year": 1978,
@@ -5053,7 +5053,7 @@
           "Herbert Simon"
         ],
         "discovery": "for his pioneering research into the decision-making process within economic organizations",
-        "representative_equation": null
+        "representative_equation": "Simon satisficing $u(x) \\ge \\bar{u}$"
       },
       {
         "year": 1979,
@@ -5062,7 +5062,7 @@
           "Sir Arthur Lewis"
         ],
         "discovery": "for their pioneering research into economic development research with particular consideration of the problems of developing countries",
-        "representative_equation": null
+        "representative_equation": "Schultz human capital $Y = f(H, K, L)$"
       },
       {
         "year": 1980,
@@ -5070,7 +5070,7 @@
           "Lawrence R. Klein"
         ],
         "discovery": "for the creation of econometric models and the application to the analysis of economic fluctuations and economic policies",
-        "representative_equation": null
+        "representative_equation": "Klein $Y_t = \\Phi(Y_{t-1}, X_t)$ econometric"
       },
       {
         "year": 1981,
@@ -5078,7 +5078,7 @@
           "James Tobin"
         ],
         "discovery": "for his analysis of financial markets and their relations to expenditure decisions, employment, production and prices",
-        "representative_equation": null
+        "representative_equation": "Tobin's q $q = V/K$"
       },
       {
         "year": 1982,
@@ -5086,7 +5086,7 @@
           "George J. Stigler"
         ],
         "discovery": "for his seminal studies of industrial structures, functioning of markets and causes and effects of public regulation",
-        "representative_equation": null
+        "representative_equation": "Stigler $MC = MR$ regulation"
       },
       {
         "year": 1983,
@@ -5094,7 +5094,7 @@
           "Gerard Debreu"
         ],
         "discovery": "for having incorporated new analytical methods into economic theory and for his rigorous reformulation of the theory of general equilibrium",
-        "representative_equation": null
+        "representative_equation": "Debreu $p \\cdot x_i \\le p \\cdot \\omega_i$ GE"
       },
       {
         "year": 1984,
@@ -5110,7 +5110,7 @@
           "Franco Modigliani"
         ],
         "discovery": "for his pioneering analyses of saving and of financial markets",
-        "representative_equation": null
+        "representative_equation": "Modigliani-Miller $V_L = V_U$, lifecycle $C = \\alpha Y$"
       },
       {
         "year": 1986,
@@ -5134,7 +5134,7 @@
           "Maurice Allais"
         ],
         "discovery": "for his pioneering contributions to the theory of markets and efficient utilization of resources",
-        "representative_equation": null
+        "representative_equation": "Allais paradox $u(x) \\not\\propto$ expected"
       },
       {
         "year": 1989,
@@ -5152,7 +5152,7 @@
           "William F. Sharpe"
         ],
         "discovery": "for their pioneering work in the theory of financial economics",
-        "representative_equation": null
+        "representative_equation": "Markowitz $\\sigma_p^2 = w^T \\Sigma w$"
       },
       {
         "year": 1991,
@@ -5160,7 +5160,7 @@
           "Ronald H. Coase"
         ],
         "discovery": "for his discovery and clarification of the significance of transaction costs and property rights for the institutional structure and functioning of the economy",
-        "representative_equation": null
+        "representative_equation": "Coase $TC_1 = TC_2$ at optimum"
       },
       {
         "year": 1992,
@@ -5168,7 +5168,7 @@
           "Gary Becker"
         ],
         "discovery": "for having extended the domain of microeconomic analysis to a wide range of human behaviour and interaction, including nonmarket behaviour",
-        "representative_equation": null
+        "representative_equation": "Becker $U = u(c, l, h)$ human capital"
       },
       {
         "year": 1993,
@@ -5187,7 +5187,7 @@
           "Reinhard Selten"
         ],
         "discovery": "for their pioneering analysis of equilibria in the theory of non-cooperative games",
-        "representative_equation": "Nash equilibrium"
+        "representative_equation": "Nash $u_i(s_i^*, s_{-i}^*) \\ge u_i(s_i, s_{-i}^*)$"
       },
       {
         "year": 1995,
@@ -5195,7 +5195,7 @@
           "Robert E. Lucas Jr."
         ],
         "discovery": "for having developed and applied the hypothesis of rational expectations, and thereby having transformed macroeconomic analysis and deepened our understanding of economic policy",
-        "representative_equation": null
+        "representative_equation": "Lucas $E_t[x_{t+1}]$ rational expectations"
       },
       {
         "year": 1996,
@@ -5204,7 +5204,7 @@
           "William Vickrey"
         ],
         "discovery": "for their fundamental contributions to the economic theory of incentives under asymmetric information",
-        "representative_equation": null
+        "representative_equation": "Mirrlees $\\max \\int v(y-T(y))f(y)dy$"
       },
       {
         "year": 1997,
@@ -5221,7 +5221,7 @@
           "Amartya Sen"
         ],
         "discovery": "for his contributions to welfare economics",
-        "representative_equation": null
+        "representative_equation": "Sen $W = f(u_1, \\ldots, u_n)$ capability"
       },
       {
         "year": 1999,
@@ -5229,7 +5229,7 @@
           "Robert Mundell"
         ],
         "discovery": "for his analysis of monetary and fiscal policy under different exchange rate regimes and his analysis of optimum currency areas",
-        "representative_equation": null
+        "representative_equation": "Mundell-Fleming $IS$-$LM$-$BP$"
       },
       {
         "year": 2000,
@@ -5238,7 +5238,7 @@
           "Daniel L. McFadden"
         ],
         "discovery": "for his development of theory and methods for analyzing selective samples",
-        "representative_equation": null
+        "representative_equation": "Heckman $E[Y|X,D=1] - E[Y|X,D=0]$ selection"
       },
       {
         "year": 2001,
@@ -5248,7 +5248,7 @@
           "Joseph E. Stiglitz"
         ],
         "discovery": "for their analyses of markets with asymmetric information",
-        "representative_equation": null
+        "representative_equation": "Akerlof lemon $p = \\bar{q}$ adverse selection"
       },
       {
         "year": 2002,
@@ -5257,7 +5257,7 @@
           "Vernon L. Smith"
         ],
         "discovery": "for having integrated insights from psychological research into economic science, especially concerning human judgment and decision-making under uncertainty",
-        "representative_equation": null
+        "representative_equation": "Kahneman $v(\\Delta x)$ prospect theory"
       },
       {
         "year": 2003,
@@ -5266,7 +5266,7 @@
           "Clive W.J. Granger"
         ],
         "discovery": "for methods of analyzing economic time series with time-varying volatility (ARCH)",
-        "representative_equation": null
+        "representative_equation": "Engle ARCH $\\sigma_t^2 = \\omega + \\alpha \\varepsilon_{t-1}^2$"
       },
       {
         "year": 2004,
@@ -5275,7 +5275,7 @@
           "Edward C. Prescott"
         ],
         "discovery": "for their contributions to dynamic macroeconomics: the time consistency of economic policy and the driving forces behind business cycles",
-        "representative_equation": null
+        "representative_equation": "RBC $\\max E \\sum \\beta^t u(c_t, l_t)$"
       },
       {
         "year": 2005,
@@ -5284,7 +5284,7 @@
           "Thomas C. Schelling"
         ],
         "discovery": "for having enhanced our understanding of conflict and cooperation through game-theory analysis",
-        "representative_equation": null
+        "representative_equation": "Aumann correlated equilibrium"
       },
       {
         "year": 2006,
@@ -5292,7 +5292,7 @@
           "Edmund S. Phelps"
         ],
         "discovery": "for his analysis of intertemporal tradeoffs in macroeconomic policy",
-        "representative_equation": null
+        "representative_equation": "Phelps $\\pi = \\pi^e + \\alpha(u^* - u)$ Phillips"
       },
       {
         "year": 2007,
@@ -5302,7 +5302,7 @@
           "Roger B. Myerson"
         ],
         "discovery": "for having laid the foundations of mechanism design theory",
-        "representative_equation": null
+        "representative_equation": "Hurwicz mechanism $f(\\theta)$"
       },
       {
         "year": 2008,
@@ -5310,7 +5310,7 @@
           "Paul Krugman"
         ],
         "discovery": "for his analysis of trade patterns and location of economic activity",
-        "representative_equation": null
+        "representative_equation": "Krugman $Y_i = (\\sum_j \\tau_{ij} Y_j)^{1/(1-\\sigma)}$"
       },
       {
         "year": 2009,
@@ -5329,7 +5329,7 @@
           "Christopher A. Pissarides"
         ],
         "discovery": "for their analysis of markets with search frictions",
-        "representative_equation": null
+        "representative_equation": "DMP $\\theta = v/u$ matching"
       },
       {
         "year": 2011,
@@ -5338,7 +5338,7 @@
           "Christopher A. Sims"
         ],
         "discovery": "for their empirical research on cause and effect in the macroeconomy",
-        "representative_equation": null
+        "representative_equation": "Sargent VAR $y_t = A y_{t-1} + \\varepsilon_t$"
       },
       {
         "year": 2012,
@@ -5347,7 +5347,7 @@
           "Lloyd S. Shapley"
         ],
         "discovery": "for the theory of stable allocations and the practice of market design",
-        "representative_equation": null
+        "representative_equation": "Shapley $\\phi_i(v) = \\sum_S \\frac{|S|!(n-|S|-1)!}{n!}[v(S\\cup i)-v(S)]$"
       },
       {
         "year": 2013,
@@ -5357,7 +5357,7 @@
           "Robert J. Shiller"
         ],
         "discovery": "for their empirical analysis of asset prices",
-        "representative_equation": null
+        "representative_equation": "Fama $E[R_{t+1}|\\mathcal{F}_t]$ efficient"
       },
       {
         "year": 2014,
@@ -5365,7 +5365,7 @@
           "Jean Tirole"
         ],
         "discovery": "for his analysis of market power and regulation",
-        "representative_equation": null
+        "representative_equation": "Tirole $\\pi = (p-c)q$ market power"
       },
       {
         "year": 2015,
@@ -5373,7 +5373,7 @@
           "Angus Deaton"
         ],
         "discovery": "for his analysis of consumption, poverty, and welfare",
-        "representative_equation": null
+        "representative_equation": "Deaton $C = \\alpha + \\beta Y$ consumption"
       },
       {
         "year": 2016,
@@ -5382,7 +5382,7 @@
           "Bengt Holmström"
         ],
         "discovery": "for their contributions to contract theory",
-        "representative_equation": null
+        "representative_equation": "Hart $\\max_{e} E[S(e)-c(e)]$ contracts"
       },
       {
         "year": 2017,
@@ -5390,7 +5390,7 @@
           "Richard H. Thaler"
         ],
         "discovery": "for his contributions to behavioural economics",
-        "representative_equation": null
+        "representative_equation": "Thaler $v(x) = x^\\alpha$ loss aversion"
       },
       {
         "year": 2018,
@@ -5399,7 +5399,7 @@
           "Paul M. Romer"
         ],
         "discovery": "for integrating climate change into long-run macroeconomic analysis",
-        "representative_equation": null
+        "representative_equation": "Nordhaus DICE $C = f(T, E)$"
       },
       {
         "year": 2019,
@@ -5428,7 +5428,7 @@
           "Guido W. Imbens"
         ],
         "discovery": "for his empirical contributions to labour economics",
-        "representative_equation": null
+        "representative_equation": "Card DiD $E[Y_{1t}-Y_{0t}|D=1] - E[Y_{1t}-Y_{0t}|D=0]$"
       },
       {
         "year": 2022,
@@ -5438,7 +5438,7 @@
           "Philip Dybvig"
         ],
         "discovery": "for research on banks and financial crises",
-        "representative_equation": null
+        "representative_equation": "Bernanke financial accelerator"
       },
       {
         "year": 2023,
@@ -5456,7 +5456,7 @@
           "James A. Robinson"
         ],
         "discovery": "for studies of how institutions are formed and affect prosperity",
-        "representative_equation": null
+        "representative_equation": "Acemoglu $y = A \\cdot k^\\alpha$ institutions"
       },
       {
         "year": 2025,
@@ -5466,14 +5466,9 @@
           "Peter Howitt"
         ],
         "discovery": "for having identified the prerequisites for sustained growth through technological progress",
-        "representative_equation": null
+        "representative_equation": "Aghion-Howitt $g = \\lambda \\cdot \\gamma \\cdot n$"
       }
     ]
   },
-  "source": "Nobel Prize official",
-  "references": [
-    "Nobel Prize official website (nobelprize.org)",
-    "Wikipedia List of Nobel laureates"
-  ],
-  "last_updated": "2025"
+  "source": "Nobel Prize official (nobelprize.org, api.nobelprize.org)"
 }

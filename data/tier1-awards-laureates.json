@@ -17,9 +17,9 @@
             "Terence Tao"
           ],
           "discovery": "数学における革新的貢献",
-          "representative_formula": null,
+          "representative_formula": "Donaldson不変量, Kontsevich公式, Tao素数",
           "discovery_en": "Revolutionary contributions to mathematics",
-          "representative_formula_en": null
+          "representative_formula_en": "Donaldson invariants, Kontsevich formula, Tao primes"
         },
         {
           "year": 2016,
@@ -27,9 +27,9 @@
             "Ian Agol"
           ],
           "discovery": "3次元多様体の虚双曲幾何学",
-          "representative_formula": null,
+          "representative_formula": "虚双曲構造 $\\mathbb{H}^3/\\Gamma$",
           "discovery_en": "Virtual hyperbolic geometry of 3-manifolds",
-          "representative_formula_en": null
+          "representative_formula_en": "Virtual hyperbolic $\\mathbb{H}^3/\\Gamma$"
         },
         {
           "year": 2017,
@@ -37,9 +37,9 @@
             "Jean Bourgain"
           ],
           "discovery": "解析学・組み合わせ論・数論への貢献",
-          "representative_formula": null,
+          "representative_formula": "Bourgain $\\|e^{it\\Delta}f\\|_{L^p} \\le C\\|f\\|_{L^2}$",
           "discovery_en": "Contributions to analysis, combinatorics, and number theory",
-          "representative_formula_en": null
+          "representative_formula_en": "Bourgain restriction $\\|e^{it\\Delta}f\\|_{L^p} \\le C\\|f\\|_{L^2}$"
         },
         {
           "year": 2018,
@@ -48,9 +48,9 @@
             "James McKernan"
           ],
           "discovery": "ミニマルモデルプログラムと双有理幾何学",
-          "representative_formula": null,
+          "representative_formula": "MMP $K_X + \\Delta$ フリップ・除算",
           "discovery_en": "Minimal model program and birational geometry",
-          "representative_formula_en": null
+          "representative_formula_en": "MMP $K_X + \\Delta$ flips, divisorial"
         },
         {
           "year": 2019,
@@ -58,9 +58,9 @@
             "Vincent Lafforgue"
           ],
           "discovery": "Langlandsプログラムへの貢献",
-          "representative_formula": null,
+          "representative_formula": "Lafforgue Galois $\\leftrightarrow$ 保型",
           "discovery_en": "Contributions to the Langlands program",
-          "representative_formula_en": null
+          "representative_formula_en": "Lafforgue Galois $\\leftrightarrow$ automorphic"
         },
         {
           "year": 2020,
@@ -68,9 +68,9 @@
             "Alex Eskin"
           ],
           "discovery": "モジュラー空間の動力学",
-          "representative_formula": null,
+          "representative_formula": "Eskin-Mirzakhani $\\int_{\\mathcal{M}} \\omega^n$ 測地線",
           "discovery_en": "Dynamics of moduli spaces",
-          "representative_formula_en": null
+          "representative_formula_en": "Eskin-Mirzakhani geodesic flow on $\\mathcal{M}$"
         },
         {
           "year": 2021,
@@ -88,9 +88,9 @@
             "Takuro Mochizuki"
           ],
           "discovery": "代数解析学・ホッジ理論",
-          "representative_formula": null,
+          "representative_formula": "Mochizuki $\\mathcal{D}$-加群, 非正則ホッジ理論",
           "discovery_en": "Algebraic analysis, Hodge theory",
-          "representative_formula_en": null
+          "representative_formula_en": "Mochizuki $\\mathcal{D}$-modules, irregular Hodge"
         },
         {
           "year": 2023,
@@ -98,9 +98,9 @@
             "Daniel Spielman"
           ],
           "discovery": "理論計算機科学・スペクトラルグラフ理論",
-          "representative_formula": null,
+          "representative_formula": "Spielmanスペクトラルスパース化 $L' \\approx_\\varepsilon L$",
           "discovery_en": "Theoretical computer science, spectral graph theory",
-          "representative_formula_en": null
+          "representative_formula_en": "Spielman spectral sparsification $L' \\approx_\\varepsilon L$"
         },
         {
           "year": 2024,
@@ -108,9 +108,9 @@
             "Simon Brendle"
           ],
           "discovery": "微分幾何学・偏微分方程式",
-          "representative_formula": null,
+          "representative_formula": "Brendle $\\partial_t g = -2\\mathrm{Ric}$ 曲率流",
           "discovery_en": "Differential geometry, partial differential equations",
-          "representative_formula_en": null
+          "representative_formula_en": "Brendle $\\partial_t g = -2\\mathrm{Ric}$ curvature flow"
         }
       ]
     },
@@ -125,9 +125,9 @@
             "Jean-Pierre Serre"
           ],
           "discovery": "位相・代数幾何・数論への貢献",
-          "representative_formula": "Serre双対性",
+          "representative_formula": "Serre双対性 $H^i(\\mathcal{F})^* \\cong H^{n-i}(\\mathcal{F}^* \\otimes \\omega)$",
           "discovery_en": "Contributions to topology, algebraic geometry, and number theory",
-          "representative_formula_en": "Serre duality"
+          "representative_formula_en": "Serre duality $H^i(\\mathcal{F})^* \\cong H^{n-i}(\\mathcal{F}^* \\otimes \\omega)$"
         },
         {
           "year": 2004,
@@ -146,9 +146,9 @@
             "Peter Lax"
           ],
           "discovery": "偏微分方程式の理論",
-          "representative_formula": "Lax-Milgramの定理",
+          "representative_formula": "Lax-Milgramの定理 $a(u,v) = F(v)$",
           "discovery_en": "Theory of partial differential equations",
-          "representative_formula_en": "Lax-Milgram theorem"
+          "representative_formula_en": "Lax-Milgram theorem $a(u,v) = F(v)$"
         },
         {
           "year": 2006,
@@ -156,9 +156,9 @@
             "Lennart Carleson"
           ],
           "discovery": "調和解析・力学系",
-          "representative_formula": "Carlesonの定理",
+          "representative_formula": "Carlesonの定理 $\\lim_{N\\to\\infty} S_N f(x) = f(x)$ a.e.",
           "discovery_en": "Harmonic analysis, dynamical systems",
-          "representative_formula_en": "Carleson's theorem"
+          "representative_formula_en": "Carleson's theorem $\\lim_{N\\to\\infty} S_N f(x) = f(x)$ a.e."
         },
         {
           "year": 2007,
@@ -166,9 +166,9 @@
             "Srinivasa S.R. Varadhan"
           ],
           "discovery": "大偏差理論",
-          "representative_formula": null,
+          "representative_formula": "Varadhanの補題 $\\lim_{\\varepsilon\\to 0} \\varepsilon \\log E[e^{F(X_\\varepsilon)/\\varepsilon}] = \\sup_x(F(x)-I(x))$",
           "discovery_en": "Large deviation theory",
-          "representative_formula_en": null
+          "representative_formula_en": "Varadhan's lemma $\\lim_{\\varepsilon\\to 0} \\varepsilon \\log E[e^{F(X_\\varepsilon)/\\varepsilon}] = \\sup_x(F(x)-I(x))$"
         },
         {
           "year": 2008,
@@ -177,9 +177,9 @@
             "Jacques Tits"
           ],
           "discovery": "群論の基礎的貢献",
-          "representative_formula": null,
+          "representative_formula": "Thompson群 $F$, Tits建物 $\\Delta(G)$",
           "discovery_en": "Fundamental contributions to group theory",
-          "representative_formula_en": null
+          "representative_formula_en": "Thompson group $F$, Tits building $\\Delta(G)$"
         },
         {
           "year": 2009,
@@ -187,9 +187,9 @@
             "Mikhail Gromov"
           ],
           "discovery": "幾何学への革命的貢献",
-          "representative_formula": "Gromov-Hausdorff距離",
+          "representative_formula": "Gromov-Hausdorff距離 $d_{GH}(X,Y)$",
           "discovery_en": "Revolutionary contributions to geometry",
-          "representative_formula_en": "Gromov-Hausdorff distance"
+          "representative_formula_en": "Gromov-Hausdorff distance $d_{GH}(X,Y)$"
         },
         {
           "year": 2010,
@@ -197,9 +197,9 @@
             "John Tate"
           ],
           "discovery": "数論への広範な貢献",
-          "representative_formula": "Tate加群",
+          "representative_formula": "Tate加群 $T_p(E) = \\varprojlim E[p^n]$",
           "discovery_en": "Broad contributions to number theory",
-          "representative_formula_en": "Tate module"
+          "representative_formula_en": "Tate module $T_p(E) = \\varprojlim E[p^n]$"
         },
         {
           "year": 2011,
@@ -207,9 +207,9 @@
             "John Milnor"
           ],
           "discovery": "トポロジー・幾何学・代数学",
-          "representative_formula": "Milnorの球面",
+          "representative_formula": "Milnorの球面 $S^7$ exotic $\\|x\\|^2 + \\|y\\|^2 = 1$",
           "discovery_en": "Topology, geometry, algebra",
-          "representative_formula_en": "Milnor spheres"
+          "representative_formula_en": "Milnor spheres exotic $S^7$"
         },
         {
           "year": 2012,
@@ -217,9 +217,9 @@
             "Endre Szemerédi"
           ],
           "discovery": "離散数学・理論計算機科学",
-          "representative_formula": "Szemerédiの定理",
+          "representative_formula": "Szemerédiの定理 $\\lim_{N\\to\\infty} \\frac{|A \\cap [1,N]|}{N} > 0 \\Rightarrow$ 長い等差数列",
           "discovery_en": "Discrete mathematics, theoretical computer science",
-          "representative_formula_en": "Szemerédi's theorem"
+          "representative_formula_en": "Szemerédi's theorem positive density $\\Rightarrow$ long AP"
         },
         {
           "year": 2013,
@@ -227,9 +227,9 @@
             "Pierre Deligne"
           ],
           "discovery": "代数幾何・数論",
-          "representative_formula": "Weil予想の証明",
+          "representative_formula": "Weil予想 $Z(X,t) = \\prod \\frac{P_i(t)^{(-1)^{i+1}}}{(1-t)(1-qt)\\cdots}$",
           "discovery_en": "Algebraic geometry, number theory",
-          "representative_formula_en": "Proof of the Weil conjectures"
+          "representative_formula_en": "Weil conjectures $Z(X,t) = \\prod P_i(t)^{(-1)^{i+1}}/\\cdots$"
         },
         {
           "year": 2014,
@@ -237,9 +237,9 @@
             "Yakov Sinai"
           ],
           "discovery": "力学系・エルゴード理論",
-          "representative_formula": "Sinai-Ruelle-Bowen測度",
+          "representative_formula": "Sinai-Ruelle-Bowen測度 $h_\\mu(T) = \\int \\lambda^+ d\\mu$",
           "discovery_en": "Dynamical systems, ergodic theory",
-          "representative_formula_en": "Sinai-Ruelle-Bowen measure"
+          "representative_formula_en": "Sinai-Ruelle-Bowen measure $h_\\mu(T) = \\int \\lambda^+ d\\mu$"
         },
         {
           "year": 2015,
@@ -258,9 +258,9 @@
             "Andrew Wiles"
           ],
           "discovery": "フェルマーの最終定理の証明",
-          "representative_formula": "modularity theorem",
+          "representative_formula": "modularity theorem $E \\sim f$ 楕円曲線$\\leftrightarrow$保型形式",
           "discovery_en": "Proof of Fermat's Last Theorem",
-          "representative_formula_en": "modularity theorem"
+          "representative_formula_en": "Modularity theorem elliptic curve $E \\sim$ modular form $f$"
         },
         {
           "year": 2017,
@@ -268,9 +268,9 @@
             "Yves Meyer"
           ],
           "discovery": "ウェーブレット理論",
-          "representative_formula": null,
+          "representative_formula": "Meyerウェーブレット $\\psi_{j,k}(x) = 2^{j/2}\\psi(2^j x - k)$",
           "discovery_en": "Wavelet theory",
-          "representative_formula_en": null
+          "representative_formula_en": "Meyer wavelet $\\psi_{j,k}(x) = 2^{j/2}\\psi(2^j x - k)$"
         },
         {
           "year": 2018,
@@ -278,9 +278,9 @@
             "Robert Langlands"
           ],
           "discovery": "Langlandsプログラム",
-          "representative_formula": "Langlands対応",
+          "representative_formula": "Langlands対応 Galois表現 $\\leftrightarrow$ 保型表現",
           "discovery_en": "Langlands program",
-          "representative_formula_en": "Langlands correspondence"
+          "representative_formula_en": "Langlands correspondence Galois $\\leftrightarrow$ automorphic"
         },
         {
           "year": 2019,
@@ -288,9 +288,9 @@
             "Karen Uhlenbeck"
           ],
           "discovery": "幾何解析・ゲージ理論",
-          "representative_formula": null,
+          "representative_formula": "Uhlenbeckコンパクト性 Yang-Mills $F_A = dA + A \\wedge A$",
           "discovery_en": "Geometric analysis, gauge theory",
-          "representative_formula_en": null
+          "representative_formula_en": "Uhlenbeck compactness Yang-Mills $F_A = dA + A \\wedge A$"
         },
         {
           "year": 2020,
@@ -299,9 +299,9 @@
             "Gregory Margulis"
           ],
           "discovery": "エルゴード理論・格子群",
-          "representative_formula": null,
+          "representative_formula": "Furstenberg $\\times 2,\\times 3$ エルゴード, Margulis格子 $\\Gamma \\subset G$",
           "discovery_en": "Ergodic theory, lattice groups",
-          "representative_formula_en": null
+          "representative_formula_en": "Furstenberg $\\times 2,\\times 3$ ergodic, Margulis lattice $\\Gamma \\subset G$"
         },
         {
           "year": 2021,
@@ -310,9 +310,9 @@
             "Avi Wigderson"
           ],
           "discovery": "理論計算機科学・離散数学",
-          "representative_formula": null,
+          "representative_formula": "Lovász局所補題 $\\prod(1-p_i) > 0$, エクスパンダー $\\lambda(G) < d$",
           "discovery_en": "Theoretical computer science, discrete mathematics",
-          "representative_formula_en": null
+          "representative_formula_en": "Lovász local lemma, expander $\\lambda(G) < d$"
         },
         {
           "year": 2022,
@@ -320,9 +320,9 @@
             "Dennis Parnell Sullivan"
           ],
           "discovery": "トポロジー・力学系",
-          "representative_formula": null,
+          "representative_formula": "Sullivanの定理 Kleinian群 $\\Lambda(\\Gamma)$",
           "discovery_en": "Topology, dynamical systems",
-          "representative_formula_en": null
+          "representative_formula_en": "Sullivan's theorem Kleinian groups $\\Lambda(\\Gamma)$"
         },
         {
           "year": 2023,
@@ -330,9 +330,9 @@
             "Luis A. Caffarelli"
           ],
           "discovery": "偏微分方程式の正則性理論",
-          "representative_formula": null,
+          "representative_formula": "Caffarelli正則性 $\\Delta u = 0$ in $\\{u>0\\}$, free boundary",
           "discovery_en": "Regularity theory of partial differential equations",
-          "representative_formula_en": null
+          "representative_formula_en": "Caffarelli regularity $\\Delta u = 0$, free boundary"
         },
         {
           "year": 2024,
@@ -340,9 +340,9 @@
             "Michel Talagrand"
           ],
           "discovery": "確率論・関数解析",
-          "representative_formula": "Talagrandの不等式",
+          "representative_formula": "Talagrandの不等式 $\\mathbb{E}[\\sup_{f \\in \\mathcal{F}} \\sum \\varepsilon_i f(x_i)]$",
           "discovery_en": "Probability theory, functional analysis",
-          "representative_formula_en": "Talagrand's inequality"
+          "representative_formula_en": "Talagrand's inequality concentration"
         }
       ]
     },
@@ -358,9 +358,9 @@
             "Jesse Douglas"
           ],
           "discovery": "被覆曲面論、プラトー問題",
-          "representative_formula": null,
+          "representative_formula": "Ahlfors $m(r)$, Douglas $\\inf \\int |\\nabla u|^2$",
           "discovery_en": "Covering surface theory, Plateau problem",
-          "representative_formula_en": null
+          "representative_formula_en": "Ahlfors covering, Douglas Plateau $\\inf \\int |\\nabla u|^2$"
         },
         {
           "year": 1950,
@@ -369,9 +369,9 @@
             "Atle Selberg"
           ],
           "discovery": "超関数論、ゼータ関数",
-          "representative_formula": "超関数",
+          "representative_formula": "Schwartz超関数 $\\langle T, \\phi \\rangle$, Selberg $\\zeta(s)$",
           "discovery_en": "Distribution theory, zeta functions",
-          "representative_formula_en": "Distribution (generalized function)"
+          "representative_formula_en": "Schwartz distribution $\\langle T, \\phi \\rangle$, Selberg $\\zeta(s)$"
         },
         {
           "year": 1954,
@@ -380,9 +380,9 @@
             "Jean-Pierre Serre"
           ],
           "discovery": "代数幾何、層のコホモロジー",
-          "representative_formula": "Kodaira消滅定理",
+          "representative_formula": "Kodaira消滅 $H^q(X, K_X \\otimes L) = 0$ for $q>0$",
           "discovery_en": "Algebraic geometry, sheaf cohomology",
-          "representative_formula_en": "Kodaira vanishing theorem"
+          "representative_formula_en": "Kodaira vanishing $H^q(X, K_X \\otimes L) = 0$"
         },
         {
           "year": 1958,
@@ -391,9 +391,9 @@
             "René Thom"
           ],
           "discovery": "数論、特異点論",
-          "representative_formula": null,
+          "representative_formula": "Roth $|\\alpha - p/q| > c/q^{2+\\varepsilon}$, Thomカタストロフ",
           "discovery_en": "Number theory, singularity theory",
-          "representative_formula_en": null
+          "representative_formula_en": "Roth $|\\alpha - p/q| > c/q^{2+\\varepsilon}$, Thom catastrophe"
         },
         {
           "year": 1962,
@@ -402,9 +402,9 @@
             "John Milnor"
           ],
           "discovery": "偏微分方程式、微分トポロジー",
-          "representative_formula": null,
+          "representative_formula": "Hörmander $\\sum X_i^2$ hypoelliptic, Milnor繊維",
           "discovery_en": "Partial differential equations, differential topology",
-          "representative_formula_en": null
+          "representative_formula_en": "Hörmander $\\sum X_i^2$ hypoelliptic, Milnor fiber"
         },
         {
           "year": 1966,
@@ -415,9 +415,9 @@
             "Stephen Smale"
           ],
           "discovery": "K理論、連続体仮説、スキーム論、微分トポロジー",
-          "representative_formula": "Atiyah-Singer指数定理",
+          "representative_formula": "Atiyah-Singer $\\mathrm{ind}(D) = \\int \\hat{A}$, Cohen $2^{\\aleph_0} > \\aleph_0$",
           "discovery_en": "K-theory, continuum hypothesis, scheme theory, differential topology",
-          "representative_formula_en": "Atiyah-Singer index theorem"
+          "representative_formula_en": "Atiyah-Singer $\\mathrm{ind}(D) = \\int \\hat{A}$, Cohen CH"
         },
         {
           "year": 1970,
@@ -428,9 +428,9 @@
             "John Thompson"
           ],
           "discovery": "超越数論、特異点解消、トポロジー、有限群",
-          "representative_formula": null,
+          "representative_formula": "Baker線形形式, Hironaka $\\mathrm{Bl}_Z X$, Novikov $\\Omega_n^{SO}$",
           "discovery_en": "Transcendental number theory, resolution of singularities, topology, finite groups",
-          "representative_formula_en": null
+          "representative_formula_en": "Baker linear forms, Hironaka resolution, Novikov $\\Omega_n^{SO}$"
         },
         {
           "year": 1974,
@@ -439,9 +439,9 @@
             "David Mumford"
           ],
           "discovery": "大篩法、代数曲面",
-          "representative_formula": null,
+          "representative_formula": "Bombieri大篩法 $\\sum_q \\mu(q)^2$, Mumford $\\theta$関数",
           "discovery_en": "Large sieve, algebraic surfaces",
-          "representative_formula_en": null
+          "representative_formula_en": "Bombieri large sieve, Mumford $\\theta$"
         },
         {
           "year": 1978,
@@ -452,9 +452,9 @@
             "Daniel Quillen"
           ],
           "discovery": "Weil予想、多変数複素解析、格子群、代数K理論",
-          "representative_formula": null,
+          "representative_formula": "Deligne Weil, Fefferman $BMO$, Margulis $\\Gamma$, Quillen $K_*(R)$",
           "discovery_en": "Weil conjectures, several complex variables, lattice groups, algebraic K-theory",
-          "representative_formula_en": null
+          "representative_formula_en": "Deligne Weil, Fefferman $BMO$, Margulis $\\Gamma$, Quillen $K_*(R)$"
         },
         {
           "year": 1982,
@@ -464,9 +464,9 @@
             "Shing-Tung Yau"
           ],
           "discovery": "作用素環、3次元多様体、Calabi-Yau",
-          "representative_formula": "非可換幾何",
+          "representative_formula": "Connes $\\tau$, Thurston幾何化, Yau $\\mathrm{Ric} = 0$ Calabi-Yau",
           "discovery_en": "Operator algebras, 3-manifolds, Calabi-Yau",
-          "representative_formula_en": "Noncommutative geometry"
+          "representative_formula_en": "Connes trace $\\tau$, Thurston geometrization, Yau Calabi-Yau"
         },
         {
           "year": 1986,
@@ -476,9 +476,9 @@
             "Michael Freedman"
           ],
           "discovery": "4次元多様体、Mordell予想",
-          "representative_formula": null,
+          "representative_formula": "Donaldson $\\mathrm{SW}$, Faltings Mordell $|E(\\mathbb{Q})| < \\infty$, Freedman $\\mathbb{R}^4$",
           "discovery_en": "4-manifolds, Mordell conjecture",
-          "representative_formula_en": null
+          "representative_formula_en": "Donaldson SW, Faltings Mordell, Freedman exotic $\\mathbb{R}^4$"
         },
         {
           "year": 1990,
@@ -489,9 +489,9 @@
             "Edward Witten"
           ],
           "discovery": "量子群、Jones多項式、双有理幾何、数理物理",
-          "representative_formula": "Jones多項式",
+          "representative_formula": "Drinfeld $U_q(\\mathfrak{g})$, Jones $V_L(t)$, Mori MMP, Witten $Z_k$",
           "discovery_en": "Quantum groups, Jones polynomial, birational geometry, mathematical physics",
-          "representative_formula_en": "Jones polynomial"
+          "representative_formula_en": "Drinfeld $U_q(\\mathfrak{g})$, Jones $V_L(t)$, Mori MMP, Witten $Z_k$"
         },
         {
           "year": 1994,
@@ -502,9 +502,9 @@
             "Efim Zelmanov"
           ],
           "discovery": "解析学、粘性解、力学系、有限群",
-          "representative_formula": null,
+          "representative_formula": "Bourgain解析, Lions $F(D^2u) = 0$ 粘性, Yoccoz $\\alpha$ Brjuno, Zelmanov $E_n$",
           "discovery_en": "Analysis, viscosity solutions, dynamical systems, finite groups",
-          "representative_formula_en": null
+          "representative_formula_en": "Bourgain, Lions viscosity $F(D^2u)=0$, Yoccoz $\\alpha$, Zelmanov $E_n$"
         },
         {
           "year": 1998,
@@ -515,9 +515,9 @@
             "Curtis McMullen"
           ],
           "discovery": "モンスター群、組み合わせ論、ミラー対称性、力学系",
-          "representative_formula": null,
+          "representative_formula": "Borcherds $j$, Gowers $c_0$, Kontsevich $\\overline{\\mathcal{M}}_{g,n}$, McMullen $J(f)$",
           "discovery_en": "Monster group, combinatorics, mirror symmetry, dynamical systems",
-          "representative_formula_en": null
+          "representative_formula_en": "Borcherds $j$, Gowers $c_0$, Kontsevich $\\overline{\\mathcal{M}}_{g,n}$, McMullen $J(f)$"
         },
         {
           "year": 2002,
@@ -526,9 +526,9 @@
             "Vladimir Voevodsky"
           ],
           "discovery": "Langlands対応、 motivic cohomology",
-          "representative_formula": null,
+          "representative_formula": "Lafforgue Galois$\\leftrightarrow$保型, Voevodsky $H^{p,q}_{\\mathcal{M}}$",
           "discovery_en": "Langlands correspondence, motivic cohomology",
-          "representative_formula_en": null
+          "representative_formula_en": "Lafforgue Langlands, Voevodsky motivic $H^{p,q}_{\\mathcal{M}}$"
         },
         {
           "year": 2006,
@@ -539,9 +539,9 @@
             "Wendelin Werner"
           ],
           "discovery": "確率論、Poincaré予想、解析学、SLE",
-          "representative_formula": "SLE",
+          "representative_formula": "Okounkov $\\dim H^0(X,L^d)$, Perelman $\\mathcal{W}$, Tao $\\Lambda(k)$, Werner SLE$_\\kappa$",
           "discovery_en": "Probability theory, Poincaré conjecture, analysis, SLE",
-          "representative_formula_en": "SLE"
+          "representative_formula_en": "Okounkov $\\dim H^0$, Perelman $\\mathcal{W}$, Tao $\\Lambda(k)$, Werner SLE$_\\kappa$"
         },
         {
           "year": 2010,
@@ -552,9 +552,9 @@
             "Cédric Villani"
           ],
           "discovery": "エルゴード理論、Fundamental Lemma、パーコレーション、輸送理論",
-          "representative_formula": null,
+          "representative_formula": "Lindenstrauss QUE, Ngô Fundamental Lemma, Smirnov $p_c = 1/2$, Villani $W_2$",
           "discovery_en": "Ergodic theory, Fundamental Lemma, percolation, transport theory",
-          "representative_formula_en": null
+          "representative_formula_en": "Lindenstrauss QUE, Ngô Fundamental Lemma, Smirnov $p_c=1/2$, Villani $W_2$"
         },
         {
           "year": 2014,
@@ -565,9 +565,9 @@
             "Maryam Mirzakhani"
           ],
           "discovery": "力学系、数論、SPDE、モジュライ空間",
-          "representative_formula": null,
+          "representative_formula": "Ávila Lyapunov, Bhargava $\\mathrm{Cl}(D)$, Hairer KPZ, Mirzakhani $\\int_{\\mathcal{M}} \\omega^n$",
           "discovery_en": "Dynamical systems, number theory, SPDE, moduli spaces",
-          "representative_formula_en": null
+          "representative_formula_en": "Ávila Lyapunov, Bhargava $\\mathrm{Cl}(D)$, Hairer KPZ, Mirzakhani $\\int_{\\mathcal{M}} \\omega^n$"
         },
         {
           "year": 2018,
@@ -578,9 +578,9 @@
             "Akshay Venkatesh"
           ],
           "discovery": "双有理幾何、最適輸送、perfectoid空間、数論",
-          "representative_formula": "perfectoid空間",
+          "representative_formula": "Birkar MMP, Figalli $W_2$ 最適輸送, Scholze $X^{\\flat}$, Venkatesh trace formula",
           "discovery_en": "Birational geometry, optimal transport, perfectoid spaces, number theory",
-          "representative_formula_en": "Perfectoid spaces"
+          "representative_formula_en": "Birkar MMP, Figalli $W_2$, Scholze perfectoid $X^{\\flat}$, Venkatesh trace"
         },
         {
           "year": 2022,
@@ -591,9 +591,9 @@
             "Maryna Viazovska"
           ],
           "discovery": "統計力学、組み合わせ論、素数、球充填",
-          "representative_formula": "E8格子",
+          "representative_formula": "Duminil-Copin $p_c$, Huh $\\chi(M)$, Maynard $\\liminf(p_{n+1}-p_n)$, Viazovska E8 $\\Lambda$",
           "discovery_en": "Statistical mechanics, combinatorics, prime numbers, sphere packing",
-          "representative_formula_en": "E8 lattice"
+          "representative_formula_en": "Duminil-Copin $p_c$, Huh $\\chi(M)$, Maynard gaps, Viazovska E8 $\\Lambda$"
         }
       ]
     },
@@ -608,9 +608,9 @@
             "Alan Perlis"
           ],
           "discovery": "プログラミング技法・コンパイラ",
-          "representative_formula": null,
+          "representative_formula": "Perlisマクロ展開",
           "discovery_en": "Programming techniques, compilers",
-          "representative_formula_en": null
+          "representative_formula_en": "Perlis macro expansion"
         },
         {
           "year": 1967,
@@ -618,9 +618,9 @@
             "Maurice Wilkes"
           ],
           "discovery": "EDSAC、プログラムライブラリ",
-          "representative_formula": null,
+          "representative_formula": "Wilkes EDSAC $\\mu$s 命令",
           "discovery_en": "EDSAC, program libraries",
-          "representative_formula_en": null
+          "representative_formula_en": "Wilkes EDSAC microsecond instructions"
         },
         {
           "year": 1968,
@@ -628,9 +628,9 @@
             "Richard Hamming"
           ],
           "discovery": "誤り検出・訂正符号",
-          "representative_formula": "ハミング符号",
+          "representative_formula": "Hamming符号 $d \\ge 2t+1$ 誤り訂正",
           "discovery_en": "Error-correcting codes",
-          "representative_formula_en": "Hamming code"
+          "representative_formula_en": "Hamming code $d \\ge 2t+1$ error correction"
         },
         {
           "year": 1969,
@@ -638,9 +638,9 @@
             "Marvin Minsky"
           ],
           "discovery": "人工知能の創設",
-          "representative_formula": null,
+          "representative_formula": "Minskyパーセプトロン $\\sum w_i x_i > \\theta$",
           "discovery_en": "Founding of artificial intelligence",
-          "representative_formula_en": null
+          "representative_formula_en": "Minsky perceptron $\\sum w_i x_i > \\theta$"
         },
         {
           "year": 1970,
@@ -648,9 +648,9 @@
             "James H. Wilkinson"
           ],
           "discovery": "数値解析・後方誤差解析",
-          "representative_formula": null,
+          "representative_formula": "Wilkinson後方誤差 $\\tilde{A} = A + \\Delta A$",
           "discovery_en": "Numerical analysis, backward error analysis",
-          "representative_formula_en": null
+          "representative_formula_en": "Wilkinson backward error $\\tilde{A} = A + \\Delta A$"
         },
         {
           "year": 1971,
@@ -658,9 +658,9 @@
             "John McCarthy"
           ],
           "discovery": "人工知能・LISP",
-          "representative_formula": null,
+          "representative_formula": "McCarthy $\\lambda$計算 $(\\lambda x.M)N$",
           "discovery_en": "Artificial intelligence, LISP",
-          "representative_formula_en": null
+          "representative_formula_en": "McCarthy LISP $\\lambda$ calculus $(\\lambda x.M)N$"
         },
         {
           "year": 1972,
@@ -668,9 +668,9 @@
             "Edsger W. Dijkstra"
           ],
           "discovery": "構造化プログラミング",
-          "representative_formula": "Dijkstra法",
+          "representative_formula": "Dijkstra法 $d[v] = \\min(d[v], d[u] + w(u,v))$",
           "discovery_en": "Structured programming",
-          "representative_formula_en": "Dijkstra's algorithm"
+          "representative_formula_en": "Dijkstra $d[v] = \\min(d[v], d[u] + w(u,v))$"
         },
         {
           "year": 1973,
@@ -678,9 +678,9 @@
             "Charles Bachman"
           ],
           "discovery": "データベース技術",
-          "representative_formula": null,
+          "representative_formula": "Bachman IDS ネットワークモデル",
           "discovery_en": "Database technology",
-          "representative_formula_en": null
+          "representative_formula_en": "Bachman IDS network model"
         },
         {
           "year": 1974,
@@ -688,9 +688,9 @@
             "Donald Knuth"
           ],
           "discovery": "アルゴリズム解析・TeX",
-          "representative_formula": "O記法",
+          "representative_formula": "Knuth $O(n \\log n)$, TeX $\\TeX$",
           "discovery_en": "Algorithm analysis, TeX",
-          "representative_formula_en": "Big O notation"
+          "representative_formula_en": "Knuth $O(n \\log n)$, TeX"
         },
         {
           "year": 1975,
@@ -699,9 +699,9 @@
             "Herbert A. Simon"
           ],
           "discovery": "AI・認知科学・リスト処理",
-          "representative_formula": null,
+          "representative_formula": "Newell-Simon生産システム IF $\\to$ THEN",
           "discovery_en": "AI, cognitive science, list processing",
-          "representative_formula_en": null
+          "representative_formula_en": "Newell-Simon production systems IF $\\to$ THEN"
         },
         {
           "year": 1976,
@@ -710,9 +710,9 @@
             "Dana Scott"
           ],
           "discovery": "非決定性有限オートマトン",
-          "representative_formula": null,
+          "representative_formula": "Rabin-Scott NFA $\\equiv$ DFA $2^n$ states",
           "discovery_en": "Nondeterministic finite automata",
-          "representative_formula_en": null
+          "representative_formula_en": "Rabin-Scott NFA $\\equiv$ DFA $2^n$ states"
         },
         {
           "year": 1977,
@@ -740,9 +740,9 @@
             "Kenneth E. Iverson"
           ],
           "discovery": "APL言語",
-          "representative_formula": null,
+          "representative_formula": "Iverson APL $\\rho$, $\\iota$ 配列",
           "discovery_en": "APL language",
-          "representative_formula_en": null
+          "representative_formula_en": "Iverson APL $\\rho$, $\\iota$ arrays"
         },
         {
           "year": 1980,
@@ -781,9 +781,9 @@
             "Ken Thompson"
           ],
           "discovery": "UNIXオペレーティングシステム",
-          "representative_formula": null,
+          "representative_formula": "Ritchie-Thompson C, pipe $|$",
           "discovery_en": "UNIX operating system",
-          "representative_formula_en": null
+          "representative_formula_en": "Ritchie-Thompson C, pipe $|$"
         },
         {
           "year": 1984,
@@ -791,9 +791,9 @@
             "Niklaus Wirth"
           ],
           "discovery": "Pascal・Modula",
-          "representative_formula": null,
+          "representative_formula": "Wirth Pascal $\\texttt{type}$ $\\texttt{record}$",
           "discovery_en": "Pascal, Modula",
-          "representative_formula_en": null
+          "representative_formula_en": "Wirth Pascal $\\texttt{type}$ $\\texttt{record}$"
         },
         {
           "year": 1985,
@@ -801,9 +801,9 @@
             "Richard M. Karp"
           ],
           "discovery": "NP完全性・アルゴリズム理論",
-          "representative_formula": null,
+          "representative_formula": "Karp 21問題 NP-complete $\\le_p$",
           "discovery_en": "NP-completeness, algorithm theory",
-          "representative_formula_en": null
+          "representative_formula_en": "Karp 21 problems NP-complete $\\le_p$"
         },
         {
           "year": 1986,
@@ -812,9 +812,9 @@
             "Robert Tarjan"
           ],
           "discovery": "アルゴリズム・データ構造",
-          "representative_formula": null,
+          "representative_formula": "Hopcroft-Tarjan $O(V+E)$ DFS, lowlink",
           "discovery_en": "Algorithms, data structures",
-          "representative_formula_en": null
+          "representative_formula_en": "Hopcroft-Tarjan $O(V+E)$ DFS, lowlink"
         },
         {
           "year": 1987,
@@ -822,9 +822,9 @@
             "John Cocke"
           ],
           "discovery": "コンパイラ・RISC",
-          "representative_formula": null,
+          "representative_formula": "Cocke RISC load/store $\\texttt{ld}$ $\\texttt{st}$",
           "discovery_en": "Compilers, RISC",
-          "representative_formula_en": null
+          "representative_formula_en": "Cocke RISC load/store"
         },
         {
           "year": 1988,
@@ -832,9 +832,9 @@
             "Ivan Sutherland"
           ],
           "discovery": "コンピュータグラフィックス・Sketchpad",
-          "representative_formula": null,
+          "representative_formula": "Sutherland Sketchpad $\\mathbf{x}' = M\\mathbf{x}$ 変換",
           "discovery_en": "Computer graphics, Sketchpad",
-          "representative_formula_en": null
+          "representative_formula_en": "Sutherland Sketchpad $\\mathbf{x}' = M\\mathbf{x}$"
         },
         {
           "year": 1989,
@@ -842,9 +842,9 @@
             "William Kahan"
           ],
           "discovery": "浮動小数点演算",
-          "representative_formula": "IEEE 754",
+          "representative_formula": "Kahan IEEE 754 $(-1)^s \\cdot 2^e \\cdot m$",
           "discovery_en": "Floating-point arithmetic",
-          "representative_formula_en": "IEEE 754"
+          "representative_formula_en": "Kahan IEEE 754 $(-1)^s \\cdot 2^e \\cdot m$"
         },
         {
           "year": 1990,
@@ -852,9 +852,9 @@
             "Fernando J. Corbató"
           ],
           "discovery": "CTSS・Multics",
-          "representative_formula": null,
+          "representative_formula": "Corbató時分割 $T_i = T/n$ 量子",
           "discovery_en": "CTSS, Multics",
-          "representative_formula_en": null
+          "representative_formula_en": "Corbató time-sharing $T_i = T/n$ quantum"
         },
         {
           "year": 1991,
@@ -862,9 +862,9 @@
             "Robin Milner"
           ],
           "discovery": "ML・型推論・CCS",
-          "representative_formula": "π計算",
+          "representative_formula": "Milner π計算 $\\overline{x}\\langle y \\rangle | x(z).P$",
           "discovery_en": "ML, type inference, CCS",
-          "representative_formula_en": "π-calculus"
+          "representative_formula_en": "Milner π-calculus $\\overline{x}\\langle y \\rangle | x(z).P$"
         },
         {
           "year": 1992,
@@ -872,9 +872,9 @@
             "Butler Lampson"
           ],
           "discovery": "分散PC・ワークステーション",
-          "representative_formula": null,
+          "representative_formula": "Lampson分散 $\\langle$ logical clock $\\rangle$",
           "discovery_en": "Distributed PCs, workstations",
-          "representative_formula_en": null
+          "representative_formula_en": "Lampson distributed logical clock"
         },
         {
           "year": 1993,
@@ -894,9 +894,9 @@
             "Raj Reddy"
           ],
           "discovery": "大規模AIシステム",
-          "representative_formula": null,
+          "representative_formula": "Feigenbaum-Reddy MYCIN $\\mathrm{CF}(H|E)$",
           "discovery_en": "Large-scale AI systems",
-          "representative_formula_en": null
+          "representative_formula_en": "Feigenbaum-Reddy MYCIN $\\mathrm{CF}(H|E)$"
         },
         {
           "year": 1995,
@@ -904,9 +904,9 @@
             "Manuel Blum"
           ],
           "discovery": "計算量理論・暗号",
-          "representative_formula": null,
+          "representative_formula": "Blum公理 $\\Phi(x) \\downarrow \\Leftrightarrow \\Psi(x) \\downarrow$",
           "discovery_en": "Computational complexity theory, cryptography",
-          "representative_formula_en": null
+          "representative_formula_en": "Blum axioms $\\Phi(x) \\downarrow \\Leftrightarrow \\Psi(x) \\downarrow$"
         },
         {
           "year": 1996,
@@ -914,9 +914,9 @@
             "Amir Pnueli"
           ],
           "discovery": "時相論理・プログラム検証",
-          "representative_formula": null,
+          "representative_formula": "Pnueli LTL $\\mathbf{G}\\mathbf{F}\\varphi$, $\\mathbf{X}\\psi$",
           "discovery_en": "Temporal logic, program verification",
-          "representative_formula_en": null
+          "representative_formula_en": "Pnueli LTL $\\mathbf{G}\\mathbf{F}\\varphi$, $\\mathbf{X}\\psi$"
         },
         {
           "year": 1997,
@@ -924,9 +924,9 @@
             "Douglas Engelbart"
           ],
           "discovery": "マウス・ハイパーテキスト",
-          "representative_formula": null,
+          "representative_formula": "Engelbart NLS $\\texttt{link}$ $\\to$",
           "discovery_en": "Mouse, hypertext",
-          "representative_formula_en": null
+          "representative_formula_en": "Engelbart NLS $\\texttt{link}$ $\\to$"
         },
         {
           "year": 1998,
@@ -934,9 +934,9 @@
             "Jim Gray"
           ],
           "discovery": "データベース・トランザクション",
-          "representative_formula": null,
+          "representative_formula": "Gray ACID $\\mathrm{COMMIT}$ $\\mathrm{ROLLBACK}$",
           "discovery_en": "Database transactions",
-          "representative_formula_en": null
+          "representative_formula_en": "Gray ACID $\\mathrm{COMMIT}$ $\\mathrm{ROLLBACK}$"
         },
         {
           "year": 1999,
@@ -944,9 +944,9 @@
             "Fred Brooks"
           ],
           "discovery": "コンピュータアーキテクチャ・OS",
-          "representative_formula": null,
+          "representative_formula": "Brooks $n(n-1)/2$ 通信, OS/360",
           "discovery_en": "Computer architecture, operating systems",
-          "representative_formula_en": null
+          "representative_formula_en": "Brooks $n(n-1)/2$ communication, OS/360"
         },
         {
           "year": 2000,
@@ -954,9 +954,9 @@
             "Andrew Yao"
           ],
           "discovery": "計算理論・暗号・通信複雑度",
-          "representative_formula": null,
+          "representative_formula": "Yao $\\min_{\\max}$ 原理, 通信複雑度 $CC(f)$",
           "discovery_en": "Computational theory, cryptography, communication complexity",
-          "representative_formula_en": null
+          "representative_formula_en": "Yao min-max principle, communication $CC(f)$"
         },
         {
           "year": 2001,
@@ -965,9 +965,9 @@
             "Kristen Nygaard"
           ],
           "discovery": "オブジェクト指向・Simula",
-          "representative_formula": null,
+          "representative_formula": "Dahl-Nygaard class $\\{ \\}$ inheritance",
           "discovery_en": "Object-oriented programming, Simula",
-          "representative_formula_en": null
+          "representative_formula_en": "Dahl-Nygaard class $\\{ \\}$ inheritance"
         },
         {
           "year": 2002,
@@ -987,9 +987,9 @@
             "Alan Kay"
           ],
           "discovery": "オブジェクト指向・Smalltalk",
-          "representative_formula": null,
+          "representative_formula": "Kay Smalltalk $\\texttt{[ ]}$ メッセージ",
           "discovery_en": "Object-oriented programming, Smalltalk",
-          "representative_formula_en": null
+          "representative_formula_en": "Kay Smalltalk $\\texttt{[ ]}$ message"
         },
         {
           "year": 2004,
@@ -998,9 +998,9 @@
             "Bob Kahn"
           ],
           "discovery": "TCP/IP・インターネット",
-          "representative_formula": null,
+          "representative_formula": "Cerf-Kahn TCP $\\mathrm{seq}$, IP $\\mathrm{TTL}$",
           "discovery_en": "TCP/IP, Internet",
-          "representative_formula_en": null
+          "representative_formula_en": "Cerf-Kahn TCP $\\mathrm{seq}$, IP $\\mathrm{TTL}$"
         },
         {
           "year": 2005,
@@ -1018,9 +1018,9 @@
             "Frances Allen"
           ],
           "discovery": "最適化コンパイラ",
-          "representative_formula": null,
+          "representative_formula": "Allenデータフロー $\\mathrm{def}$ $\\mathrm{use}$",
           "discovery_en": "Optimizing compilers",
-          "representative_formula_en": null
+          "representative_formula_en": "Allen data flow $\\mathrm{def}$ $\\mathrm{use}$"
         },
         {
           "year": 2007,
@@ -1030,9 +1030,9 @@
             "Joseph Sifakis"
           ],
           "discovery": "モデルチェッキング",
-          "representative_formula": null,
+          "representative_formula": "Clarke-Emerson-Sifakis CTL $\\mathbf{AG}\\varphi$, $\\mathbf{EF}\\psi$",
           "discovery_en": "Model checking",
-          "representative_formula_en": null
+          "representative_formula_en": "Clarke-Emerson-Sifakis CTL $\\mathbf{AG}\\varphi$, $\\mathbf{EF}\\psi$"
         },
         {
           "year": 2008,
@@ -1050,9 +1050,9 @@
             "Charles P. Thacker"
           ],
           "discovery": "Alto・イーサネット",
-          "representative_formula": null,
+          "representative_formula": "Thacker Ethernet CSMA/CD $\\tau$",
           "discovery_en": "Alto, Ethernet",
-          "representative_formula_en": null
+          "representative_formula_en": "Thacker Ethernet CSMA/CD $\\tau$"
         },
         {
           "year": 2010,
@@ -1060,9 +1060,9 @@
             "Leslie Valiant"
           ],
           "discovery": "PAC学習・計算理論",
-          "representative_formula": null,
+          "representative_formula": "Valiant PAC $P(\\mathrm{err} > \\varepsilon) < \\delta$",
           "discovery_en": "PAC learning, computational theory",
-          "representative_formula_en": null
+          "representative_formula_en": "Valiant PAC $P(\\mathrm{err} > \\varepsilon) < \\delta$"
         },
         {
           "year": 2011,
@@ -1081,9 +1081,9 @@
             "Silvio Micali"
           ],
           "discovery": "暗号の計算量理論的基礎",
-          "representative_formula": null,
+          "representative_formula": "Goldwasser-Micali zero-knowledge $\\mathrm{ZK}$",
           "discovery_en": "Computational complexity foundations of cryptography",
-          "representative_formula_en": null
+          "representative_formula_en": "Goldwasser-Micali zero-knowledge $\\mathrm{ZK}$"
         },
         {
           "year": 2013,
@@ -1101,9 +1101,9 @@
             "Michael Stonebraker"
           ],
           "discovery": "データベースシステム",
-          "representative_formula": null,
+          "representative_formula": "Stonebraker Ingres $\\sigma$, $\\pi$, $\\bowtie$",
           "discovery_en": "Database systems",
-          "representative_formula_en": null
+          "representative_formula_en": "Stonebraker Ingres $\\sigma$, $\\pi$, $\\bowtie$"
         },
         {
           "year": 2015,
@@ -1156,9 +1156,9 @@
             "Pat Hanrahan"
           ],
           "discovery": "3D CG・Pixar",
-          "representative_formula": null,
+          "representative_formula": "Catmull subdivision, Hanrahan $L_o = \\int f_r L_i \\cos\\theta\\, d\\omega$",
           "discovery_en": "3D computer graphics, Pixar",
-          "representative_formula_en": null
+          "representative_formula_en": "Catmull subdivision, Hanrahan rendering equation"
         },
         {
           "year": 2020,
@@ -1167,9 +1167,9 @@
             "Jeffrey Ullman"
           ],
           "discovery": "コンパイラ・ドラゴンブック",
-          "representative_formula": null,
+          "representative_formula": "Aho-Ullman lex $\\mathrm{yylex}$, yacc $LALR(1)$",
           "discovery_en": "Compilers, Dragon Book",
-          "representative_formula_en": null
+          "representative_formula_en": "Aho-Ullman lex $\\mathrm{yylex}$, yacc $LALR(1)$"
         },
         {
           "year": 2021,
@@ -1177,9 +1177,9 @@
             "Jack Dongarra"
           ],
           "discovery": "数値アルゴリズム・LINPACK",
-          "representative_formula": null,
+          "representative_formula": "Dongarra LINPACK $Ax = b$ LU分解",
           "discovery_en": "Numerical algorithms, LINPACK",
-          "representative_formula_en": null
+          "representative_formula_en": "Dongarra LINPACK $Ax = b$ LU"
         },
         {
           "year": 2022,
@@ -1187,9 +1187,9 @@
             "Robert Metcalfe"
           ],
           "discovery": "イーサネット",
-          "representative_formula": null,
+          "representative_formula": "Metcalfe $n(n-1)/2$ ネットワーク価値",
           "discovery_en": "Ethernet",
-          "representative_formula_en": null
+          "representative_formula_en": "Metcalfe $n(n-1)/2$ network value"
         },
         {
           "year": 2023,
@@ -1197,9 +1197,9 @@
             "Avi Wigderson"
           ],
           "discovery": "計算理論・乱択",
-          "representative_formula": null,
+          "representative_formula": "Wigderson $P = BPP$? $\\mathrm{IP} = \\mathrm{PSPACE}$",
           "discovery_en": "Computational theory, randomization",
-          "representative_formula_en": null
+          "representative_formula_en": "Wigderson $P = BPP$? $\\mathrm{IP} = \\mathrm{PSPACE}$"
         },
         {
           "year": 2024,
@@ -1208,9 +1208,9 @@
             "Richard S. Sutton"
           ],
           "discovery": "強化学習の基礎",
-          "representative_formula": "Q学習",
+          "representative_formula": "Barto-Sutton Q学習 $Q(s,a) \\leftarrow Q + \\alpha[r + \\gamma \\max Q' - Q]$",
           "discovery_en": "Foundations of reinforcement learning",
-          "representative_formula_en": "Q-learning"
+          "representative_formula_en": "Barto-Sutton Q-learning $Q(s,a) \\leftarrow Q + \\alpha[r + \\gamma \\max Q' - Q]$"
         }
       ]
     },
@@ -1227,9 +1227,9 @@
             "Charles Rice"
           ],
           "discovery": "C型肝炎ウイルスの同定",
-          "representative_formula": null,
+          "representative_formula": "HCV RNA $\\rightarrow$ ポリタンパク質 $\\rightarrow$ 構造タンパク質",
           "discovery_en": "Identification of hepatitis C virus",
-          "representative_formula_en": null
+          "representative_formula_en": "HCV RNA $\\rightarrow$ polyprotein $\\rightarrow$ structural"
         },
         {
           "year": 2021,
@@ -1238,9 +1238,9 @@
             "Drew Weissman"
           ],
           "discovery": "mRNA修飾・ワクチン基盤",
-          "representative_formula": null,
+          "representative_formula": "Karikó-Weissman 擬ウリジン $\\psi$ 修飾",
           "discovery_en": "mRNA modification, vaccine platform",
-          "representative_formula_en": null
+          "representative_formula_en": "Karikó-Weissman pseudouridine $\\psi$ modification"
         },
         {
           "year": 2022,
@@ -1248,9 +1248,9 @@
             "David Baker"
           ],
           "discovery": "タンパク質構造予測",
-          "representative_formula": null,
+          "representative_formula": "Baker Rosetta $E = E_{\\mathrm{vdw}} + E_{\\mathrm{elec}} + E_{\\mathrm{solv}}$",
           "discovery_en": "Protein structure prediction",
-          "representative_formula_en": null
+          "representative_formula_en": "Baker Rosetta $E = E_{\\mathrm{vdw}} + E_{\\mathrm{elec}} + E_{\\mathrm{solv}}$"
         },
         {
           "year": 2023,
@@ -1259,9 +1259,9 @@
             "John Jumper"
           ],
           "discovery": "AlphaFold・タンパク質構造予測",
-          "representative_formula": "AlphaFold",
+          "representative_formula": "AlphaFold $p_{i,j}$ 距離, $\\mathrm{PLDDT}$",
           "discovery_en": "AlphaFold, protein structure prediction",
-          "representative_formula_en": "AlphaFold"
+          "representative_formula_en": "AlphaFold $p_{i,j}$ distance, $\\mathrm{PLDDT}$"
         },
         {
           "year": 2024,
@@ -1272,9 +1272,9 @@
             "Svetlana Mojsov"
           ],
           "discovery": "先天免疫・GLP-1",
-          "representative_formula": null,
+          "representative_formula": "Chen cGAS-STING $2'3'$-cGAMP, GLP-1 $\\rightarrow$ インスリン",
           "discovery_en": "Innate immunity, GLP-1",
-          "representative_formula_en": null
+          "representative_formula_en": "Chen cGAS-STING $2'3'$-cGAMP, GLP-1 $\\rightarrow$ insulin"
         },
         {
           "year": 2025,
@@ -1286,9 +1286,9 @@
             "Paul Negulescu"
           ],
           "discovery": "核輸送・細胞分化・嚢胞性線維症",
-          "representative_formula": null,
+          "representative_formula": "Görlich Ran-GTP, CFTR $\\Delta F508$ イバカフトル",
           "discovery_en": "Nuclear transport, cell differentiation, cystic fibrosis",
-          "representative_formula_en": null
+          "representative_formula_en": "Görlich Ran-GTP, CFTR $\\Delta F508$ ivacaftor"
         }
       ]
     },
@@ -1303,9 +1303,9 @@
             "Sir Alan Fersht"
           ],
           "discovery": "タンパク質折り畳みの原子分解能解析",
-          "representative_formula": null,
+          "representative_formula": "Fersht $\\Delta G^\\ddagger$, $\\phi$-value解析",
           "discovery_en": "Atomic-resolution analysis of protein folding",
-          "representative_formula_en": null
+          "representative_formula_en": "Fersht $\\Delta G^\\ddagger$, $\\phi$-value analysis"
         },
         {
           "year": 2021,
@@ -1313,9 +1313,9 @@
             "Dame Jocelyn Bell Burnell"
           ],
           "discovery": "パルサーの発見",
-          "representative_formula": null,
+          "representative_formula": "Bell Burnell $P \\approx 1.3\\,\\mathrm{s}$ パルサー",
           "discovery_en": "Discovery of pulsars",
-          "representative_formula_en": null
+          "representative_formula_en": "Bell Burnell $P \\approx 1.3\\,\\mathrm{s}$ pulsar"
         },
         {
           "year": 2022,
@@ -1323,9 +1323,9 @@
             "Oxford-AstraZeneca Vaccine Team"
           ],
           "discovery": "COVID-19ワクチンの迅速開発",
-          "representative_formula": null,
+          "representative_formula": "Oxford-AstraZeneca ChAdOx1 $S$ スパイク",
           "discovery_en": "Rapid development of COVID-19 vaccine",
-          "representative_formula_en": null
+          "representative_formula_en": "Oxford-AstraZeneca ChAdOx1 $S$ spike"
         },
         {
           "year": 2023,
@@ -1333,9 +1333,9 @@
             "Martin Rees"
           ],
           "discovery": "理論天体物理学",
-          "representative_formula": null,
+          "representative_formula": "Rees $M_{\\mathrm{BH}}$, 宇宙の加速 $q_0 < 0$",
           "discovery_en": "Theoretical astrophysics",
-          "representative_formula_en": null
+          "representative_formula_en": "Rees $M_{\\mathrm{BH}}$, cosmic acceleration $q_0 < 0$"
         },
         {
           "year": 2024,
@@ -1343,9 +1343,9 @@
             "Sir Gregory Paul Winter"
           ],
           "discovery": "抗体工学・治療用抗体",
-          "representative_formula": null,
+          "representative_formula": "Winterヒト化抗体 CDR $\\rightarrow$ 移植",
           "discovery_en": "Antibody engineering, therapeutic antibodies",
-          "representative_formula_en": null
+          "representative_formula_en": "Winter humanized antibody CDR grafting"
         },
         {
           "year": 2025,
@@ -1353,9 +1353,9 @@
             "Sir John Pendry"
           ],
           "discovery": "メタマテリアル・電磁気学",
-          "representative_formula": null,
+          "representative_formula": "Pendry $\\varepsilon < 0$, $\\mu < 0$ 負屈折",
           "discovery_en": "Metamaterials, electromagnetism",
-          "representative_formula_en": null
+          "representative_formula_en": "Pendry $\\varepsilon < 0$, $\\mu < 0$ negative refraction"
         }
       ]
     }

@@ -14,6 +14,7 @@ import {
 import { useI18n } from '../contexts/I18nContext'
 import { useLang, pathWithLang } from '../hooks/useLang'
 import styles from './Sidebar.module.css'
+import pkg from '../../package.json'
 
 const menuItems = [
   { path: '/dashboard', labelKey: 'nav.dashboard', Icon: LayoutDashboard },
@@ -77,6 +78,7 @@ export function Sidebar(props: SidebarProps) {
       </nav>
       <div class={styles.footer}>
         <p class={styles.copyright}>© <a href="https://www.tanaakk.com/" target="_blank" rel="noopener noreferrer" class={styles.copyrightLink}>TANAAKK</a></p>
+        <p class={styles.version}>v{pkg.version}</p>
       </div>
     </aside>
   )
