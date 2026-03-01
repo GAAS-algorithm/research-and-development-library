@@ -1,28 +1,31 @@
-import i18n from 'i18next'
-import { initReactI18next } from 'react-i18next'
+import * as i18n from '@solid-primitives/i18n'
+import { createMemo } from 'solid-js'
 import en from './locales/en.json'
 import ja from './locales/ja.json'
 import vi from './locales/vi.json'
 
-const resources = {
-  en: { translation: en },
-  ja: { translation: ja },
-  vi: { translation: vi },
+export const SUPPORTED_LANGS = ['en', 'ja', 'vi'] as const
+export type Lang = (typeof SUPPORTED_LANGS)[number]
+
+const dictionaries: Record<Lang, Record<string, string>> = {
+  en: i18n.flatten(en as Record<string, unknown>) as Record<string, string>,
+  ja: i18n.flatten(ja as Record<string, unknown>) as Record<string, string>,
+  vi: i18n.flatten(vi as Record<string, unknown>) as Record<string, string>,
 }
 
-const savedLng = typeof localStorage !== 'undefined' ? localStorage.getItem('gaas-lang') : null
-const initialLng = savedLng && ['en', 'ja', 'vi'].includes(savedLng) ? savedLng : 'en'
+const STORAGE_KEY = 'gaas-lang'
 
-i18n.use(initReactI18next).init({
-  resources,
-  lng: initialLng,
-  fallbackLng: 'en',
-  supportedLngs: ['en', 'ja', 'vi'],
-  interpolation: { escapeValue: false },
-})
+export function getInitialLang(): Lang {
+  if (typeof localStorage === 'undefined') return 'en'
+  const saved = localStorage.getItem(STORAGE_KEY)
+  return saved && SUPPORTED_LANGS.includes(saved as Lang) ? (saved as Lang) : 'en'
+}
 
-i18n.on('languageChanged', (lng) => {
-  if (typeof localStorage !== 'undefined') localStorage.setItem('gaas-lang', lng)
-})
+export function persistLang(lang: Lang) {
+  if (typeof localStorage !== 'undefined') localStorage.setItem(STORAGE_KEY, lang)
+}
 
-export default i18n
+export function createTranslator(locale: () => Lang) {
+  const dict = createMemo(() => dictionaries[locale()] ?? dictionaries.en)
+  return i18n.translator(dict, i18n.resolveTemplate)
+}

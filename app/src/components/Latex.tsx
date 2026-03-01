@@ -1,11 +1,11 @@
-import { useMemo } from 'react'
+import { createMemo } from 'solid-js'
 import katex from 'katex'
 import 'katex/dist/katex.min.css'
 
 type Props = {
   content: string
   displayMode?: boolean
-  className?: string
+  class?: string
 }
 
 /**
@@ -13,8 +13,9 @@ type Props = {
  * $...$ で囲まれた部分をインライン数式、$$...$$ をディスプレイ数式として解釈。
  * それ以外はプレーンテキスト。
  */
-export function Latex({ content, displayMode = false, className }: Props) {
-  const html = useMemo(() => {
+export function Latex(props: Props) {
+  const html = createMemo(() => {
+    const content = props.content
     if (!content || content === '—') return content
 
     const displayRegex = /\$\$([^$]+)\$\$/g
@@ -46,7 +47,7 @@ export function Latex({ content, displayMode = false, className }: Props) {
       try {
         result += katex.renderToString(m.latex, {
           throwOnError: false,
-          displayMode: m.type === 'display' || displayMode,
+          displayMode: m.type === 'display' || (props.displayMode ?? false),
           output: 'html',
         })
       } catch {
@@ -58,12 +59,13 @@ export function Latex({ content, displayMode = false, className }: Props) {
       result += escapeHtml(content.slice(pos))
     }
     return { __html: result }
-  }, [content])
+  })
 
-  if (typeof html === 'string') {
-    return <span className={className}>{html}</span>
+  const result = html()
+  if (typeof result === 'string') {
+    return <span class={props.class}>{result}</span>
   }
-  return <span className={className} dangerouslySetInnerHTML={html} />
+  return <span class={props.class} innerHTML={result.__html} />
 }
 
 function escapeHtml(s: string): string {
@@ -97,17 +99,17 @@ export function extractFormulaParts(
 /**
  * LaTeX のみをディスプレイモードでレンダリング（数式専用列用）
  */
-export function LatexFormula({ latex, className }: { latex: string; className?: string }) {
-  const html = useMemo(() => {
+export function LatexFormula(props: { latex: string; class?: string }) {
+  const html = createMemo(() => {
     try {
-      return katex.renderToString(latex, {
+      return katex.renderToString(props.latex, {
         throwOnError: false,
         displayMode: true,
         output: 'html',
       })
     } catch {
-      return escapeHtml(latex)
+      return escapeHtml(props.latex)
     }
-  }, [latex])
-  return <div className={className} dangerouslySetInnerHTML={{ __html: html }} />
+  })
+  return <div class={props.class} innerHTML={html()} />
 }

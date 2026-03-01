@@ -1,8 +1,8 @@
-import { Link } from 'react-router-dom'
-import { useTranslation } from 'react-i18next'
+import { For } from 'solid-js'
+import { A } from '@solidjs/router'
+import { useI18n } from '../contexts/I18nContext'
 import { useLang, pathWithLang } from '../hooks/useLang'
 import frontierData from '../../../schema/frontier-topics.json'
-import styles from './Sitemap.module.css'
 
 const mainPages = [
   { path: '/dashboard', labelKey: 'nav.dashboard' },
@@ -18,66 +18,75 @@ const topics = frontierData.topics as Array<{
   id: string
   label_ja: string
   label_en: string
+  label_vi?: string
 }>
 
 export function Sitemap() {
-  const { t, i18n } = useTranslation()
+  const { t, locale } = useI18n()
   const lang = useLang()
 
-  const topicLabel = (topic: { label_ja: string; label_en: string }) =>
-    i18n.language === 'ja' ? topic.label_ja : topic.label_en
+  const topicLabel = (topic: { label_ja: string; label_en: string; label_vi?: string }) => {
+    const loc = locale()
+    if (loc === 'ja') return topic.label_ja
+    if (loc === 'vi' && topic.label_vi) return topic.label_vi
+    return topic.label_en
+  }
 
   return (
-    <div className={styles.page}>
-      <h2 className={styles.title}>{t('sitemap.title')}</h2>
-      <p className={styles.desc}>{t('sitemap.desc')}</p>
+    <div class="max-w-[800px]">
+      <h2 class="text-2xl font-semibold text-[var(--text-primary)] mb-2">{t('sitemap.title')}</h2>
+      <p class="text-[0.9375rem] text-[var(--text-secondary)] mb-8">{t('sitemap.desc')}</p>
 
-      <section className={styles.section}>
-        <h3 className={styles.sectionTitle}>{t('sitemap.mainPages')}</h3>
-        <ul className={styles.list}>
-          {mainPages.map((item) => (
-            <li key={item.path}>
-              <Link to={pathWithLang(item.path, lang)} className={styles.link}>
-                {t(item.labelKey)}
-              </Link>
-            </li>
-          ))}
+      <section class="mb-8">
+        <h3 class="text-lg font-semibold text-[var(--text-primary)] mb-3 pb-2 border-b border-[var(--border-light)]">{t('sitemap.mainPages')}</h3>
+        <ul class="list-none m-0 p-0 grid gap-2">
+          <For each={mainPages}>
+            {(item) => (
+              <li>
+                <A href={pathWithLang(item.path, lang())} class="block py-2 px-3 text-[var(--text-secondary)] no-underline -mx-3 rounded-[6px] transition-colors duration-150 hover:bg-[var(--bg-tertiary)] hover:text-[var(--accent)]">
+                  {t(item.labelKey)}
+                </A>
+              </li>
+            )}
+          </For>
         </ul>
       </section>
 
-      <section className={styles.section}>
-        <h3 className={styles.sectionTitle}>{t('sitemap.frontierTopics')}</h3>
-        <ul className={styles.list}>
-          {topics.map((topic) => (
-            <li key={topic.id}>
-              <Link
-                to={pathWithLang(`/frontier-topics/${topic.id}`, lang)}
-                className={styles.link}
-              >
-                {topicLabel(topic)}
-              </Link>
-            </li>
-          ))}
+      <section class="mb-8">
+        <h3 class="text-lg font-semibold text-[var(--text-primary)] mb-3 pb-2 border-b border-[var(--border-light)]">{t('sitemap.frontierTopics')}</h3>
+        <ul class="list-none m-0 p-0 grid gap-2">
+          <For each={topics}>
+            {(topic) => (
+              <li>
+                <A
+                  href={pathWithLang(`/frontier-topics/${topic.id}`, lang())}
+                  class="block py-2 px-3 text-[var(--text-secondary)] no-underline -mx-3 rounded-[6px] transition-colors duration-150 hover:bg-[var(--bg-tertiary)] hover:text-[var(--accent)]"
+                >
+                  {topicLabel(topic)}
+                </A>
+              </li>
+            )}
+          </For>
         </ul>
       </section>
 
-      <section className={styles.section}>
-        <h3 className={styles.sectionTitle}>{t('sitemap.languages')}</h3>
-        <ul className={styles.list}>
+      <section class="mb-8">
+        <h3 class="text-lg font-semibold text-[var(--text-primary)] mb-3 pb-2 border-b border-[var(--border-light)]">{t('sitemap.languages')}</h3>
+        <ul class="list-none m-0 p-0 grid gap-2">
           <li>
-            <Link to={pathWithLang('/sitemap', 'en')} className={styles.link}>
+            <A href={pathWithLang('/sitemap', 'en')} class="block py-2 px-3 text-[var(--text-secondary)] no-underline -mx-3 rounded-[6px] transition-colors duration-150 hover:bg-[var(--bg-tertiary)] hover:text-[var(--accent)]">
               English
-            </Link>
+            </A>
           </li>
           <li>
-            <Link to={pathWithLang('/sitemap', 'ja')} className={styles.link}>
+            <A href={pathWithLang('/sitemap', 'ja')} class="block py-2 px-3 text-[var(--text-secondary)] no-underline -mx-3 rounded-[6px] transition-colors duration-150 hover:bg-[var(--bg-tertiary)] hover:text-[var(--accent)]">
               日本語
-            </Link>
+            </A>
           </li>
           <li>
-            <Link to={pathWithLang('/sitemap', 'vi')} className={styles.link}>
+            <A href={pathWithLang('/sitemap', 'vi')} class="block py-2 px-3 text-[var(--text-secondary)] no-underline -mx-3 rounded-[6px] transition-colors duration-150 hover:bg-[var(--bg-tertiary)] hover:text-[var(--accent)]">
               Tiếng Việt
-            </Link>
+            </A>
           </li>
         </ul>
       </section>

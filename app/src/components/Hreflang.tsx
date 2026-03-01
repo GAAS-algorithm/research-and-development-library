@@ -1,11 +1,11 @@
-import { useEffect } from 'react'
-import { useLocation } from 'react-router-dom'
-import { SUPPORTED_LANGS } from '../hooks/useLang'
+import { createEffect } from 'solid-js'
+import { useLocation } from '@solidjs/router'
+import { SUPPORTED_LANGS } from '../i18n'
 
 export function Hreflang() {
   const location = useLocation()
 
-  useEffect(() => {
+  createEffect(() => {
     const base = typeof window !== 'undefined' ? window.location.origin : ''
     const path = location.pathname
     const pathWithoutLang = path.replace(/^\/[a-z]{2}(?=\/|$)/, '') || '/dashboard'
@@ -31,7 +31,7 @@ export function Hreflang() {
     return () => {
       links.forEach((link) => link.remove())
     }
-  }, [location.pathname])
+  })
 
   return null
 }

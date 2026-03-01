@@ -88,7 +88,10 @@
     "cumulative": "Cumulative",
     "since": "Est.",
     "frequency": "Frequency",
-    "note": "Note"
+    "note": "Note",
+    "freqAnnual": "Annual",
+    "freqBiennial": "Biennial",
+    "freqQuadrennial": "Quadrennial"
   },
   "frontier": {
     "title": "Frontier Topics",

@@ -1,6 +1,6 @@
-import { useEffect } from 'react'
-import { useLocation, useParams } from 'react-router-dom'
-import { useTranslation } from 'react-i18next'
+import { createEffect } from 'solid-js'
+import { useLocation, useParams } from '@solidjs/router'
+import { useI18n } from '../contexts/I18nContext'
 import { PAGE_META, LANG_BCP47 } from '../data/structuredDataConfig'
 import { SITE_URL, LOGO_URL } from '../config'
 import frontierData from '../../../schema/frontier-topics.json'
@@ -57,15 +57,14 @@ function buildBreadcrumbs(
 export function StructuredData() {
   const location = useLocation()
   const params = useParams<{ lang: string; id?: string }>()
-  const { i18n } = useTranslation()
+  const { t } = useI18n()
 
-  const lang = (params.lang && LANG_BCP47[params.lang] ? params.lang : 'en') as Lang
-  const t = i18n.getFixedT(lang)
-  const pathWithoutLang = location.pathname.replace(/^\/[a-z]{2}(?=\/|$)/, '') || '/dashboard'
-  const segments = pathWithoutLang.split('/').filter(Boolean)
-  const pageName = segments[0] || 'dashboard'
+  createEffect(() => {
+    const lang = (params.lang && LANG_BCP47[params.lang] ? params.lang : 'en') as Lang
+    const pathWithoutLang = location.pathname.replace(/^\/[a-z]{2}(?=\/|$)/, '') || '/dashboard'
+    const segments = pathWithoutLang.split('/').filter(Boolean)
+    const pageName = segments[0] || 'dashboard'
 
-  useEffect(() => {
     const existing = document.getElementById(SCRIPT_ID)
     if (existing) existing.remove()
 
@@ -149,7 +148,7 @@ export function StructuredData() {
       const el = document.getElementById(SCRIPT_ID)
       if (el) el.remove()
     }
-  }, [location.pathname, lang, params.id, pageName, i18n])
+  })
 
   return null
 }

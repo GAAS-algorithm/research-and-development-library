@@ -88,7 +88,10 @@
     "cumulative": "累計配分",
     "since": "創設",
     "frequency": "頻度",
-    "note": "備考"
+    "note": "備考",
+    "freqAnnual": "年次",
+    "freqBiennial": "隔年",
+    "freqQuadrennial": "4年ごと"
   },
   "frontier": {
     "title": "Frontier Topics",

@@ -1,12 +1,18 @@
-import { useParams } from 'react-router-dom'
+import { useParams } from '@solidjs/router'
+import { createMemo } from 'solid-js'
+import { SUPPORTED_LANGS } from '../i18n'
+import type { Lang } from '../i18n'
 
-export const SUPPORTED_LANGS = ['en', 'ja', 'vi'] as const
-export type Lang = (typeof SUPPORTED_LANGS)[number]
+export { SUPPORTED_LANGS }
+export type { Lang }
 
-export function useLang(): Lang {
-  const { lang } = useParams<{ lang: string }>()
-  const valid = lang && SUPPORTED_LANGS.includes(lang as Lang)
-  return (valid ? lang : 'en') as Lang
+export function useLang(): () => Lang {
+  const params = useParams<{ lang: string }>()
+  return createMemo(() => {
+    const lang = params.lang
+    const valid = lang && SUPPORTED_LANGS.includes(lang as Lang)
+    return (valid ? lang : 'en') as Lang
+  })
 }
 
 export function pathWithLang(path: string, lang: Lang): string {

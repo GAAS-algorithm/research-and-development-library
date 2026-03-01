@@ -2,6 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Institutions Index",
   "description": "世界の予算規模・著名度の高い研究機関の一覧。抜け漏れチェック用。Nature Index, THE, 予算データ等を参照。",
+  "description_en": "List of major research institutions worldwide by budget scale and prominence. For coverage verification. References: Nature Index, THE, budget data, etc.",
+  "description_vi": "Danh sách các tổ chức nghiên cứu lớn trên thế giới theo quy mô ngân sách và uy tín. Để xác minh phủ sóng. Tham chiếu: Nature Index, THE, dữ liệu ngân sách, v.v.",
   "version": "1.0.0",
   "sources": ["Nature Index 2024", "EU R&D Scoreboard 2024", "NSF NCSES", "THE World Rankings"],
   "categories": {

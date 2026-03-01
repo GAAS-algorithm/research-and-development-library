@@ -88,7 +88,10 @@
     "cumulative": "Tích lũy",
     "since": "Thành lập",
     "frequency": "Tần suất",
-    "note": "Ghi chú"
+    "note": "Ghi chú",
+    "freqAnnual": "Hàng năm",
+    "freqBiennial": "Hai năm một lần",
+    "freqQuadrennial": "Bốn năm một lần"
   },
   "frontier": {
     "title": "Chủ đề tiên phong",

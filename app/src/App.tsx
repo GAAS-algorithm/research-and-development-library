@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { Router, Route, Navigate } from '@solidjs/router'
 import { Layout } from './components/Layout'
 import { Dashboard } from './pages/Dashboard'
 import { NobelPrizes } from './pages/NobelPrizes'
@@ -9,27 +9,24 @@ import { FrontierTopicDetail } from './pages/FrontierTopicDetail'
 import { Institutions } from './pages/Institutions'
 import { Schema } from './pages/Schema'
 import { Sitemap } from './pages/Sitemap'
-function App() {
+
+export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Navigate to="/en/dashboard" replace />} />
-        <Route path="/:lang" element={<Layout />}>
-          <Route index element={<Navigate to="../dashboard" replace />} />
-          <Route path="dashboard" element={<Dashboard />} />
-          <Route path="nobel" element={<NobelPrizes />} />
-          <Route path="tier1-awards" element={<Tier1Awards />} />
-          <Route path="awards" element={<Awards />} />
-          <Route path="frontier-topics" element={<FrontierTopics />} />
-          <Route path="frontier-topics/:id" element={<FrontierTopicDetail />} />
-          <Route path="institutions" element={<Institutions />} />
-          <Route path="schema" element={<Schema />} />
-          <Route path="sitemap" element={<Sitemap />} />
-        </Route>
-        <Route path="*" element={<Navigate to="/en/dashboard" replace />} />
-      </Routes>
-    </BrowserRouter>
+    <Router>
+      <Route path="/" component={() => <Navigate href="/en/dashboard" />} />
+      <Route path="/:lang" component={Layout}>
+        <Route path="/" component={() => <Navigate href="dashboard" />} />
+        <Route path="dashboard" component={Dashboard} />
+        <Route path="nobel" component={NobelPrizes} />
+        <Route path="tier1-awards" component={Tier1Awards} />
+        <Route path="awards" component={Awards} />
+        <Route path="frontier-topics" component={FrontierTopics} />
+        <Route path="frontier-topics/:id" component={FrontierTopicDetail} />
+        <Route path="institutions" component={Institutions} />
+        <Route path="schema" component={Schema} />
+        <Route path="sitemap" component={Sitemap} />
+      </Route>
+      <Route path="*404" component={() => <Navigate href="/en/dashboard" />} />
+    </Router>
   )
 }
-
-export default App

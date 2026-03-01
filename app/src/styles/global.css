@@ -1,4 +1,6 @@
-/* R&D Library - ライトカラーパターン */
+@import "tailwindcss";
+
+/* R&D Library - ライトカラーパターン（Tailwind 拡張） */
 :root {
   --bg-primary: #fafbfc;
   --bg-secondary: #ffffff;
@@ -28,7 +30,8 @@
 }
 
 body {
-  font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif;
+  /* System-Native: 読み込み容量ゼロ（HST準拠） */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", "Yu Gothic", sans-serif;
   background: var(--bg-primary);
   color: var(--text-primary);
   line-height: 1.6;
@@ -36,7 +39,7 @@ body {
 }
 
 code, .mono {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Monaco, monospace;
 }
 
 a {
