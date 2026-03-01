@@ -16,7 +16,6 @@ const LANGS = ['en', 'ja', 'vi']
 
 const staticPaths = [
   '/dashboard',
-  '/nobel',
   '/tier1-awards',
   '/awards',
   '/frontier-topics',
@@ -24,6 +23,11 @@ const staticPaths = [
   '/schema',
   '/sitemap',
 ]
+
+// Load Nobel categories
+const nobelPath = join(__dirname, '../../data/nobel-prizes.json')
+const nobelData = JSON.parse(readFileSync(nobelPath, 'utf-8'))
+const nobelCategories = Object.keys(nobelData.categories)
 
 // Load frontier topics
 const schemaPath = join(__dirname, '../../schema/frontier-topics.json')
@@ -60,6 +64,14 @@ ${links.join('\n')}
 }
 
 const urls = []
+
+// Nobel category pages (before static so they're added first)
+for (const cat of nobelCategories) {
+  const path = `/nobel/${cat}`
+  for (const lang of LANGS) {
+    urls.push(urlEntry(path, lang, 0.8))
+  }
+}
 
 // Static pages - one entry per language
 for (const path of staticPaths) {

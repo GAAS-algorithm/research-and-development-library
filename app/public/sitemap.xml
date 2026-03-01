@@ -2,36 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://library.tanaakk.com/en/dashboard</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/dashboard"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/dashboard"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/dashboard"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/dashboard"/>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>https://library.tanaakk.com/ja/dashboard</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/dashboard"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/dashboard"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/dashboard"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/dashboard"/>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>https://library.tanaakk.com/vi/dashboard</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/dashboard"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/dashboard"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/dashboard"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/dashboard"/>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
     <loc>https://library.tanaakk.com/en/nobel/physics</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/nobel/physics"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/nobel/physics"/>
@@ -210,6 +180,36 @@
     <lastmod>2026-03-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/en/dashboard</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/dashboard"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/dashboard"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/dashboard"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/dashboard"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/ja/dashboard</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/dashboard"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/dashboard"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/dashboard"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/dashboard"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://library.tanaakk.com/vi/dashboard</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/dashboard"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/dashboard"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/dashboard"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/dashboard"/>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1</priority>
   </url>
   <url>
     <loc>https://library.tanaakk.com/en/tier1-awards</loc>
