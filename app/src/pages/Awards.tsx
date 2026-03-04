@@ -30,6 +30,9 @@ export function Awards() {
     note: string
     note_en?: string
     note_vi?: string
+    proof_basis?: string
+    proof_overturned_note?: string
+    proof_overturned_note_en?: string
   }>
 
   const byTier = () => awardsData.by_impact_tier as Record<string, string[]>
@@ -81,6 +84,16 @@ export function Awards() {
   const awardFrequency = (freq: string) => {
     const key = freq === 'annual' ? 'freqAnnual' : freq === 'biennial' ? 'freqBiennial' : freq === 'quadrennial' ? 'freqQuadrennial' : null
     return key ? t(`awards.${key}`) : freq
+  }
+  const proofBasisLabel = (basis: string | undefined) => {
+    if (!basis) return '—'
+    const key = basis === 'zfc_expected' ? 'proofBasisZfc' : basis === 'rigorous' ? 'proofBasisRigorous' : basis === 'empirical' ? 'proofBasisEmpirical' : basis === 'mixed' ? 'proofBasisMixed' : null
+    return key ? t(`awards.${key}`) : basis
+  }
+  const proofOverturnedNote = (a: { proof_overturned_note?: string; proof_overturned_note_en?: string }) => {
+    const loc = locale()
+    if (loc === 'en' && a.proof_overturned_note_en) return a.proof_overturned_note_en
+    return a.proof_overturned_note ?? '—'
   }
 
   return (
@@ -159,6 +172,34 @@ export function Awards() {
                     <td>{a.since}</td>
                     <td>{awardFrequency(a.frequency)}</td>
                     <td class={styles.note}>{awardNote(a)}</td>
+                  </tr>
+                )}
+              </For>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class={styles.tableSection}>
+        <h3 class={styles.sectionTitle}>{t('awards.proofSection')}</h3>
+        <div class={styles.tableWrap}>
+          <table class={styles.table}>
+            <thead>
+              <tr>
+                <th>{t('awards.award')}</th>
+                <th>{t('awards.proofBasis')}</th>
+                <th>{t('awards.proofOverturned')}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <For each={sortedAwards()}>
+                {(a) => (
+                  <tr>
+                    <td>
+                      <strong>{awardLabel(a)}</strong>
+                    </td>
+                    <td>{proofBasisLabel(a.proof_basis)}</td>
+                    <td class={styles.proofNote}>{proofOverturnedNote(a)}</td>
                   </tr>
                 )}
               </For>

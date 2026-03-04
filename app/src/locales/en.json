@@ -95,7 +95,14 @@
     "note": "Note",
     "freqAnnual": "Annual",
     "freqBiennial": "Biennial",
-    "freqQuadrennial": "Quadrennial"
+    "freqQuadrennial": "Quadrennial",
+    "proofSection": "Proof basis & overturned cases",
+    "proofBasis": "Proof basis",
+    "proofOverturned": "Overturned cases",
+    "proofBasisZfc": "ZFC expected",
+    "proofBasisRigorous": "Rigorous proof",
+    "proofBasisEmpirical": "Empirical (N/A)",
+    "proofBasisMixed": "Mixed by field"
   },
   "frontier": {
     "title": "Frontier Topics",

@@ -95,7 +95,14 @@
     "note": "備考",
     "freqAnnual": "年次",
     "freqBiennial": "隔年",
-    "freqQuadrennial": "4年ごと"
+    "freqQuadrennial": "4年ごと",
+    "proofSection": "証明基準・覆滅事例",
+    "proofBasis": "証明基準",
+    "proofOverturned": "覆滅事例",
+    "proofBasisZfc": "ZFC期待",
+    "proofBasisRigorous": "厳密証明",
+    "proofBasisEmpirical": "実験（適用外）",
+    "proofBasisMixed": "分野により混在"
   },
   "frontier": {
     "title": "フロンティアトピック",

@@ -95,7 +95,14 @@
     "note": "Ghi chú",
     "freqAnnual": "Hàng năm",
     "freqBiennial": "Hai năm một lần",
-    "freqQuadrennial": "Bốn năm một lần"
+    "freqQuadrennial": "Bốn năm một lần",
+    "proofSection": "Cơ sở chứng minh & trường hợp bị lật",
+    "proofBasis": "Cơ sở chứng minh",
+    "proofOverturned": "Trường hợp bị lật",
+    "proofBasisZfc": "ZFC mong đợi",
+    "proofBasisRigorous": "Chứng minh chặt chẽ",
+    "proofBasisEmpirical": "Thực nghiệm (N/A)",
+    "proofBasisMixed": "Hỗn hợp theo lĩnh vực"
   },
   "frontier": {
     "title": "Chủ đề tiên phong",
