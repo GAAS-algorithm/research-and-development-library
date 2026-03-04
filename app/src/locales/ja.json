@@ -75,7 +75,9 @@
     "fields": "フィールズ賞",
     "turing": "チューリング賞",
     "lasker": "ラスカー賞",
-    "copley": "コプリ・メダル"
+    "copley": "コプリ・メダル",
+    "nevanlinna": "IMUアバカス賞（ネヴァンリンナ賞）",
+    "knuth_prize": "ドナルド・E・クヌース賞"
   },
   "awards": {
     "title": "研究賞",

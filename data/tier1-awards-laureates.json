@@ -1358,6 +1358,56 @@
           "representative_formula_en": "Pendry $\\varepsilon < 0$, $\\mu < 0$ negative refraction"
         }
       ]
+    },
+    "nevanlinna": {
+      "label_ja": "ネヴァンリンナ賞（IMUアバカス賞）",
+      "label_en": "IMU Abacus Medal",
+      "since": 1982,
+      "entries": [
+        {"year": 1982, "laureates": ["Robert Tarjan"], "discovery": "アルゴリズム設計・解析の基礎", "representative_formula": "Tarjan強連結成分 $O(V+E)$", "discovery_en": "Foundations of algorithm design and analysis", "representative_formula_en": "Tarjan strongly connected components $O(V+E)$"},
+        {"year": 1986, "laureates": ["Leslie Valiant"], "discovery": "計算量理論・カウンティング問題", "representative_formula": "Valiant #P完全", "discovery_en": "Computational complexity, counting problems", "representative_formula_en": "Valiant #P-completeness"},
+        {"year": 1990, "laureates": ["Alexander Razborov"], "discovery": "回路計算量の下界", "representative_formula": "Razborovモノトーン回路下界", "discovery_en": "Lower bounds for circuit complexity", "representative_formula_en": "Razborov monotone circuit lower bounds"},
+        {"year": 1994, "laureates": ["Avi Wigderson"], "discovery": "ゼロ知識対話証明", "representative_formula": "Wigderson ZKIP", "discovery_en": "Zero-knowledge interactive proofs", "representative_formula_en": "Wigderson ZKIP"},
+        {"year": 1998, "laureates": ["Peter Shor"], "discovery": "量子計算・Shorの因数分解アルゴリズム", "representative_formula": "Shor $O(n^3)$ 量子因数分解", "discovery_en": "Quantum computation, Shor's factoring algorithm", "representative_formula_en": "Shor $O(n^3)$ quantum factoring"},
+        {"year": 2002, "laureates": ["Madhu Sudan"], "discovery": "PCP・誤り訂正符号", "representative_formula": "Sudan PCP, list decoding", "discovery_en": "PCPs, error-correcting codes", "representative_formula_en": "Sudan PCP, list decoding"},
+        {"year": 2006, "laureates": ["Jon Kleinberg"], "discovery": "情報ネットワーク理論・ハブとオーソリティ", "representative_formula": "Kleinberg HITS $h$, $a$", "discovery_en": "Information network theory, hubs and authorities", "representative_formula_en": "Kleinberg HITS $h$, $a$"},
+        {"year": 2010, "laureates": ["Daniel Spielman"], "discovery": "スムーズ解析・グラフ符号", "representative_formula": "Spielman smoothed LP, expander codes", "discovery_en": "Smoothed analysis, graph-based codes", "representative_formula_en": "Spielman smoothed LP, expander codes"},
+        {"year": 2014, "laureates": ["Subhash Khot"], "discovery": "Unique Games予想・近似困難性", "representative_formula": "Khot UG $\\Rightarrow$ UGC", "discovery_en": "Unique Games conjecture, approximation hardness", "representative_formula_en": "Khot UG $\\Rightarrow$ UGC"},
+        {"year": 2018, "laureates": ["Constantinos Daskalakis"], "discovery": "市場・均衡の計算複雑度", "representative_formula": "Daskalakis PPAD完全", "discovery_en": "Computational complexity of markets and equilibria", "representative_formula_en": "Daskalakis PPAD-completeness"},
+        {"year": 2022, "laureates": ["Mark Braverman"], "discovery": "情報複雑度理論", "representative_formula": "Braverman IC $\\mathrm{IC}_\\mu$", "discovery_en": "Information complexity theory", "representative_formula_en": "Braverman IC $\\mathrm{IC}_\\mu$"}
+      ]
+    },
+    "knuth_prize": {
+      "label_ja": "ドナルド・E・クヌース賞",
+      "label_en": "Donald E. Knuth Prize",
+      "since": 1996,
+      "entries": [
+        {"year": 1996, "laureates": ["Andrew Yao"], "discovery": "計算複雑度の基礎研究", "representative_formula": "Yao min-max原理", "discovery_en": "Fundamental research in computational complexity", "representative_formula_en": "Yao min-max principle"},
+        {"year": 1997, "laureates": ["Leslie Valiant"], "discovery": "計算複雑度・並列計算・学習理論", "representative_formula": "Valiant probably approximately correct", "discovery_en": "Computational complexity, parallel computation, learning theory", "representative_formula_en": "Valiant probably approximately correct"},
+        {"year": 1999, "laureates": ["László Lovász"], "discovery": "アルゴリズム理論への影響", "representative_formula": "Lovász LLL, 局所補題", "discovery_en": "Enormous influence on theory of algorithms", "representative_formula_en": "Lovász LLL, local lemma"},
+        {"year": 2000, "laureates": ["Jeffrey Ullman"], "discovery": "理論計算機科学・コンパイラ・DB", "representative_formula": "Ullman Datalog, 龍書", "discovery_en": "TCS, compilers, databases", "representative_formula_en": "Ullman Datalog, dragon book"},
+        {"year": 2002, "laureates": ["Christos Papadimitriou"], "discovery": "計算機科学の基礎への貢献", "representative_formula": "Papadimitriou PPAD, ゲーム理論", "discovery_en": "Contributions to foundations of computer science", "representative_formula_en": "Papadimitriou PPAD, game theory"},
+        {"year": 2003, "laureates": ["Miklós Ajtai"], "discovery": "理論計算機科学の画期的貢献", "representative_formula": "Ajtai-Dwork暗号", "discovery_en": "Ground-breaking contributions to TCS", "representative_formula_en": "Ajtai-Dwork cryptography"},
+        {"year": 2005, "laureates": ["Mihalis Yannakakis"], "discovery": "理論計算機科学の画期的貢献", "representative_formula": "Yannakakis LP, 近似アルゴリズム", "discovery_en": "Ground-breaking contributions to TCS", "representative_formula_en": "Yannakakis LP, approximation algorithms"},
+        {"year": 2007, "laureates": ["Nancy Lynch"], "discovery": "分散計算の理論", "representative_formula": "Lynch distributed computing", "discovery_en": "Theory of distributed computing", "representative_formula_en": "Lynch distributed computing"},
+        {"year": 2008, "laureates": ["Volker Strassen"], "discovery": "効率的アルゴリズム", "representative_formula": "Strassen $O(n^{2.807})$ 行列積", "discovery_en": "Efficient algorithms", "representative_formula_en": "Strassen $O(n^{2.807})$ matrix multiplication"},
+        {"year": 2010, "laureates": ["David S. Johnson"], "discovery": "アルゴリズムの理論・実験分析", "representative_formula": "Johnson TSP, NP完全", "discovery_en": "Theoretical and experimental analysis of algorithms", "representative_formula_en": "Johnson TSP, NP-completeness"},
+        {"year": 2011, "laureates": ["Ravi Kannan"], "discovery": "新たなアルゴリズム技法", "representative_formula": "Kannan FPT, 近似", "discovery_en": "Powerful new algorithmic techniques", "representative_formula_en": "Kannan FPT, approximation"},
+        {"year": 2012, "laureates": ["Leonid Levin"], "discovery": "複雑度・暗号・情報理論", "representative_formula": "Levin Levin's universal search", "discovery_en": "Complexity, cryptography, information theory", "representative_formula_en": "Levin universal search"},
+        {"year": 2013, "laureates": ["Gary Miller"], "discovery": "暗号・数論・並列計算", "representative_formula": "Miller-Rabin素数判定", "discovery_en": "Cryptography, number theory, parallel computing", "representative_formula_en": "Miller-Rabin primality"},
+        {"year": 2014, "laureates": ["Richard Lipton"], "discovery": "グラフ・計算・通信・DNA計算", "representative_formula": "Lipton probabilistic method", "discovery_en": "Graph algorithms, computation, communication, DNA computing", "representative_formula_en": "Lipton probabilistic method"},
+        {"year": 2015, "laureates": ["László Babai"], "discovery": "アルゴリズム設計・複雑度理論", "representative_formula": "Babai graph isomorphism", "discovery_en": "Algorithm design, complexity theory", "representative_formula_en": "Babai graph isomorphism"},
+        {"year": 2016, "laureates": ["Noam Nisan"], "discovery": "通信複雑度・乱数・PCP・ゲーム理論", "representative_formula": "Nisan通信複雑度", "discovery_en": "Communication complexity, pseudorandomness, PCP, game theory", "representative_formula_en": "Nisan communication complexity"},
+        {"year": 2017, "laureates": ["Oded Goldreich"], "discovery": "暗号・乱数・PCP・近似困難性", "representative_formula": "Goldreich PCP, zero-knowledge", "discovery_en": "Cryptography, randomness, PCP, inapproximability", "representative_formula_en": "Goldreich PCP, zero-knowledge"},
+        {"year": 2018, "laureates": ["Johan Håstad"], "discovery": "最適化・暗号・近似・複雑度", "representative_formula": "Håstad PCP $3$-bit", "discovery_en": "Optimization, cryptography, approximation, complexity", "representative_formula_en": "Håstad PCP 3-bit"},
+        {"year": 2019, "laureates": ["Avi Wigderson"], "discovery": "乱数計算・暗号・回路複雑度", "representative_formula": "Wigderson derandomization", "discovery_en": "Randomized computation, cryptography, circuit complexity", "representative_formula_en": "Wigderson derandomization"},
+        {"year": 2020, "laureates": ["Cynthia Dwork"], "discovery": "分散システム・暗号・データプライバシー", "representative_formula": "Dwork differential privacy $\\varepsilon$", "discovery_en": "Distributed systems, cryptography, data privacy", "representative_formula_en": "Dwork differential privacy $\\varepsilon$"},
+        {"year": 2021, "laureates": ["Moshe Vardi"], "discovery": "数理論理学の計算機科学への応用", "representative_formula": "Vardi model checking", "discovery_en": "Mathematical logic applied to computer science", "representative_formula_en": "Vardi model checking"},
+        {"year": 2022, "laureates": ["Noga Alon"], "discovery": "組み合わせ論・グラフ理論", "representative_formula": "Alon combinatorial nullstellensatz", "discovery_en": "Combinatorics and graph theory", "representative_formula_en": "Alon combinatorial nullstellensatz"},
+        {"year": 2023, "laureates": ["Éva Tardos"], "discovery": "アルゴリズム設計・ゲーム理論", "representative_formula": "Tardos-Kleinberg Algorithm Design", "discovery_en": "Algorithm design, game theory", "representative_formula_en": "Tardos-Kleinberg Algorithm Design"},
+        {"year": 2024, "laureates": ["Rajeev Alur"], "discovery": "計算モデル・システム検証", "representative_formula": "Alur timed automata", "discovery_en": "Models of computation, system verification", "representative_formula_en": "Alur timed automata"},
+        {"year": 2025, "laureates": ["Micha Sharir"], "discovery": "計算幾何・離散幾何・運動計画", "representative_formula": "Sharir Davenport-Schinzel", "discovery_en": "Computational and discrete geometry, motion planning", "representative_formula_en": "Sharir Davenport-Schinzel"}
+      ]
     }
   }
 }

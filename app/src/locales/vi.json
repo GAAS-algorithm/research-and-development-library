@@ -75,7 +75,9 @@
     "fields": "Huy chương Fields",
     "turing": "Giải Turing",
     "lasker": "Giải Lasker",
-    "copley": "Huy chương Copley"
+    "copley": "Huy chương Copley",
+    "nevanlinna": "Huy chương Abacus IMU",
+    "knuth_prize": "Giải Donald E. Knuth"
   },
   "awards": {
     "title": "Giải thưởng nghiên cứu",
