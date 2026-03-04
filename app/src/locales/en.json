@@ -63,11 +63,17 @@
     "title": "Tier 1 Awards Laureates",
     "desc": "Laureate history and representative formulas for Tier 1 research awards (excluding Nobel). Breakthrough, Abel, Fields, Turing, Lasker, Copley.",
     "filterYear": "Filter by year",
+    "filterProof": "Filter by proof",
+    "filterProofAll": "All laureates",
+    "filterProofNotProven": "Not proven by axioms",
+    "filterProofProven": "Proven by axioms",
+    "filterProofProvenFlaw": "Proven but flaws found",
     "year": "Year",
     "laureates": "Laureates",
     "discovery": "Major discovery / Contribution",
     "theorem": "Theorem / Formula name",
-    "formula": "Formula"
+    "formula": "Formula",
+    "awardCol": "Award"
   },
   "tier1Award": {
     "breakthrough": "Breakthrough Prize",
@@ -75,9 +81,7 @@
     "fields": "Fields Medal",
     "turing": "Turing Award",
     "lasker": "Lasker Award",
-    "copley": "Copley Medal",
-    "nevanlinna": "IMU Abacus Medal",
-    "knuth_prize": "Donald E. Knuth Prize"
+    "copley": "Copley Medal"
   },
   "awards": {
     "title": "Research Awards",

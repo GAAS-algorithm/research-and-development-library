@@ -63,11 +63,17 @@
     "title": "Danh sách người đoạt giải Tier 1",
     "desc": "Lịch sử người đoạt giải và công thức đại diện cho giải thưởng nghiên cứu Tier 1 (trừ Nobel). Breakthrough, Abel, Fields, Turing, Lasker, Copley.",
     "filterYear": "Lọc theo năm",
+    "filterProof": "Lọc theo chứng minh",
+    "filterProofAll": "Tất cả người đoạt giải",
+    "filterProofNotProven": "Chưa chứng minh bằng tiên đề",
+    "filterProofProven": "Đã chứng minh bằng tiên đề",
+    "filterProofProvenFlaw": "Đã chứng minh nhưng sau phát hiện lỗi",
     "year": "Năm",
     "laureates": "Người đoạt giải",
     "discovery": "Phát hiện / Đóng góp chính",
     "theorem": "Định lý / Tên công thức",
-    "formula": "Công thức"
+    "formula": "Công thức",
+    "awardCol": "Giải"
   },
   "tier1Award": {
     "breakthrough": "Giải Breakthrough",
@@ -75,9 +81,7 @@
     "fields": "Huy chương Fields",
     "turing": "Giải Turing",
     "lasker": "Giải Lasker",
-    "copley": "Huy chương Copley",
-    "nevanlinna": "Huy chương Abacus IMU",
-    "knuth_prize": "Giải Donald E. Knuth"
+    "copley": "Huy chương Copley"
   },
   "awards": {
     "title": "Giải thưởng nghiên cứu",

@@ -63,11 +63,17 @@
     "title": "Tier1 賞 受賞者一覧",
     "desc": "研究賞Tier1（ノーベル賞以外）の受賞者履歴と代表的な公式。ブレイクスルー、アーベル、フィールズ、チューリング、ラスカー、コプリ。",
     "filterYear": "年で絞り込み",
+    "filterProof": "証明で絞り込み",
+    "filterProofAll": "全受賞者",
+    "filterProofNotProven": "公理により定理が証明されていない",
+    "filterProofProven": "公理により定理が証明された",
+    "filterProofProvenFlaw": "公理により証明されたがのちに瑕疵が発見された",
     "year": "年",
     "laureates": "受賞者",
     "discovery": "主な発見・貢献",
     "theorem": "定理・式名",
-    "formula": "数式"
+    "formula": "数式",
+    "awardCol": "賞"
   },
   "tier1Award": {
     "breakthrough": "ブレイクスルー賞",
@@ -75,9 +81,7 @@
     "fields": "フィールズ賞",
     "turing": "チューリング賞",
     "lasker": "ラスカー賞",
-    "copley": "コプリ・メダル",
-    "nevanlinna": "IMUアバカス賞（ネヴァンリンナ賞）",
-    "knuth_prize": "ドナルド・E・クヌース賞"
+    "copley": "コプリ・メダル"
   },
   "awards": {
     "title": "研究賞",

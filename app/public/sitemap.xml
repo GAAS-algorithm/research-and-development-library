@@ -362,66 +362,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://library.tanaakk.com/en/tier1-awards/nevanlinna</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/tier1-awards/nevanlinna"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/tier1-awards/nevanlinna"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/tier1-awards/nevanlinna"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/tier1-awards/nevanlinna"/>
-    <lastmod>2026-03-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://library.tanaakk.com/ja/tier1-awards/nevanlinna</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/tier1-awards/nevanlinna"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/tier1-awards/nevanlinna"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/tier1-awards/nevanlinna"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/tier1-awards/nevanlinna"/>
-    <lastmod>2026-03-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://library.tanaakk.com/vi/tier1-awards/nevanlinna</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/tier1-awards/nevanlinna"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/tier1-awards/nevanlinna"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/tier1-awards/nevanlinna"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/tier1-awards/nevanlinna"/>
-    <lastmod>2026-03-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://library.tanaakk.com/en/tier1-awards/knuth_prize</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/tier1-awards/knuth_prize"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/tier1-awards/knuth_prize"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/tier1-awards/knuth_prize"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/tier1-awards/knuth_prize"/>
-    <lastmod>2026-03-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://library.tanaakk.com/ja/tier1-awards/knuth_prize</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/tier1-awards/knuth_prize"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/tier1-awards/knuth_prize"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/tier1-awards/knuth_prize"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/tier1-awards/knuth_prize"/>
-    <lastmod>2026-03-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://library.tanaakk.com/vi/tier1-awards/knuth_prize</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/tier1-awards/knuth_prize"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/tier1-awards/knuth_prize"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://library.tanaakk.com/vi/tier1-awards/knuth_prize"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://library.tanaakk.com/en/tier1-awards/knuth_prize"/>
-    <lastmod>2026-03-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://library.tanaakk.com/en/dashboard</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://library.tanaakk.com/en/dashboard"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://library.tanaakk.com/ja/dashboard"/>
