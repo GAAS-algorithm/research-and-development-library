@@ -8,7 +8,7 @@
       "label_ja": "ブレイクスルー賞",
       "label_en": "Breakthrough Prize",
       "since": 2012,
-      "proof_filter": "proven_flaw",
+      "proof_filter": "proven",
       "entries": [
         {
           "year": 2015,
@@ -119,7 +119,7 @@
       "label_ja": "アーベル賞",
       "label_en": "Abel Prize",
       "since": 2003,
-      "proof_filter": "proven_flaw",
+      "proof_filter": "proven",
       "entries": [
         {
           "year": 2003,
@@ -1303,6 +1303,2181 @@
       "since": 1731,
       "proof_filter": "mixed",
       "entries": [
+        {
+          "year": 1974,
+          "laureates": [
+            "W. V. D. Hodge"
+          ],
+          "discovery": "代数幾何・調和積分",
+          "discovery_en": "Algebraic geometry, harmonic integrals"
+        },
+        {
+          "year": 1973,
+          "laureates": [
+            "Andrew Huxley"
+          ],
+          "discovery": "神経インパルス・筋収縮",
+          "discovery_en": "Nerve impulse, muscular contraction"
+        },
+        {
+          "year": 1972,
+          "laureates": [
+            "Nevill Francis Mott"
+          ],
+          "discovery": "原子・固体物理学",
+          "discovery_en": "Atomic and solid state physics"
+        },
+        {
+          "year": 1971,
+          "laureates": [
+            "Norman Pirie"
+          ],
+          "discovery": "生化学・植物ウイルス",
+          "discovery_en": "Plant viruses"
+        },
+        {
+          "year": 1970,
+          "laureates": [
+            "Alexander R. Todd"
+          ],
+          "discovery": "天然物の分析・合成化学",
+          "discovery_en": "Natural products chemistry"
+        },
+        {
+          "year": 1969,
+          "laureates": [
+            "Peter Medawar"
+          ],
+          "discovery": "組織移植・免疫寛容",
+          "discovery_en": "Tissue transplantation"
+        },
+        {
+          "year": 1968,
+          "laureates": [
+            "Tadeusz Reichstein"
+          ],
+          "discovery": "ビタミンC・コルチコステロイド",
+          "discovery_en": "Vitamin C, corticosteroids"
+        },
+        {
+          "year": 1967,
+          "laureates": [
+            "Bernard Katz"
+          ],
+          "discovery": "神経筋接合部",
+          "discovery_en": "Neuromuscular junction"
+        },
+        {
+          "year": 1966,
+          "laureates": [
+            "William Lawrence Bragg"
+          ],
+          "discovery": "X線回折による構造決定",
+          "discovery_en": "X-ray diffraction"
+        },
+        {
+          "year": 1965,
+          "laureates": [
+            "Alan Lloyd Hodgkin"
+          ],
+          "discovery": "神経興奮・伝導",
+          "discovery_en": "Nerve excitation and conduction"
+        },
+        {
+          "year": 1964,
+          "laureates": [
+            "Sydney Chapman"
+          ],
+          "discovery": "地磁気・電離層・オーロラ",
+          "discovery_en": "Terrestrial magnetism, ionosphere"
+        },
+        {
+          "year": 1963,
+          "laureates": [
+            "Paul Fildes"
+          ],
+          "discovery": "細菌学",
+          "discovery_en": "Bacteriology"
+        },
+        {
+          "year": 1962,
+          "laureates": [
+            "Cyril Norman Hinshelwood"
+          ],
+          "discovery": "化学反応速度論",
+          "discovery_en": "Chemical kinetics"
+        },
+        {
+          "year": 1961,
+          "laureates": [
+            "Hans Adolf Krebs"
+          ],
+          "discovery": "生化学・クエン酸回路",
+          "discovery_en": "Tricarboxylic acid cycle"
+        },
+        {
+          "year": 1960,
+          "laureates": [
+            "Harold Jeffreys"
+          ],
+          "discovery": "地球物理学・確率・天文学",
+          "discovery_en": "Geophysics, probability"
+        },
+        {
+          "year": 1959,
+          "laureates": [
+            "Frank Macfarlane Burnet"
+          ],
+          "discovery": "ウイルス・免疫学",
+          "discovery_en": "Viruses and immunology"
+        },
+        {
+          "year": 1958,
+          "laureates": [
+            "John Edensor Littlewood"
+          ],
+          "discovery": "解析学",
+          "discovery_en": "Analysis"
+        },
+        {
+          "year": 1957,
+          "laureates": [
+            "Howard Florey"
+          ],
+          "discovery": "実験病理学・医学",
+          "discovery_en": "Experimental pathology"
+        },
+        {
+          "year": 1956,
+          "laureates": [
+            "Patrick Blackett"
+          ],
+          "discovery": "宇宙線・古地磁気",
+          "discovery_en": "Cosmic rays, palaeomagnetism"
+        },
+        {
+          "year": 1955,
+          "laureates": [
+            "Ronald Fisher"
+          ],
+          "discovery": "統計学・生物学",
+          "discovery_en": "Statistics for biology"
+        },
+        {
+          "year": 1954,
+          "laureates": [
+            "E. T. Whittaker"
+          ],
+          "discovery": "数学・理論物理学",
+          "discovery_en": "Mathematics and theoretical physics"
+        },
+        {
+          "year": 1953,
+          "laureates": [
+            "Albert Kluyver"
+          ],
+          "discovery": "微生物学",
+          "discovery_en": "Microbiology"
+        },
+        {
+          "year": 1952,
+          "laureates": [
+            "Paul Dirac"
+          ],
+          "discovery": "相対論的量子力学",
+          "discovery_en": "Relativistic quantum mechanics"
+        },
+        {
+          "year": 1951,
+          "laureates": [
+            "David Keilin"
+          ],
+          "discovery": "原生動物学・昆虫学・酵素",
+          "discovery_en": "Protozoology, enzymes"
+        },
+        {
+          "year": 1950,
+          "laureates": [
+            "James Chadwick"
+          ],
+          "discovery": "核物理学・中性子",
+          "discovery_en": "Nuclear physics, neutron"
+        },
+        {
+          "year": 1949,
+          "laureates": [
+            "George de Hevesy"
+          ],
+          "discovery": "放射性元素・トレーサー",
+          "discovery_en": "Radioactive tracer techniques"
+        },
+        {
+          "year": 1948,
+          "laureates": [
+            "Archibald Hill"
+          ],
+          "discovery": "筋熱・神経の生物物理",
+          "discovery_en": "Myothermal problems"
+        },
+        {
+          "year": 1947,
+          "laureates": [
+            "G. H. Hardy"
+          ],
+          "discovery": "数学解析",
+          "discovery_en": "Mathematical analysis"
+        },
+        {
+          "year": 1946,
+          "laureates": [
+            "Edgar Adrian"
+          ],
+          "discovery": "神経活動・神経機能の局在",
+          "discovery_en": "Nervous activity"
+        },
+        {
+          "year": 1945,
+          "laureates": [
+            "Oswald Avery"
+          ],
+          "discovery": "免疫の化学",
+          "discovery_en": "Immunity against infective diseases"
+        },
+        {
+          "year": 1944,
+          "laureates": [
+            "G. I. Taylor"
+          ],
+          "discovery": "空気力学・流体力学・金属",
+          "discovery_en": "Aerodynamics, hydrodynamics"
+        },
+        {
+          "year": 1943,
+          "laureates": [
+            "Joseph Barcroft"
+          ],
+          "discovery": "呼吸・血液の呼吸機能",
+          "discovery_en": "Respiration"
+        },
+        {
+          "year": 1942,
+          "laureates": [
+            "Robert Robinson"
+          ],
+          "discovery": "有機化学",
+          "discovery_en": "Organic chemistry"
+        },
+        {
+          "year": 1941,
+          "laureates": [
+            "Thomas Lewis"
+          ],
+          "discovery": "哺乳類心臓",
+          "discovery_en": "Mammalian heart"
+        },
+        {
+          "year": 1940,
+          "laureates": [
+            "Paul Langevin"
+          ],
+          "discovery": "電子磁気論・気体放電",
+          "discovery_en": "Electron theory of magnetism"
+        },
+        {
+          "year": 1939,
+          "laureates": [
+            "Thomas Hunt Morgan"
+          ],
+          "discovery": "遺伝学・進化",
+          "discovery_en": "Genetics and evolution"
+        },
+        {
+          "year": 1938,
+          "laureates": [
+            "Niels Bohr"
+          ],
+          "discovery": "量子論・原子構造",
+          "discovery_en": "Quantum theory of atomic structure"
+        },
+        {
+          "year": 1937,
+          "laureates": [
+            "Henry Dale"
+          ],
+          "discovery": "生理学・薬理学",
+          "discovery_en": "Physiology and pharmacology"
+        },
+        {
+          "year": 1936,
+          "laureates": [
+            "Arthur Evans"
+          ],
+          "discovery": "クレタ・ミノア文明",
+          "discovery_en": "Minoan age"
+        },
+        {
+          "year": 1935,
+          "laureates": [
+            "Charles Thomson Rees Wilson"
+          ],
+          "discovery": "雲霧箱・原子",
+          "discovery_en": "Cloud chamber"
+        },
+        {
+          "year": 1934,
+          "laureates": [
+            "John Scott Haldane"
+          ],
+          "discovery": "人体生理・医学・潜水",
+          "discovery_en": "Human physiology"
+        },
+        {
+          "year": 1933,
+          "laureates": [
+            "Theobald Smith"
+          ],
+          "discovery": "動物・ヒトの疫病",
+          "discovery_en": "Diseases of animals and man"
+        },
+        {
+          "year": 1932,
+          "laureates": [
+            "George Ellery Hale"
+          ],
+          "discovery": "太陽磁気・マウントウィルソン",
+          "discovery_en": "Solar magnetic phenomena"
+        },
+        {
+          "year": 1931,
+          "laureates": [
+            "Arthur Schuster"
+          ],
+          "discovery": "光学・地磁気",
+          "discovery_en": "Optics and terrestrial magnetism"
+        },
+        {
+          "year": 1930,
+          "laureates": [
+            "William Henry Bragg"
+          ],
+          "discovery": "結晶学・放射能",
+          "discovery_en": "Crystallography and radioactivity"
+        },
+        {
+          "year": 1929,
+          "laureates": [
+            "Max Planck"
+          ],
+          "discovery": "理論物理学・量子論",
+          "discovery_en": "Quantum theory"
+        },
+        {
+          "year": 1928,
+          "laureates": [
+            "Charles Algernon Parsons"
+          ],
+          "discovery": "工学",
+          "discovery_en": "Engineering science"
+        },
+        {
+          "year": 1927,
+          "laureates": [
+            "Charles Scott Sherrington"
+          ],
+          "discovery": "神経学",
+          "discovery_en": "Neurology"
+        },
+        {
+          "year": 1926,
+          "laureates": [
+            "Frederick Gowland Hopkins"
+          ],
+          "discovery": "生化学",
+          "discovery_en": "Biochemistry"
+        },
+        {
+          "year": 1925,
+          "laureates": [
+            "Albert Einstein"
+          ],
+          "discovery": "相対論・量子論",
+          "discovery_en": "Relativity and quantum theory"
+        },
+        {
+          "year": 1924,
+          "laureates": [
+            "Edward Albert Sharpey-Schafer"
+          ],
+          "discovery": "生理学・組織学",
+          "discovery_en": "Physiology and histology"
+        },
+        {
+          "year": 1923,
+          "laureates": [
+            "Horace Lamb"
+          ],
+          "discovery": "数理物理学",
+          "discovery_en": "Mathematical physics"
+        },
+        {
+          "year": 1922,
+          "laureates": [
+            "Ernest Rutherford"
+          ],
+          "discovery": "放射能・原子構造",
+          "discovery_en": "Radio activity and atomic structure"
+        },
+        {
+          "year": 1921,
+          "laureates": [
+            "Joseph Larmor"
+          ],
+          "discovery": "数理物理学",
+          "discovery_en": "Mathematical physics"
+        },
+        {
+          "year": 1920,
+          "laureates": [
+            "Horace Tabberer Brown"
+          ],
+          "discovery": "炭水化物の化学",
+          "discovery_en": "Chemistry of carbohydrates"
+        },
+        {
+          "year": 1919,
+          "laureates": [
+            "William Bayliss"
+          ],
+          "discovery": "生理学・生物物理学",
+          "discovery_en": "Physiology and biophysics"
+        },
+        {
+          "year": 1918,
+          "laureates": [
+            "Hendrik Lorentz"
+          ],
+          "discovery": "数理物理学",
+          "discovery_en": "Mathematical physics"
+        },
+        {
+          "year": 1917,
+          "laureates": [
+            "Pierre Paul Émile Roux"
+          ],
+          "discovery": "細菌学・血清療法",
+          "discovery_en": "Bacteriology, serum therapy"
+        },
+        {
+          "year": 1916,
+          "laureates": [
+            "James Dewar"
+          ],
+          "discovery": "物理化学・気体液化",
+          "discovery_en": "Liquefaction of gases"
+        },
+        {
+          "year": 1915,
+          "laureates": [
+            "Ivan Pavlov"
+          ],
+          "discovery": "消化生理・神経系",
+          "discovery_en": "Physiology of digestion"
+        },
+        {
+          "year": 1914,
+          "laureates": [
+            "Joseph John Thomson"
+          ],
+          "discovery": "物理学",
+          "discovery_en": "Physical science"
+        },
+        {
+          "year": 1913,
+          "laureates": [
+            "Ray Lankester"
+          ],
+          "discovery": "動物学",
+          "discovery_en": "Zoology"
+        },
+        {
+          "year": 1912,
+          "laureates": [
+            "Felix Klein"
+          ],
+          "discovery": "数学",
+          "discovery_en": "Mathematics"
+        },
+        {
+          "year": 1911,
+          "laureates": [
+            "George Darwin"
+          ],
+          "discovery": "潮汐理論・惑星の形状",
+          "discovery_en": "Tidal theory"
+        },
+        {
+          "year": 1910,
+          "laureates": [
+            "Francis Galton"
+          ],
+          "discovery": "遺伝",
+          "discovery_en": "Researches in heredity"
+        },
+        {
+          "year": 1909,
+          "laureates": [
+            "George William Hill"
+          ],
+          "discovery": "数理天文学",
+          "discovery_en": "Mathematical astronomy"
+        },
+        {
+          "year": 1908,
+          "laureates": [
+            "Alfred Russel Wallace"
+          ],
+          "discovery": "自然史・自然選択説",
+          "discovery_en": "Natural history, natural selection"
+        },
+        {
+          "year": 1907,
+          "laureates": [
+            "Albert Abraham Michelson"
+          ],
+          "discovery": "光学",
+          "discovery_en": "Investigations in optics"
+        },
+        {
+          "year": 1906,
+          "laureates": [
+            "Élie Metchnikoff"
+          ],
+          "discovery": "動物学・病理学",
+          "discovery_en": "Zoology and pathology"
+        },
+        {
+          "year": 1905,
+          "laureates": [
+            "Dmitri Mendeleev"
+          ],
+          "discovery": "化学・物理学",
+          "discovery_en": "Chemical and physical science"
+        },
+        {
+          "year": 1904,
+          "laureates": [
+            "William Crookes"
+          ],
+          "discovery": "分光化学・希薄気体・放射能",
+          "discovery_en": "Spectroscopic chemistry, radioactivity"
+        },
+        {
+          "year": 1903,
+          "laureates": [
+            "Eduard Suess"
+          ],
+          "discovery": "地質学",
+          "discovery_en": "Geological services"
+        },
+        {
+          "year": 1902,
+          "laureates": [
+            "Joseph Lister"
+          ],
+          "discovery": "生理学・病理学・外科",
+          "discovery_en": "Physiology, surgery"
+        },
+        {
+          "year": 1901,
+          "laureates": [
+            "Josiah Willard Gibbs"
+          ],
+          "discovery": "数理物理学",
+          "discovery_en": "Mathematical physics"
+        },
+        {
+          "year": 1900,
+          "laureates": [
+            "Marcellin Berthelot"
+          ],
+          "discovery": "化学",
+          "discovery_en": "Chemical science"
+        },
+        {
+          "year": 1899,
+          "laureates": [
+            "Lord Rayleigh"
+          ],
+          "discovery": "物理学",
+          "discovery_en": "Physical science"
+        },
+        {
+          "year": 1898,
+          "laureates": [
+            "William Huggins"
+          ],
+          "discovery": "天体へのスペクトル分析",
+          "discovery_en": "Spectrum analysis"
+        },
+        {
+          "year": 1897,
+          "laureates": [
+            "Albert von Kölliker"
+          ],
+          "discovery": "発生学・組織学",
+          "discovery_en": "Embryology, histology"
+        },
+        {
+          "year": 1896,
+          "laureates": [
+            "Carl Gegenbaur"
+          ],
+          "discovery": "比較解剖学",
+          "discovery_en": "Comparative anatomy"
+        },
+        {
+          "year": 1895,
+          "laureates": [
+            "Karl Weierstrass"
+          ],
+          "discovery": "純粋数学",
+          "discovery_en": "Pure mathematics"
+        },
+        {
+          "year": 1894,
+          "laureates": [
+            "Edward Frankland"
+          ],
+          "discovery": "理論・応用化学",
+          "discovery_en": "Theoretical and applied chemistry"
+        },
+        {
+          "year": 1893,
+          "laureates": [
+            "George Stokes"
+          ],
+          "discovery": "物理学",
+          "discovery_en": "Physical science"
+        },
+        {
+          "year": 1892,
+          "laureates": [
+            "Rudolf Virchow"
+          ],
+          "discovery": "病理学・先史考古学",
+          "discovery_en": "Pathology, prehistoric archaeology"
+        },
+        {
+          "year": 1891,
+          "laureates": [
+            "Stanislao Cannizzaro"
+          ],
+          "discovery": "化学哲学・アボガドロの法則",
+          "discovery_en": "Avogadro's theory"
+        },
+        {
+          "year": 1890,
+          "laureates": [
+            "Simon Newcomb"
+          ],
+          "discovery": "重力天文学",
+          "discovery_en": "Gravitational astronomy"
+        },
+        {
+          "year": 1889,
+          "laureates": [
+            "George Salmon"
+          ],
+          "discovery": "純粋数学",
+          "discovery_en": "Pure mathematics"
+        },
+        {
+          "year": 1888,
+          "laureates": [
+            "Thomas Henry Huxley"
+          ],
+          "discovery": "形態学・組織学",
+          "discovery_en": "Morphology and histology"
+        },
+        {
+          "year": 1887,
+          "laureates": [
+            "Joseph Dalton Hooker"
+          ],
+          "discovery": "植物学",
+          "discovery_en": "Botanical science"
+        },
+        {
+          "year": 1886,
+          "laureates": [
+            "Franz Ernst Neumann"
+          ],
+          "discovery": "理論光学・電磁力学",
+          "discovery_en": "Theoretical optics, electro-dynamics"
+        },
+        {
+          "year": 1885,
+          "laureates": [
+            "August Kekulé"
+          ],
+          "discovery": "有機化学",
+          "discovery_en": "Organic chemistry"
+        },
+        {
+          "year": 1884,
+          "laureates": [
+            "Carl Ludwig"
+          ],
+          "discovery": "生理学",
+          "discovery_en": "Physiology"
+        },
+        {
+          "year": 1883,
+          "laureates": [
+            "William Thomson"
+          ],
+          "discovery": "エネルギー散逸・熱力学",
+          "discovery_en": "Dissipation of energy, thermodynamics"
+        },
+        {
+          "year": 1882,
+          "laureates": [
+            "Arthur Cayley"
+          ],
+          "discovery": "純粋数学",
+          "discovery_en": "Pure mathematics"
+        },
+        {
+          "year": 1881,
+          "laureates": [
+            "Charles-Adolphe Wurtz"
+          ],
+          "discovery": "有機アンモニア・グリコール",
+          "discovery_en": "Organic ammonias, glycols"
+        },
+        {
+          "year": 1880,
+          "laureates": [
+            "James Joseph Sylvester"
+          ],
+          "discovery": "数学",
+          "discovery_en": "Mathematics"
+        },
+        {
+          "year": 1879,
+          "laureates": [
+            "Rudolf Clausius"
+          ],
+          "discovery": "熱の研究",
+          "discovery_en": "Researches upon heat"
+        },
+        {
+          "year": 1878,
+          "laureates": [
+            "Jean-Baptiste Boussingault"
+          ],
+          "discovery": "農業化学",
+          "discovery_en": "Agricultural chemistry"
+        },
+        {
+          "year": 1877,
+          "laureates": [
+            "James Dwight Dana"
+          ],
+          "discovery": "生物学・地質学・鉱物学",
+          "discovery_en": "Biology, geology, mineralogy"
+        },
+        {
+          "year": 1876,
+          "laureates": [
+            "Claude Bernard"
+          ],
+          "discovery": "生理学",
+          "discovery_en": "Physiology"
+        },
+        {
+          "year": 1875,
+          "laureates": [
+            "August Wilhelm von Hofmann"
+          ],
+          "discovery": "化学・アンモニア誘導体",
+          "discovery_en": "Chemistry, ammonia derivatives"
+        },
+        {
+          "year": 1874,
+          "laureates": [
+            "Louis Pasteur"
+          ],
+          "discovery": "発酵・ペルリーヌ病",
+          "discovery_en": "Fermentation and pelerine"
+        },
+        {
+          "year": 1873,
+          "laureates": [
+            "Hermann von Helmholtz"
+          ],
+          "discovery": "物理学・生理学",
+          "discovery_en": "Physics and physiology"
+        },
+        {
+          "year": 1872,
+          "laureates": [
+            "Friedrich Wöhler"
+          ],
+          "discovery": "化学への貢献",
+          "discovery_en": "Contributions to chemistry"
+        },
+        {
+          "year": 1871,
+          "laureates": [
+            "Julius von Mayer"
+          ],
+          "discovery": "熱の力学・熱の仕事当量",
+          "discovery_en": "Mechanics of heat"
+        },
+        {
+          "year": 1870,
+          "laureates": [
+            "James Prescott Joule"
+          ],
+          "discovery": "熱の動力学的理論",
+          "discovery_en": "Dynamical theory of heat"
+        },
+        {
+          "year": 1869,
+          "laureates": [
+            "Henri Victor Regnault"
+          ],
+          "discovery": "比熱・蒸気の弾性",
+          "discovery_en": "Specific heat of gases"
+        },
+        {
+          "year": 1868,
+          "laureates": [
+            "Charles Wheatstone"
+          ],
+          "discovery": "音響・光学・電気・磁気",
+          "discovery_en": "Acoustics, optics, electricity"
+        },
+        {
+          "year": 1867,
+          "laureates": [
+            "Karl Ernst von Baer"
+          ],
+          "discovery": "発生学・比較解剖学",
+          "discovery_en": "Embryology, comparative anatomy"
+        },
+        {
+          "year": 1866,
+          "laureates": [
+            "Julius Plücker"
+          ],
+          "discovery": "解析幾何・磁気・スペクトル分析",
+          "discovery_en": "Analytical geometry, magnetism"
+        },
+        {
+          "year": 1865,
+          "laureates": [
+            "Michel Chasles"
+          ],
+          "discovery": "純粋幾何学",
+          "discovery_en": "Pure geometry"
+        },
+        {
+          "year": 1864,
+          "laureates": [
+            "Charles Darwin"
+          ],
+          "discovery": "地質学・動物学・植物生理",
+          "discovery_en": "Geology, zoology, botany"
+        },
+        {
+          "year": 1863,
+          "laureates": [
+            "Adam Sedgwick"
+          ],
+          "discovery": "古生代の地質学・デボン系",
+          "discovery_en": "Palaeozoic geology, Devonian"
+        },
+        {
+          "year": 1862,
+          "laureates": [
+            "Thomas Graham"
+          ],
+          "discovery": "液体の拡散・浸透圧",
+          "discovery_en": "Diffusion of liquids, osmotic force"
+        },
+        {
+          "year": 1861,
+          "laureates": [
+            "Louis Agassiz"
+          ],
+          "discovery": "古生物学・化石魚類",
+          "discovery_en": "Palaeontology, fossil fishes"
+        },
+        {
+          "year": 1860,
+          "laureates": [
+            "Robert Bunsen"
+          ],
+          "discovery": "カコジル・気体分析・火山",
+          "discovery_en": "Cacodyls, gaseous analysis"
+        },
+        {
+          "year": 1859,
+          "laureates": [
+            "Wilhelm Eduard Weber"
+          ],
+          "discovery": "電気・磁気・音響",
+          "discovery_en": "Electricity, magnetism, acoustics"
+        },
+        {
+          "year": 1858,
+          "laureates": [
+            "Charles Lyell"
+          ],
+          "discovery": "地質学",
+          "discovery_en": "Geology"
+        },
+        {
+          "year": 1857,
+          "laureates": [
+            "Michel Eugène Chevreul"
+          ],
+          "discovery": "有機化学・脂肪・色素対比",
+          "discovery_en": "Organic chemistry, fats, colours"
+        },
+        {
+          "year": 1856,
+          "laureates": [
+            "Henri Milne-Edwards"
+          ],
+          "discovery": "比較解剖学・動物学",
+          "discovery_en": "Comparative anatomy and zoology"
+        },
+        {
+          "year": 1855,
+          "laureates": [
+            "Léon Foucault"
+          ],
+          "discovery": "実験物理学",
+          "discovery_en": "Experimental physics"
+        },
+        {
+          "year": 1854,
+          "laureates": [
+            "Johannes Peter Müller"
+          ],
+          "discovery": "生理学・比較解剖学・胚発生",
+          "discovery_en": "Physiology, embryology"
+        },
+        {
+          "year": 1853,
+          "laureates": [
+            "Heinrich Wilhelm Dove"
+          ],
+          "discovery": "地球表面の熱分布",
+          "discovery_en": "Distribution of heat"
+        },
+        {
+          "year": 1852,
+          "laureates": [
+            "Alexander von Humboldt"
+          ],
+          "discovery": "地球物理学",
+          "discovery_en": "Terrestrial physics"
+        },
+        {
+          "year": 1851,
+          "laureates": [
+            "Richard Owen"
+          ],
+          "discovery": "比較解剖学・古生物学",
+          "discovery_en": "Comparative anatomy and palaeontology"
+        },
+        {
+          "year": 1850,
+          "laureates": [
+            "Peter Andreas Hansen"
+          ],
+          "discovery": "物理天文学",
+          "discovery_en": "Researches in physical astronomy"
+        },
+        {
+          "year": 1849,
+          "laureates": [
+            "Roderick Murchison"
+          ],
+          "discovery": "シルル系の地質学",
+          "discovery_en": "Silurian System"
+        },
+        {
+          "year": 1848,
+          "laureates": [
+            "John Couch Adams"
+          ],
+          "discovery": "天王星の摂動・摂動の逆問題",
+          "discovery_en": "Uranus disturbances"
+        },
+        {
+          "year": 1847,
+          "laureates": [
+            "John Herschel"
+          ],
+          "discovery": "南天の天文観測",
+          "discovery_en": "Astronomical observations at Cape"
+        },
+        {
+          "year": 1846,
+          "laureates": [
+            "Urbain Le Verrier"
+          ],
+          "discovery": "天王星の摂動・海王星の予測",
+          "discovery_en": "Uranus disturbances, Neptune prediction"
+        },
+        {
+          "year": 1845,
+          "laureates": [
+            "Theodor Schwann"
+          ],
+          "discovery": "動物・植物組織の発達",
+          "discovery_en": "Development of animal and vegetable textures"
+        },
+        {
+          "year": 1844,
+          "laureates": [
+            "Carlo Matteucci"
+          ],
+          "discovery": "動物電気",
+          "discovery_en": "Animal electricity"
+        },
+        {
+          "year": 1843,
+          "laureates": [
+            "Jean-Baptiste Dumas"
+          ],
+          "discovery": "有機化学・化学型・置換",
+          "discovery_en": "Organic chemistry, chemical types"
+        },
+        {
+          "year": 1842,
+          "laureates": [
+            "James MacCullagh"
+          ],
+          "discovery": "光の波動説",
+          "discovery_en": "Wave theory of light"
+        },
+        {
+          "year": 1841,
+          "laureates": [
+            "Georg Ohm"
+          ],
+          "discovery": "電流の法則",
+          "discovery_en": "Laws of electric currents"
+        },
+        {
+          "year": 1839,
+          "laureates": [
+            "Robert Brown"
+          ],
+          "discovery": "植物の受精",
+          "discovery_en": "Vegetable impregnation"
+        },
+        {
+          "year": 1836,
+          "laureates": [
+            "Jöns Jacob Berzelius",
+            "Francis Kiernan"
+          ],
+          "discovery": "化学・肝臓構造",
+          "discovery_en": "Chemistry, liver structure"
+        },
+        {
+          "year": 1835,
+          "laureates": [
+            "William Snow Harris"
+          ],
+          "discovery": "高強度電気の実験",
+          "discovery_en": "Electricity of high intensity"
+        },
+        {
+          "year": 1834,
+          "laureates": [
+            "Giovanni Antonio Amedeo Plana"
+          ],
+          "discovery": "月の運動の理論",
+          "discovery_en": "Théorie du Mouvement de la Lune"
+        },
+        {
+          "year": 1832,
+          "laureates": [
+            "Michael Faraday",
+            "Siméon Denis Poisson"
+          ],
+          "discovery": "電気誘導・毛細管",
+          "discovery_en": "Electrical induction, capillarity"
+        },
+        {
+          "year": 1831,
+          "laureates": [
+            "George Biddell Airy"
+          ],
+          "discovery": "望遠鏡のアクロマティック接眼鏡",
+          "discovery_en": "Achromatic eye-pieces"
+        },
+        {
+          "year": 1826,
+          "laureates": [
+            "James South"
+          ],
+          "discovery": "二重星の観測",
+          "discovery_en": "Observations of double stars"
+        },
+        {
+          "year": 1825,
+          "laureates": [
+            "François Arago",
+            "Peter Barlow"
+          ],
+          "discovery": "磁性・鉄を含まない物質",
+          "discovery_en": "Magnetic properties"
+        },
+        {
+          "year": 1824,
+          "laureates": [
+            "John Brinkley"
+          ],
+          "discovery": "王立協会への諸論文",
+          "discovery_en": "Various communications"
+        },
+        {
+          "year": 1823,
+          "laureates": [
+            "John Pond"
+          ],
+          "discovery": "王立協会への諸論文",
+          "discovery_en": "Various communications"
+        },
+        {
+          "year": 1822,
+          "laureates": [
+            "William Buckland"
+          ],
+          "discovery": "キルクデール洞窟の化石",
+          "discovery_en": "Fossil teeth and bones"
+        },
+        {
+          "year": 1820,
+          "laureates": [
+            "Hans Christian Ørsted"
+          ],
+          "discovery": "電磁気の発見",
+          "discovery_en": "Electro-magnetic discoveries"
+        },
+        {
+          "year": 1818,
+          "laureates": [
+            "Robert Seppings"
+          ],
+          "discovery": "軍艦の構造",
+          "discovery_en": "Construction of ships of war"
+        },
+        {
+          "year": 1817,
+          "laureates": [
+            "Henry Kater"
+          ],
+          "discovery": "振り子の実験",
+          "discovery_en": "Experiments on the pendulum"
+        },
+        {
+          "year": 1815,
+          "laureates": [
+            "David Brewster"
+          ],
+          "discovery": "光の偏光・反射",
+          "discovery_en": "Polarization of light"
+        },
+        {
+          "year": 1814,
+          "laureates": [
+            "James Ivory"
+          ],
+          "discovery": "数学への貢献",
+          "discovery_en": "Mathematical contributions"
+        },
+        {
+          "year": 1813,
+          "laureates": [
+            "William Thomas Brande"
+          ],
+          "discovery": "発酵液のアルコール",
+          "discovery_en": "Alcohol in fermented liquors"
+        },
+        {
+          "year": 1811,
+          "laureates": [
+            "Benjamin Collins Brodie"
+          ],
+          "discovery": "脳・心臓・動物熱・植物毒",
+          "discovery_en": "Brain, heart, animal heat"
+        },
+        {
+          "year": 1809,
+          "laureates": [
+            "Edward Troughton"
+          ],
+          "discovery": "天文器具の分割法",
+          "discovery_en": "Method of dividing instruments"
+        },
+        {
+          "year": 1808,
+          "laureates": [
+            "William Henry"
+          ],
+          "discovery": "王立協会への諸論文",
+          "discovery_en": "Various papers"
+        },
+        {
+          "year": 1807,
+          "laureates": [
+            "Everard Home"
+          ],
+          "discovery": "解剖学・生理学の論文",
+          "discovery_en": "Anatomy and physiology"
+        },
+        {
+          "year": 1806,
+          "laureates": [
+            "Thomas Andrew Knight"
+          ],
+          "discovery": "植物の生長に関する論文",
+          "discovery_en": "Papers on vegetation"
+        },
+        {
+          "year": 1805,
+          "laureates": [
+            "Humphry Davy"
+          ],
+          "discovery": "王立協会への諸論文",
+          "discovery_en": "Various communications"
+        },
+        {
+          "year": 1804,
+          "laureates": [
+            "Smithson Tennant"
+          ],
+          "discovery": "化学上の発見",
+          "discovery_en": "Chemical discoveries"
+        },
+        {
+          "year": 1803,
+          "laureates": [
+            "Richard Chenevix"
+          ],
+          "discovery": "化学論文",
+          "discovery_en": "Chemical papers"
+        },
+        {
+          "year": 1802,
+          "laureates": [
+            "William Hyde Wollaston"
+          ],
+          "discovery": "王立協会への諸論文",
+          "discovery_en": "Various papers"
+        },
+        {
+          "year": 1801,
+          "laureates": [
+            "Astley Cooper"
+          ],
+          "discovery": "鼓膜破壊の影響・難聴手術",
+          "discovery_en": "Membrana tympani, deafness operation"
+        },
+        {
+          "year": 1800,
+          "laureates": [
+            "Edward Charles Howard"
+          ],
+          "discovery": "新式雷酸水銀",
+          "discovery_en": "New fulminating mercury"
+        },
+        {
+          "year": 1799,
+          "laureates": [
+            "John Hellins"
+          ],
+          "discovery": "物理天文学の問題の解法",
+          "discovery_en": "Solution in physical astronomy"
+        },
+        {
+          "year": 1796,
+          "laureates": [
+            "George Atwood"
+          ],
+          "discovery": "浮体の幾何学・船舶の安定性",
+          "discovery_en": "Stability of ships"
+        },
+        {
+          "year": 1795,
+          "laureates": [
+            "Jesse Ramsden"
+          ],
+          "discovery": "三角測量用器具の改良",
+          "discovery_en": "Trigonometric instruments"
+        },
+        {
+          "year": 1794,
+          "laureates": [
+            "Alessandro Volta"
+          ],
+          "discovery": "ガルヴァーニの実験の説明",
+          "discovery_en": "Explanatory of Galvani's experiments"
+        },
+        {
+          "year": 1792,
+          "laureates": [
+            "Benjamin Thompson"
+          ],
+          "discovery": "熱の性質と伝達",
+          "discovery_en": "Properties and communication of heat"
+        },
+        {
+          "year": 1789,
+          "laureates": [
+            "William Morgan"
+          ],
+          "discovery": "残余・生存者価値の論文",
+          "discovery_en": "Values of reversions and survivorships"
+        },
+        {
+          "year": 1788,
+          "laureates": [
+            "Charles Blagden"
+          ],
+          "discovery": "凝固の論文",
+          "discovery_en": "Papers on congelation"
+        },
+        {
+          "year": 1787,
+          "laureates": [
+            "John Hunter"
+          ],
+          "discovery": "卵巣・解剖学",
+          "discovery_en": "Ovaria, anatomy of whales"
+        },
+        {
+          "year": 1785,
+          "laureates": [
+            "William Roy"
+          ],
+          "discovery": "ハウンズロー・ヒースの基線測定",
+          "discovery_en": "Measurement of a base"
+        },
+        {
+          "year": 1784,
+          "laureates": [
+            "Edward Waring"
+          ],
+          "discovery": "級数の和の数学",
+          "discovery_en": "Summation of series"
+        },
+        {
+          "year": 1783,
+          "laureates": [
+            "John Goodricke",
+            "Thomas Hutchins"
+          ],
+          "discovery": "アルゴルの光変周期・水銀凝固点",
+          "discovery_en": "Algol variation, mercurial congelation"
+        },
+        {
+          "year": 1782,
+          "laureates": [
+            "Richard Kirwan"
+          ],
+          "discovery": "化学分析・塩類",
+          "discovery_en": "Chemical analyses of salts"
+        },
+        {
+          "year": 1781,
+          "laureates": [
+            "William Herschel"
+          ],
+          "discovery": "新星の発見",
+          "discovery_en": "Discovery of a new star"
+        },
+        {
+          "year": 1780,
+          "laureates": [
+            "Samuel Vince"
+          ],
+          "discovery": "並進・回転運動の原理",
+          "discovery_en": "Progressive and rotatory motion"
+        },
+        {
+          "year": 1778,
+          "laureates": [
+            "Charles Hutton"
+          ],
+          "discovery": "火薬の力と弾丸の初速",
+          "discovery_en": "Force of gunpowder"
+        },
+        {
+          "year": 1777,
+          "laureates": [
+            "John Mudge"
+          ],
+          "discovery": "反射望遠鏡の金属組成",
+          "discovery_en": "Reflecting telescope composition"
+        },
+        {
+          "year": 1776,
+          "laureates": [
+            "James Cook"
+          ],
+          "discovery": "世界周航中の船員の健康維持",
+          "discovery_en": "Preserving crew health on voyage"
+        },
+        {
+          "year": 1775,
+          "laureates": [
+            "Nevil Maskelyne"
+          ],
+          "discovery": "山の引力の観測",
+          "discovery_en": "Attraction of mountains"
+        },
+        {
+          "year": 1773,
+          "laureates": [
+            "John Walsh"
+          ],
+          "discovery": "シビレエイの論文",
+          "discovery_en": "Paper on the torpedo"
+        },
+        {
+          "year": 1772,
+          "laureates": [
+            "Joseph Priestley"
+          ],
+          "discovery": "各種空気の観察",
+          "discovery_en": "Observations on different kinds of air"
+        },
+        {
+          "year": 1771,
+          "laureates": [
+            "Matthew Raper"
+          ],
+          "discovery": "古代ギリシャ・ローマ貨幣の価値",
+          "discovery_en": "Ancient Greek and Roman money"
+        },
+        {
+          "year": 1770,
+          "laureates": [
+            "William Hamilton"
+          ],
+          "discovery": "エトナ山への旅",
+          "discovery_en": "Journey to Mount Etna"
+        },
+        {
+          "year": 1769,
+          "laureates": [
+            "William Hewson"
+          ],
+          "discovery": "リンパ系の研究",
+          "discovery_en": "Lymphatic system"
+        },
+        {
+          "year": 1768,
+          "laureates": [
+            "Peter Woulfe"
+          ],
+          "discovery": "酸・揮発性アルカリの蒸留",
+          "discovery_en": "Distillation of acids and alkalies"
+        },
+        {
+          "year": 1767,
+          "laureates": [
+            "John Ellis"
+          ],
+          "discovery": "サンゴ・イソギンチャクの動物性",
+          "discovery_en": "Animal nature of zoophytes"
+        },
+        {
+          "year": 1764,
+          "laureates": [
+            "John Canton"
+          ],
+          "discovery": "水の圧縮性の証明",
+          "discovery_en": "Compressibility of water"
+        },
+        {
+          "year": 1760,
+          "laureates": [
+            "Benjamin Wilson"
+          ],
+          "discovery": "電気の実験",
+          "discovery_en": "Experiments in electricity"
+        },
+        {
+          "year": 1759,
+          "laureates": [
+            "John Smeaton"
+          ],
+          "discovery": "水車・風車の実験",
+          "discovery_en": "Water-wheels and wind-mill sails"
+        },
+        {
+          "year": 1758,
+          "laureates": [
+            "John Dollond"
+          ],
+          "discovery": "光の屈折率の違い",
+          "discovery_en": "Different refrangibility of light"
+        },
+        {
+          "year": 1757,
+          "laureates": [
+            "Lord Charles Cavendish"
+          ],
+          "discovery": "最高・最低温度計",
+          "discovery_en": "Thermometers for max/min temperature"
+        },
+        {
+          "year": 1755,
+          "laureates": [
+            "John Huxham"
+          ],
+          "discovery": "アンチモンの実験",
+          "discovery_en": "Experiments on antimony"
+        },
+        {
+          "year": 1754,
+          "laureates": [
+            "William Lewis"
+          ],
+          "discovery": "白金の実験",
+          "discovery_en": "Experiments on platina"
+        },
+        {
+          "year": 1753,
+          "laureates": [
+            "Benjamin Franklin"
+          ],
+          "discovery": "電気の実験と観察",
+          "discovery_en": "Experiments on electricity"
+        },
+        {
+          "year": 1752,
+          "laureates": [
+            "Sir John Pringle"
+          ],
+          "discovery": "腐敗・防腐物質の実験",
+          "discovery_en": "Septic and antiseptic substances"
+        },
+        {
+          "year": 1751,
+          "laureates": [
+            "John Canton"
+          ],
+          "discovery": "人工磁石の製造法",
+          "discovery_en": "Artificial magnets"
+        },
+        {
+          "year": 1750,
+          "laureates": [
+            "George Edwards"
+          ],
+          "discovery": "鳥類の自然史",
+          "discovery_en": "Natural history of birds"
+        },
+        {
+          "year": 1749,
+          "laureates": [
+            "John Harrison"
+          ],
+          "discovery": "精密時計の発明",
+          "discovery_en": "Exact mensuration of time"
+        },
+        {
+          "year": 1748,
+          "laureates": [
+            "James Bradley"
+          ],
+          "discovery": "恒星の見かけの運動",
+          "discovery_en": "Apparent motion of fixed stars"
+        },
+        {
+          "year": 1747,
+          "laureates": [
+            "Gowin Knight"
+          ],
+          "discovery": "天然・人工磁石の実験",
+          "discovery_en": "Natural and artificial magnets"
+        },
+        {
+          "year": 1746,
+          "laureates": [
+            "Benjamin Robins"
+          ],
+          "discovery": "空気抵抗・弾道学",
+          "discovery_en": "Air resistance, projectile motion"
+        },
+        {
+          "year": 1745,
+          "laureates": [
+            "William Watson"
+          ],
+          "discovery": "電気現象の発見",
+          "discovery_en": "Electrical phenomena"
+        },
+        {
+          "year": 1744,
+          "laureates": [
+            "Henry Baker"
+          ],
+          "discovery": "塩類結晶化の実験",
+          "discovery_en": "Crystallization of saline bodies"
+        },
+        {
+          "year": 1743,
+          "laureates": [
+            "Abraham Trembley"
+          ],
+          "discovery": "ポリプの実験",
+          "discovery_en": "Experiments on the polypus"
+        },
+        {
+          "year": 1742,
+          "laureates": [
+            "Christopher Middleton"
+          ],
+          "discovery": "北西航路探検",
+          "discovery_en": "North-West passage observations"
+        },
+        {
+          "year": 1741,
+          "laureates": [
+            "John Theophilus Desaguliers"
+          ],
+          "discovery": "電気の性質",
+          "discovery_en": "Properties of electricity"
+        },
+        {
+          "year": 1740,
+          "laureates": [
+            "Alexander Stuart"
+          ],
+          "discovery": "筋運動の講義",
+          "discovery_en": "Lectures on muscular motion"
+        },
+        {
+          "year": 1739,
+          "laureates": [
+            "Stephen Hales"
+          ],
+          "discovery": "結石溶解薬・船員用防腐剤",
+          "discovery_en": "Medicines, preservatives"
+        },
+        {
+          "year": 1738,
+          "laureates": [
+            "James Valoue"
+          ],
+          "discovery": "ウェストミンスター橋の杭打ち機関",
+          "discovery_en": "Pile-driving engine"
+        },
+        {
+          "year": 1737,
+          "laureates": [
+            "John Belchier"
+          ],
+          "discovery": "マダー根による骨の染色",
+          "discovery_en": "Madder root dyeing bones"
+        },
+        {
+          "year": 1736,
+          "laureates": [
+            "John Theophilus Desaguliers"
+          ],
+          "discovery": "電気の性質の実験",
+          "discovery_en": "Experiments on electricity"
+        },
+        {
+          "year": 1734,
+          "laureates": [
+            "John Theophilus Desaguliers"
+          ],
+          "discovery": "王立協会での実験",
+          "discovery_en": "Experiments before the Society"
+        },
+        {
+          "year": 1732,
+          "laureates": [
+            "Stephen Gray"
+          ],
+          "discovery": "電気実験",
+          "discovery_en": "Electrical experiments"
+        },
+        {
+          "year": 1731,
+          "laureates": [
+            "Stephen Gray"
+          ],
+          "discovery": "電気実験",
+          "discovery_en": "Electrical experiments"
+        },
+        {
+          "year": 1975,
+          "laureates": [
+            "Francis Crick"
+          ],
+          "discovery": "DNA構造の解明と分子生物学",
+          "discovery_en": "Elucidation of DNA structure and molecular biology",
+          "representative_formula": "Crick-Watson 二重らせん",
+          "representative_formula_en": "Crick-Watson double helix"
+        },
+        {
+          "year": 1976,
+          "laureates": [
+            "Dorothy Hodgkin"
+          ],
+          "discovery": "ペニシリン・ビタミンB12・インスリンの構造解析",
+          "discovery_en": "Structures of penicillin, vitamin B12 and insulin",
+          "representative_formula": "Hodgkin X線結晶構造",
+          "representative_formula_en": "Hodgkin X-ray crystallography"
+        },
+        {
+          "year": 1977,
+          "laureates": [
+            "Frederick Sanger"
+          ],
+          "discovery": "タンパク質・核酸の配列決定",
+          "discovery_en": "Protein structure and nucleic acid sequencing",
+          "representative_formula": "Sanger ジデオキシ法",
+          "representative_formula_en": "Sanger dideoxy method"
+        },
+        {
+          "year": 1978,
+          "laureates": [
+            "Robert Burns Woodward"
+          ],
+          "discovery": "天然物合成・軌道対称性",
+          "discovery_en": "Natural product synthesis, orbital symmetry",
+          "representative_formula": "Woodward-Hoffmann則",
+          "representative_formula_en": "Woodward-Hoffmann rules"
+        },
+        {
+          "year": 1979,
+          "laureates": [
+            "Max Perutz"
+          ],
+          "discovery": "ヘモグロビン構造と分子生物学",
+          "discovery_en": "Haemoglobin structure and molecular biology",
+          "representative_formula": "Perutz 酸素結合機構",
+          "representative_formula_en": "Perutz oxygen binding mechanism"
+        },
+        {
+          "year": 1980,
+          "laureates": [
+            "Derek Barton"
+          ],
+          "discovery": "構造有機化学・立体配座解析",
+          "discovery_en": "Structural organic chemistry, conformational analysis",
+          "representative_formula": "Barton 配座解析",
+          "representative_formula_en": "Barton conformational analysis"
+        },
+        {
+          "year": 1981,
+          "laureates": [
+            "Peter D. Mitchell"
+          ],
+          "discovery": "化学浸透圧説とエネルギー変換",
+          "discovery_en": "Chemiosmotic theory of energy transduction",
+          "representative_formula": "Mitchell 化学浸透",
+          "representative_formula_en": "Mitchell chemiosmosis"
+        },
+        {
+          "year": 1982,
+          "laureates": [
+            "John Cornforth"
+          ],
+          "discovery": "立体選択的合成・生合成",
+          "discovery_en": "Stereochemically-controlled synthesis and biosynthesis",
+          "representative_formula": "Cornforth 酵素立体化学",
+          "representative_formula_en": "Cornforth enzyme stereochemistry"
+        },
+        {
+          "year": 1983,
+          "laureates": [
+            "Rodney Robert Porter"
+          ],
+          "discovery": "免疫グロブリン構造・補体系",
+          "discovery_en": "Immunoglobulin structure, complement system",
+          "representative_formula": "Porter 抗体構造",
+          "representative_formula_en": "Porter antibody structure"
+        },
+        {
+          "year": 1984,
+          "laureates": [
+            "Subrahmanyan Chandrasekhar"
+          ],
+          "discovery": "理論物理学・恒星構造・相対論",
+          "discovery_en": "Theoretical physics, stellar structure, relativity",
+          "representative_formula": "Chandrasekhar限界 $M_{\\mathrm{Ch}}$",
+          "representative_formula_en": "Chandrasekhar limit $M_{\\mathrm{Ch}}$"
+        },
+        {
+          "year": 1985,
+          "laureates": [
+            "Aaron Klug"
+          ],
+          "discovery": "複雑な生体構造の解明",
+          "discovery_en": "Complex biological structures",
+          "representative_formula": "Klug 結晶学・電子顕微鏡",
+          "representative_formula_en": "Klug crystallography, electron microscopy"
+        },
+        {
+          "year": 1986,
+          "laureates": [
+            "Rudolf Peierls"
+          ],
+          "discovery": "理論物理学・核連鎖反応",
+          "discovery_en": "Theoretical physics, nuclear chain reactions",
+          "representative_formula": "Peierls 核分裂理論",
+          "representative_formula_en": "Peierls fission theory"
+        },
+        {
+          "year": 1987,
+          "laureates": [
+            "Robin Hill"
+          ],
+          "discovery": "光合成の電子伝達経路",
+          "discovery_en": "Electron transport in photosynthesis",
+          "representative_formula": "Hill反応",
+          "representative_formula_en": "Hill reaction"
+        },
+        {
+          "year": 1988,
+          "laureates": [
+            "Michael Atiyah"
+          ],
+          "discovery": "幾何学・トポロジー・解析・理論物理",
+          "discovery_en": "Geometry, topology, analysis, theoretical physics",
+          "representative_formula": "Atiyah-Singer指数定理",
+          "representative_formula_en": "Atiyah-Singer index theorem"
+        },
+        {
+          "year": 1989,
+          "laureates": [
+            "César Milstein"
+          ],
+          "discovery": "モノクローナル抗体・体細胞変異",
+          "discovery_en": "Monoclonal antibodies, somatic mutations",
+          "representative_formula": "Milstein ハイブリドーマ",
+          "representative_formula_en": "Milstein hybridoma"
+        },
+        {
+          "year": 1990,
+          "laureates": [
+            "Abdus Salam"
+          ],
+          "discovery": "電弱統一理論",
+          "discovery_en": "Electroweak unification",
+          "representative_formula": "Salam $SU(2)_L \\times U(1)$",
+          "representative_formula_en": "Salam $SU(2)_L \\times U(1)$"
+        },
+        {
+          "year": 1991,
+          "laureates": [
+            "Sydney Brenner"
+          ],
+          "discovery": "分子遺伝学・発生生物学・ヒトゲノム",
+          "discovery_en": "Molecular genetics, developmental biology, Human Genome",
+          "representative_formula": "Brenner C. elegans",
+          "representative_formula_en": "Brenner C. elegans"
+        },
+        {
+          "year": 1992,
+          "laureates": [
+            "George Porter"
+          ],
+          "discovery": "光化学・光物理過程",
+          "discovery_en": "Fast photochemical and photophysical processes",
+          "representative_formula": "Porter フラッシュ光解",
+          "representative_formula_en": "Porter flash photolysis"
+        },
+        {
+          "year": 1993,
+          "laureates": [
+            "James Watson"
+          ],
+          "discovery": "DNA構造からヒトゲノム解読まで",
+          "discovery_en": "DNA structure to human genome sequencing",
+          "representative_formula": "Watson-Crick DNA",
+          "representative_formula_en": "Watson-Crick DNA"
+        },
+        {
+          "year": 1994,
+          "laureates": [
+            "Charles Frank"
+          ],
+          "discovery": "結晶形態論・液晶・準結晶",
+          "discovery_en": "Crystal morphology, liquid crystals, quasicrystals",
+          "representative_formula": "Frank 転位・ディスクリネーション",
+          "representative_formula_en": "Frank dislocations, disclinations"
+        },
+        {
+          "year": 1995,
+          "laureates": [
+            "Frank Fenner"
+          ],
+          "discovery": "動物ウイルス学・痘瘡・ミクソマトーシス",
+          "discovery_en": "Animal virology, pox, myxomatosis",
+          "representative_formula": "Fenner ウイルス生態学",
+          "representative_formula_en": "Fenner virus ecology"
+        },
+        {
+          "year": 1996,
+          "laureates": [
+            "Alan Cottrell"
+          ],
+          "discovery": "材料の機械的性質・転位・破壊",
+          "discovery_en": "Mechanical properties, dislocations, fracture",
+          "representative_formula": "Cottrell 転位理論",
+          "representative_formula_en": "Cottrell dislocation theory"
+        },
+        {
+          "year": 1997,
+          "laureates": [
+            "Hugh Huxley"
+          ],
+          "discovery": "筋構造・筋収縮の分子機構",
+          "discovery_en": "Muscle structure, molecular mechanisms of contraction",
+          "representative_formula": "Huxley すべり説",
+          "representative_formula_en": "Huxley sliding filament"
+        },
+        {
+          "year": 1998,
+          "laureates": [
+            "James Lighthill"
+          ],
+          "discovery": "流体力学・生体流体力学",
+          "discovery_en": "Fluid mechanics, bio-fluid-dynamics",
+          "representative_formula": "Lighthill 音響類似",
+          "representative_formula_en": "Lighthill acoustic analogy"
+        },
+        {
+          "year": 1999,
+          "laureates": [
+            "John Maynard Smith"
+          ],
+          "discovery": "進化生物学・ゲーム理論・分子進化",
+          "discovery_en": "Evolutionary biology, game theory, molecular evolution",
+          "representative_formula": "Maynard Smith ESS",
+          "representative_formula_en": "Maynard Smith ESS"
+        },
+        {
+          "year": 2000,
+          "laureates": [
+            "Alan R. Battersby"
+          ],
+          "discovery": "植物アルカロイド・ビタミンB12生合成",
+          "discovery_en": "Plant alkaloid and vitamin B12 biosynthesis",
+          "representative_formula": "Battersby 生合成経路",
+          "representative_formula_en": "Battersby biosynthetic pathways"
+        },
+        {
+          "year": 2001,
+          "laureates": [
+            "Jacques Miller"
+          ],
+          "discovery": "胸腺・T細胞の免疫機能",
+          "discovery_en": "Thymus and T cell immunological function",
+          "representative_formula": "Miller 胸腺除去",
+          "representative_formula_en": "Miller thymectomy"
+        },
+        {
+          "year": 2002,
+          "laureates": [
+            "John Pople"
+          ],
+          "discovery": "量子化学の計算手法・密度汎関数理論",
+          "discovery_en": "Computational quantum chemistry, DFT",
+          "representative_formula": "Pople Gaussian",
+          "representative_formula_en": "Pople Gaussian"
+        },
+        {
+          "year": 2003,
+          "laureates": [
+            "John Gurdon"
+          ],
+          "discovery": "細胞・発生生物学・核移植",
+          "discovery_en": "Cell and developmental biology, nuclear transfer",
+          "representative_formula": "Gurdon 核移植",
+          "representative_formula_en": "Gurdon nuclear transfer"
+        },
+        {
+          "year": 2004,
+          "laureates": [
+            "Harry Kroto"
+          ],
+          "discovery": "炭素鎖分子・フラーレン",
+          "discovery_en": "Carbon chain molecules, fullerenes",
+          "representative_formula": "Kroto $\\mathrm{C}_{60}$ フラーレン",
+          "representative_formula_en": "Kroto $\\mathrm{C}_{60}$ fullerene"
+        },
+        {
+          "year": 2005,
+          "laureates": [
+            "Paul Nurse"
+          ],
+          "discovery": "細胞周期制御",
+          "discovery_en": "Control of cell division",
+          "representative_formula": "Nurse CDK・細胞周期",
+          "representative_formula_en": "Nurse CDK, cell cycle"
+        },
+        {
+          "year": 2006,
+          "laureates": [
+            "Stephen Hawking"
+          ],
+          "discovery": "理論物理学・宇宙論",
+          "discovery_en": "Theoretical physics and cosmology",
+          "representative_formula": "Hawking放射 $T = \\hbar c^3/(8\\pi G M k_B)$",
+          "representative_formula_en": "Hawking radiation $T = \\hbar c^3/(8\\pi G M k_B)$"
+        },
+        {
+          "year": 2007,
+          "laureates": [
+            "Robert May"
+          ],
+          "discovery": "生物個体群・生態系の動態",
+          "discovery_en": "Population and ecosystem dynamics",
+          "representative_formula": "May カオス・ロジスティック写像",
+          "representative_formula_en": "May chaos, logistic map"
+        },
+        {
+          "year": 2008,
+          "laureates": [
+            "Roger Penrose"
+          ],
+          "discovery": "一般相対論・ブラックホール・ビッグバン",
+          "discovery_en": "General relativity, black holes, Big Bang",
+          "representative_formula": "Penrose 図・特異点定理",
+          "representative_formula_en": "Penrose diagram, singularity theorem"
+        },
+        {
+          "year": 2009,
+          "laureates": [
+            "Martin Evans"
+          ],
+          "discovery": "マウス胚性幹細胞",
+          "discovery_en": "Embryonic stem cells in mice",
+          "representative_formula": "Evans ES細胞",
+          "representative_formula_en": "Evans ES cells"
+        },
+        {
+          "year": 2010,
+          "laureates": [
+            "David Cox",
+            "Tomas Lindahl"
+          ],
+          "discovery": "統計学・DNA修復の生化学",
+          "discovery_en": "Statistics, biochemistry of DNA repair",
+          "representative_formula": "Cox比例ハザード, Lindahl 塩基除去",
+          "representative_formula_en": "Cox proportional hazards, Lindahl base excision"
+        },
+        {
+          "year": 2011,
+          "laureates": [
+            "Dan McKenzie"
+          ],
+          "discovery": "プレートテクトニクス・地球物理",
+          "discovery_en": "Tectonic plates, geophysics",
+          "representative_formula": "McKenzie マントル対流",
+          "representative_formula_en": "McKenzie mantle convection"
+        },
+        {
+          "year": 2012,
+          "laureates": [
+            "John Walker"
+          ],
+          "discovery": "生体エネルギー・ATP合成機構",
+          "discovery_en": "Bioenergetics, ATP synthesis mechanism",
+          "representative_formula": "Walker ATPシンターゼ",
+          "representative_formula_en": "Walker ATP synthase"
+        },
+        {
+          "year": 2013,
+          "laureates": [
+            "Andre Geim"
+          ],
+          "discovery": "二次元原子結晶・グラフェン",
+          "discovery_en": "Two-dimensional atomic crystals, graphene",
+          "representative_formula": "Geim グラフェン",
+          "representative_formula_en": "Geim graphene"
+        },
+        {
+          "year": 2014,
+          "laureates": [
+            "Alec Jeffreys"
+          ],
+          "discovery": "ヒトゲノムの変異・DNA指紋",
+          "discovery_en": "Human genome variation, DNA fingerprinting",
+          "representative_formula": "Jeffreys ミニサテライト",
+          "representative_formula_en": "Jeffreys minisatellites"
+        },
+        {
+          "year": 2015,
+          "laureates": [
+            "Peter Higgs"
+          ],
+          "discovery": "素粒子の質量の起源・ヒッグス機構",
+          "discovery_en": "Origin of mass, Higgs mechanism",
+          "representative_formula": "Higgs $m = gv$, $H^0$",
+          "representative_formula_en": "Higgs $m = gv$, $H^0$"
+        },
+        {
+          "year": 2016,
+          "laureates": [
+            "Richard Henderson"
+          ],
+          "discovery": "クライオ電子顕微鏡",
+          "discovery_en": "Cryo-electron microscopy of biological materials",
+          "representative_formula": "Henderson クライオEM",
+          "representative_formula_en": "Henderson cryo-EM"
+        },
+        {
+          "year": 2017,
+          "laureates": [
+            "Andrew Wiles"
+          ],
+          "discovery": "フェルマーの最終定理の証明",
+          "discovery_en": "Proof of Fermat's Last Theorem",
+          "representative_formula": "Wiles $a^n + b^n = c^n$ $n>2$ 不能",
+          "representative_formula_en": "Wiles $a^n + b^n = c^n$ $n>2$ impossible"
+        },
+        {
+          "year": 2018,
+          "laureates": [
+            "Jeffrey I. Gordon"
+          ],
+          "discovery": "腸内細菌叢とヒトの健康",
+          "discovery_en": "Gut microbiota and human health",
+          "representative_formula": "Gordon 腸内細菌・代謝",
+          "representative_formula_en": "Gordon gut microbiome"
+        },
+        {
+          "year": 2019,
+          "laureates": [
+            "John B. Goodenough"
+          ],
+          "discovery": "リチウムイオン電池",
+          "discovery_en": "Rechargeable lithium batteries",
+          "representative_formula": "Goodenough LiCoO$_2$, LiFePO$_4$",
+          "representative_formula_en": "Goodenough LiCoO$_2$, LiFePO$_4$"
+        },
         {
           "year": 2020,
           "laureates": [

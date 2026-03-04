@@ -67,7 +67,7 @@
     "filterProofAll": "All laureates",
     "filterProofNotProven": "Not proven by axioms",
     "filterProofProven": "Proven by axioms",
-    "filterProofProvenFlaw": "Proven but flaws found",
+    "filterProofProvenFlaw": "Proven, flaws found",
     "year": "Year",
     "laureates": "Laureates",
     "discovery": "Major discovery / Contribution",

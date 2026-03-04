@@ -67,7 +67,7 @@
     "filterProofAll": "全受賞者",
     "filterProofNotProven": "公理により定理が証明されていない",
     "filterProofProven": "公理により定理が証明された",
-    "filterProofProvenFlaw": "公理により証明されたがのちに瑕疵が発見された",
+    "filterProofProvenFlaw": "証明済み・瑕疵あり",
     "year": "年",
     "laureates": "受賞者",
     "discovery": "主な発見・貢献",

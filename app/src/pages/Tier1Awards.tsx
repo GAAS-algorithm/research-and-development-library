@@ -53,7 +53,6 @@ export function Tier1Awards() {
     }
   })
 
-  const award = () => tier1Data.awards[awardId() as Tier1AwardId]
   const entries = (): EntryWithAward[] => {
     const pf = proofFilter()
     const aid = awardId()
@@ -80,7 +79,7 @@ export function Tier1Awards() {
   const filtered = () => {
     const filter = yearFilter()
     const list = entries()
-    return filter ? list.filter((e) => e.year.toString().includes(filter)) : list.slice(0, 50)
+    return filter ? list.filter((e) => e.year.toString().includes(filter)) : list
   }
 
   const showAwardColumn = () => !!proofFilter()
@@ -102,7 +101,6 @@ export function Tier1Awards() {
           value={awardId()}
           onChange={handleAwardChange}
           class={styles.select}
-          disabled={!!proofFilter()}
         >
           <For each={awardIds()}>
             {(id) => (
