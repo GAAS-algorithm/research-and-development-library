@@ -81,7 +81,8 @@
     "fields": "フィールズ賞",
     "turing": "チューリング賞",
     "lasker": "ラスカー賞",
-    "copley": "コプリ・メダル"
+    "copley": "コプリ・メダル",
+    "hermann_weyl": "ヘルマン・ワイル賞"
   },
   "awards": {
     "title": "研究賞",

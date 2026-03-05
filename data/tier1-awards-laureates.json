@@ -3539,6 +3539,24 @@
           "representative_formula_en": "Pendry $\\varepsilon < 0$, $\\mu < 0$ negative refraction"
         }
       ]
+    },
+    "hermann_weyl": {
+      "label_ja": "ヘルマン・ワイル賞",
+      "label_en": "Hermann Weyl Prize",
+      "since": 2002,
+      "entries": [
+        {"year": 2002, "laureates": ["Edward Frenkel"], "discovery": "対称性を通じた物理学理解への貢献", "discovery_en": "Contributions to understanding physics through symmetries"},
+        {"year": 2004, "laureates": ["Nikita Nekrasov"], "discovery": "対称性を通じた物理学理解への貢献", "discovery_en": "Contributions to understanding physics through symmetries"},
+        {"year": 2006, "laureates": ["Bojko Bakalov"], "discovery": "対称性を通じた物理学理解への貢献", "discovery_en": "Contributions to understanding physics through symmetries"},
+        {"year": 2008, "laureates": ["Shahin Sheikh-Jabbari"], "discovery": "対称性を通じた物理学理解への貢献", "discovery_en": "Contributions to understanding physics through symmetries"},
+        {"year": 2010, "laureates": ["Giulio Chiribella"], "discovery": "対称性を通じた物理学理解への貢献", "discovery_en": "Contributions to understanding physics through symmetries"},
+        {"year": 2012, "laureates": ["Razvan Gurau"], "discovery": "対称性を通じた物理学理解への貢献", "discovery_en": "Contributions to understanding physics through symmetries"},
+        {"year": 2014, "laureates": ["Yuji Tachikawa"], "discovery": "対称性を通じた物理学理解への貢献", "discovery_en": "Contributions to understanding physics through symmetries"},
+        {"year": 2016, "laureates": ["Vasily Pestun"], "discovery": "対称性を通じた物理学理解への貢献", "discovery_en": "Contributions to understanding physics through symmetries"},
+        {"year": 2018, "laureates": ["Simon Caron-Huot", "David Simmons-Duffin"], "discovery": "対称性を通じた物理学理解への貢献", "discovery_en": "Contributions to understanding physics through symmetries"},
+        {"year": 2022, "laureates": ["Eric Panzer"], "discovery": "対称性を通じた物理学理解への貢献", "discovery_en": "Contributions to understanding physics through symmetries"},
+        {"year": 2024, "laureates": ["Nicole Yunger Halpern"], "discovery": "対称性を通じた物理学理解への貢献", "discovery_en": "Contributions to understanding physics through symmetries"}
+      ]
     }
   }
 }
